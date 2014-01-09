@@ -10,6 +10,8 @@ There are the following paradigms that were in vogue for extracting assertions/r
 3. Preemptive IE
 4. Ondemand IE
 5. Weak supervision for IE (ontology-based learning)
+6. Semantic role labeling
+
 
 2. Methods
 ----------
@@ -25,7 +27,7 @@ There are the following paradigms that were in vogue for extracting assertions/r
 ----------
 
 1. Get the sentences
-2. Use reverb (or a similar system) to get (s, relational phrase, o) triples.
+2. Use openie-4.0 (or a similar system) to get (s, relational phrase, o) triples.
    Also try dependency parse features to compare with the results of reverb.
 3. Use WiseNet to disambiguate the relational phrases
 
@@ -41,3 +43,14 @@ There are the following paradigms that were in vogue for extracting assertions/r
 
 2.5 Weak supervision for IE
 ---------------------------
+
+2.6 Semantic Role Labeling
+---------------------------
+
+
+
+References
+----------
+
+* Moro, A., & Navigli, R. (2012). WiSeNet : Building a Wikipedia-based Semantic Network with Ontologized Relations. In Conference on information and knowledge management (pp. 1672–1676).
+* Fader, A., Soderland, S., & Etzioni, O. (2011). Identifying Relations for Open Information Extraction. In Empirical Methods in Natural Language Processing.
