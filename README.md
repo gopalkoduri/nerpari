@@ -1,4 +1,4 @@
-Ontology-learning
+Relation-extraction
 =================
 
 1. Introduction
@@ -26,10 +26,23 @@ There are the following paradigms that were in vogue for extracting assertions/r
 2.1.1 Steps
 ----------
 
-1. Get the sentences
-2. Use openie-4.0 (or a similar system) to get (s, relational phrase, o) triples.
+Data processing
+
+1. Get the wikipedia dump
+2. Index it to retrieve content of a page given it's title
+3. Get all the pages of Carnatic music
+
+To get all the pages of a topic, we can build a binary classifier that says if a given page is of Carnatic music or not.
+
+
+Methodology
+
+1. Get the sentences from a page
+2. Do anaphora resolution to turn all pronouns to proper nouns.
+3. Use openie-4.0 (or a similar system) to get (s, relational phrase, o) triples.
    Also try dependency parse features to compare with the results of reverb.
-3. Use WiseNet to disambiguate the relational phrases
+4. Use WiseNet to disambiguate/group the relational phrases
+5. Import the relations and entities into the ontology
 
 
 2.2 Traditional IE
