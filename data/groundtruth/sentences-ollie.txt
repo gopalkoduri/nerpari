@@ -1,0 +1,89 @@
+Abhogi (pronounced ābhōgi) is a raga in Carnatic music and has been adapted to Hindustani music.
+0.696: (Abhogi; is a raga has in; Carnatic music)
+
+Ābhōgi is a symmetric pentatonic scale that does not contain panchamam and nishadam.
+0.589: (Ābhōgi; is; a symmetric pentatonic scale that does not contain panchamam and nishadam)
+
+Ābhōgi is considered a janya raga of Kharaharapriya, the 22nd Melakarta raga, though it can be derived from Gourimanohari too, by dropping both panchamam and nishadam.
+0.618: (it; can be derived too from; Gourimanohari)
+
+Abhogi is a scale that is used for compositions in a medium to fast tempo.
+0.817: (Abhogi; is; a scale that is used for compositions in a medium to fast tempo)
+
+Ābhōgi's notes when shifted using Graha bhedam, yields another pentatonic rāgam Valaji.
+No extractions found.
+
+Inscriptional evidence suggests Purandara Dasa was born in 1484 CE in Kshemapura, near Tirthahalli, Shivamogga district, Karnataka state.
+0.932: (Purandara Dasa; was born in; 1484 CE)
+0.895: (Purandara Dasa; was born in; Kshemapura)
+0.869: (Purandara Dasa; was born near; Tirthahalli)
+0.653: (Purandara Dasa; was born at; 1484 CE)
+0.652: (Purandara Dasa; was born on; 1484 CE)
+0.541: (Purandara Dasa; was born at; Kshemapura)
+0.54: (Purandara Dasa; was born on; Kshemapura)
+
+Bhairavi is a janya rāgam in Carnatic music (musical scale of South Indian classical music).
+0.905: (Bhairavi; is a janya rāgam in; Carnatic music)
+0.764: (Bhairavi; is; a janya rāgam)
+
+Ragas which have similar murchanas and/or anya swara patterns to Bhairavi include Manji, Mukhari, and Huseni.
+0.847: (Ragas; have similar murchanas and/or; anya swara patterns)
+0.756: (Ragas which have similar murchanas and/or anya swara patterns to Bhairavi; include; Manji , Mukhari , and Huseni)
+
+Though a Raga called Bhairavi also exists in Hindusthani music, it is very different from the Carnatic version.
+0.743: (it; is very different from; the Carnatic version)[enabler=Though a Raga called Bhairavi also exists in Hindusthani music]
+0.72: (a Raga called Bhairavi; also exists in; Hindusthani music)
+0.685: (it; is very; different)
+
+Niraval also known as Neraval or Sahitya Vinyasa is considered to be one of the important features in the extempore improvisation aspect (Manodharma Sangita) of Carnatic music.
+0.868: (Niraval; be also known as; Neraval or Sahitya Vinyasa)
+
+Tanam is one of the most important forms of improvisation, and is integral to ragam, tanam and pallavi.
+0.818: (Tanam; is; one of the most important forms of improvisation , and is integral)
+0.606: (Tanam; be the most important forms of; improvisation)
+0.355: (important; be forms of; improvisation)
+
+Kalyani is slightly difficult to elaborate on in raaga alapana due to its similarity with Sankarabharanam with the only difference of the Madyamam (Ma).
+0.804: (Kalyani; is slightly; difficult)
+
+Kaḷyāṇī has many janya rāgams (derived scales) associated with it, of which Hamīr Kaḷyāṇī, Mohanakalyani, Saranga, Sunadavinodini and Yamuna Kaḷyāṇī are very popular.
+0.713: (Kaḷyāṇī; has; many janya rāgams)
+
+Kalyani's notes when shifted using Graha bhedam, yields 5 other major Melakarta rāgams, namely, Hanumatodi, Sankarabharanam, Natabhairavi, Kharaharapriya and Harikambhoji.
+No extractions found.
+
+The Kafi thaat of Hindustani music is the equivalent of Kharaharapriya.
+0.92: (The Kafi; is the equivalent of; Kharaharapriya)
+0.768: (The Kafi; is; the equivalent of Kharaharapriya)
+
+Todi in Carnatic music, is different from Todi (thaat) of Hindustani music (North Indian classical music) The equivalent of Carnatic Todi in Hindustani is Bhairavi thaat.
+0.834: (Todi; is different from; Todi)
+0.804: (Todi; is; different)
+0.739: (The equivalent of Carnatic Todi; is; Bhairavi thaat)
+0.515: (Bhairavi thaat; be The equivalent of; Carnatic Todi)
+
+Asaveri is a janya scale, as it does not have all the seven swaras (musical notes) in the ascending scale, and has a vakra (zigzag) descending scale.
+0.688: (Asaveri; is; a janya scale)
+0.68: (musical notes; has; a vakra (zigzag)
+0.68: (it; does not have; all the seven swaras ( musical notes ) in the ascending scale , and has a vakra (zigzag ) descending scale)
+0.661: (a vakra (zigzag; be has by; all the seven swaras ( musical notes ) in the ascending scale ,)
+
+Asaveri is an asymmetric rāgam that does not contain gandharam and nishadam in the ascending scale.
+0.817: (Asaveri; is; an asymmetric rāgam that does not contain gandharam and nishadam in the ascending scale)
+
+Asaveri is an audava-vakra-sampurna rāgam.
+0.735: (Asaveri; is; an audava-vakra-sampurna rāgam)
+
+The equivalent of Mohanam in Hindustani music is Bhoop.
+0.685: (The equivalent of Mohanam; is; Bhoop)
+0.59: (Bhoop; be The equivalent of; Mohanam)
+
+Dhanammal was born in George Town, Madras (now Chennai), into a family of professional musicians and dancers.
+0.9: (Dhanammal; was born in; George Town)
+0.555: (Dhanammal; was born at; George Town)
+0.554: (Dhanammal; was born on; George Town)
+0.436: (George Town; was born in; Madras)
+
+Thanjavur Brinda (1912-1996) was one of the representatives of the Veenai Dhanammal school of Carnatic Music.
+0.825: (Veenai Dhanammal; be school of; Carnatic Music)
+
