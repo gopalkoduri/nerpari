@@ -15,15 +15,18 @@ import sys
 import codecs
 import pickle
 from uuid import uuid5, NAMESPACE_URL
-from os.path import basename
+from os.path import basename, exists
+from os import mkdir
 from BeautifulSoup import BeautifulSoup
 import nltk
 import numpy as np
+import collections
+from multiprocessing import Process
 
-# <codecell>
+# <codecell>g
 
 
-def build_page_index(arg):
+def build_page_index(wiki_folder_arg):
     """
     After we run wiki_extractor script on the wiki dump, we get a folder structure.
     Given one folder (eg: AA), this function builds an index of pages. The index's
@@ -36,10 +39,12 @@ def build_page_index(arg):
 
     index = {}
     
-    files = glob(data_dir + "/" + arg + "/wiki*")
-    identifier = str(uuid5(NAMESPACE_URL, arg))
-    
-    log_file = code_dir + "/data/" + identifier + "_log.txt"
+    files = glob(data_dir + "/" + wiki_folder_arg + "/wiki*")
+
+    if not exists(code_dir + "/data/wiki_index/"):
+        mkdir(code_dir + "/data/wiki_index/")
+
+    log_file = code_dir + "/data/wiki_index/" + wiki_folder_arg + "_log.txt"
     log = codecs.open(log_file, "w")
     
     for f in files:
@@ -56,11 +61,11 @@ def build_page_index(arg):
             pages = soup.findAll('doc')
             for page in pages:
                 page_title = page.attrs[2][1]
-                index[page_title.lower()] = arg + "/" + basename(f)
+                index[page_title.lower()] = wiki_folder_arg + "/" + basename(f)
     
     log.close()
     
-    index_file = code_dir + "/data/" + identifier + ".pickle"
+    index_file = code_dir + "/data/wiki_index/" + wiki_folder_arg + ".pickle"
     pickle.dump(index, file(index_file, "w"))
 
 # <codecell>
@@ -81,9 +86,11 @@ def build_link_index(wiki_folder_arg, music_style):
     link_index = {}
     
     files = glob(data_dir + "/" + wiki_folder_arg + "/wiki*")
-    identifier = str(uuid5(NAMESPACE_URL, wiki_folder_arg))
-    
-    log_file = code_dir + "/data/wiki_link_index_logs/" + identifier + "_log.txt"
+
+    if not exists(code_dir + "/data/" + music_style + "_links"):
+        mkdir(code_dir + "/data/" + music_style + "_links")
+
+    log_file = code_dir + "/data/" + music_style + "_links" + wiki_folder_arg + "_log.txt"
     log = codecs.open(log_file, "w")
     
     for f in files:
@@ -105,34 +112,42 @@ def build_link_index(wiki_folder_arg, music_style):
     
     log.close()
     
-    link_index_file = code_dir + "/data/wiki_link_index/" + identifier + ".pickle"
+    link_index_file = code_dir + "/data/" + music_style + "_links" + wiki_folder_arg + ".pickle"
     pickle.dump(link_index, file(link_index_file, "w+"))
 
 
-def build_content_index(wiki_folder_arg, music_style):
+def build_content_index(wiki_folder_arg, music_style, num_features=30, method="bigrams", stemming=True):
     """
     After we run wiki_extractor script on the wiki dump, we get a folder structure.
     Given one folder (eg: AA), and a keyword that describes a given music style, this
     function filters those pages which have the keyword music_style, and builds an
-    index of all such pages. The keys are page titles and values are vectors of page titles
-    which are hyperlinked from the given page.
+    index of all such pages. The keys are page titles and values are the most relevant
+    n-grams of words.
 
     Eg: {"carnatic music": ["raaga", "taala", ...],
     "t. m. krishna": ["carnatic music", "vocalist" ...] ... }
     This index is directly written to a file, and not returned.
+
+    The method argument can be either bigrams or unigrams.
     """
+    #Initialize everything
     alphabetic_tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
+    stemmer = nltk.stem.LancasterStemmer()
 
     content_index = {}
 
     files = glob(data_dir + "/" + wiki_folder_arg + "/wiki*")
-    identifier = str(uuid5(NAMESPACE_URL, wiki_folder_arg))
 
-    log_file = code_dir + "/data/wiki_content_index_carnatic_logs/" + identifier + "_log.txt"
+    #Logging
+    if not exists(code_dir + "/data/" + music_style + "_" + method):
+        mkdir(code_dir + "/data/" + music_style + "_" + method)
+    log_file = code_dir + "/data/" + music_style + "_" + method + "/" + wiki_folder_arg + ".txt"
     log = codecs.open(log_file, "w")
 
     for f in files:
         print f
+
+        #Try reading data from the wiki file
         data = codecs.open(f, 'r', 'utf-8').read()
         try:
             soup = BeautifulSoup(data.lower())
@@ -140,27 +155,83 @@ def build_content_index(wiki_folder_arg, music_style):
             log.write(f + "\n")
             continue
 
+        #Get all the pages
         pages = soup.findAll('doc')
         for page in pages:
+
+            #Get plain text from the page
             plain_text = " ".join(page.findAll(text=True))
             if music_style not in plain_text:
                 continue
             page_title = page.attrs[2][1]
 
+            #Tokenize the text to words
             tokenized_text = [alphabetic_tokenizer.tokenize(s) for s in nltk.sent_tokenize(plain_text)]
             tokenized_text = np.concatenate(tokenized_text)
-            tokenized_text = [w for w in tokenized_text if not w in nltk.corpus.stopwords.words('english')]
 
-            bigram_measures = nltk.collocations.BigramAssocMeasures()
-            finder = nltk.collocations.BigramCollocationFinder.from_words(tokenized_text)
-            bigrams = finder.nbest(bigram_measures.raw_freq, 30)
+            #Do stemming and remove stopwords
+            if stemming:
+                tokenized_text = [stemmer.stem(w) for w in tokenized_text if not w in nltk.corpus.stopwords.words('english')]
+            else:
+                tokenized_text = [w for w in tokenized_text if not w in nltk.corpus.stopwords.words('english')]
 
-            content_index[page_title.lower()] = [" ".join(i) for i in bigrams]
+            if method == "bigrams":
+                bigram_measures = nltk.collocations.BigramAssocMeasures()
+                finder = nltk.collocations.BigramCollocationFinder.from_words(tokenized_text)
+                bigrams = finder.nbest(bigram_measures.raw_freq, num_features)
 
+                content_index[page_title.lower()] = [" ".join(i) for i in bigrams]
+            elif method == "unigrams":
+                counter = collections.Counter(tokenized_text)
+                unigrams = [i[0] for i in counter.most_common(num_features)]
+
+                content_index[page_title.lower()] = unigrams
+            else:
+                print "\n\tThis method is not implemented. Try bigrams or unigrams.\n"
+                exit()
     log.close()
 
-    content_index_file = code_dir + "/data/wiki_content_index_carnatic/" + identifier + ".pickle"
+    content_index_file = code_dir + "/data/" + music_style + "_" + method + "/" + wiki_folder_arg + ".pickle"
     pickle.dump(content_index, file(content_index_file, "w+"))
+
+
+def get_pages_musicstyle(music_style):
+    """
+    Get those pages which have musicstyle keyword in them.
+    """
+
+    files = glob(data_dir + "/*/wiki*")
+    rel_pages = []
+
+    for f in files:
+        print f
+        data = codecs.open(f, 'r', 'utf-8').read()
+        try:
+            soup = BeautifulSoup(data.lower())
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            print f
+            continue
+
+        pages = soup.findAll('doc')
+        for page in pages:
+            plain_text = " ".join(page.findAll(text=True))
+            if music_style not in plain_text:
+                continue
+            rel_pages.append(page)
+    return rel_pages
+
+
+def group_pages_by_file(pages, wiki_index):
+    file_page_index = {}
+
+    for page in pages:
+        if page in wiki_index.keys():
+            if wiki_index[page] in file_page_index.keys():
+                file_page_index[wiki_index[page]].append(page)
+            else:
+                file_page_index[wiki_index[page]] = [page]
+
+    return file_page_index
 
 
 # <codecell>
@@ -190,11 +261,21 @@ if __name__ == "__main__":
     #    build_link_index(folder, "jazz")
 
     # Merge Indexes
-    files = glob(code_dir + "/data/wiki_content_index_carnatic/*.pickle")
-    whole_index = merge_indexes(files)
-    pickle.dump(whole_index, file(code_dir + "/data/wiki_content_index_carnatic.pickle", "w"))
+    # files = glob(code_dir + "/data/wiki_content_index_carnatic/*.pickle")
+    # whole_index = merge_indexes(files)
+    # pickle.dump(whole_index, file(code_dir + "/data/wiki_content_index_carnatic.pickle", "w"))
 
     # Build Content Indexes
-    # for folder in sys.argv[1:]:
-    #     build_content_index(folder, "carnatic")
-    # pass
+
+    process_limit = 8
+    all_args = sys.argv[1:]
+    for i in xrange(0, len(all_args), process_limit):
+        cur_args = all_args[i:i+process_limit]
+        processes = []
+        for folder in cur_args:
+            p = Process(target=build_content_index, args=(folder, "jazz", 30, "unigrams", True))
+            processes.append(p)
+            p.start()
+
+        for p in processes:
+            p.join()
