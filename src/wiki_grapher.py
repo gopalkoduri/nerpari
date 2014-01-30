@@ -16,8 +16,8 @@ def ochiai_coefficient(x, y):
     return len(x.intersection(y))/(sqrt(len(x)*len(y)))
 
 
-def graph_content(wiki_index, weight_thresh):
-    pages = wiki_index.keys()
+def graph_content(content_index, weight_thresh):
+    pages = content_index.keys()
     n = len(pages)
     g = nx.Graph()
     
@@ -26,8 +26,8 @@ def graph_content(wiki_index, weight_thresh):
     count = 0
     for i in xrange(0, n):
         for j in xrange(i+1, n):
-            x = set(wiki_index[pages[i]]+pages[i])
-            y = set(wiki_index[pages[j]]+pages[j])
+            x = set(content_index[pages[i]]+[pages[i]])
+            y = set(content_index[pages[j]]+[pages[j]])
             
             #Ochiai coefficient, in this case is equal to Cosine similarity
             if len(x) == 0 or len(y) == 0:

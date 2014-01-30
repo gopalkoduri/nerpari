@@ -14,7 +14,6 @@ from glob import glob
 import sys
 import codecs
 import pickle
-from uuid import uuid5, NAMESPACE_URL
 from os.path import basename, exists
 from os import mkdir
 from BeautifulSoup import BeautifulSoup
@@ -251,9 +250,26 @@ def merge_indexes(files):
 
 # <codecell>
 
+
+def run(all_args, target_func, func_args=(), process_limit=8):
+    for i in xrange(0, len(all_args), process_limit):
+        cur_args = all_args[i:i+process_limit]
+        processes = []
+        for folder in cur_args:
+            cur_func_args = (folder, ) + func_args
+            p = Process(target=target_func, args=cur_func_args)
+            processes.append(p)
+            p.start()
+
+        for p in processes:
+            p.join()
+
+
 if __name__ == "__main__":
+    all_args = sys.argv[1:]
+
     # Build page index
-    # build_page_index(sys.argv[1])
+    # run(all_args, build_page_index, (), process_limit=8)
 
     # Build Link Indexes
     # import sys
@@ -261,21 +277,10 @@ if __name__ == "__main__":
     #    build_link_index(folder, "jazz")
 
     # Merge Indexes
-    # files = glob(code_dir + "/data/wiki_content_index_carnatic/*.pickle")
-    # whole_index = merge_indexes(files)
-    # pickle.dump(whole_index, file(code_dir + "/data/wiki_content_index_carnatic.pickle", "w"))
+    folder = sys.argv[1].strip("/")
+    files = glob(code_dir + "/data/" + folder + "/*.pickle")
+    whole_index = merge_indexes(files)
+    pickle.dump(whole_index, file(code_dir + "/data/" + folder + ".pickle", "w"))
 
     # Build Content Indexes
-
-    process_limit = 8
-    all_args = sys.argv[1:]
-    for i in xrange(0, len(all_args), process_limit):
-        cur_args = all_args[i:i+process_limit]
-        processes = []
-        for folder in cur_args:
-            p = Process(target=build_content_index, args=(folder, "jazz", 30, "unigrams", True))
-            processes.append(p)
-            p.start()
-
-        for p in processes:
-            p.join()
+    # run(all_args, build_content_index, ("jazz", 30, "unigrams", True), process_limit=8)
