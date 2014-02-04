@@ -11,10 +11,16 @@ data_dir = "/mnt/compmusic/users/gkoduri/data/wiki/extracted/"
 def get_summary(wiki_index, page_title):
     page_content = ""
 
-    f = data_dir + wiki_index[page_title]
-    data = codecs.open(f, 'r', 'utf-8').read()
     try:
+        f = data_dir + wiki_index[page_title]
+        data = codecs.open(f, 'r', 'utf-8').read()
         soup = BeautifulSoup(data)
+    except KeyError:
+        print "Cannot find entry for ", page_title, " in wiki_index"
+        return
+    except IOError:
+        print "Cannot open the file at ", f
+        return
     except (UnicodeDecodeError, UnicodeEncodeError):
         print "Cannot open file for ", page_title
         return
@@ -30,8 +36,8 @@ def get_summary(wiki_index, page_title):
 def annotate(wiki_index, page_title):
     page_content = get_summary(wiki_index, page_title)
 
-    print c.Fore.CYAN + c.Style.BRIGHT + page_title
-    print c.Fore.YELLOW + page_content
+    print c.Fore.CYAN + c.Style.BRIGHT + page_title.title()
+    print c.Fore.YELLOW + c.Style.NORMAL + page_content
 
     annotation = raw_input("Carnatic? Y/n/d: ")
     if annotation == "" or annotation.lower() == "y":
@@ -40,6 +46,8 @@ def annotate(wiki_index, page_title):
         return "non-carnatic"
     elif annotation.lower() == "d":
         return "doubtful"
+    elif annotation.lower() == "x":
+        return "unknown"
     else:
         print c.Fore.RED + "Annotation unrecognized, let's do it again.\n"
         return annotate(wiki_index, page_title)
@@ -48,7 +56,12 @@ def annotate(wiki_index, page_title):
 def run(wiki_index, page_titles):
     annotations = {}
     for page_title in page_titles:
-        annotations[page_title] = annotate(wiki_index, page_title)
+        try:
+            res = annotate(wiki_index, page_title)
+            if res != "unknown":
+                annotations[page_title] = res
+        except:
+            continue
     return annotations
 
 
