@@ -55,6 +55,6 @@ def filter_edgeweight(g, thresh, weight_type="distance"):
 
 
 def invert_weights(g):
-    for u,v,d in g.edges(data=True):
+    for u, v, d in g.edges(data=True):
         d["weight"] = 1.0-d["weight"]+0.000001
     return g
