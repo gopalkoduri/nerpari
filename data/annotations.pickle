@@ -1,799 +1,803 @@
 (dp0
-cnumpy.core.multiarray
-scalar
+Vthe blast (album)
 p1
+S'non-carnatic'
+p2
+sVvijayanagara musicological nonet
+p3
+S'carnatic'
+p4
+sVdevulapalli krishnasastri
+p5
+S'non-carnatic'
+p6
+sVhamsika iyer
+p7
+g6
+sVkatcheri
+p8
+g4
+sVadi tala
+p9
+g4
+sVanthimanthaarai
+p10
+g6
+sVchennai
+p11
+g6
+sVaman ali khan
+p12
+S'doubtful'
+p13
+sVchakkani rajamargamu
+p14
+g4
+sVkottayam
+p15
+g6
+sVvasu
+p16
+g6
+sVkadri gopalnath
+p17
+g4
+scnumpy.core.multiarray
+scalar
+p18
 (cnumpy
 dtype
-p2
-(S'U15'
-p3
-I0
-I1
-tp4
-Rp5
-(I3
-S'<'
-p6
-NNNI60
-I4
-I0
-tp7
-bS'g\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00 \x00\x00\x00g\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
-p8
-tp9
-Rp10
-S'carnatic'
-p11
-sVthe blast (album)
-p12
-S'non-carnatic'
-p13
-sVkalakkad s. ramanarayana iyer
-p14
-S'carnatic'
-p15
-sVsaindhavi
-p16
-S'non-carnatic'
-p17
-sVvijayanagara musicological nonet
-p18
-g15
-sVdevulapalli krishnasastri
 p19
-g17
-sVhamsika iyer
-p20
-g17
-sg1
-(g2
-(S'U5'
-p21
-I0
-I1
-tp22
-Rp23
-(I3
-S'<'
-p24
-NNNI20
-I4
-I0
-tp25
-bS's\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
-p26
-tp27
-Rp28
-g11
-sg1
-(g2
-(S'U27'
-p29
-I0
-I1
-tp30
-Rp31
-(I3
-S'<'
-p32
-NNNI108
-I4
-I0
-tp33
-bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p34
-tp35
-Rp36
-g11
-sVnandanar (1935 film)
-p37
-S'non-carnatic'
-p38
-sg1
-(g2
-(S'U8'
-p39
-I0
-I1
-tp40
-Rp41
-(I3
-S'<'
-p42
-NNNI32
-I4
-I0
-tp43
-bS's\x00\x00\x00a\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00y\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p44
-tp45
-Rp46
-g11
-sg1
-(g2
-(S'U12'
-p47
-I0
-I1
-tp48
-Rp49
-(I3
-S'<'
-p50
-NNNI48
-I4
-I0
-tp51
-bS'm\x00\x00\x00o\x00\x00\x00r\x00\x00\x00n\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00'
-p52
-tp53
-Rp54
-S'non-carnatic'
-p55
-sVkanchipuram
-p56
-g17
-sVkatcheri
-p57
-g15
-sVadi tala
-p58
-g15
-sVanthimanthaarai
-p59
-g17
-sVchennai
-p60
-g17
-sVaman ali khan
-p61
-S'doubtful'
-p62
-sVsiege of trichinopoly (1743)
-p63
-g17
-sVchakkani rajamargamu
-p64
-g15
-sg1
-(g2
-(S'U13'
-p65
-I0
-I1
-tp66
-Rp67
-(I3
-S'<'
-p68
-NNNI52
-I4
-I0
-tp69
-bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00c\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00n\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p70
-tp71
-Rp72
-g55
-sV1921 buckingham and carnatic mills strike
-p73
-g17
-sVkottayam
-p74
-g17
-sVvasu
-p75
-g17
-sVbattle of condore
-p76
-g38
-sg1
-(g2
-(S'U16'
-p77
-I0
-I1
-tp78
-Rp79
-(I3
-S'<'
-p80
-NNNI64
-I4
-I0
-tp81
-bS's\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p82
-tp83
-Rp84
-g55
-sVmuhammed yusuf khan
-p85
-g17
-sVsubbarama dikshitar
-p86
-g15
-sVroyapuram
-p87
-g17
-sVvasanta habba
-p88
-g38
-sg1
-(g2
 (S'U7'
-p89
+p20
 I0
 I1
-tp90
-Rp91
+tp21
+Rp22
 (I3
 S'<'
-p92
+p23
 NNNI28
 I4
 I0
-tp93
+tp24
 bS'b\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00l\x00\x00\x00u\x00\x00\x00r\x00\x00\x00'
-p94
-tp95
-Rp96
-g55
-sVmazhavaraayas
-p97
-g17
-sVtyagaraja
-p98
-g15
-sVsemmangudi
-p99
-g17
-sVred-vented bulbul
-p100
-g17
+p25
+tp26
+Rp27
+S'non-carnatic'
+p28
 sVmysore brothers
-p101
-g15
-sVsharanya srinivas
-p102
-g13
-sVazam jah of the carnatic
-p103
-g17
+p29
+g4
 sVrishi valley school
-p104
-g38
-sVthird anglo-mysore war
-p105
-g17
-sVmusic of odisha
-p106
-g17
+p30
+S'non-carnatic'
+p31
 sVnational indian music competition
-p107
-g17
-sVculture of mysore
-p108
-g17
-sVchennai egmore\u2013thanjavur line
-p109
-g17
+p32
+g6
 sVk. s. narayanaswamy
-p110
-g15
+p33
+g4
 sVbhairavi (carnatic)
-p111
-g15
-sVhenrietta clive, countess of powis
-p112
-g17
+p34
+g4
 sVc. p. ramaswami iyer
-p113
-g17
-sg1
-(g2
-(S'U11'
-p114
-I0
-I1
-tp115
-Rp116
-(I3
-S'<'
-p117
-NNNI44
-I4
-I0
-tp118
-bS'p\x00\x00\x00o\x00\x00\x00l\x00\x00\x00y\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p119
-tp120
-Rp121
-g55
-sVresonance (madras string quartet album)
-p122
-g62
-sVwilliam ayling (judge)
-p123
-g17
+p35
+g6
 sVodissi music
-p124
-g17
+p36
+g6
 sVdevadasu
-p125
-g17
-sg1
-(g2
+p37
+g6
+sg18
+(g19
 (S'U6'
-p126
+p38
 I0
 I1
-tp127
-Rp128
+tp39
+Rp40
 (I3
 S'<'
-p129
+p41
 NNNI24
 I4
 I0
-tp130
+tp42
 bS'g\x00\x00\x00a\x00\x00\x00a\x00\x00\x00d\x00\x00\x00h\x00\x00\x00a\x00\x00\x00'
-p131
-tp132
-Rp133
-g55
-sVchikka devaraja
-p134
-g17
-sVvandana srinivasan
-p135
-g17
-sVchakra tanam
-p136
-g15
-sg1
-(g2
-(S'U13'
-p137
-I0
-I1
-tp138
-Rp139
-(I3
-S'<'
-p140
-NNNI52
-I4
-I0
-tp141
-bS'k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00j\x00\x00\x00.\x00\x00\x00 \x00\x00\x00y\x00\x00\x00e\x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
-p142
-tp143
-Rp144
-g11
-sVibrahim adil shah ii
-p145
-g17
+p43
+tp44
+Rp45
+g28
+sVmadhuvanti
+p46
+g4
 sVlist of carnatic instrumentalists
-p146
-g15
-sg1
-(g2
-(S'U12'
-p147
-I0
-I1
-tp148
-Rp149
-(I3
-S'<'
-p150
-NNNI48
-I4
-I0
-tp151
-bS'i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00j\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00k\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00'
-p152
-tp153
-Rp154
-g55
+p47
+g4
+sVmadanakamarajan
+p48
+g31
 sVthiruvalaputhur t a kaliyamurthy
-p155
-g15
-sg1
-(g2
-(S'U10'
-p156
-I0
-I1
-tp157
-Rp158
-(I3
-S'<'
-p159
-NNNI40
-I4
-I0
-tp160
-bS's\x00\x00\x00e\x00\x00\x00r\x00\x00\x00f\x00\x00\x00o\x00\x00\x00j\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00i\x00\x00\x00'
-p161
-tp162
-Rp163
-g55
-sVvijaya raghunatha tondaiman
-p164
-g17
-sVceylon defence force
-p165
-g38
+p49
+g4
 sVperformances of carnatic music
-p166
-g15
-sVputhucode
-p167
-g17
-sVvellore district
-p168
-g17
-sVmanachanallur giridharan
-p169
-g17
-sVgangubai hangal
-p170
-g62
-sg1
-(g2
-(S'U22'
-p171
-I0
-I1
-tp172
-Rp173
-(I3
-S'<'
-p174
-NNNI88
-I4
-I0
-tp175
-bS'a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00s\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
-p176
-tp177
-Rp178
-g11
+p50
+g4
 sVeyes wide shut
-p179
-g17
+p51
+g6
 sVsathya prakash
-p180
-g17
-sVbalabhaskar
-p181
-g17
-sVvanaja (film)
-p182
-g17
-sVsamay
-p183
-g15
-sg1
-(g2
-(S'U14'
-p184
-I0
-I1
-tp185
-Rp186
-(I3
-S'<'
-p187
-NNNI56
-I4
-I0
-tp188
-bS's\x00\x00\x00a\x00\x00\x00r\x00\x00\x00g\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00)\x00\x00\x00'
-p189
-tp190
-Rp191
-g55
-sVcarnatic expansion
-p192
-g13
-sVvimala menon
-p193
-g13
+p52
+g6
 sVconcerts of chembai
-p194
-g15
-sVold kannada
-p195
-g17
-sVsouthern railway zone
-p196
-g17
-sVsouth india
-p197
-g17
-sVrishi
-p198
-g13
+p53
+g4
 sVjames vasanthan
-p199
-g17
-sVthiruvarur
-p200
-g13
-sVshree ragam
-p201
-g15
-sVtyagaraja aradhana
-p202
-g15
-sg1
-(g2
-(S'U19'
-p203
-I0
-I1
-tp204
-Rp205
-(I3
-S'<'
-p206
-NNNI76
-I4
-I0
-tp207
-bS'm\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00p\x00\x00\x00u\x00\x00\x00n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p208
-tp209
-Rp210
-g55
+p54
+g6
 sVabdul karim khan
-p211
-g62
-sVmanu narayan
-p212
-g38
-sVsubbaraya sastri
-p213
-g15
-sVsimizhi sundaram iyer
-p214
-g15
-sVvirudhunagar
-p215
+p55
 g13
-sg1
-(g2
-(S'U21'
-p216
-I0
-I1
-tp217
-Rp218
-(I3
-S'<'
-p219
-NNNI84
-I4
-I0
-tp220
-bS'e\x00\x00\x00x\x00\x00\x00p\x00\x00\x00e\x00\x00\x00d\x00\x00\x00i\x00\x00\x00t\x00\x00\x00i\x00\x00\x00o\x00\x00\x00n\x00\x00\x00s\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00 \x00\x00\x00b\x00\x00\x00e\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
-p221
-tp222
-Rp223
-g55
-sVgeetam
-p224
-g15
+sVsubbaraya sastri
+p56
+g4
 sVm. balamuralikrishna
-p225
-g15
+p57
+g4
 sVkshetram vadyam
-p226
-g17
+p58
+g6
 sVram nam
-p227
-g17
+p59
+g6
 sVmusic
-p228
-g17
-sVvadiveeswaram
-p229
-g17
-sg1
-(g2
+p60
+g6
+sg18
+(g19
 (S'U15'
-p230
+p61
 I0
 I1
-tp231
-Rp232
+tp62
+Rp63
 (I3
 S'<'
-p233
+p64
 NNNI60
 I4
 I0
-tp234
+tp65
 bS'r\x00\x00\x00a\x00\x00\x00k\x00\x00\x00e\x00\x00\x00s\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00l\x00\x00\x00o\x00\x00\x00w\x00\x00\x00'
-p235
-tp236
-Rp237
-g11
+p66
+tp67
+Rp68
+S'carnatic'
+p69
 sVkarur
-p238
-g17
-sVnorth indian culture
-p239
-g17
-sVerode
-p240
-g17
-sVn. c. vasanthakokilam
-p241
-g15
-sVcarnatic treaty
-p242
-g17
+p70
+g6
 sVjaya madhavan
-p243
-g13
-sg1
-(g2
-(S'U13'
-p244
-I0
-I1
-tp245
-Rp246
-(I3
-S'<'
-p247
-NNNI52
-I4
-I0
-tp248
-bS'c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00s\x00\x00\x00s\x00\x00\x00e\x00\x00\x00r\x00\x00\x00y\x00\x00\x00'
-p249
-tp250
-Rp251
-g55
+p71
+g2
 sVcanadian classical music
-p252
-g38
-sVpresidencies and provinces of british india
-p253
-g38
-sVswarajati
-p254
-g15
-sVrajapalayam (dog)
-p255
-g38
-sVsampurna raga
-p256
-g15
-sg1
-(g2
-(S'U11'
-p257
-I0
-I1
-tp258
-Rp259
-(I3
-S'<'
-p260
-NNNI44
-I4
-I0
-tp261
-bS'h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00s\x00\x00\x00a\x00\x00\x00g\x00\x00\x00e\x00\x00\x00e\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00'
-p262
-tp263
-Rp264
-g55
-sVcarnatic wars
-p265
-g38
-sVfirst opium war
-p266
-g38
+p72
+g31
 sVsarangapani (disambiguation)
-p267
-g62
-sVrockfort
-p268
-g38
-sg1
-(g2
-(S'U27'
-p269
-I0
-I1
-tp270
-Rp271
-(I3
-S'<'
-p272
-NNNI108
-I4
-I0
-tp273
-bS's\x00\x00\x00i\x00\x00\x00r\x00\x00\x00k\x00\x00\x00a\x00\x00\x00z\x00\x00\x00h\x00\x00\x00i\x00\x00\x00 \x00\x00\x00g\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00d\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p274
-tp275
-Rp276
-g11
-sVkadal (soundtrack)
-p277
-g17
-sVswathi thirunal rama varma
-p278
-g15
-sVglossary of carnatic music
-p279
-g15
+p73
+g13
 sVsaveri
-p280
-g15
-sg1
-(g2
-(S'U13'
-p281
-I0
-I1
-tp282
-Rp283
-(I3
-S'<'
-p284
-NNNI52
-I4
-I0
-tp285
-bS'b\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p286
-tp287
-Rp288
-g55
+p74
+g4
 sVhindolam
-p289
-g15
-sVsakuntalai
-p290
-g17
-sg1
-(g2
+p75
+g4
+sg18
+(g19
 (S'U9'
-p291
+p76
 I0
 I1
-tp292
-Rp293
+tp77
+Rp78
 (I3
 S'<'
-p294
+p79
 NNNI36
 I4
 I0
-tp295
+tp80
 bS'y\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p296
-tp297
-Rp298
-g11
-sVramnad estate
-p299
-g38
+p81
+tp82
+Rp83
+g69
 sVindia
-p300
-g38
-sg1
-(g2
+p84
+g31
+sVt. k. murthy
+p85
+g4
+sVnishad george
+p86
+g31
+sVlist of janya ragas
+p87
+g4
+sVmanavati
+p88
+g4
+sVmargazhi raagam
+p89
+g4
+sVlouis banks
+p90
+g2
+sg18
+(g19
 (S'U19'
+p91
+I0
+I1
+tp92
+Rp93
+(I3
+S'<'
+p94
+NNNI76
+I4
+I0
+tp95
+bS'c\x00\x00\x00o\x00\x00\x00k\x00\x00\x00e\x00\x00\x00 \x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00o\x00\x00\x00 \x00\x00\x00(\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
+p96
+tp97
+Rp98
+g28
+sVcharukesi
+p99
+g4
+sg18
+(g19
+(S'U12'
+p100
+I0
+I1
+tp101
+Rp102
+(I3
+S'<'
+p103
+NNNI48
+I4
+I0
+tp104
+bS'n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
+p105
+tp106
+Rp107
+g69
+sVputtaraj gawai
+p108
+g13
+sVa. k. c. natarajan
+p109
+g4
+sVa. v. anand
+p110
+g4
+sVantara (music)
+p111
+g13
+sVmusic of andhra pradesh
+p112
+g31
+sVtarangini (music)
+p113
+g4
+sVshahid parvez
+p114
+g13
+sVpancharatna kriti
+p115
+g4
+sVcarnatic music
+p116
+g4
+sVmadras music season
+p117
+g4
+sg18
+(g19
+(S'U28'
+p118
+I0
+I1
+tp119
+Rp120
+(I3
+S'<'
+p121
+NNNI112
+I4
+I0
+tp122
+bS'm\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00l\x00\x00\x00i\x00\x00\x00t\x00\x00\x00e\x00\x00\x00r\x00\x00\x00a\x00\x00\x00t\x00\x00\x00u\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00'
+p123
+tp124
+Rp125
+g28
+sVtrichur v. ramachandran
+p126
+g4
+sVpoochi srinivasa iyengar
+p127
+g4
+sVculture of india
+p128
+g31
+sVmusicians of the kingdom of mysore
+p129
+g31
+sg18
+(g19
+(S'U13'
+p130
+I0
+I1
+tp131
+Rp132
+(I3
+S'<'
+p133
+NNNI52
+I4
+I0
+tp134
+bS'n\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00s\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00'
+p135
+tp136
+Rp137
+g69
+sVs. r. janakiraman
+p138
+g4
+sVm. s. subbulakshmi
+p139
+g4
+sVt. v. sankaranarayanan
+p140
+g4
+sVdelhi p. sunder rajan
+p141
+g4
+sg18
+(g19
+(S'U22'
+p142
+I0
+I1
+tp143
+Rp144
+(I3
+S'<'
+p145
+NNNI88
+I4
+I0
+tp146
+bS'n\x00\x00\x00e\x00\x00\x00r\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00t\x00\x00\x00u\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00d\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
+p147
+tp148
+Rp149
+g69
+sg18
+(g19
+(S'U15'
+p150
+I0
+I1
+tp151
+Rp152
+(I3
+S'<'
+p153
+NNNI60
+I4
+I0
+tp154
+bS'r\x00\x00\x00e\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00e\x00\x00\x00e\x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p155
+tp156
+Rp157
+g28
+sVkuchipudi
+p158
+g31
+sg18
+(g19
+(S'U16'
+p159
+I0
+I1
+tp160
+Rp161
+(I3
+S'<'
+p162
+NNNI64
+I4
+I0
+tp163
+bS's\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
+p164
+tp165
+Rp166
+g28
+sVsopana sangeetham
+p167
+g31
+sVyakshagana
+p168
+g31
+sVshree ranjani
+p169
+g4
+sVsheik mahaboob subhani
+p170
+g4
+sVparthasarathy (parthu)
+p171
+g31
+sVghatam
+p172
+g4
+sVtirukkodikaval krishna iyer
+p173
+g4
+sVd. k. jayaraman
+p174
+g4
+sVvashanth sellathurai
+p175
+g31
+sVvidyabhushana
+p176
+g4
+sVsemmozhiyaana thamizh mozhiyaam
+p177
+g31
+sVchithram
+p178
+g31
+sVbombay lakshmi rajagopalan
+p179
+g4
+sVabhishek raghuram
+p180
+g4
+sVsimhendramadhyamam
+p181
+g4
+sVgottuvadhyam
+p182
+g4
+sVnaganandini
+p183
+g4
+sVpolyrhythm
+p184
+g31
+sVnookala chinna satyanarayana
+p185
+g4
+sVchinmayi
+p186
+g31
+sVt. t. krishnamachari auditorium
+p187
+g4
+sg18
+(g19
+(S'U16'
+p188
+I0
+I1
+tp189
+Rp190
+(I3
+S'<'
+p191
+NNNI64
+I4
+I0
+tp192
+bS'm\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00j\x00\x00\x00u\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
+p193
+tp194
+Rp195
+g69
+sVanuradha sriram
+p196
+g31
+sVdharmadasa walpola
+p197
+g31
+sVawards of chembai
+p198
+g4
+sg18
+(g19
+(S'U31'
+p199
+I0
+I1
+tp200
+Rp201
+(I3
+S'<'
+p202
+NNNI124
+I4
+I0
+tp203
+bS'l\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00p\x00\x00\x00r\x00\x00\x00e\x00\x00\x00-\x00\x00\x00m\x00\x00\x00o\x00\x00\x00d\x00\x00\x00e\x00\x00\x00r\x00\x00\x00n\x00\x00\x00 \x00\x00\x00g\x00\x00\x00r\x00\x00\x00e\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00w\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00'
+p204
+tp205
+Rp206
+g28
+sg18
+(g19
+(S'U26'
+p207
+I0
+I1
+tp208
+Rp209
+(I3
+S'<'
+p210
+NNNI104
+I4
+I0
+tp211
+bS'a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00u\x00\x00\x00j\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p212
+tp213
+Rp214
+g69
+sg18
+(g19
+(S'U15'
+p215
+I0
+I1
+tp216
+Rp217
+(I3
+S'<'
+p218
+NNNI60
+I4
+I0
+tp219
+bS'p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00b\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p220
+tp221
+Rp222
+g69
+sVk. radhakrishnan
+p223
+g31
+sVt. muktha
+p224
+g4
+sVbazaar-e-husn
+p225
+g31
+sVranjith (singer)
+p226
+g31
+sVs. j. berchmans
+p227
+S'non-carnatic'
+p228
+sVgayathri venkataraghavan
+p229
+g4
+sVkaraikudi sambasiva iyer
+p230
+g4
+sVchembai sangeetholsavam
+p231
+g4
+sg18
+(g19
+(S'U13'
+p232
+I0
+I1
+tp233
+Rp234
+(I3
+S'<'
+p235
+NNNI52
+I4
+I0
+tp236
+bS'b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00d\x00\x00\x00h\x00\x00\x00a\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
+p237
+tp238
+Rp239
+g69
+sg18
+(g19
+(S'U17'
+p240
+I0
+I1
+tp241
+Rp242
+(I3
+S'<'
+p243
+NNNI68
+I4
+I0
+tp244
+bS'm\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p245
+tp246
+Rp247
+g28
+sg18
+(g19
+(S'U12'
+p248
+I0
+I1
+tp249
+Rp250
+(I3
+S'<'
+p251
+NNNI48
+I4
+I0
+tp252
+bS'j\x00\x00\x00a\x00\x00\x00m\x00\x00\x00e\x00\x00\x00y\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00d\x00\x00\x00a\x00\x00\x00d\x00\x00\x00'
+p253
+tp254
+Rp255
+S'non-carnatic'
+p256
+sVdwaram venkataswamy naidu
+p257
+g4
+sVsalem k. meera
+p258
+g4
+sVkhamas (raga)
+p259
+g4
+sVaatma (album)
+p260
+g31
+sg18
+(g19
+(S'U5'
+p261
+I0
+I1
+tp262
+Rp263
+(I3
+S'<'
+p264
+NNNI20
+I4
+I0
+tp265
+bS'a\x00\x00\x00g\x00\x00\x00n\x00\x00\x00e\x00\x00\x00e\x00\x00\x00'
+p266
+tp267
+Rp268
+g28
+sVparthasarathy swami sabha
+p269
+g4
+sVtiruvottriyur tyagayyar
+p270
+g4
+sV7 notes to infinity
+p271
+g31
+sVrudrabhatta
+p272
+g31
+sVp. leela
+p273
+g31
+sVrajan-nagendra
+p274
+g31
+sVjustin mccarthy (dancer)
+p275
+g31
+sg18
+(g19
+(S'U9'
+p276
+I0
+I1
+tp277
+Rp278
+(I3
+S'<'
+p279
+NNNI36
+I4
+I0
+tp280
+bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
+p281
+tp282
+Rp283
+g69
+sVvellore a. r. srinivasan
+p284
+g4
+sVputhur-vela
+p285
+g31
+sVbhanumathi ramakrishna
+p286
+g31
+sVchembai memorial government music college
+p287
+g4
+sVrayalaseema
+p288
+g31
+sVvijayalakshmy subramaniam
+p289
+g4
+sg18
+(g19
+(S'U31'
+p290
+I0
+I1
+tp291
+Rp292
+(I3
+S'<'
+p293
+NNNI124
+I4
+I0
+tp294
+bS'm\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00u\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00b\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p295
+tp296
+Rp297
+g69
+sVachyuta deva raya
+p298
+g31
+sVa. kanyakumari
+p299
+g4
+sVm. g. sreekumar
+p300
+g31
+sg18
+(g19
+(S'U10'
 p301
 I0
 I1
@@ -802,575 +806,569 @@ Rp303
 (I3
 S'<'
 p304
-NNNI76
+NNNI40
 I4
 I0
 tp305
-bS'm\x00\x00\x00a\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00g\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00e\x00\x00\x00a\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+bS'j\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
 p306
 tp307
 Rp308
-g11
-sg1
-(g2
-(S'U13'
+g69
+sVthenral
 p309
-I0
-I1
-tp310
-Rp311
-(I3
-S'<'
+g31
+sVsubramanya bharathi
+p310
+g31
+sVkarthik raja
+p311
+g31
+sVkarnataka
 p312
-NNNI52
-I4
-I0
-tp313
-bS'7\x00\x00\x004\x00\x00\x00t\x00\x00\x00h\x00\x00\x00 \x00\x00\x00p\x00\x00\x00u\x00\x00\x00n\x00\x00\x00j\x00\x00\x00a\x00\x00\x00b\x00\x00\x00i\x00\x00\x00s\x00\x00\x00'
-p314
-tp315
-Rp316
-g55
-sVg. j. r. krishnan
-p317
-g15
-sVt. k. murthy
-p318
-g15
-sVrasika
-p319
-g15
-sg1
-(g2
-(S'U13'
-p320
-I0
-I1
-tp321
-Rp322
-(I3
-S'<'
-p323
-NNNI52
-I4
-I0
-tp324
-bS'b\x00\x00\x00i\x00\x00\x00n\x00\x00\x00n\x00\x00\x00y\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00.\x00\x00\x00'
-p325
-tp326
-Rp327
-g55
-sVchola nadu
-p328
-g38
-sVatana
-p329
-g15
-sVkalpanaswaram
-p330
-g15
-sg1
-(g2
-(S'U17'
-p331
-I0
-I1
-tp332
-Rp333
-(I3
-S'<'
-p334
-NNNI68
-I4
-I0
-tp335
-bS'r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
-p336
-tp337
-Rp338
-g11
-sVbattle of cuddalore (1758)
-p339
-g38
-sVnishad george
-p340
-g38
-sVsivakasi
-p341
-g38
-sVsangeetha kalanidhi
-p342
-g15
-sVlist of janya ragas
-p343
-g15
-sg1
-(g2
-(S'U31'
-p344
-I0
-I1
-tp345
-Rp346
-(I3
-S'<'
-p347
-NNNI124
-I4
-I0
-tp348
-bS"j\x00\x00\x00e\x00\x00\x00a\x00\x00\x00n\x00\x00\x00-\x00\x00\x00b\x00\x00\x00a\x00\x00\x00p\x00\x00\x00t\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00e\x00\x00\x00 \x00\x00\x00l\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00o\x00\x00\x00m\x00\x00\x00\xe9\x00\x00\x00 \x00\x00\x00d\x00\x00\x00e\x00\x00\x00 \x00\x00\x00l\x00\x00\x00'\x00\x00\x00i\x00\x00\x00s\x00\x00\x00l\x00\x00\x00e\x00\x00\x00"
-p349
-tp350
-Rp351
-g55
-sVmanavati
-p352
-g15
-sVmargazhi raagam
-p353
-g15
-sVlouis banks
-p354
-g13
-sg1
-(g2
+g31
+sg18
+(g19
 (S'U19'
-p355
+p313
 I0
 I1
-tp356
-Rp357
+tp314
+Rp315
 (I3
 S'<'
-p358
+p316
 NNNI76
 I4
 I0
-tp359
-bS'c\x00\x00\x00o\x00\x00\x00k\x00\x00\x00e\x00\x00\x00 \x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00o\x00\x00\x00 \x00\x00\x00(\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
-p360
-tp361
-Rp362
-g55
-sVcharukesi
-p363
-g15
-sVsamuel vedanayagam pillai
+tp317
+bS'g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00k\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
+p318
+tp319
+Rp320
+g69
+sVt. k. ramamoorthy
+p321
+S'non-carnatic'
+p322
+sVjhalavarali
+p323
+g4
+sVraghupriya
+p324
+g4
+sVh. k. narayana
+p325
+g31
+sVurmila satyanarayana
+p326
+g31
+sValphons joseph
+p327
+g31
+sVthetakudi harihara vinayakram
+p328
+g4
+sVlist of k. j. yesudas concerts
+p329
+g4
+sg18
+(g19
+(S'U8'
+p330
+I0
+I1
+tp331
+Rp332
+(I3
+S'<'
+p333
+NNNI32
+I4
+I0
+tp334
+bS'c\x00\x00\x00h\x00\x00\x00o\x00\x00\x00w\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00h\x00\x00\x00'
+p335
+tp336
+Rp337
+g69
+sg18
+(g19
+(S'U11'
+p338
+I0
+I1
+tp339
+Rp340
+(I3
+S'<'
+p341
+NNNI44
+I4
+I0
+tp342
+bS's\x00\x00\x00o\x00\x00\x00w\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00o\x00\x00\x00h\x00\x00\x00'
+p343
+tp344
+Rp345
+g28
+sVbagalkot district
+p346
+g31
+sVgururao deshpande
+p347
+g4
+sVculture of chennai
+p348
+g4
+sVrithvik raja
+p349
+g4
+sVvalaji
+p350
+g4
+sVpurandara dasa
+p351
+g4
+sVgovinda dikshitar
+p352
+g4
+sVpradip somasundaran
+p353
+g31
+sVvanaspati (raga)
+p354
+g4
+sVshankar tucker
+p355
+g31
+sg18
+(g19
+(S'U8'
+p356
+I0
+I1
+tp357
+Rp358
+(I3
+S'<'
+p359
+NNNI32
+I4
+I0
+tp360
+bS's\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00'
+p361
+tp362
+Rp363
+g69
+sg18
+(g19
+(S'U19'
 p364
-g38
-sg1
-(g2
-(S'U12'
-p365
 I0
 I1
-tp366
-Rp367
+tp365
+Rp366
 (I3
 S'<'
-p368
-NNNI48
+p367
+NNNI76
 I4
 I0
-tp369
-bS'n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
-p370
-tp371
-Rp372
-g11
-sVdeccan plateau
+tp368
+bS'g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+p369
+tp370
+Rp371
+g69
+sVvoleti venkatesvarulu
+p372
+g4
+sVsabarimala
 p373
-g38
-sVseptuple meter
+g31
+sVpraveen d rao
 p374
-g38
-sVtallapaka, india
-p375
-g38
-sVmallika srinivasan
-p376
-g38
-sV69th punjabis
-p377
-g38
-sVtvi raaga sankamam
-p378
-g38
-sVputtaraj gawai
-p379
-g62
-sVshravanabelagola
-p380
-g38
-sVa. k. c. natarajan
-p381
-g15
-sVnandhavana theru
-p382
-g38
-sVa. v. anand
-p383
-g15
-sVhariharan (singer)
-p384
-g38
-sVgaana.com
-p385
-g38
-sVbala (1976 film)
-p386
-g38
-sVantara (music)
-p387
-g62
-sVmusic of andhra pradesh
-p388
-g38
-sg1
-(g2
-(S'U18'
-p389
-I0
-I1
-tp390
-Rp391
-(I3
-S'<'
-p392
-NNNI72
-I4
-I0
-tp393
-bS'y\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00'
-p394
-tp395
-Rp396
-g55
-sVtarangini (music)
-p397
-g15
-sVforeign alliances of france
-p398
-g38
-sVgavambhodi
-p399
-g15
-sVclaude martin
-p400
-g38
-sVshahid parvez
-p401
-g62
-sVpancharatna kriti
-p402
-g15
-sVpharaju
-p403
-g15
-sVvisakhapatnam\u2013vijayawada section
-p404
-g38
-sg1
-(g2
-(S'U21'
-p405
-I0
-I1
-tp406
-Rp407
-(I3
-S'<'
-p408
-NNNI84
-I4
-I0
-tp409
-bS'j\x00\x00\x00u\x00\x00\x00s\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00e\x00\x00\x00 \x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00y\x00\x00\x00 \x00\x00\x00(\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
-p410
-tp411
-Rp412
-g55
-sVcarnatic music
-p413
-g15
-sVanusha mani
-p414
-g13
-sVmadras music season
-p415
-g15
-sVvokkaliga
-p416
-g38
-sg1
-(g2
-(S'U28'
-p417
-I0
-I1
-tp418
-Rp419
-(I3
-S'<'
-p420
-NNNI112
-I4
-I0
-tp421
-bS'm\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00l\x00\x00\x00i\x00\x00\x00t\x00\x00\x00e\x00\x00\x00r\x00\x00\x00a\x00\x00\x00t\x00\x00\x00u\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00'
-p422
-tp423
-Rp424
-g55
-sVtrichur v. ramachandran
-p425
-g15
-sVpoochi srinivasa iyengar
-p426
-g15
-sVmukkudal
-p427
-g38
-sVkonnakol
-p428
-g15
-sVculture of india
-p429
-g38
-sVkadri gopalnath
-p430
-g15
-sVmusicians of the kingdom of mysore
-p431
-g38
-sg1
-(g2
+g2
+sg18
+(g19
 (S'U13'
-p432
+p375
 I0
 I1
-tp433
-Rp434
+tp376
+Rp377
 (I3
 S'<'
-p435
+p378
 NNNI52
 I4
 I0
-tp436
-bS'n\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00s\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00'
-p437
-tp438
-Rp439
-g11
-sVamir mahal
-p440
-g38
-sVs. r. janakiraman
-p441
-g15
-sVbombay presidency
-p442
-g38
-sVshrutilayalu
-p443
-g17
-sVm. s. subbulakshmi
-p444
-g15
-sVsiege of pondicherry (1760)
-p445
-g38
-sVmallikarjun mansur
-p446
-g62
-sg1
-(g2
-(S'U22'
-p447
+tp379
+bS'a\x00\x00\x00r\x00\x00\x00v\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00h\x00\x00\x00'
+p380
+tp381
+Rp382
+g28
+sg18
+(g19
+(S'U13'
+p383
 I0
 I1
-tp448
-Rp449
+tp384
+Rp385
 (I3
 S'<'
-p450
-NNNI88
+p386
+NNNI52
 I4
 I0
-tp451
-bS'c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00t\x00\x00\x00i\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00b\x00\x00\x00u\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00i\x00\x00\x00a\x00\x00\x00n\x00\x00\x00)\x00\x00\x00'
-p452
-tp453
-Rp454
-g11
-sVt. v. sankaranarayanan
-p455
-g15
-sVdelhi p. sunder rajan
-p456
-g15
-sVepigraphia carnatica
-p457
-g38
-sg1
-(g2
-(S'U22'
-p458
+tp387
+bS'k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p388
+tp389
+Rp390
+g28
+sVgarimella balakrishna prasad
+p391
+g13
+sVc. rajagopalachari
+p392
+g2
+sVpalghat parameswara bhagavathar
+p393
+g4
+sVnaresh iyer
+p394
+g2
+sVkosalam
+p395
+g4
+sVindian literature
+p396
+g2
+sVvijay prakash
+p397
+g2
+sVvyasatirtha
+p398
+g2
+sVvairamangalam lakshmi narayanan
+p399
+g4
+sVh.k. narasimha murthy
+p400
+g4
+sg18
+(g19
+(S'U8'
+p401
 I0
 I1
+tp402
+Rp403
+(I3
+S'<'
+p404
+NNNI32
+I4
+I0
+tp405
+bS'b\x00\x00\x00i\x00\x00\x00l\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
+p406
+tp407
+Rp408
+g69
+sg18
+(g19
+(S'U6'
+p409
+I0
+I1
+tp410
+Rp411
+(I3
+S'<'
+p412
+NNNI24
+I4
+I0
+tp413
+bS'v\x00\x00\x00i\x00\x00\x00o\x00\x00\x00l\x00\x00\x00i\x00\x00\x00n\x00\x00\x00'
+p414
+tp415
+Rp416
+g69
+sVilaiyaraaja
+p417
+g2
+sVp. susheela
+p418
+g2
+sg18
+(g19
+(S'U14'
+p419
+I0
+I1
+tp420
+Rp421
+(I3
+S'<'
+p422
+NNNI56
+I4
+I0
+tp423
+bS'k\x00\x00\x00i\x00\x00\x00z\x00\x00\x00h\x00\x00\x00a\x00\x00\x00k\x00\x00\x00k\x00\x00\x00u\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
+p424
+tp425
+Rp426
+g28
+sVvisalakshi nityanand
+p427
+g4
+sg18
+(g19
+(S'U7'
+p428
+I0
+I1
+tp429
+Rp430
+(I3
+S'<'
+p431
+NNNI28
+I4
+I0
+tp432
+bS'h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00m\x00\x00\x00o\x00\x00\x00n\x00\x00\x00y\x00\x00\x00'
+p433
+tp434
+Rp435
+g28
+sVjyoti swarupini
+p436
+g4
+sVmannargudi sambasiva bhagavatar
+p437
+g4
+sVdheerasankarabharanam
+p438
+g4
+sVe. gayathri
+p439
+g4
+sVnaattupurapaattu
+p440
+g31
+sVharidasa
+p441
+S'carnatic'
+p442
+sVchembai
+p443
+g4
+sg18
+(g19
+(S'U16'
+p444
+I0
+I1
+tp445
+Rp446
+(I3
+S'<'
+p447
+NNNI64
+I4
+I0
+tp448
+bS'k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00h\x00\x00\x00i\x00\x00\x00k\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
+p449
+tp450
+Rp451
+g28
+sVnasikabhushani
+p452
+g4
+sg18
+(g19
+(S'U12'
+p453
+I0
+I1
+tp454
+Rp455
+(I3
+S'<'
+p456
+NNNI48
+I4
+I0
+tp457
+bS't\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00)\x00\x00\x00'
+p458
 tp459
 Rp460
-(I3
-S'<'
+g69
+sVnavaragamalika
 p461
-NNNI88
-I4
-I0
-tp462
-bS'n\x00\x00\x00e\x00\x00\x00r\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00t\x00\x00\x00u\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00d\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
+g4
+sVsalaga bhairavi
+p462
+g4
+sVanupallavi
 p463
-tp464
-Rp465
-g11
-sVsikh music
+g4
+sVmsn murthy
+p464
+g4
+sVlist of carnatic music treatises
+p465
+g4
+sg18
+(g19
+(S'U10'
 p466
-g38
-sVchandra
-p467
-g38
-sVanirudh ravichander
-p468
-g38
-sVsaidapet
+I0
+I1
+tp467
+Rp468
+(I3
+S'<'
 p469
-g38
-sValaipayuthey
-p470
-g38
-sVkrishna ni begane baaro
+NNNI40
+I4
+I0
+tp470
+bS'b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
 p471
-g15
-sValan hovhaness
-p472
-g13
-sVupakarma
-p473
-g38
-sVgamanashrama
+tp472
+Rp473
+g69
+sVkannada language
 p474
-g15
-sVkuchipudi
+g228
+sVpandit venkatesh kumar
 p475
-g38
-sVhungarian gypsy scale
+g2
+sVculture of thiruvananthapuram
 p476
-g38
-sVlalgudi vijayalakshmi
+g2
+sVambi subramaniam
 p477
-g15
-sVsaadatullah khan i
+g4
+sVkantamani
 p478
-g38
-sVsopana sangeetham
+g4
+sVtourism in karnataka
 p479
-g38
-sVlist of governors of bombay
+g2
+sVsrimushnam v. raja rao
 p480
-g13
-sVpatri satish kumar
+g4
+sVt. ranganathan
 p481
-g15
-sVmusic of kerala
+g4
+sVt. g. lingappa
 p482
-g38
-sVpacchimiriam adiyappa
+g2
+sVsikkil r. bhaskaran
 p483
-g15
-sVyakshagana
+g4
+sVmusic of malaysia
 p484
-g38
-sVhafiz ahmad khan mosque
+g2
+sVsawai gandharva bhimsen festival
 p485
-g38
-sVisai velalar
+g13
+sVvedavalli
 p486
-g17
-sVshree ranjani
+g442
+sVkodandera madappa cariappa
 p487
-g15
-sVtyagayya (1946 film)
+g2
+sVkarnataka rajyotsava
 p488
-S'non-carnatic'
+g2
+sVpattu rajagopalan
 p489
-sVsheik mahaboob subhani
+g4
+sVsadanam k. harikumaran
 p490
-g15
-sVpandit motiram pandit maniram sangeet samaroh
+g13
+sVeastern fare music foundation
 p491
-g38
-sVmossley hill
+g2
+sVmysore vasudevachar
 p492
-g38
-sVsaranamanthram
+g4
+sVvimochanam
 p493
-g38
-sg1
-(g2
-(S'U18'
+g2
+sVharicharan
 p494
+g4
+sg18
+(g19
+(S'U17'
+p495
 I0
 I1
-tp495
-Rp496
+tp496
+Rp497
 (I3
 S'<'
-p497
-NNNI72
+p498
+NNNI68
 I4
 I0
-tp498
-bS'c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00w\x00\x00\x00e\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p499
-tp500
-Rp501
-g55
-sVemani sankara sastry
-p502
-g15
-sg1
-(g2
-(S'U24'
+tp499
+bS'p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00t\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00l\x00\x00\x00l\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
+p500
+tp501
+Rp502
+g28
+sVvarumayin niram sivappu
 p503
-I0
-I1
-tp504
-Rp505
-(I3
-S'<'
+g2
+sVjohn mclaughlin (musician)
+p504
+g13
+sVdarbari kanada
+p505
+g4
+sVm. k. rocksamy
 p506
-NNNI96
-I4
-I0
-tp507
-bS'b\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00i\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00'
+g2
+sVv. balakrishna eradi
+p507
+g2
+sVchakravakam (raga)
 p508
-tp509
-Rp510
-g55
-sVb. lewis rice
+g4
+sVbangalore
+p509
+g2
+sVmaharaja sayajirao university of baroda
+p510
+g2
+sVkalavati
 p511
-g38
-sVparthasarathy (parthu)
+g4
+sVgourimanohari
 p512
-g38
-sVghatam
+g4
+sVsooraj santhosh
 p513
-g15
-sg1
-(g2
-(S'U14'
+g2
+sg18
+(g19
+(S'U22'
 p514
 I0
 I1
@@ -1379,965 +1377,975 @@ Rp516
 (I3
 S'<'
 p517
-NNNI56
+NNNI88
 I4
 I0
 tp518
-bS't\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+bS'f\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00c\x00\x00\x00e\x00\x00\x00\x13 \x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00o\x00\x00\x00n\x00\x00\x00s\x00\x00\x00'
 p519
 tp520
 Rp521
-g11
-sVkanada (raga group)
+g28
+sVottu (instrument)
 p522
-g62
-sVtirukkodikaval krishna iyer
+g4
+sVvijaya dasa
 p523
-g15
-sVd. k. jayaraman
+g4
+sVagam (band)
 p524
-g15
-sVjames welsh (east india company officer)
+g2
+sVk. j. yesudas discography
 p525
-g38
-sVvashanth sellathurai
+g13
+sVchitta swara
 p526
-g38
-sVvidyabhushana
+g4
+sVtirunelveli
 p527
-g15
-sVsemmozhiyaana thamizh mozhiyaam
+g2
+sVk. v. narayanaswamy
 p528
-g38
-sVchithram
+g4
+sVpriya sisters
 p529
-g38
-sVkalki sadasivam
+g4
+sVsirkazhi
 p530
-g38
-sVaurangzeb
+g2
+sVtamil people
 p531
-g38
-sVvijayanagara empire
+g2
+sVannamacharya
 p532
-g38
-sVbombay lakshmi rajagopalan
+g4
+sVshahana
 p533
-g15
-sVarts and entertainment in india
+g13
+sVsahana (raga)
 p534
-g38
-sVabhishek raghuram
+g4
+sVghatam udupa
 p535
-g15
-sVjoi srivastava
+g4
+sVmusic of india
 p536
-g38
-sg1
-(g2
-(S'U8'
+g2
+sVraga bhoopeshwari
 p537
-I0
-I1
-tp538
-Rp539
-(I3
-S'<'
+g13
+sVtriplicane
+p538
+g2
+sVs. rajeswara rao
+p539
+g2
+sVsharanya srinivas
 p540
-NNNI32
-I4
-I0
-tp541
-bS's\x00\x00\x00r\x00\x00\x00i\x00\x00\x00v\x00\x00\x00i\x00\x00\x00d\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+g2
+sVmalladihalli sri raghavendra swamiji
+p541
+g2
+sVshankar mahadevan academy
 p542
-tp543
-Rp544
-g55
-sVnavaneetam
+g2
+sVancient tamil music
+p543
+g4
+sVrudresh mahanthappa
+p544
+g2
+sVlist of people from karnataka
 p545
-g15
-sg1
-(g2
-(S'U7'
+g31
+sVsubbudu
 p546
-I0
-I1
-tp547
-Rp548
-(I3
-S'<'
+g442
+sVkavi kunjara bharati
+p547
+g4
+sVthiruvananthapuram
+p548
+g2
+sVh. ramakrishnan
 p549
-NNNI28
-I4
-I0
-tp550
-bS'd\x00\x00\x00a\x00\x00\x00k\x00\x00\x00h\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
+g2
+sVugabhoga
+p550
+g4
+sVnarayana ninna namada
 p551
-tp552
-Rp553
-g55
-sVtourism in chennai
-p554
-g38
-sg1
-(g2
-(S'U18'
+g442
+sg18
+(g19
+(S'U11'
+p552
+I0
+I1
+tp553
+Rp554
+(I3
+S'<'
 p555
+NNNI44
+I4
 I0
-I1
 tp556
-Rp557
-(I3
-S'<'
-p558
-NNNI72
-I4
-I0
-tp559
-bS't\x00\x00\x00h\x00\x00\x00e\x00\x00\x00s\x00\x00\x00p\x00\x00\x00e\x00\x00\x00s\x00\x00\x00i\x00\x00\x00a\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00p\x00\x00\x00u\x00\x00\x00l\x00\x00\x00n\x00\x00\x00e\x00\x00\x00a\x00\x00\x00'
+bS'v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00j\x00\x00\x00a\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p557
+tp558
+Rp559
+g28
+sVkharaharapriya
 p560
-tp561
-Rp562
-g55
-sg1
-(g2
-(S'U14'
+g4
+sVsouth indian cultural association, indore
+p561
+g4
+sVaishwarya vidhya raghunath
+p562
+g4
+sVvivadi
 p563
-I0
-I1
-tp564
-Rp565
-(I3
-S'<'
+g4
+sVv. v. ravi
+p564
+g4
+sVkunnakudi subbalakshmi
+p565
+g4
+sVchinmaya m. rao
 p566
-NNNI56
+g2
+sg18
+(g19
+(S'U11'
+p567
+I0
+I1
+tp568
+Rp569
+(I3
+S'<'
+p570
+NNNI44
 I4
 I0
-tp567
-bS'm\x00\x00\x00a\x00\x00\x00m\x00\x00\x00t\x00\x00\x00a\x00\x00\x00 \x00\x00\x00m\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
-p568
-tp569
-Rp570
-g55
-sVgottuvadhyam
-p571
-g15
-sVfreeman freeman-thomas, 1st marquess of willingdon
+tp571
+bS'k\x00\x00\x00o\x00\x00\x00t\x00\x00\x00t\x00\x00\x00u\x00\x00\x00r\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
 p572
-g38
-sg1
-(g2
-(S'U31'
-p573
-I0
-I1
-tp574
-Rp575
-(I3
-S'<'
+tp573
+Rp574
+g28
+sVtravancore
+p575
+g2
+sVcanadian music genres
 p576
-NNNI124
-I4
-I0
-tp577
-bS'i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00e\x00\x00\x00x\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00-\x00\x00\x00r\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00d\x00\x00\x00 \x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00l\x00\x00\x00e\x00\x00\x00s\x00\x00\x00'
+g2
+sVb. a. chidambaranath
+p577
+g2
+sVvyjayanthimala
 p578
-tp579
-Rp580
-g55
-sVnaganandini
+g2
+sVpadmanabhapuram palace
+p579
+g2
+sVtyagaraja
+p580
+g4
+sVinstitute of chartered accountants of india
 p581
-g15
-sVpolyrhythm
+g6
+sVranjani-gayatri
 p582
-g38
-sg1
-(g2
-(S'U19'
+g4
+sVveenai dhanammal
 p583
-I0
-I1
-tp584
-Rp585
-(I3
-S'<'
-p586
-NNNI76
-I4
-I0
-tp587
-bS's\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00r\x00\x00\x00a\x00\x00\x00h\x00\x00\x00m\x00\x00\x00e\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p588
-tp589
-Rp590
-g11
-sVnookala chinna satyanarayana
-p591
-g15
-sVhistory of bangalore
-p592
-g38
-sVmadurai
-p593
-g38
-sVnavakoti narayana
-p594
-g38
-sVsarasangi
-p595
-g15
-sg1
-(g2
-(S'U23'
-p596
-I0
-I1
-tp597
-Rp598
-(I3
-S'<'
-p599
-NNNI92
-I4
-I0
-tp600
-bS'r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00i\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00g\x00\x00\x00o\x00\x00\x00p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p601
-tp602
-Rp603
-g11
-sVgraha bhedam
-p604
-g15
-sVambur
-p605
-g38
-sVaniruddha knight
-p606
-g38
-sV73rd carnatic infantry
-p607
-g38
-sVviswanatha sastri
-p608
-g15
-sVsiege of jinji
-p609
-g38
-sVt. t. krishnamachari auditorium
-p610
-g15
-sg1
-(g2
-(S'U29'
-p611
-I0
-I1
-tp612
-Rp613
-(I3
-S'<'
-p614
-NNNI116
-I4
-I0
-tp615
-bS'b\x00\x00\x00u\x00\x00\x00c\x00\x00\x00k\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00m\x00\x00\x00i\x00\x00\x00l\x00\x00\x00l\x00\x00\x00s\x00\x00\x00'
-p616
-tp617
-Rp618
-g55
-sg1
-(g2
-(S'U5'
-p619
-I0
-I1
-tp620
-Rp621
-(I3
-S'<'
-p622
-NNNI20
-I4
-I0
-tp623
-bS's\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p624
-tp625
-Rp626
-g11
-sVvidyasagar (music director)
-p627
-g38
-sVedward harrison (british administrator)
-p628
-g38
-sg1
-(g2
+g4
+sVvishaka hari
+p584
+g4
+sg18
+(g19
 (S'U16'
-p629
+p585
 I0
 I1
-tp630
-Rp631
+tp586
+Rp587
 (I3
 S'<'
-p632
+p588
 NNNI64
 I4
 I0
-tp633
-bS'm\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00j\x00\x00\x00u\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
-p634
-tp635
-Rp636
-g11
-sVsucharitra
-p637
-g15
-sVkapi (raga)
-p638
-g15
-sVkerala natanam
-p639
-g38
-sValamparai fort
-p640
-g38
-sVanuradha sriram
-p641
-g38
-sVrajan-nagendra
-p642
-g38
-sVdharmadasa walpola
-p643
-g38
-sVawards of chembai
-p644
-g15
-sVkate soper (composer)
-p645
-g38
-sVroyapuram railway station
-p646
-g38
-sV86th carnatic infantry
-p647
-g38
-sV84th regiment of foot (1759)
-p648
-g17
-sg1
-(g2
-(S'U31'
-p649
+tp589
+bS'h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00'
+p590
+tp591
+Rp592
+g28
+sVraaga.com
+p593
+g6
+sg18
+(g19
+(S'U20'
+p594
 I0
 I1
-tp650
-Rp651
+tp595
+Rp596
 (I3
 S'<'
-p652
+p597
+NNNI80
+I4
+I0
+tp598
+bS'n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00y\x00\x00\x00a\x00\x00\x00s\x00\x00\x00r\x00\x00\x00e\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p599
+tp600
+Rp601
+g69
+sg18
+(g19
+(S'U31'
+p602
+I0
+I1
+tp603
+Rp604
+(I3
+S'<'
+p605
 NNNI124
 I4
 I0
-tp653
-bS'l\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00p\x00\x00\x00r\x00\x00\x00e\x00\x00\x00-\x00\x00\x00m\x00\x00\x00o\x00\x00\x00d\x00\x00\x00e\x00\x00\x00r\x00\x00\x00n\x00\x00\x00 \x00\x00\x00g\x00\x00\x00r\x00\x00\x00e\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00w\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00'
-p654
-tp655
-Rp656
-g55
-sg1
-(g2
-(S'U26'
-p657
-I0
-I1
-tp658
-Rp659
-(I3
-S'<'
-p660
-NNNI104
-I4
-I0
-tp661
-bS'a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00u\x00\x00\x00j\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p662
-tp663
-Rp664
-g11
-sVculture of bangalore
-p665
-g38
-sg1
-(g2
-(S'U15'
-p666
-I0
-I1
-tp667
-Rp668
-(I3
-S'<'
-p669
-NNNI60
-I4
-I0
-tp670
-bS'p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00b\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p671
-tp672
-Rp673
-g11
-sVk. radhakrishnan
-p674
-g38
-sVmanodharma
-p675
-g15
-sVnandini muthuswamy
-p676
-g15
-sVchand bibi
-p677
-g38
-sVshakti (band)
-p678
-g15
-sVt. muktha
-p679
-g15
-sVindiramma iyengar
-p680
-g38
-sVgingee
-p681
-g38
-sVculture of pune
-p682
-g38
-sVgod save the queen
-p683
-g38
-sVbazaar-e-husn
-p684
-g38
-sVranjith (singer)
-p685
-g38
-sVgayathri venkataraghavan
-p686
-g15
-sVgireesh puthenchery
-p687
-g13
-sVart and culture of karnataka
-p688
-g38
-sVchembai sangeetholsavam
-p689
-g15
-sVramesh vinayakam
-p690
-g38
-sVmallur, karnataka
-p691
-g38
-sVm. jayachandran
-p692
-g38
-sVt. n. sivakumar
-p693
-g15
-sVmanjula gururaj
-p694
-g38
-sg1
-(g2
-(S'U13'
-p695
-I0
-I1
-tp696
-Rp697
-(I3
-S'<'
-p698
-NNNI52
-I4
-I0
-tp699
-bS'b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00d\x00\x00\x00h\x00\x00\x00a\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
-p700
-tp701
-Rp702
-g11
-sVflute
-p703
-g62
-sVcharumathi ramachandran
-p704
-g15
-sg1
-(g2
-(S'U12'
-p705
-I0
-I1
-tp706
-Rp707
-(I3
-S'<'
-p708
-NNNI48
-I4
-I0
-tp709
-bS'j\x00\x00\x00a\x00\x00\x00m\x00\x00\x00e\x00\x00\x00y\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00d\x00\x00\x00a\x00\x00\x00d\x00\x00\x00'
-p710
-tp711
-Rp712
-S'non-carnatic'
-p713
-sVdwaram venkataswamy naidu
-p714
-g15
-sVgayatri asokan
-p715
-g38
-sg1
-(g2
-(S'U23'
-p716
-I0
-I1
-tp717
-Rp718
-(I3
-S'<'
-p719
-NNNI92
-I4
-I0
-tp720
-bS'r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00d\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00r\x00\x00\x00i\x00\x00\x00c\x00\x00\x00t\x00\x00\x00'
-p721
-tp722
-Rp723
-g55
-sVthellar block
-p724
-g38
-sVsalem k. meera
-p725
-g15
-sVkhamas (raga)
-p726
-g15
-sVpanchari melam
-p727
-g38
-sVaatma (album)
-p728
-g38
-sg1
-(g2
-(S'U5'
-p729
-I0
-I1
-tp730
-Rp731
-(I3
-S'<'
-p732
-NNNI20
-I4
-I0
-tp733
-bS'a\x00\x00\x00g\x00\x00\x00n\x00\x00\x00e\x00\x00\x00e\x00\x00\x00'
-p734
-tp735
-Rp736
-g55
-sVparthasarathy swami sabha
-p737
-g15
-sVtiruvottriyur tyagayyar
-p738
-g15
-sV7 notes to infinity
-p739
-g38
-sVbharathwaj
-p740
-g38
-sVrudrabhatta
-p741
-g38
-sVannakili
-p742
-g38
-sVfranco-indian alliances
-p743
-g38
-sVm. g. radhakrishnan
-p744
-g38
-sVidakka
-p745
-g38
-sg1
-(g2
-(S'U13'
-p746
-I0
-I1
-tp747
-Rp748
-(I3
-S'<'
-p749
-NNNI52
-I4
-I0
-tp750
-bS'm\x00\x00\x00a\x00\x00\x00s\x00\x00\x00j\x00\x00\x00i\x00\x00\x00d\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00m\x00\x00\x00o\x00\x00\x00o\x00\x00\x00r\x00\x00\x00'
-p751
-tp752
-Rp753
-g55
-sVdance in india
-p754
-g13
-sVbhimsen joshi
-p755
-g62
-sVshruti (music)
-p756
-g15
-sVp. leela
-p757
-g38
-sg1
-(g2
-(S'U18'
-p758
-I0
-I1
-tp759
-Rp760
-(I3
-S'<'
-p761
-NNNI72
-I4
-I0
-tp762
-bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00d\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00b\x00\x00\x00u\x00\x00\x00l\x00\x00\x00a\x00\x00\x00k\x00\x00\x00s\x00\x00\x00h\x00\x00\x00m\x00\x00\x00i\x00\x00\x00'
-p763
-tp764
-Rp765
-g55
-sVjustin mccarthy (dancer)
-p766
-g38
-sg1
-(g2
-(S'U9'
-p767
-I0
-I1
-tp768
-Rp769
-(I3
-S'<'
-p770
-NNNI36
-I4
-I0
-tp771
-bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
-p772
-tp773
-Rp774
-g11
-sVbennet veetraag
-p775
-g38
-sVvellore a. r. srinivasan
-p776
-g15
-sVmuhammad ali khan wallajah
-p777
-g38
-sVjanardhan mitta
-p778
-g38
-sVputhur-vela
-p779
-g38
-sVmridangam
-p780
-g15
-sVbhanumathi ramakrishna
-p781
-g38
-sVjoseph collett
-p782
-g38
-sVchembai memorial government music college
-p783
-g15
-sVrayalaseema
-p784
-g38
-sVvijayalakshmy subramaniam
-p785
-g15
-sVtiruchirappalli fort
-p786
-g38
-sVmadhuvanti
-p787
-g15
-sVsangamam
-p788
-g38
-sg1
-(g2
-(S'U31'
-p789
-I0
-I1
-tp790
-Rp791
-(I3
-S'<'
-p792
-NNNI124
-I4
-I0
-tp793
-bS'm\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00u\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00b\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p794
-tp795
-Rp796
-g11
-sVachyuta deva raya
-p797
-g38
-sVa. kanyakumari
-p798
-g15
-sg1
-(g2
-(S'U13'
-p799
-I0
-I1
-tp800
-Rp801
-(I3
-S'<'
-p802
-NNNI52
-I4
-I0
-tp803
-bS'g\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p804
-tp805
-Rp806
-g55
-sg1
-(g2
+tp606
+bS"s\x00\x00\x00t\x00\x00\x00.\x00\x00\x00 \x00\x00\x00g\x00\x00\x00e\x00\x00\x00o\x00\x00\x00r\x00\x00\x00g\x00\x00\x00e\x00\x00\x00'\x00\x00\x00s\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00l\x00\x00\x00,\x00\x00\x00 \x00\x00\x00c\x00\x00\x00h\x00\x00\x00e\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00i\x00\x00\x00"
+p607
+tp608
+Rp609
+g28
+sVkalamandalam hyderali
+p610
+g6
+sVnational institute of technology, tiruchirappalli
+p611
+g6
+sg18
+(g19
 (S'U8'
-p807
+p612
 I0
 I1
-tp808
-Rp809
+tp613
+Rp614
 (I3
 S'<'
-p810
+p615
 NNNI32
 I4
 I0
-tp811
-bS'm\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00u\x00\x00\x00'
-p812
-tp813
-Rp814
-g55
-sVt. n. krishnan
-p815
-g15
-sVbiju narayanan
-p816
-g38
-sVm. g. sreekumar
-p817
-g38
-sVnagai muralidharan
-p818
-g38
-sVtalagunda pillar inscription
-p819
-g38
-sVmg venkata raghavan
-p820
-g15
-sVgangeyabhushani
-p821
-g15
-sVharidasas and carnatic music
-p822
-g15
-sVthenral
-p823
-g38
-sVsubramanya bharathi
-p824
-g38
-sVedward balfour
-p825
-g38
-sg1
-(g2
-(S'U14'
-p826
+tp616
+bS'r\x00\x00\x00a\x00\x00\x00t\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00i\x00\x00\x00'
+p617
+tp618
+Rp619
+g69
+sVmalayamarutam
+p620
+g4
+sVraghunatha nayak
+p621
+g6
+sVkishore kumar
+p622
+g6
+sVmanakkal rangarajan
+p623
+g4
+sVramesh narayan
+p624
+g13
+sVgraha bhedam
+p625
+g4
+sVvijayanagara literature in kannada
+p626
+g6
+sVjaya tv
+p627
+g6
+sVshadvidamargini
+p628
+g4
+sVs. v. venkatraman
+p629
+g6
+sVkhamaj
+p630
+g13
+sVdarshana kt
+p631
+g31
+sVsouth west india
+p632
+g6
+sg18
+(g19
+(S'U7'
+p633
 I0
 I1
-tp827
-Rp828
+tp634
+Rp635
 (I3
 S'<'
-p829
-NNNI56
+p636
+NNNI28
 I4
 I0
-tp830
-bS'n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00g\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00p\x00\x00\x00e\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
-p831
-tp832
-Rp833
-g55
-sVmarudhanayagam
-p834
-g17
-sVkarthik raja
-p835
-g38
-sVarungundram
-p836
-g38
-sValla rakha
-p837
-g62
-sg1
-(g2
-(S'U14'
-p838
+tp637
+bS'a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
+p638
+tp639
+Rp640
+g69
+sVramya nsk
+p641
+g6
+sVs. janaki
+p642
+g6
+sVvidya shah
+p643
+g13
+sg18
+(g19
+(S'U7'
+p644
 I0
 I1
-tp839
-Rp840
+tp645
+Rp646
 (I3
 S'<'
-p841
-NNNI56
+p647
+NNNI28
 I4
 I0
-tp842
-bS'a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00i\x00\x00\x00'
-p843
-tp844
-Rp845
-g11
-sVnageshvara temple, begur
-p846
-g38
-sVmadhyamavati
-p847
-g15
-sVkarnataka
-p848
-g38
-sVshanmukhapriya
-p849
-g15
-sVakkarai subhalakshmi
-p850
-g15
-sg1
-(g2
+tp648
+bS'v\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00o\x00\x00\x00b\x00\x00\x00a\x00\x00\x00'
+p649
+tp650
+Rp651
+g28
+sVcharanam
+p652
+g4
+sVsangeetha kalasikhamani
+p653
+g4
+sg18
+(g19
+(S'U17'
+p654
+I0
+I1
+tp655
+Rp656
+(I3
+S'<'
+p657
+NNNI68
+I4
+I0
+tp658
+bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+p659
+tp660
+Rp661
+g69
+sVsivamani
+p662
+g6
+sVvishwambari
+p663
+g4
+sVisai velalar
+p664
+g6
+sVfilmi
+p665
+g6
+sVrajkumar bharathi
+p666
+g2
+sVtirumala venkateswara temple
+p667
+g6
+sVrecaka
+p668
+g6
+sg18
+(g19
 (S'U19'
-p851
+p669
 I0
 I1
-tp852
-Rp853
+tp670
+Rp671
 (I3
 S'<'
-p854
+p672
 NNNI76
 I4
 I0
-tp855
-bS'g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00k\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
-p856
-tp857
-Rp858
-g11
-sVt. k. ramamoorthy
-p859
-S'non-carnatic'
-p860
-sVillathu pillaimar
-p861
-g38
-sVshakthisree gopalan
-p862
-g38
-sVkesavananda bharati
-p863
-g38
-sVraghoji i bhonsle
-p864
-g38
-sg1
-(g2
-(S'U26'
-p865
+tp673
+bS'm\x00\x00\x00a\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00g\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00e\x00\x00\x00a\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p674
+tp675
+Rp676
+g69
+sVpuranam purushottama sastri
+p677
+g4
+sVgopalakrishna bharathi
+p678
+g4
+sVf. g. natesa iyer
+p679
+g31
+sVharikambhoji
+p680
+g4
+sVreghu kumar
+p681
+g31
+sVembar kannan
+p682
+g4
+sVputtur narasimha nayak
+p683
+g4
+sVthrissur c. rajendran
+p684
+g4
+sVdeepa miriam
+p685
+g31
+sVmavelikkara s. r. raju
+p686
+g4
+sVn. ravikiran
+p687
+g4
+sVkedaragaula
+p688
+g4
+sVmararanjani
+p689
+g4
+sVpattupurakkavu bhagavathi temple
+p690
+g31
+sg18
+(g19
+(S'U10'
+p691
 I0
 I1
-tp866
-Rp867
+tp692
+Rp693
 (I3
 S'<'
-p868
-NNNI104
+p694
+NNNI40
 I4
 I0
-tp869
-bS'k\x00\x00\x00o\x00\x00\x00v\x00\x00\x00u\x00\x00\x00r\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
-p870
-tp871
-Rp872
-g55
-sVraghupriya
-p873
-g15
-sValladi ramakrishnan
+tp695
+bS'a\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00p\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00u\x00\x00\x00'
+p696
+tp697
+Rp698
+g28
+sVkhairagarh
+p699
+g31
+sg18
+(g19
+(S'U20'
+p700
+I0
+I1
+tp701
+Rp702
+(I3
+S'<'
+p703
+NNNI80
+I4
+I0
+tp704
+bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00a\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+p705
+tp706
+Rp707
+g28
+sVsyama sastri
+p708
+g4
+sVgandharva mahavidyalaya
+p709
+S'doubtful'
+p710
+sVmavelikkara prabhakara varma
+p711
+g4
+sVbaiju dharmajan
+p712
+g31
+sVragam thanam pallavi
+p713
+g4
+sVt. v. gopalakrishnan
+p714
+g4
+sVniraval
+p715
+g4
+sVjhankaradhvani
+p716
+g4
+sVfireflies festival of sacred music
+p717
+g31
+sg18
+(g19
+(S'U12'
+p718
+I0
+I1
+tp719
+Rp720
+(I3
+S'<'
+p721
+NNNI48
+I4
+I0
+tp722
+bS'y\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00(\x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
+p723
+tp724
+Rp725
+g69
+sVbharatham
+p726
+g31
+sg18
+(g19
+(S'U14'
+p727
+I0
+I1
+tp728
+Rp729
+(I3
+S'<'
+p730
+NNNI56
+I4
+I0
+tp731
+bS'm\x00\x00\x00e\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
+p732
+tp733
+Rp734
+g28
+sVvinjamuri anasuya devi
+p735
+g31
+sVlalitha sivakumar
+p736
+g4
+sVr. n. jayagopal
+p737
+g31
+sVgamaka (storytelling)
+p738
+g31
+sg18
+(g19
+(S'U27'
+p739
+I0
+I1
+tp740
+Rp741
+(I3
+S'<'
+p742
+NNNI108
+I4
+I0
+tp743
+bS'c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00t\x00\x00\x00o\x00\x00\x00o\x00\x00\x00r\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
+p744
+tp745
+Rp746
+g69
+sVsaketharaman
+p747
+g4
+sVveene sheshanna
+p748
+g4
+sVtanpura (instrument)
+p749
+g4
+sVraghuvamsa sudha
+p750
+g4
+sVb. arundhathi
+p751
+g31
+sVkathakali
+p752
+g2
+sVmelattur sahadevan
+p753
+g4
+sVrahul nambiar
+p754
+g31
+sVdouble harmonic scale
+p755
+g13
+sVjyotsna radhakrishnan
+p756
+g31
+sVdoraiswamy iyengar
+p757
+g4
+sVbangalore gayana samaja
+p758
+g13
+sg18
+(g19
+(S'U14'
+p759
+I0
+I1
+tp760
+Rp761
+(I3
+S'<'
+p762
+NNNI56
+I4
+I0
+tp763
+bS'h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00 \x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00'
+p764
+tp765
+Rp766
+g28
+sVdharma raja
+p767
+g442
+sVsangeetha kalanidhi
+p768
+g4
+sVmagnasound
+p769
+g31
+sg18
+(g19
+(S'U10'
+p770
+I0
+I1
+tp771
+Rp772
+(I3
+S'<'
+p773
+NNNI40
+I4
+I0
+tp774
+bS'k\x00\x00\x00s\x00\x00\x00h\x00\x00\x00e\x00\x00\x00t\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p775
+tp776
+Rp777
+g69
+sg18
+(g19
+(S'U11'
+p778
+I0
+I1
+tp779
+Rp780
+(I3
+S'<'
+p781
+NNNI44
+I4
+I0
+tp782
+bS'v\x00\x00\x00i\x00\x00\x00d\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p783
+tp784
+Rp785
+g28
+sVdevelopment of carnatic music
+p786
+g4
+sVm. narmadha
+p787
+g4
+sVairtel super singer junior
+p788
+g31
+sVk. omanakutty
+p789
+g4
+sg18
+(g19
+(S'U12'
+p790
+I0
+I1
+tp791
+Rp792
+(I3
+S'<'
+p793
+NNNI48
+I4
+I0
+tp794
+bS'h\x00\x00\x00e\x00\x00\x00n\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00w\x00\x00\x00e\x00\x00\x00l\x00\x00\x00l\x00\x00\x00'
+p795
+tp796
+Rp797
+g28
+sg18
+(g19
+(S'U12'
+p798
+I0
+I1
+tp799
+Rp800
+(I3
+S'<'
+p801
+NNNI48
+I4
+I0
+tp802
+bS'm\x00\x00\x00o\x00\x00\x00r\x00\x00\x00n\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00'
+p803
+tp804
+Rp805
+g28
+sVhindustani classical music
+p806
+g13
+sVmanu narayan
+p807
+g31
+sVthrippunithura
+p808
+g31
+sVmusiri subramania iyer
+p809
+g4
+sVsmitha rajan
+p810
+g31
+sVarun luthra
+p811
+g31
+sVmuthiah bhagavatar
+p812
+g4
+sVnarayan iyengar
+p813
+g4
+sVbharata natyam
+p814
+g31
+sVkalaimamani
+p815
+g31
+sVmuhammad shah
+p816
+g31
+sVarts and entertainment in india
+p817
+g31
+sg18
+(g19
+(S'U17'
+p818
+I0
+I1
+tp819
+Rp820
+(I3
+S'<'
+p821
+NNNI68
+I4
+I0
+tp822
+bS'k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00y\x00\x00\x00s\x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00'
+p823
+tp824
+Rp825
+g69
+sVmudra (music)
+p826
+g4
+sVmurki
+p827
+g13
+sVsukumar prasad
+p828
+g4
+sg18
+(g19
+(S'U20'
+p829
+I0
+I1
+tp830
+Rp831
+(I3
+S'<'
+p832
+NNNI80
+I4
+I0
+tp833
+bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00j\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00o\x00\x00\x00'
+p834
+tp835
+Rp836
+g69
+sVcharumathi ramachandran
+p837
+g4
+sVmadurai mani iyer
+p838
+g4
+sVb. sasikumar
+p839
+g4
+sVurmila varma
+p840
+g31
+sVpalghat anantharama bhagavatar
+p841
+g4
+sVrugmini gopalakrishnan
+p842
+g4
+sVhyderabad brothers
+p843
+g4
+sg18
+(g19
+(S'U13'
+p844
+I0
+I1
+tp845
+Rp846
+(I3
+S'<'
+p847
+NNNI52
+I4
+I0
+tp848
+bS's\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00e\x00\x00\x00t\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00'
+p849
+tp850
+Rp851
+g28
+sVnatya shastra
+p852
+g4
+sVkalyanavasantam
+p853
+g4
+sVabdul halim jaffer khan
+p854
+g13
+sVlist of compositions by tyagaraja
+p855
+g4
+sVvadodara
+p856
+g31
+sVmuthu thandavar
+p857
+g4
+sg18
+(g19
+(S'U10'
+p858
+I0
+I1
+tp859
+Rp860
+(I3
+S'<'
+p861
+NNNI40
+I4
+I0
+tp862
+bS't\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00o\x00\x00\x00u\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00e\x00\x00\x00'
+p863
+tp864
+Rp865
+g28
+sg18
+(g19
+(S'U11'
+p866
+I0
+I1
+tp867
+Rp868
+(I3
+S'<'
+p869
+NNNI44
+I4
+I0
+tp870
+bS'g\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p871
+tp872
+Rp873
+g69
+sVm. l. vasanthakumari
 p874
-g38
-sg1
-(g2
-(S'U18'
+g4
+sg18
+(g19
+(S'U22'
 p875
 I0
 I1
@@ -2346,108 +2354,112 @@ Rp877
 (I3
 S'<'
 p878
-NNNI72
+NNNI88
 I4
 I0
 tp879
-bS'a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00i\x00\x00\x00 \x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00r\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00'
+bS'h\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00s\x00\x00\x00t\x00\x00\x00r\x00\x00\x00y\x00\x00\x00'
 p880
 tp881
 Rp882
-g11
-sVh. k. narayana
+g69
+sg18
+(g19
+(S'U11'
 p883
-g38
-sVurmila satyanarayana
-p884
-g38
-sValphons joseph
-p885
-g38
-sg1
-(g2
-(S'U10'
+I0
+I1
+tp884
+Rp885
+(I3
+S'<'
 p886
+NNNI44
+I4
 I0
-I1
 tp887
-Rp888
-(I3
-S'<'
-p889
-NNNI40
-I4
-I0
-tp890
-bS'j\x00\x00\x00a\x00\x00\x00m\x00\x00\x00e\x00\x00\x00s\x00\x00\x00 \x00\x00\x00a\x00\x00\x00l\x00\x00\x00m\x00\x00\x00s\x00\x00\x00'
+bS'e\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p888
+tp889
+Rp890
+g28
+sVshri (musician)
 p891
-tp892
-Rp893
-g55
-sV76th punjabis
+g31
+sVthavil
+p892
+g4
+sVe. krishna iyer
+p893
+g31
+sVmadras music academy
 p894
-g38
-sVprapancham sitaram
+g4
+sVwestern chalukya literature in kannada
 p895
-g15
-sVthetakudi harihara vinayakram
+g31
+sVshweta subram
 p896
-g15
-sg1
-(g2
-(S'U17'
+g6
+sVs. somasundaram
 p897
-I0
-I1
-tp898
-Rp899
-(I3
-S'<'
+g4
+sVsankarabharanam
+p898
+g31
+sVvittal ramamurthy
+p899
+g4
+sVramnad krishnan
 p900
-NNNI68
-I4
-I0
-tp901
-bS'v\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00s\x00\x00\x00p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00 \x00\x00\x00(\x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
+g4
+sVghantasala (singer)
+p901
+g31
+sVbhadrachalam
 p902
-tp903
-Rp904
-g11
-sVtoby wren
-p905
-g38
-sVamruthavarshini
-p906
-g13
-sg1
-(g2
-(S'U15'
-p907
+g31
+sVm. d. ramanathan
+p903
+g4
+sg18
+(g19
+(S'U25'
+p904
 I0
 I1
-tp908
-Rp909
+tp905
+Rp906
 (I3
 S'<'
-p910
-NNNI60
+p907
+NNNI100
 I4
 I0
-tp911
-bS'a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00l\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+tp908
+bS't\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00'
+p909
+tp910
+Rp911
+g69
+sVthanjavur
 p912
-tp913
-Rp914
-g55
-sVviolin technique
+g6
+sVhosahalli
+p913
+g31
+sVthiruvilwamala
+p914
+g31
+sVramanathapuram c s murugabhoopathy
 p915
-g38
-sVlist of k. j. yesudas concerts
+g4
+sVhistory of music
 p916
-g15
-sg1
-(g2
-(S'U21'
+g31
+sg18
+(g19
+(S'U12'
 p917
 I0
 I1
@@ -2456,21 +2468,21 @@ Rp919
 (I3
 S'<'
 p920
-NNNI84
+NNNI48
 I4
 I0
 tp921
-bS'h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00l\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00d\x00\x00\x00u\x00\x00\x00'
+bS't\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00'
 p922
 tp923
 Rp924
-g55
-sVfrance in the seven years' war
+g69
+sVl. vaidyanathan
 p925
-g38
-sg1
-(g2
-(S'U18'
+g4
+sg18
+(g19
+(S'U17'
 p926
 I0
 I1
@@ -2479,336 +2491,336 @@ Rp928
 (I3
 S'<'
 p929
-NNNI72
-I4
-I0
-tp930
-bS'u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00a\x00\x00\x00'
-p931
-tp932
-Rp933
-g11
-sVriyaz
-p934
-g62
-sVrudrapatna
-p935
-g38
-sVvijaya raghunatha raya tondaiman i
-p936
-g38
-sg1
-(g2
-(S'U11'
-p937
-I0
-I1
-tp938
-Rp939
-(I3
-S'<'
-p940
-NNNI44
-I4
-I0
-tp941
-bS's\x00\x00\x00o\x00\x00\x00w\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00o\x00\x00\x00h\x00\x00\x00'
-p942
-tp943
-Rp944
-g55
-sVkaviyoor revamma
-p945
-g15
-sVbagalkot district
-p946
-g38
-sVgururao deshpande
-p947
-g15
-sVculture of chennai
-p948
-g15
-sVrithvik raja
-p949
-g15
-sg1
-(g2
-(S'U17'
-p950
-I0
-I1
-tp951
-Rp952
-(I3
-S'<'
-p953
 NNNI68
 I4
 I0
-tp954
-bS'a\x00\x00\x00b\x00\x00\x00d\x00\x00\x00u\x00\x00\x00l\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00e\x00\x00\x00e\x00\x00\x00d\x00\x00\x00 \x00\x00\x00k\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p955
-tp956
-Rp957
-g55
-sVannasaheb kirloskar
-p958
-g38
-sVvalaji
-p959
-g15
-sVpurandara dasa
-p960
-g15
-sVgovinda dikshitar
-p961
-g15
-sVpradip somasundaran
-p962
-g38
-sVravi shankar
-p963
-g62
-sVhayden chisholm
-p964
-g13
-sVshankar tucker
-p965
-g38
-sVt. brinda
-p966
-g15
-sVnedumangad sivanandan
-p967
-g15
-sg1
-(g2
+tp930
+bS'a\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00p\x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
+p931
+tp932
+Rp933
+g28
+sVeast india
+p934
+g31
+sVt. v. ramprasadh
+p935
+g4
+sVswarabhishekam
+p936
+g31
+sVculture of kerala
+p937
+g31
+sVs. jayalakshmi
+p938
+g31
+sVsarangadeva
+p939
+g4
+sVnarada
+p940
+g31
+sVlife of pi (film)
+p941
+g31
+sVamritavarshini
+p942
+g4
+sVveena venkatagiriyappa
+p943
+g4
+sg18
+(g19
 (S'U8'
-p968
+p944
 I0
 I1
-tp969
-Rp970
+tp945
+Rp946
 (I3
 S'<'
-p971
+p947
 NNNI32
 I4
 I0
-tp972
-bS's\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00'
-p973
-tp974
-Rp975
-g11
-sg1
-(g2
-(S'U19'
+tp948
+bS'm\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00l\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
+p949
+tp950
+Rp951
+g28
+sVpallavi seshayyar
+p952
+g4
+sVsri rajarajeswari peetam
+p953
+g31
+sVharidasas and carnatic music
+p954
+g4
+sg18
+(g19
+(S'U14'
+p955
+I0
+I1
+tp956
+Rp957
+(I3
+S'<'
+p958
+NNNI56
+I4
+I0
+tp959
+bS'm\x00\x00\x00a\x00\x00\x00y\x00\x00\x00i\x00\x00\x00l\x00\x00\x00a\x00\x00\x00d\x00\x00\x00u\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
+p960
+tp961
+Rp962
+g28
+sVmelharmony
+p963
+g4
+sVennappadam venkatarama bhagavatar
+p964
+g4
+sVmylapore
+p965
+g31
+sVmohanakalyani
+p966
+g4
+sg18
+(g19
+(S'U12'
+p967
+I0
+I1
+tp968
+Rp969
+(I3
+S'<'
+p970
+NNNI48
+I4
+I0
+tp971
+bS'g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00d\x00\x00\x00h\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
+p972
+tp973
+Rp974
+g69
+sVganamurti
+p975
+g4
+sVradha viswanathan
 p976
-I0
-I1
-tp977
-Rp978
-(I3
-S'<'
+g4
+sVazhagianambi pillai
+p977
+g4
+sVanand (2004 film)
+p978
+g31
+sVunnal mudiyum thambi
 p979
-NNNI76
+g2
+sg18
+(g19
+(S'U16'
+p980
+I0
+I1
+tp981
+Rp982
+(I3
+S'<'
+p983
+NNNI64
 I4
 I0
-tp980
-bS'g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
-p981
-tp982
-Rp983
-g11
-sVvoleti venkatesvarulu
-p984
-g15
-sVgiriraja kavi
+tp984
+bS'p\x00\x00\x00.\x00\x00\x00 \x00\x00\x00u\x00\x00\x00n\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
 p985
-g15
-sg1
-(g2
-(S'U11'
-p986
+tp986
+Rp987
+g69
+sg18
+(g19
+(S'U16'
+p988
 I0
 I1
-tp987
-Rp988
+tp989
+Rp990
 (I3
 S'<'
-p989
-NNNI44
-I4
-I0
-tp990
-bS't\x00\x00\x00h\x00\x00\x00o\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00k\x00\x00\x00u\x00\x00\x00d\x00\x00\x00i\x00\x00\x00'
 p991
-tp992
-Rp993
-g55
-sg1
-(g2
-(S'U39'
-p994
-I0
-I1
-tp995
-Rp996
-(I3
-S'<'
-p997
-NNNI156
+NNNI64
 I4
 I0
-tp998
-bS'p\x00\x00\x00o\x00\x00\x00l\x00\x00\x00i\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00m\x00\x00\x00e\x00\x00\x00d\x00\x00\x00i\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00'
+tp992
+bS'r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00i\x00\x00\x00'
+p993
+tp994
+Rp995
+g28
+sVvagadheeswari
+p996
+g4
+sVneyveli santhanagopalan
+p997
+g4
+sVkalasadan
+p998
+g4
+sVtiruchy l. saravanan
 p999
-tp1000
-Rp1001
-g55
-sVsabarimala
+g4
+sVmynampati sreerama chandra
+p1000
+g31
+sVmadurai pushpavanam
+p1001
+g4
+sVtamil nadu
 p1002
-g38
-sVtheeyaattam
+g2
+sVkatha (storytelling format)
 p1003
-g13
-sVk. n. kesari
+g2
+sVthanjavur quartet
 p1004
-g38
-sg1
-(g2
-(S'U11'
+g4
+sVbansuri
 p1005
+g13
+sg18
+(g19
+(S'U20'
+p1006
 I0
 I1
-tp1006
-Rp1007
+tp1007
+Rp1008
 (I3
 S'<'
-p1008
+p1009
+NNNI80
+I4
+I0
+tp1010
+bS'k\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
+p1011
+tp1012
+Rp1013
+g28
+sVnamagiripettai krishnan
+p1014
+g4
+sVjugalbandi
+p1015
+g4
+sVsrirangam gopalaratnam
+p1016
+g13
+sg18
+(g19
+(S'U12'
+p1017
+I0
+I1
+tp1018
+Rp1019
+(I3
+S'<'
+p1020
+NNNI48
+I4
+I0
+tp1021
+bS'c\x00\x00\x00a\x00\x00\x00n\x00\x00\x00t\x00\x00\x00\xe9\x00\x00\x00y\x00\x00\x00o\x00\x00\x00d\x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00\xe2\x00\x00\x00'
+p1022
+tp1023
+Rp1024
+g28
+sVthanjavur subha rao
+p1025
+g13
+sVmankatha (soundtrack)
+p1026
+g2
+sVmedieval kannada literature
+p1027
+g6
+sVswathi thirunal college of music
+p1028
+g4
+sVpunya srinivas
+p1029
+g4
+sVv.r. raghava krishna
+p1030
+g4
+sVkarnataka college of percussion
+p1031
+g4
+sg18
+(g19
+(S'U13'
+p1032
+I0
+I1
+tp1033
+Rp1034
+(I3
+S'<'
+p1035
+NNNI52
+I4
+I0
+tp1036
+bS'j\x00\x00\x00a\x00\x00\x00g\x00\x00\x00g\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00'
+p1037
+tp1038
+Rp1039
+g28
+sg18
+(g19
+(S'U11'
+p1040
+I0
+I1
+tp1041
+Rp1042
+(I3
+S'<'
+p1043
 NNNI44
 I4
 I0
-tp1009
-bS'r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
-p1010
-tp1011
-Rp1012
-g55
-sVpraveen d rao
-p1013
-g13
-sg1
-(g2
-(S'U13'
-p1014
-I0
-I1
-tp1015
-Rp1016
-(I3
-S'<'
-p1017
-NNNI52
-I4
-I0
-tp1018
-bS'a\x00\x00\x00r\x00\x00\x00v\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00h\x00\x00\x00'
-p1019
-tp1020
-Rp1021
-g55
-sVsvaramelakalanidhi
-p1022
-g15
-sg1
-(g2
-(S'U13'
-p1023
-I0
-I1
-tp1024
-Rp1025
-(I3
-S'<'
-p1026
-NNNI52
-I4
-I0
-tp1027
-bS'k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p1028
-tp1029
-Rp1030
-g55
-sVkantamani
-p1031
-g15
-sVgarimella balakrishna prasad
-p1032
-g62
-sVanitha shaiq
-p1033
-g17
-sVmadras presidency
-p1034
-g13
-sVc. rajagopalachari
-p1035
-g13
-sVpalghat parameswara bhagavathar
-p1036
-g15
-sVwilliam baillie (east india company officer)
-p1037
-g13
-sVponvayal
-p1038
-g13
-sVcontinuum fingerboard
-p1039
-g13
-sVtiruvallur district
-p1040
-g13
-sVnaresh iyer
-p1041
-g13
-sVpadaharella vayasu
-p1042
-g13
-sVancient tamil music
-p1043
-g15
-sVdonald campbell (traveller)
-p1044
-g13
-sVsiege of arcot
+tp1044
+bS'd\x00\x00\x00r\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00'
 p1045
-g13
-sVcarnatic region
-p1046
-g13
-sVtelugu poetry
-p1047
-g13
-sVindian literature
+tp1046
+Rp1047
+g69
+sVtarana
 p1048
 g13
-sVabhogi
+sVnisha rajagopal
 p1049
-g15
-sVjoseph françois dupleix
+g4
+sVvakulabharanam
 p1050
-g13
-sVbritish empire
+g4
+sVusha uthup
 p1051
-g13
-sg1
-(g2
-(S'U6'
+g31
+sg18
+(g19
+(S'U12'
 p1052
 I0
 I1
@@ -2817,417 +2829,421 @@ Rp1054
 (I3
 S'<'
 p1055
-NNNI24
-I4
-I0
-tp1056
-bS'k\x00\x00\x00i\x00\x00\x00r\x00\x00\x00t\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p1057
-tp1058
-Rp1059
-g55
-sg1
-(g2
-(S'U19'
-p1060
-I0
-I1
-tp1061
-Rp1062
-(I3
-S'<'
-p1063
-NNNI76
-I4
-I0
-tp1064
-bS'd\x00\x00\x00o\x00\x00\x00d\x00\x00\x00d\x00\x00\x00a\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00'
-p1065
-tp1066
-Rp1067
-g55
-sg1
-(g2
-(S'U8'
-p1068
-I0
-I1
-tp1069
-Rp1070
-(I3
-S'<'
-p1071
-NNNI32
-I4
-I0
-tp1072
-bS'c\x00\x00\x00o\x00\x00\x00v\x00\x00\x00e\x00\x00\x00l\x00\x00\x00o\x00\x00\x00n\x00\x00\x00g\x00\x00\x00'
-p1073
-tp1074
-Rp1075
-g55
-sVvijay prakash
-p1076
-g13
-sVore kadal
-p1077
-g13
-sVvijaya bhaskar
-p1078
-g13
-sg1
-(g2
-(S'U12'
-p1079
-I0
-I1
-tp1080
-Rp1081
-(I3
-S'<'
-p1082
 NNNI48
 I4
 I0
-tp1083
-bS's\x00\x00\x00h\x00\x00\x00r\x00\x00\x00u\x00\x00\x00t\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+tp1056
+bS'v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
+p1057
+tp1058
+Rp1059
+g69
+sVlatangi
+p1060
+g4
+sg18
+(g19
+(S'U10'
+p1061
+I0
+I1
+tp1062
+Rp1063
+(I3
+S'<'
+p1064
+NNNI40
+I4
+I0
+tp1065
+bS'l\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p1066
+tp1067
+Rp1068
+g69
+sVp.s. vanajam
+p1069
+g4
+sVadyar k. lakshman
+p1070
+g2
+sg18
+(g19
+(S'U12'
+p1071
+I0
+I1
+tp1072
+Rp1073
+(I3
+S'<'
+p1074
+NNNI48
+I4
+I0
+tp1075
+bS'd\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
+p1076
+tp1077
+Rp1078
+g69
+sVkokilapriya
+p1079
+g4
+sVr. prasanna
+p1080
+g4
+sVneelakantan nambisan
+p1081
+g2
+sVmandolin
+p1082
+g4
+sVtanjore district (madras presidency)
+p1083
+g2
+sVg. s. rajan
 p1084
-tp1085
-Rp1086
-g55
-sVvyasatirtha
+g4
+sVkerala
+p1085
+g2
+sVt. nagar
+p1086
+g2
+sg18
+(g19
+(S'U16'
 p1087
-g13
-sVvairamangalam lakshmi narayanan
-p1088
-g15
-sVh.k. narasimha murthy
-p1089
-g15
-sg1
-(g2
-(S'U8'
+I0
+I1
+tp1088
+Rp1089
+(I3
+S'<'
 p1090
+NNNI64
+I4
 I0
-I1
 tp1091
-Rp1092
-(I3
-S'<'
-p1093
-NNNI32
-I4
-I0
-tp1094
-bS'b\x00\x00\x00i\x00\x00\x00l\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
+bS'c\x00\x00\x00o\x00\x00\x00l\x00\x00\x00o\x00\x00\x00n\x00\x00\x00i\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00s\x00\x00\x00'
+p1092
+tp1093
+Rp1094
+g28
+sVkafi (raga)
 p1095
-tp1096
-Rp1097
-g11
-sg1
-(g2
-(S'U6'
+g13
+sVranjit barot
+p1096
+g2
+sVkaithapram damodaran namboothiri
+p1097
+g13
+sVbhopali
 p1098
-I0
-I1
-tp1099
-Rp1100
-(I3
-S'<'
-p1101
-NNNI24
-I4
-I0
-tp1102
-bS'v\x00\x00\x00i\x00\x00\x00o\x00\x00\x00l\x00\x00\x00i\x00\x00\x00n\x00\x00\x00'
-p1103
-tp1104
-Rp1105
-g11
-sg1
-(g2
-(S'U7'
-p1106
-I0
-I1
-tp1107
-Rp1108
-(I3
-S'<'
-p1109
-NNNI28
-I4
-I0
-tp1110
-bS't\x00\x00\x00i\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
-p1111
-tp1112
-Rp1113
-g11
-sVpaul poovathingal
-p1114
-g15
-sVkalki krishnamurthy
-p1115
 g13
-sVilaiyaraaja
-p1116
-g13
-sg1
-(g2
+sg18
+(g19
 (S'U11'
-p1117
+p1099
 I0
 I1
-tp1118
-Rp1119
+tp1100
+Rp1101
 (I3
 S'<'
-p1120
+p1102
 NNNI44
 I4
 I0
-tp1121
-bS'v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00n\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p1122
-tp1123
-Rp1124
-g11
-sg1
-(g2
-(S'U13'
-p1125
+tp1103
+bS'n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p1104
+tp1105
+Rp1106
+g69
+sg18
+(g19
+(S'U20'
+p1107
 I0
 I1
-tp1126
-Rp1127
+tp1108
+Rp1109
 (I3
 S'<'
-p1128
+p1110
+NNNI80
+I4
+I0
+tp1111
+bS'k\x00\x00\x00a\x00\x00\x00l\x00\x00\x00p\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1112
+tp1113
+Rp1114
+g69
+sVbellary m raghavendra
+p1115
+g4
+sg18
+(g19
+(S'U13'
+p1116
+I0
+I1
+tp1117
+Rp1118
+(I3
+S'<'
+p1119
 NNNI52
 I4
 I0
+tp1120
+bS'k\x00\x00\x00e\x00\x00\x00n\x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00h\x00\x00\x00o\x00\x00\x00o\x00\x00\x00l\x00\x00\x00'
+p1121
+tp1122
+Rp1123
+g28
+sVthat (music)
+p1124
+g13
+sVs. kalyanaraman
+p1125
+g4
+sVd. srinivas (instrumentalist)
+p1126
+g4
+sVsangeetha kalasarathy
+p1127
+g4
+sg18
+(g19
+(S'U16'
+p1128
+I0
+I1
 tp1129
-bS'j\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00h\x00\x00\x00'
-p1130
-tp1131
-Rp1132
-g55
-sVsikkil gurucharan
+Rp1130
+(I3
+S'<'
+p1131
+NNNI64
+I4
+I0
+tp1132
+bS'h\x00\x00\x00e\x00\x00\x00p\x00\x00\x00t\x00\x00\x00a\x00\x00\x00t\x00\x00\x00o\x00\x00\x00n\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
 p1133
-g15
-sVu. r. jeevarathinam
-p1134
-g13
-sVpragathi guruprasad
-p1135
-g13
-sg1
-(g2
-(S'U25'
+tp1134
+Rp1135
+g28
+sVkurai onrum illai
 p1136
-I0
-I1
-tp1137
-Rp1138
-(I3
-S'<'
+g4
+sVgemini ganesan
+p1137
+g2
+sVvarali
+p1138
+g4
+sg18
+(g19
+(S'U21'
 p1139
-NNNI100
-I4
-I0
-tp1140
-bS'v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00u\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00k\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00e\x00\x00\x00'
-p1141
-tp1142
-Rp1143
-g55
-sVranjankudi fort
-p1144
-g38
-sVvisalakshi nityanand
-p1145
-g15
-sVviruthan shanku
-p1146
-g13
-sg1
-(g2
-(S'U7'
-p1147
 I0
 I1
-tp1148
-Rp1149
+tp1140
+Rp1141
 (I3
 S'<'
-p1150
-NNNI28
+p1142
+NNNI84
 I4
 I0
-tp1151
-bS'h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00m\x00\x00\x00o\x00\x00\x00n\x00\x00\x00y\x00\x00\x00'
+tp1143
+bS'v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00u\x00\x00\x00 \x00\x00\x00(\x00\x00\x00d\x00\x00\x00i\x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00i\x00\x00\x00g\x00\x00\x00u\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00o\x00\x00\x00n\x00\x00\x00)\x00\x00\x00'
+p1144
+tp1145
+Rp1146
+g28
+sVnallan chakravartula krishnamacharyulu
+p1147
+g4
+sVshuddha saveri
+p1148
+g4
+sVpuducode krishnamurthy
+p1149
+g4
+sVtiger varadachariar
+p1150
+g4
+sVgamaka (music)
+p1151
+g4
+sg18
+(g19
+(S'U15'
 p1152
+I0
+I1
 tp1153
 Rp1154
-g55
-sVjyoti swarupini
-p1155
-g15
-sV2nd punjab regiment
-p1156
-g13
-sVchingleput ranganathan
-p1157
-g15
-sg1
-(g2
-(S'U26'
-p1158
-I0
-I1
-tp1159
-Rp1160
 (I3
 S'<'
-p1161
-NNNI104
+p1155
+NNNI60
 I4
 I0
-tp1162
-bS'k\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00t\x00\x00\x00i\x00\x00\x00s\x00\x00\x00'
+tp1156
+bS'h\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00h\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p1157
+tp1158
+Rp1159
+g69
+sVvijayanagara literature
+p1160
+g2
+sVdhatuvardani
+p1161
+g4
+sVdhenuka (raga)
+p1162
+g4
+sg18
+(g19
+(S'U18'
 p1163
+I0
+I1
 tp1164
 Rp1165
-g11
-sg1
-(g2
-(S'U16'
+(I3
+S'<'
 p1166
+NNNI72
+I4
 I0
-I1
 tp1167
-Rp1168
-(I3
-S'<'
-p1169
-NNNI64
-I4
-I0
-tp1170
-bS'u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00l\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00'
+bS'b\x00\x00\x00r\x00\x00\x00o\x00\x00\x00c\x00\x00\x00h\x00\x00\x00e\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p1168
+tp1169
+Rp1170
+g69
+sVt. m. soundararajan
 p1171
-tp1172
-Rp1173
-g11
-sVpatrick ngcobo
-p1174
-g15
-sVmannargudi sambasiva bhagavatar
+g2
+sg18
+(g19
+(S'U15'
+p1172
+I0
+I1
+tp1173
+Rp1174
+(I3
+S'<'
 p1175
-g15
-sg1
-(g2
-(S'U32'
-p1176
-I0
-I1
-tp1177
-Rp1178
-(I3
-S'<'
-p1179
-NNNI128
+NNNI60
 I4
 I0
-tp1180
-bS's\x00\x00\x00o\x00\x00\x00c\x00\x00\x00i\x00\x00\x00e\x00\x00\x00t\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00 \x00\x00\x00k\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00d\x00\x00\x00o\x00\x00\x00m\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00m\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00'
+tp1176
+bS'r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1177
+tp1178
+Rp1179
+g28
+sVmadurai sundar
+p1180
+g4
+sVdeepak dev
 p1181
-tp1182
-Rp1183
-g55
-sVdheerasankarabharanam
+g2
+sVrajiv menon
+p1182
+g31
+sVg. devarajan
+p1183
+g2
+sVsindhu bhairavi (film)
 p1184
-g15
-sVe. gayathri
-p1185
-g15
-sVs. jayalakshmi
-p1186
-g38
-sVcarnatic halls of residence, university of liverpool
-p1187
-g13
-sVabdul halim jaffer khan
-p1188
-g62
-sVharidasa
-p1189
-g13
-sVchembai
-p1190
-g15
-sVachu rajamani
-p1191
-g38
-sg1
-(g2
-(S'U16'
-p1192
-I0
-I1
-tp1193
-Rp1194
-(I3
-S'<'
-p1195
-NNNI64
-I4
-I0
-tp1196
-bS'k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00h\x00\x00\x00i\x00\x00\x00k\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
-p1197
-tp1198
-Rp1199
-g55
-sVbattle of adyar
-p1200
-g13
-sg1
-(g2
+g2
+sg18
+(g19
 (S'U13'
-p1201
+p1185
 I0
 I1
-tp1202
-Rp1203
+tp1186
+Rp1187
 (I3
 S'<'
-p1204
+p1188
 NNNI52
 I4
 I0
-tp1205
-bS't\x00\x00\x00.\x00\x00\x00 \x00\x00\x00m\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
-p1206
-tp1207
-Rp1208
-g11
-sVnasikabhushani
-p1209
-g15
-sVmadanakamarajan
+tp1189
+bS'c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00r\x00\x00\x00\x01\x01\x00\x00g\x00\x00\x00a\x00\x00\x00'
+p1190
+tp1191
+Rp1192
+g69
+sVvadi (music)
+p1193
+g4
+sg18
+(g19
+(S'U24'
+p1194
+I0
+I1
+tp1195
+Rp1196
+(I3
+S'<'
+p1197
+NNNI96
+I4
+I0
+tp1198
+bS'l\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00s\x00\x00\x00'
+p1199
+tp1200
+Rp1201
+g69
+sg18
+(g19
+(S'U14'
+p1202
+I0
+I1
+tp1203
+Rp1204
+(I3
+S'<'
+p1205
+NNNI56
+I4
+I0
+tp1206
+bS'v\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00e\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
+p1207
+tp1208
+Rp1209
+g69
+sVindian rock
 p1210
-g38
-sVsahiti g
+g2
+sVmusical composition
 p1211
-g13
-sVt.s sankaran
+g2
+sVmadhu balakrishnan
 p1212
-g15
-sg1
-(g2
-(S'U12'
+g2
+sg18
+(g19
+(S'U4'
 p1213
 I0
 I1
@@ -3236,1303 +3252,1241 @@ Rp1215
 (I3
 S'<'
 p1216
-NNNI48
+NNNI16
 I4
 I0
 tp1217
-bS't\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00)\x00\x00\x00'
+bS'r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00'
 p1218
 tp1219
 Rp1220
-g11
-sV79th carnatic infantry
+g69
+sg18
+(g19
+(S'U12'
 p1221
-g13
-sVjama masjid, kanchipuram
-p1222
-g13
-sVhistory of kolkata
-p1223
-g17
-sVnavaragamalika
-p1224
-g15
-sVsalaga bhairavi
-p1225
-g15
-sVsangeet natak akademi fellowship
-p1226
-g15
-sVkanakangi
-p1227
-g15
-sVmsn murthy
-p1228
-g15
-sV10th princess mary's own gurkha rifles
-p1229
-g13
-sVmalayalam cinema
-p1230
-g13
-sVlist of carnatic music treatises
-p1231
-g15
-sV65th carnatic infantry
-p1232
-g13
-sVc. natesa mudaliar
-p1233
-g13
-sg1
-(g2
-(S'U10'
-p1234
 I0
 I1
-tp1235
-Rp1236
+tp1222
+Rp1223
 (I3
 S'<'
-p1237
+p1224
+NNNI48
+I4
+I0
+tp1225
+bS'l\x00\x00\x00.\x00\x00\x00p\x00\x00\x00.\x00\x00\x00r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00m\x00\x00\x00a\x00\x00\x00'
+p1226
+tp1227
+Rp1228
+g69
+sVtimeless (jim ankan deka album)
+p1229
+g2
+sVsuchith suresan
+p1230
+g2
+sg18
+(g19
+(S'U14'
+p1231
+I0
+I1
+tp1232
+Rp1233
+(I3
+S'<'
+p1234
+NNNI56
+I4
+I0
+tp1235
+bS's\x00\x00\x00u\x00\x00\x00s\x00\x00\x00h\x00\x00\x00e\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1236
+tp1237
+Rp1238
+g28
+sVt. r. mahalingam (flautist)
+p1239
+g4
+sVrasikapriya
+p1240
+g4
+sg18
+(g19
+(S'U10'
+p1241
+I0
+I1
+tp1242
+Rp1243
+(I3
+S'<'
+p1244
 NNNI40
 I4
 I0
-tp1238
-bS'b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p1239
-tp1240
-Rp1241
-g11
-sg1
-(g2
-(S'U23'
-p1242
-I0
-I1
-tp1243
-Rp1244
-(I3
-S'<'
-p1245
-NNNI92
-I4
-I0
-tp1246
-bS'f\x00\x00\x00o\x00\x00\x00u\x00\x00\x00r\x00\x00\x00t\x00\x00\x00h\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00l\x00\x00\x00o\x00\x00\x00-\x00\x00\x00m\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00 \x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p1247
-tp1248
-Rp1249
-g55
-sValathur brothers
+tp1245
+bS'm\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00j\x00\x00\x00a\x00\x00\x00n\x00\x00\x00e\x00\x00\x00'
+p1246
+tp1247
+Rp1248
+g28
+sVcolonial cousins (album)
+p1249
+g2
+sVvinay s r
 p1250
-g15
-sVpandit venkatesh kumar
+g4
+sg18
+(g19
+(S'U9'
 p1251
-g13
-sVtourism in tamil nadu
-p1252
-g13
-sVg. devarajan
-p1253
-g13
-sVsudley house
+I0
+I1
+tp1252
+Rp1253
+(I3
+S'<'
 p1254
-g13
-sVranjani
-p1255
-g15
-sVthanjavur maratha kingdom
+NNNI36
+I4
+I0
+tp1255
+bS's\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
 p1256
-g13
-sVculture of thiruvananthapuram
-p1257
-g13
-sVekoji i
-p1258
-g13
-sVambi subramaniam
+tp1257
+Rp1258
+g28
+sVkunnakudi vaidyanathan
 p1259
-g15
-sVst. mary's church, chennai
-p1260
-g13
-sVtripunithura krishnadas
-p1261
-g13
-sVkaraikudi sambasiva iyer
-p1262
-g15
-sVculture of kerala
-p1263
-g38
-sVtourism in karnataka
-p1264
-g13
-sVmavelikara krishnankutty nair
-p1265
-g15
-sVpaul benfield
-p1266
-g13
-sVdamodar hota
-p1267
-g13
-sVd. k. pattammal
-p1268
-g15
-sVbattle of arnee
-p1269
-g13
-sVraja annamalai chettiar hall
-p1270
-g15
-sg1
-(g2
-(S'U13'
-p1271
-I0
-I1
-tp1272
-Rp1273
-(I3
-S'<'
-p1274
-NNNI52
-I4
-I0
-tp1275
-bS'i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00p\x00\x00\x00e\x00\x00\x00o\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
-p1276
-tp1277
-Rp1278
-g55
-sVsirkazhi govindarajan
-p1279
-g15
-sVbhupalam
-p1280
-g15
-sVsrimushnam v. raja rao
-p1281
-g15
-sVt. ranganathan
-p1282
-g15
-sVpappu venugopala rao
-p1283
-g15
-sg1
-(g2
-(S'U16'
-p1284
-I0
-I1
-tp1285
-Rp1286
-(I3
-S'<'
-p1287
-NNNI64
-I4
-I0
-tp1288
-bS's\x00\x00\x00u\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00 \x00\x00\x00t\x00\x00\x00a\x00\x00\x00l\x00\x00\x00w\x00\x00\x00a\x00\x00\x00l\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p1289
-tp1290
-Rp1291
-g55
-sVcornwallis in india
-p1292
-g17
-sVsimhendramadhyamam
-p1293
-g15
-sVt. g. lingappa
-p1294
-g13
-sg1
-(g2
-(S'U17'
-p1295
-I0
-I1
-tp1296
-Rp1297
-(I3
-S'<'
-p1298
-NNNI68
-I4
-I0
-tp1299
-bS'b\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00g\x00\x00\x00u\x00\x00\x00r\x00\x00\x00u\x00\x00\x00'
-p1300
-tp1301
-Rp1302
-g55
-sVsikkil r. bhaskaran
-p1303
-g15
-sVmusic of malaysia
-p1304
-g13
-sVnadir shah mosque
-p1305
-g38
-sVharini ravi
-p1306
-g13
-sVsolfège
-p1307
-g62
-sVkodandera madappa cariappa
-p1308
-g13
-sVtamil trinity
-p1309
-g15
-sVorlov (diamond)
-p1310
-g13
-sVkarnataka rajyotsava
-p1311
-g13
-sVpattu rajagopalan
-p1312
-g15
-sVsoolamangalam sisters
-p1313
-g15
-sVsadanam k. harikumaran
-p1314
-g62
-sVsankaraguptam
-p1315
-g13
-sVeastern fare music foundation
-p1316
-g13
-sVmysore vasudevachar
-p1317
-g15
-sVchalanata
-p1318
-g15
-sVvimochanam
-p1319
-g13
-sVharicharan
-p1320
-g15
-sg1
-(g2
-(S'U17'
-p1321
-I0
-I1
-tp1322
-Rp1323
-(I3
-S'<'
-p1324
-NNNI68
-I4
-I0
-tp1325
-bS'p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00t\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00l\x00\x00\x00l\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
-p1326
-tp1327
-Rp1328
-g55
-sVanupallavi
-p1329
-g15
-sg1
-(g2
-(S'U30'
-p1330
-I0
-I1
-tp1331
-Rp1332
-(I3
-S'<'
-p1333
-NNNI120
-I4
-I0
-tp1334
-bS'i\x00\x00\x00m\x00\x00\x00p\x00\x00\x00e\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00m\x00\x00\x00e\x00\x00\x00n\x00\x00\x00t\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00r\x00\x00\x00e\x00\x00\x00n\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00s\x00\x00\x00t\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00s\x00\x00\x00'
-p1335
-tp1336
-Rp1337
-g55
-sVfirst anglo-mysore war
-p1338
-g13
-sVvarumayin niram sivappu
-p1339
-g13
-sg1
-(g2
-(S'U21'
-p1340
-I0
-I1
-tp1341
-Rp1342
-(I3
-S'<'
-p1343
-NNNI84
-I4
-I0
-tp1344
-bS'b\x00\x00\x00r\x00\x00\x00i\x00\x00\x00g\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00 \x00\x00\x00g\x00\x00\x00u\x00\x00\x00a\x00\x00\x00r\x00\x00\x00d\x00\x00\x00s\x00\x00\x00'
-p1345
-tp1346
-Rp1347
-g55
-sVkanjira
-p1348
-g15
-sVdarbari kanada
-p1349
-g15
-sVm. k. rocksamy
-p1350
-g13
-sg1
-(g2
-(S'U18'
-p1351
-I0
-I1
-tp1352
-Rp1353
-(I3
-S'<'
-p1354
-NNNI72
-I4
-I0
-tp1355
-bS'r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00k\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p1356
-tp1357
-Rp1358
-g11
-sVdaud khan of the carnatic
-p1359
-g13
-sVmorsing
-p1360
-g15
-sVkirwani
-p1361
-g62
-sVv. balakrishna eradi
-p1362
-g13
-sVchakravakam (raga)
-p1363
-g15
-sVbangalore
-p1364
-g13
-sVmaharaja sayajirao university of baroda
-p1365
-g13
-sVindian classical music
-p1366
-g15
-sVkalavati
-p1367
-g15
-sVgourimanohari
-p1368
-g15
-sVdevasuram
-p1369
-g13
-sVsuryakantam
-p1370
-g15
-sg1
-(g2
-(S'U22'
-p1371
-I0
-I1
-tp1372
-Rp1373
-(I3
-S'<'
-p1374
-NNNI88
-I4
-I0
-tp1375
-bS'f\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00c\x00\x00\x00e\x00\x00\x00\x13 \x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00o\x00\x00\x00n\x00\x00\x00s\x00\x00\x00'
-p1376
-tp1377
-Rp1378
-g55
-sVottu (instrument)
-p1379
-g15
-sVvijaya dasa
-p1380
-g15
-sVanwaruddin khan
-p1381
-g13
-sVsawai gandharva bhimsen festival
-p1382
-g62
-sVsubedar
-p1383
-g13
-sVbritish army during the american war of independence
-p1384
-g38
-sVsreeram ramachandran
-p1385
-g13
-sVdindigul
-p1386
-g13
-sVchitta swara
-p1387
-g15
-sVthiagarajan ramani
-p1388
-g15
-sVtirunelveli
-p1389
-g13
-sVgamaka (storytelling)
-p1390
-g38
-sVmelattur sahadevan
-p1391
-g15
-sV1st punjab regiment
-p1392
-g13
-sVsirkazhi
-p1393
-g13
-sVtamil people
-p1394
-g13
-sg1
-(g2
-(S'U55'
-p1395
-I0
-I1
-tp1396
-Rp1397
-(I3
-S'<'
-p1398
-NNNI220
-I4
-I0
-tp1399
-bS'r\x00\x00\x00o\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00o\x00\x00\x00l\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00a\x00\x00\x00r\x00\x00\x00c\x00\x00\x00h\x00\x00\x00d\x00\x00\x00i\x00\x00\x00o\x00\x00\x00c\x00\x00\x00e\x00\x00\x00s\x00\x00\x00e\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00c\x00\x00\x00u\x00\x00\x00d\x00\x00\x00d\x00\x00\x00a\x00\x00\x00l\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00'
-p1400
-tp1401
-Rp1402
-g55
-sg1
-(g2
-(S'U21'
-p1403
-I0
-I1
-tp1404
-Rp1405
-(I3
-S'<'
-p1406
-NNNI84
-I4
-I0
-tp1407
-bS'v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00u\x00\x00\x00 \x00\x00\x00(\x00\x00\x00d\x00\x00\x00i\x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00i\x00\x00\x00g\x00\x00\x00u\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00o\x00\x00\x00n\x00\x00\x00)\x00\x00\x00'
-p1408
-tp1409
-Rp1410
-g55
-sVkancherla gopanna
-p1411
-g15
-sVshahana
-p1412
-g62
-sVjon b. higgins
-p1413
-g15
-sVumdat ul-umara
-p1414
-g13
-sVpavithram
-p1415
-g13
+g4
 sVvijay siva
-p1416
-g15
-sVsahana (raga)
-p1417
-g15
-sg1
-(g2
-(S'U28'
-p1418
+p1260
+g4
+sVmaharajapuram viswanatha iyer
+p1261
+g4
+sVyaksha (festival)
+p1262
+g2
+sVthe sunpilots
+p1263
+g2
+sVmysore sadasiva rao
+p1264
+g4
+sg18
+(g19
+(S'U25'
+p1265
 I0
 I1
-tp1419
-Rp1420
+tp1266
+Rp1267
 (I3
 S'<'
-p1421
-NNNI112
+p1268
+NNNI100
 I4
 I0
-tp1422
-bS's\x00\x00\x00o\x00\x00\x00u\x00\x00\x00t\x00\x00\x00h\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00i\x00\x00\x00l\x00\x00\x00w\x00\x00\x00a\x00\x00\x00y\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00m\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00y\x00\x00\x00'
-p1423
-tp1424
-Rp1425
-g55
-sVghatam udupa
-p1426
-g15
-sVperumbavoor g. raveendranath
-p1427
-g15
-sVpapanasa mudaliar
-p1428
-g15
-sVmysore srikanth
-p1429
-g15
-sVmusic of india
-p1430
-g13
-sVkoteeswara iyer
-p1431
-g15
-sg1
-(g2
+tp1269
+bS'm\x00\x00\x00.\x00\x00\x00k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00o\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
+p1270
+tp1271
+Rp1272
+g69
+sg18
+(g19
 (S'U15'
-p1432
+p1273
 I0
 I1
-tp1433
-Rp1434
+tp1274
+Rp1275
 (I3
 S'<'
-p1435
+p1276
 NNNI60
 I4
 I0
-tp1436
-bS'p\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p1437
-tp1438
-Rp1439
-g11
-sVthiruvarur bakthavathsalam
-p1440
-g15
-sVdarbar festival
-p1441
-g15
-sVt s radhakrishnan
-p1442
-g13
-sVpalani subramaniam pillai
-p1443
-g15
-sVraga bhoopeshwari
-p1444
-g62
-sg1
-(g2
-(S'U19'
-p1445
+tp1277
+bS'g\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00 \x00\x00\x00g\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
+p1278
+tp1279
+Rp1280
+g69
+sVkalakkad s. ramanarayana iyer
+p1281
+g4
+sVsaindhavi
+p1282
+g6
+sg18
+(g19
+(S'U5'
+p1283
 I0
 I1
-tp1446
-Rp1447
+tp1284
+Rp1285
 (I3
 S'<'
-p1448
-NNNI76
+p1286
+NNNI20
 I4
 I0
-tp1449
-bS's\x00\x00\x00a\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00t\x00\x00\x00u\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00h\x00\x00\x00 \x00\x00\x00k\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00i\x00\x00\x00i\x00\x00\x00'
-p1450
-tp1451
-Rp1452
-g55
-sVtriplicane
-p1453
-g13
-sVmasjid-o-anwari
-p1454
-g13
-sVshri (musician)
-p1455
-g38
-sVmadras music academy
-p1456
-g15
-sVtamil folk culture
-p1457
-g13
-sVmalladihalli sri raghavendra swamiji
-p1458
-g13
-sV1932 madras and southern mahratta railway strike
-p1459
-g13
-sVshankar mahadevan academy
-p1460
-g13
-sVtiruvidaimarudur
-p1461
-g13
-sVhinduism in tamil nadu
-p1462
-g13
-sVmahathi
-p1463
-g15
-sVrudresh mahanthappa
-p1464
-g13
-sVmanickam yogeswaran
-p1465
-g15
-sVluz anjaneya temple
-p1466
-g13
-sVdurga jasraj
-p1467
-g13
-sVeyre coote (east india company officer)
-p1468
-g38
-sVlist of people from karnataka
-p1469
-g38
-sVsubbudu
-p1470
-g13
-sVthomas pitt
-p1471
-g13
-sVramachandra tondaiman
-p1472
-g38
-sVmuthuswami dikshitar
-p1473
-g15
-sVm. chandrasekaran
-p1474
-g15
-sVvelu thampi dalawa
-p1475
-g13
-sVandolika
-p1476
-g15
-sVbattle of pondicherry
-p1477
-g17
-sVseven years' war
-p1478
-g38
-sVs. a. k. durga
-p1479
-g15
-sVrangapura vihara
-p1480
-g15
-sVjohnson (composer)
-p1481
-g13
-sVbombay jayashri
-p1482
-g15
-sVprem nazir
-p1483
-g13
-sVtiruchirappalli
-p1484
-g13
-sg1
-(g2
-(S'U16'
-p1485
+tp1287
+bS's\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
+p1288
+tp1289
+Rp1290
+g69
+sg18
+(g19
+(S'U27'
+p1291
 I0
 I1
-tp1486
-Rp1487
+tp1292
+Rp1293
 (I3
 S'<'
-p1488
-NNNI64
+p1294
+NNNI108
 I4
 I0
-tp1489
-bS'w\x00\x00\x00h\x00\x00\x00o\x00\x00\x00l\x00\x00\x00e\x00\x00\x00 \x00\x00\x00t\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
-p1490
-tp1491
-Rp1492
-g55
-sVh. ramakrishnan
-p1493
-g13
-sVs. hanumantha rao
-p1494
-g13
-sVnawab of banganapalle
-p1495
-g13
-sVugabhoga
-p1496
-g15
-sVthe madras regiment
-p1497
-g17
-sVcolonial cousins (album)
-p1498
-g13
-sg1
-(g2
-(S'U11'
-p1499
-I0
-I1
-tp1500
-Rp1501
-(I3
-S'<'
-p1502
-NNNI44
-I4
-I0
-tp1503
-bS'v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00j\x00\x00\x00a\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p1504
-tp1505
-Rp1506
-g55
-sVkosalam
-p1507
-g15
-sVkaramana
-p1508
-g38
-sVtanarupi
-p1509
-g15
-sVkharaharapriya
-p1510
-g15
-sVsouth indian cultural association, indore
-p1511
-g15
-sValamgir ii
-p1512
-g13
-sVsiege of calcutta
-p1513
-g17
-sVvellore fort
-p1514
-g13
-sVvivadi
-p1515
-g15
-sVkaraikudi mani
-p1516
-g15
-sVv. v. ravi
-p1517
-g15
-sVindian rock
-p1518
-g13
-sVandhra pradesh
-p1519
-g13
-sVsujatha rangarajan
-p1520
-g13
-sVs. srikanta sastri
-p1521
-g17
-sVbattle of ambur
-p1522
-g17
-sVchinmaya m. rao
-p1523
-g13
-sVkannada poetry
-p1524
-g13
-sVk. v. krishna prasad
-p1525
-g15
-sg1
-(g2
-(S'U11'
-p1526
-I0
-I1
-tp1527
-Rp1528
-(I3
-S'<'
-p1529
-NNNI44
-I4
-I0
-tp1530
-bS'k\x00\x00\x00o\x00\x00\x00t\x00\x00\x00t\x00\x00\x00u\x00\x00\x00r\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p1531
-tp1532
-Rp1533
-g55
-sVtravancore
-p1534
-g13
-sVbangalore nagarathnamma
-p1535
-g15
-sVo. thanikachalam chetti
-p1536
-g38
-sVhistory of madras presidency
-p1537
-g13
-sVunnal mudiyum thambi
-p1538
-g13
-sV2010 commonwealth games opening ceremony
-p1539
-g13
-sVv. raghavan
-p1540
-g62
-sVthe sunpilots
-p1541
-g13
-sVshuddha saveri
-p1542
-g15
-sVb. a. chidambaranath
-p1543
-g13
-sVvyjayanthimala
-p1544
-g13
-sVthyagaraja temple, tiruvottiyur
-p1545
-g13
-sVpadmanabhapuram palace
-p1546
-g13
-sVsecond anglo-mysore war
-p1547
-g17
-sVoottukkadu venkata kavi
-p1548
-g15
-sVkallidaikurichi
-p1549
-g17
-sVveturi sundararama murthy
-p1550
-g17
-sVn. s. ramachandran
-p1551
-g15
-sVinstitute of chartered accountants of india
-p1552
-g17
-sVranjani-gayatri
-p1553
-g15
-sVveenai dhanammal
-p1554
-g15
-sVendaro mahanubhavulu
-p1555
-g15
-sg1
-(g2
-(S'U32'
-p1556
-I0
-I1
-tp1557
-Rp1558
-(I3
-S'<'
-p1559
-NNNI128
-I4
-I0
-tp1560
-bS's\x00\x00\x00i\x00\x00\x00r\x00\x00\x00 \x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00l\x00\x00\x00e\x00\x00\x00s\x00\x00\x00 \x00\x00\x00o\x00\x00\x00a\x00\x00\x00k\x00\x00\x00e\x00\x00\x00l\x00\x00\x00e\x00\x00\x00y\x00\x00\x00,\x00\x00\x00 \x00\x00\x001\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00t\x00\x00\x00'
-p1561
-tp1562
-Rp1563
-g55
-sVquintuple meter
-p1564
-g15
-sVk. thavamani devi
-p1565
-g17
-sg1
-(g2
-(S'U16'
-p1566
-I0
-I1
-tp1567
-Rp1568
-(I3
-S'<'
-p1569
-NNNI64
-I4
-I0
-tp1570
-bS'h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00'
-p1571
-tp1572
-Rp1573
-g55
-sVraaga.com
-p1574
-g17
-sVdoraiswamy iyengar
-p1575
-g15
-sVdandapani desikar
-p1576
-g15
-sVworks of jayadeva
-p1577
-g15
-sVariyalur
-p1578
-g17
-sVkingdom of great britain
-p1579
-g38
-sVelu suttina kote
-p1580
-g17
-sVthyagaraja temple, tiruvarur
-p1581
-g17
-sg1
-(g2
-(S'U20'
-p1582
-I0
-I1
-tp1583
-Rp1584
-(I3
-S'<'
-p1585
-NNNI80
-I4
-I0
-tp1586
-bS'n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00y\x00\x00\x00a\x00\x00\x00s\x00\x00\x00r\x00\x00\x00e\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p1587
-tp1588
-Rp1589
-g11
-sVdost ali khan
-p1590
-g17
-sVjaysri-jeyaraaj
-p1591
-g15
-sVbattle of golden rock
-p1592
-g17
-sVk. balachander
-p1593
-g13
-sVneyyattinkara vasudevan
-p1594
-g15
-sg1
-(g2
-(S'U31'
-p1595
-I0
-I1
-tp1596
-Rp1597
-(I3
-S'<'
-p1598
-NNNI124
-I4
-I0
-tp1599
-bS"s\x00\x00\x00t\x00\x00\x00.\x00\x00\x00 \x00\x00\x00g\x00\x00\x00e\x00\x00\x00o\x00\x00\x00r\x00\x00\x00g\x00\x00\x00e\x00\x00\x00'\x00\x00\x00s\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00l\x00\x00\x00,\x00\x00\x00 \x00\x00\x00c\x00\x00\x00h\x00\x00\x00e\x00\x00\x00n\x00\x00\x00n\x00\x00\x00a\x00\x00\x00i\x00\x00\x00"
-p1600
-tp1601
-Rp1602
-g55
-sVcarnatic
-p1603
-g62
-sVtreaty of pondicherry
-p1604
-g17
-sVmadurai maqbara
-p1605
-g17
-sVkalamandalam hyderali
-p1606
-g17
-sVnational institute of technology, tiruchirappalli
-p1607
-g17
-sVlinguistic history of the indian subcontinent
-p1608
-g17
-sg1
-(g2
+tp1295
+bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p1296
+tp1297
+Rp1298
+g69
+sVnandanar (1935 film)
+p1299
+g31
+sg18
+(g19
 (S'U8'
-p1609
+p1300
 I0
 I1
-tp1610
-Rp1611
+tp1301
+Rp1302
 (I3
 S'<'
-p1612
+p1303
 NNNI32
 I4
 I0
-tp1613
-bS'r\x00\x00\x00a\x00\x00\x00t\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00i\x00\x00\x00'
+tp1304
+bS's\x00\x00\x00a\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00y\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p1305
+tp1306
+Rp1307
+g69
+sVswathi thirunal rama varma
+p1308
+g4
+sg18
+(g19
+(S'U13'
+p1309
+I0
+I1
+tp1310
+Rp1311
+(I3
+S'<'
+p1312
+NNNI52
+I4
+I0
+tp1313
+bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00c\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00n\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p1314
+tp1315
+Rp1316
+g28
+sg18
+(g19
+(S'U16'
+p1317
+I0
+I1
+tp1318
+Rp1319
+(I3
+S'<'
+p1320
+NNNI64
+I4
+I0
+tp1321
+bS's\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p1322
+tp1323
+Rp1324
+g28
+sVsubbarama dikshitar
+p1325
+g4
+sVvasanta habba
+p1326
+g31
+sVmusic of odisha
+p1327
+g6
+sVculture of mysore
+p1328
+g6
+sVramesh vinayakam
+p1329
+g31
+sVresonance (madras string quartet album)
+p1330
+g13
+sVchakra tanam
+p1331
+g4
+sg18
+(g19
+(S'U13'
+p1332
+I0
+I1
+tp1333
+Rp1334
+(I3
+S'<'
+p1335
+NNNI52
+I4
+I0
+tp1336
+bS'k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00j\x00\x00\x00.\x00\x00\x00 \x00\x00\x00y\x00\x00\x00e\x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
+p1337
+tp1338
+Rp1339
+g69
+sVmadhyamavati
+p1340
+g4
+sg18
+(g19
+(S'U10'
+p1341
+I0
+I1
+tp1342
+Rp1343
+(I3
+S'<'
+p1344
+NNNI40
+I4
+I0
+tp1345
+bS's\x00\x00\x00e\x00\x00\x00r\x00\x00\x00f\x00\x00\x00o\x00\x00\x00j\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00i\x00\x00\x00'
+p1346
+tp1347
+Rp1348
+g28
+sVputhucode
+p1349
+g6
+sVmanachanallur giridharan
+p1350
+g6
+sVgangubai hangal
+p1351
+g13
+sg18
+(g19
+(S'U22'
+p1352
+I0
+I1
+tp1353
+Rp1354
+(I3
+S'<'
+p1355
+NNNI88
+I4
+I0
+tp1356
+bS'a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00s\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+p1357
+tp1358
+Rp1359
+g69
+sVvanaja (film)
+p1360
+g6
+sVsamay
+p1361
+g4
+sg18
+(g19
+(S'U14'
+p1362
+I0
+I1
+tp1363
+Rp1364
+(I3
+S'<'
+p1365
+NNNI56
+I4
+I0
+tp1366
+bS's\x00\x00\x00a\x00\x00\x00r\x00\x00\x00g\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00)\x00\x00\x00'
+p1367
+tp1368
+Rp1369
+g28
+sVsouth india
+p1370
+g6
+sVthiruvarur
+p1371
+g2
+sVshree ragam
+p1372
+g4
+sVtyagaraja aradhana
+p1373
+g4
+sg18
+(g19
+(S'U19'
+p1374
+I0
+I1
+tp1375
+Rp1376
+(I3
+S'<'
+p1377
+NNNI76
+I4
+I0
+tp1378
+bS'm\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00p\x00\x00\x00u\x00\x00\x00n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p1379
+tp1380
+Rp1381
+g28
+sVsimizhi sundaram iyer
+p1382
+g4
+sVgeetam
+p1383
+g4
+sVthiruvarur bakthavathsalam
+p1384
+g4
+sVvadiveeswaram
+p1385
+g442
+sVnorth indian culture
+p1386
+g6
+sg18
+(g19
+(S'U13'
+p1387
+I0
+I1
+tp1388
+Rp1389
+(I3
+S'<'
+p1390
+NNNI52
+I4
+I0
+tp1391
+bS'c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00s\x00\x00\x00s\x00\x00\x00e\x00\x00\x00r\x00\x00\x00y\x00\x00\x00'
+p1392
+tp1393
+Rp1394
+g28
+sVsampurna raga
+p1395
+g4
+sg18
+(g19
+(S'U11'
+p1396
+I0
+I1
+tp1397
+Rp1398
+(I3
+S'<'
+p1399
+NNNI44
+I4
+I0
+tp1400
+bS'h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00s\x00\x00\x00a\x00\x00\x00g\x00\x00\x00e\x00\x00\x00e\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00'
+p1401
+tp1402
+Rp1403
+g28
+sVmarudhanayagam
+p1404
+g6
+sg18
+(g19
+(S'U27'
+p1405
+I0
+I1
+tp1406
+Rp1407
+(I3
+S'<'
+p1408
+NNNI108
+I4
+I0
+tp1409
+bS's\x00\x00\x00i\x00\x00\x00r\x00\x00\x00k\x00\x00\x00a\x00\x00\x00z\x00\x00\x00h\x00\x00\x00i\x00\x00\x00 \x00\x00\x00g\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00d\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p1410
+tp1411
+Rp1412
+g69
+sVkadal (soundtrack)
+p1413
+g6
+sVglossary of carnatic music
+p1414
+g4
+sg18
+(g19
+(S'U12'
+p1415
+I0
+I1
+tp1416
+Rp1417
+(I3
+S'<'
+p1418
+NNNI48
+I4
+I0
+tp1419
+bS's\x00\x00\x00h\x00\x00\x00w\x00\x00\x00e\x00\x00\x00t\x00\x00\x00a\x00\x00\x00 \x00\x00\x00m\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1420
+tp1421
+Rp1422
+g28
+sVg. j. r. krishnan
+p1423
+g4
+sVmano (singer)
+p1424
+g31
+sVchola nadu
+p1425
+g31
+sVatana
+p1426
+g4
+sVkalpanaswaram
+p1427
+g4
+sg18
+(g19
+(S'U17'
+p1428
+I0
+I1
+tp1429
+Rp1430
+(I3
+S'<'
+p1431
+NNNI68
+I4
+I0
+tp1432
+bS'r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+p1433
+tp1434
+Rp1435
+g69
+sVvenkatamakhin
+p1436
+g4
+sg18
+(g19
+(S'U10'
+p1437
+I0
+I1
+tp1438
+Rp1439
+(I3
+S'<'
+p1440
+NNNI40
+I4
+I0
+tp1441
+bS's\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00i\x00\x00\x00'
+p1442
+tp1443
+Rp1444
+g69
+sVsamuel vedanayagam pillai
+p1445
+g31
+sVniroshta
+p1446
+g4
+sVseptuple meter
+p1447
+g31
+sVmallika srinivasan
+p1448
+g31
+sVnandhavana theru
+p1449
+g31
+sVhariharan (singer)
+p1450
+g31
+sVgaana.com
+p1451
+g31
+sVbala (1976 film)
+p1452
+g31
+sg18
+(g19
+(S'U18'
+p1453
+I0
+I1
+tp1454
+Rp1455
+(I3
+S'<'
+p1456
+NNNI72
+I4
+I0
+tp1457
+bS'y\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00'
+p1458
+tp1459
+Rp1460
+g28
+sVgavambhodi
+p1461
+g4
+sVpann
+p1462
+g13
+sVpharaju
+p1463
+g4
+sVanusha mani
+p1464
+g2
+sVmukkudal
+p1465
+g31
+sVkonnakol
+p1466
+g4
+sVshrutilayalu
+p1467
+g6
+sVmallikarjun mansur
+p1468
+g13
+sg18
+(g19
+(S'U22'
+p1469
+I0
+I1
+tp1470
+Rp1471
+(I3
+S'<'
+p1472
+NNNI88
+I4
+I0
+tp1473
+bS'c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00t\x00\x00\x00i\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00b\x00\x00\x00u\x00\x00\x00 \x00\x00\x00(\x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00i\x00\x00\x00a\x00\x00\x00n\x00\x00\x00)\x00\x00\x00'
+p1474
+tp1475
+Rp1476
+g69
+sVsarangapani
+p1477
+g4
+sVsikh music
+p1478
+g31
+sVchandra
+p1479
+g31
+sVanirudh ravichander
+p1480
+g31
+sValaipayuthey
+p1481
+g31
+sVkrishna ni begane baaro
+p1482
+g4
+sVgamanashrama
+p1483
+g4
+sVhungarian gypsy scale
+p1484
+g31
+sVlalgudi vijayalakshmi
+p1485
+g4
+sVpatri satish kumar
+p1486
+g4
+sVmusic of kerala
+p1487
+g31
+sVpacchimiriam adiyappa
+p1488
+g4
+sVtyagayya (1946 film)
+p1489
+S'non-carnatic'
+p1490
+sVsaranamanthram
+p1491
+g31
+sVemani sankara sastry
+p1492
+g4
+sg18
+(g19
+(S'U14'
+p1493
+I0
+I1
+tp1494
+Rp1495
+(I3
+S'<'
+p1496
+NNNI56
+I4
+I0
+tp1497
+bS't\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1498
+tp1499
+Rp1500
+g69
+sVkanada (raga group)
+p1501
+g13
+sVaurangzeb
+p1502
+g31
+sVvijayanagara empire
+p1503
+g31
+sVswarajati
+p1504
+g4
+sVjoi srivastava
+p1505
+g31
+sVnavaneetam
+p1506
+g4
+sg18
+(g19
+(S'U18'
+p1507
+I0
+I1
+tp1508
+Rp1509
+(I3
+S'<'
+p1510
+NNNI72
+I4
+I0
+tp1511
+bS't\x00\x00\x00h\x00\x00\x00e\x00\x00\x00s\x00\x00\x00p\x00\x00\x00e\x00\x00\x00s\x00\x00\x00i\x00\x00\x00a\x00\x00\x00 \x00\x00\x00p\x00\x00\x00o\x00\x00\x00p\x00\x00\x00u\x00\x00\x00l\x00\x00\x00n\x00\x00\x00e\x00\x00\x00a\x00\x00\x00'
+p1512
+tp1513
+Rp1514
+g28
+sg18
+(g19
+(S'U14'
+p1515
+I0
+I1
+tp1516
+Rp1517
+(I3
+S'<'
+p1518
+NNNI56
+I4
+I0
+tp1519
+bS'm\x00\x00\x00a\x00\x00\x00m\x00\x00\x00t\x00\x00\x00a\x00\x00\x00 \x00\x00\x00m\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
+p1520
+tp1521
+Rp1522
+g28
+sg18
+(g19
+(S'U31'
+p1523
+I0
+I1
+tp1524
+Rp1525
+(I3
+S'<'
+p1526
+NNNI124
+I4
+I0
+tp1527
+bS'i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00e\x00\x00\x00x\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00-\x00\x00\x00r\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00d\x00\x00\x00 \x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00l\x00\x00\x00e\x00\x00\x00s\x00\x00\x00'
+p1528
+tp1529
+Rp1530
+g28
+sg18
+(g19
+(S'U19'
+p1531
+I0
+I1
+tp1532
+Rp1533
+(I3
+S'<'
+p1534
+NNNI76
+I4
+I0
+tp1535
+bS's\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00r\x00\x00\x00a\x00\x00\x00h\x00\x00\x00m\x00\x00\x00e\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p1536
+tp1537
+Rp1538
+g69
+sVmalayalam cinema
+p1539
+g2
+sVviswanatha sastri
+p1540
+g4
+sg18
+(g19
+(S'U25'
+p1541
+I0
+I1
+tp1542
+Rp1543
+(I3
+S'<'
+p1544
+NNNI100
+I4
+I0
+tp1545
+bS'j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00e\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00w\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p1546
+tp1547
+Rp1548
+g28
+sVnavakoti narayana
+p1549
+g31
+sVsarasangi
+p1550
+g4
+sg18
+(g19
+(S'U5'
+p1551
+I0
+I1
+tp1552
+Rp1553
+(I3
+S'<'
+p1554
+NNNI20
+I4
+I0
+tp1555
+bS's\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
+p1556
+tp1557
+Rp1558
+g69
+sVsucharitra
+p1559
+g4
+sVkapi (raga)
+p1560
+g4
+sVkerala natanam
+p1561
+g31
+sVvidyasagar (music director)
+p1562
+g31
+sVriyaz
+p1563
+g13
+sVculture of bangalore
+p1564
+g31
+sVk. n. kesari
+p1565
+g31
+sVmanodharma
+p1566
+g4
+sVnandini muthuswamy
+p1567
+g4
+sVshakti (band)
+p1568
+g4
+sVindiramma iyengar
+p1569
+g31
+sVgod save the queen
+p1570
+g31
+sVgireesh puthenchery
+p1571
+g2
+sVart and culture of karnataka
+p1572
+g31
+sVsirkazhi govindarajan
+p1573
+g4
+sg18
+(g19
+(S'U16'
+p1574
+I0
+I1
+tp1575
+Rp1576
+(I3
+S'<'
+p1577
+NNNI64
+I4
+I0
+tp1578
+bS's\x00\x00\x00u\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00 \x00\x00\x00t\x00\x00\x00a\x00\x00\x00l\x00\x00\x00w\x00\x00\x00a\x00\x00\x00l\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p1579
+tp1580
+Rp1581
+g28
+sVm. jayachandran
+p1582
+g31
+sVt. n. sivakumar
+p1583
+g4
+sVmanjula gururaj
+p1584
+g31
+sVflute
+p1585
+g13
+sVasampurna melakarta
+p1586
+g4
+sVgayatri asokan
+p1587
+g31
+sVkalasagaram annual cultural festival of music, dance and drama
+p1588
+g4
+sg18
+(g19
+(S'U16'
+p1589
+I0
+I1
+tp1590
+Rp1591
+(I3
+S'<'
+p1592
+NNNI64
+I4
+I0
+tp1593
+bS'w\x00\x00\x00h\x00\x00\x00o\x00\x00\x00l\x00\x00\x00e\x00\x00\x00 \x00\x00\x00t\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
+p1594
+tp1595
+Rp1596
+g28
+sVbharathwaj
+p1597
+g31
+sVannakili
+p1598
+g31
+sVm. g. radhakrishnan
+p1599
+g31
+sVidakka
+p1600
+g31
+sVk. balachander
+p1601
+g2
+sVshruti (music)
+p1602
+g4
+sg18
+(g19
+(S'U18'
+p1603
+I0
+I1
+tp1604
+Rp1605
+(I3
+S'<'
+p1606
+NNNI72
+I4
+I0
+tp1607
+bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00d\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00b\x00\x00\x00u\x00\x00\x00l\x00\x00\x00a\x00\x00\x00k\x00\x00\x00s\x00\x00\x00h\x00\x00\x00m\x00\x00\x00i\x00\x00\x00'
+p1608
+tp1609
+Rp1610
+g28
+sVbennet veetraag
+p1611
+g31
+sVjanardhan mitta
+p1612
+g31
+sVsangamam
+p1613
+g31
+sg18
+(g19
+(S'U13'
 p1614
+I0
+I1
 tp1615
 Rp1616
-g11
-sVshivaranjani
+(I3
+S'<'
 p1617
-g15
-sVmalayamarutam
-p1618
-g15
-sVraghunatha nayak
+NNNI52
+I4
+I0
+tp1618
+bS'g\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
 p1619
-g17
-sVkishore kumar
-p1620
-g17
-sVjohn mclaughlin (musician)
-p1621
-g62
-sg1
-(g2
-(S'U25'
+tp1620
+Rp1621
+g28
+sVdance in india
 p1622
-I0
-I1
-tp1623
-Rp1624
-(I3
-S'<'
+g2
+sVt. n. krishnan
+p1623
+g4
+sVbiju narayanan
+p1624
+g31
+sVnagai muralidharan
 p1625
-NNNI100
-I4
-I0
-tp1626
-bS't\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00t\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00'
+g31
+sVgangeyabhushani
+p1626
+g4
+sVsteampunk
 p1627
-tp1628
-Rp1629
-g11
-sVkonerirajapuram vaidyanatha ayyar
-p1630
-g15
-sVavarohana
+g31
+sg18
+(g19
+(S'U14'
+p1628
+I0
+I1
+tp1629
+Rp1630
+(I3
+S'<'
 p1631
-g15
-sVmanakkal rangarajan
-p1632
-g15
-sVramesh narayan
+NNNI56
+I4
+I0
+tp1632
+bS'n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00g\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00p\x00\x00\x00e\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
 p1633
-g62
-sg1
-(g2
-(S'U25'
-p1634
-I0
-I1
-tp1635
-Rp1636
-(I3
-S'<'
+tp1634
+Rp1635
+g28
+sVmiguel frasconi
+p1636
+g31
+sg18
+(g19
+(S'U14'
 p1637
-NNNI100
-I4
-I0
-tp1638
-bS'j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00e\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00w\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p1639
-tp1640
-Rp1641
-g55
-sVsiege of pondicherry (1748)
-p1642
-g17
-sVtambaram
-p1643
-g17
-sVjohn underwood bateman-champain
-p1644
-g17
-sVvijayanagara literature in kannada
-p1645
-g17
-sViruvar
-p1646
-g17
-sVshashank subramanyam
-p1647
-g38
-sVrichard benyon of madras
-p1648
-g17
-sVjaya tv
-p1649
-g17
-sVpalaiyakkarar
-p1650
-g17
-sVchandralekha (1948 film)
-p1651
-g38
-sVchitrambari
-p1652
-g15
-sVs. ramanathan
-p1653
-g15
-sVshadvidamargini
-p1654
-g15
-sVsenavati
-p1655
-g15
-sVs. v. venkatraman
-p1656
-g17
-sVkhamaj
-p1657
-g62
-sVnattakurinji
-p1658
-g15
-sVdarshana kt
-p1659
-g38
-sVshankar mahadevan
-p1660
-g17
-sVmusic of tamil nadu
-p1661
-g17
-sVsouth west india
-p1662
-g17
-sVtiruvallur
-p1663
-g17
-sg1
-(g2
-(S'U7'
-p1664
 I0
 I1
-tp1665
-Rp1666
+tp1638
+Rp1639
 (I3
 S'<'
-p1667
-NNNI28
+p1640
+NNNI56
 I4
 I0
-tp1668
-bS'a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
+tp1641
+bS'a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00i\x00\x00\x00'
+p1642
+tp1643
+Rp1644
+g69
+sVshanmukhapriya
+p1645
+g4
+sVakkarai subhalakshmi
+p1646
+g4
+sVshakthisree gopalan
+p1647
+g31
+sVkesavananda bharati
+p1648
+g31
+sg18
+(g19
+(S'U26'
+p1649
+I0
+I1
+tp1650
+Rp1651
+(I3
+S'<'
+p1652
+NNNI104
+I4
+I0
+tp1653
+bS'k\x00\x00\x00o\x00\x00\x00v\x00\x00\x00u\x00\x00\x00r\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
+p1654
+tp1655
+Rp1656
+g28
+sValladi ramakrishnan
+p1657
+g31
+sg18
+(g19
+(S'U18'
+p1658
+I0
+I1
+tp1659
+Rp1660
+(I3
+S'<'
+p1661
+NNNI72
+I4
+I0
+tp1662
+bS'a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00i\x00\x00\x00 \x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00r\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00'
+p1663
+tp1664
+Rp1665
+g69
+sg18
+(g19
+(S'U16'
+p1666
+I0
+I1
+tp1667
+Rp1668
+(I3
+S'<'
 p1669
+NNNI64
+I4
+I0
 tp1670
-Rp1671
-g11
-sVmysorean invasion of kerala
-p1672
-g17
-sVramya nsk
-p1673
-g17
-sVkamavardani
+bS'j\x00\x00\x00y\x00\x00\x00o\x00\x00\x00t\x00\x00\x00s\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00a\x00\x00\x00n\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
+p1671
+tp1672
+Rp1673
+g69
+sVprapancham sitaram
 p1674
-g15
-sVmeenakshi (nayak queen)
+g4
+sg18
+(g19
+(S'U17'
 p1675
-g17
-sVviruttam
-p1676
-g15
-sVthrissur c. rajendran
-p1677
-g15
-sVs. janaki
+I0
+I1
+tp1676
+Rp1677
+(I3
+S'<'
 p1678
-g17
-sVstar and crescent
-p1679
-g17
-sVthuljaji
+NNNI68
+I4
+I0
+tp1679
+bS'v\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00s\x00\x00\x00p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00 \x00\x00\x00(\x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
 p1680
-g17
-sVst. peter's pontifical seminary
-p1681
-g13
-sVpudukkottai district
-p1682
-g38
-sVvidya shah
+tp1681
+Rp1682
+g69
+sVamruthavarshini
 p1683
-g62
-sg1
-(g2
-(S'U7'
+g2
+sg18
+(g19
+(S'U15'
 p1684
 I0
 I1
@@ -4541,482 +4495,462 @@ Rp1686
 (I3
 S'<'
 p1687
-NNNI28
-I4
-I0
-tp1688
-bS'v\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00o\x00\x00\x00b\x00\x00\x00a\x00\x00\x00'
-p1689
-tp1690
-Rp1691
-g55
-sVsouth indian education society high school
-p1692
-g38
-sVcharanam
-p1693
-g15
-sVtheatre of india
-p1694
-g17
-sVsangeetha kalasikhamani
-p1695
-g15
-sVsheik chinna moulana
-p1696
-g15
-sg1
-(g2
-(S'U17'
-p1697
-I0
-I1
-tp1698
-Rp1699
-(I3
-S'<'
-p1700
-NNNI68
-I4
-I0
-tp1701
-bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
-p1702
-tp1703
-Rp1704
-g11
-sVsivamani
-p1705
-g17
-sg1
-(g2
-(S'U14'
-p1706
-I0
-I1
-tp1707
-Rp1708
-(I3
-S'<'
-p1709
-NNNI56
-I4
-I0
-tp1710
-bS'z\x00\x00\x00a\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00-\x00\x00\x00u\x00\x00\x00d\x00\x00\x00-\x00\x00\x00d\x00\x00\x00a\x00\x00\x00u\x00\x00\x00l\x00\x00\x00a\x00\x00\x00'
-p1711
-tp1712
-Rp1713
-g55
-sVvishwambari
-p1714
-g15
-sVsaroja vaidyanathan
-p1715
-g17
-sVnattar
-p1716
-g17
-sVpravin godkhindi
-p1717
-g62
-sVdharmavati
-p1718
-g15
-sVsantaji ghorpade
-p1719
-g13
-sVwar of the austrian succession
-p1720
-g17
-sg1
-(g2
-(S'U8'
-p1721
-I0
-I1
-tp1722
-Rp1723
-(I3
-S'<'
-p1724
-NNNI32
-I4
-I0
-tp1725
-bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p1726
-tp1727
-Rp1728
-g11
-sVsundaram balachander
-p1729
-g15
-sVfilmi
-p1730
-g17
-sVrajkumar bharathi
-p1731
-g13
-sVtirumala venkateswara temple
-p1732
-g17
-sVpolitical history of mysore and coorg (1565\u20131760)
-p1733
-g17
-sVs. p. balasubrahmanyam
-p1734
-g13
-sVbhupal todi
-p1735
-g62
-sVpunjab regiment (india)
-p1736
-g13
-sVrupavati
-p1737
-g15
-sVd. karthika anagha
-p1738
-g15
-sVrallapalli ananta krishna sharma
-p1739
-g15
-sVdhenuka (raga)
-p1740
-g15
-sVghulam muhammad ghouse khan
-p1741
-g17
-sg1
-(g2
-(S'U25'
-p1742
-I0
-I1
-tp1743
-Rp1744
-(I3
-S'<'
-p1745
-NNNI100
-I4
-I0
-tp1746
-bS'p\x00\x00\x00r\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00p\x00\x00\x00 \x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00h\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00j\x00\x00\x00a\x00\x00\x00v\x00\x00\x00u\x00\x00\x00r\x00\x00\x00'
-p1747
-tp1748
-Rp1749
-g55
-sVbattle of plassey
-p1750
-g17
-sVananda ranga pillai
-p1751
-g38
-sVmilitary history of india
-p1752
-g38
-sVkudamaloor janardanan
-p1753
-g15
-sg1
-(g2
-(S'U12'
-p1754
-I0
-I1
-tp1755
-Rp1756
-(I3
-S'<'
-p1757
-NNNI48
-I4
-I0
-tp1758
-bS's\x00\x00\x00h\x00\x00\x00w\x00\x00\x00e\x00\x00\x00t\x00\x00\x00a\x00\x00\x00 \x00\x00\x00m\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p1759
-tp1760
-Rp1761
-g55
-sVpuranam purushottama sastri
-p1762
-g15
-sVthayambaka
-p1763
-g13
-sVrama ravi
-p1764
-g15
-sVgopalakrishna bharathi
-p1765
-g15
-sVrudra (band)
-p1766
-g38
-sVf. g. natesa iyer
-p1767
-g38
-sVraveendran
-p1768
-g38
-sVpriyamani
-p1769
-g38
-sVharikambhoji
-p1770
-g15
-sVreghu kumar
-p1771
-g38
-sVlakshmi shankar
-p1772
-g62
-sVembar kannan
-p1773
-g15
-sVajjada adibhatla narayana dasu
-p1774
-g62
-sVputtur narasimha nayak
-p1775
-g15
-sVkanaka dasa
-p1776
-g15
-sVsridharan sriram
-p1777
-g38
-sVmanambuchavadi
-p1778
-g38
-sVdeepa miriam
-p1779
-g38
-sVchowdiah memorial hall
-p1780
-g38
-sg1
-(g2
-(S'U15'
-p1781
-I0
-I1
-tp1782
-Rp1783
-(I3
-S'<'
-p1784
 NNNI60
 I4
 I0
-tp1785
-bS'r\x00\x00\x00e\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00e\x00\x00\x00e\x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p1786
-tp1787
-Rp1788
-g55
-sVmavelikkara s. r. raju
-p1789
-g15
-sVkandukondain kandukondain
-p1790
-g38
-sVgowda
-p1791
-g38
-sVn. ravikiran
-p1792
-g15
-sVkedaragaula
-p1793
-g15
-sVmararanjani
-p1794
-g15
-sVcaptivity of mangalorean catholics at seringapatam
-p1795
-g38
-sVagam (band)
-p1796
+tp1688
+bS'a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00l\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1689
+tp1690
+Rp1691
+g28
+sg18
+(g19
+(S'U21'
+p1692
+I0
+I1
+tp1693
+Rp1694
+(I3
+S'<'
+p1695
+NNNI84
+I4
+I0
+tp1696
+bS'h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00l\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00d\x00\x00\x00u\x00\x00\x00'
+p1697
+tp1698
+Rp1699
+g28
+sVkrishna raja wadiyar iv
+p1700
+g31
+sg18
+(g19
+(S'U18'
+p1701
+I0
+I1
+tp1702
+Rp1703
+(I3
+S'<'
+p1704
+NNNI72
+I4
+I0
+tp1705
+bS'u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00a\x00\x00\x00'
+p1706
+tp1707
+Rp1708
+g69
+sVmridangam
+p1709
+g4
+sVrudrapatna
+p1710
+g31
+sVkaviyoor revamma
+p1711
+g4
+sVsarabha sastri
+p1712
+g4
+sVannasaheb kirloskar
+p1713
+g31
+sVravi shankar
+p1714
 g13
-sVpattupurakkavu bhagavathi temple
-p1797
-g38
-sg1
-(g2
-(S'U10'
-p1798
+sVhayden chisholm
+p1715
+g2
+sVt. brinda
+p1716
+g4
+sVnedumangad sivanandan
+p1717
+g4
+sVpalghat r. raghu
+p1718
+g4
+sg18
+(g19
+(S'U39'
+p1719
 I0
 I1
-tp1799
-Rp1800
+tp1720
+Rp1721
 (I3
 S'<'
-p1801
-NNNI40
+p1722
+NNNI156
 I4
 I0
-tp1802
-bS'a\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00p\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00u\x00\x00\x00'
-p1803
-tp1804
-Rp1805
-g55
-sVsadashivrao bhau
-p1806
-g38
-sVjohn jervis, 1st earl of st vincent
-p1807
-g38
-sVpaidala gurumurti sastri
-p1808
-g15
-sVaruna sairam
-p1809
-g15
-sVkiratha arjuna
-p1810
-g38
-sVivan megharoopan
-p1811
-g38
-sVsyama sastri
-p1812
-g15
-sVgandharva mahavidyalaya
-p1813
-g38
-sVsaraswati veena
-p1814
-g15
-sVbiryani
-p1815
-g38
-sVmavelikkara prabhakara varma
-p1816
-g15
-sVbaiju dharmajan
-p1817
-g38
-sVragam thanam pallavi
-p1818
-g15
-sVsemmangudi srinivasa iyer
-p1819
-g15
-sVt. v. gopalakrishnan
-p1820
-g15
-sVmukul shivputra
-p1821
-g62
-sVniraval
-p1822
-g15
-sVkanda naal mudhal
-p1823
-g38
-sVvinay s r
-p1824
-g15
-sVjhankaradhvani
-p1825
-g15
-sVk. j. yesudas discography
-p1826
-g62
-sVkhairagarh
-p1827
-g38
-sVbidaram krishnappa
-p1828
-g15
-sVfireflies festival of sacred music
-p1829
-g38
-sg1
-(g2
-(S'U9'
-p1830
+tp1723
+bS'p\x00\x00\x00o\x00\x00\x00l\x00\x00\x00i\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00h\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00o\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00m\x00\x00\x00e\x00\x00\x00d\x00\x00\x00i\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00'
+p1724
+tp1725
+Rp1726
+g28
+sVtheeyaattam
+p1727
+g2
+sg18
+(g19
+(S'U11'
+p1728
 I0
 I1
-tp1831
-Rp1832
+tp1729
+Rp1730
 (I3
 S'<'
-p1833
-NNNI36
+p1731
+NNNI44
 I4
 I0
-tp1834
-bS'h\x00\x00\x00y\x00\x00\x00d\x00\x00\x00e\x00\x00\x00r\x00\x00\x00 \x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00'
-p1835
-tp1836
-Rp1837
-g55
-sVs. r. ramaswamy
-p1838
-g38
-sVtanmoy bose
-p1839
-g62
-sg1
-(g2
+tp1732
+bS'r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00p\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
+p1733
+tp1734
+Rp1735
+g28
+sVrishi
+p1736
+g2
+sVsvaramelakalanidhi
+p1737
+g4
+sVv. selvaganesh
+p1738
+g4
+sVmadras presidency
+p1739
+g2
+sVponvayal
+p1740
+g2
+sVcontinuum fingerboard
+p1741
+g2
+sVcarnatic region
+p1742
+g2
+sVtelugu poetry
+p1743
+g2
+sVabhogi
+p1744
+g4
+sg18
+(g19
+(S'U6'
+p1745
+I0
+I1
+tp1746
+Rp1747
+(I3
+S'<'
+p1748
+NNNI24
+I4
+I0
+tp1749
+bS'k\x00\x00\x00i\x00\x00\x00r\x00\x00\x00t\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1750
+tp1751
+Rp1752
+g28
+sVvimala menon
+p1753
+g2
+sVore kadal
+p1754
+g2
+sVvijaya bhaskar
+p1755
+g2
+sg18
+(g19
 (S'U12'
-p1840
+p1756
 I0
 I1
-tp1841
-Rp1842
+tp1757
+Rp1758
 (I3
 S'<'
-p1843
+p1759
 NNNI48
 I4
 I0
-tp1844
-bS'y\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00(\x00\x00\x00r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00)\x00\x00\x00'
-p1845
-tp1846
-Rp1847
-g11
-sVworks of c. rajagopalachari
-p1848
-g38
-sVlist of indian composers
-p1849
-g15
-sVmalkaush
-p1850
-g62
-sg1
-(g2
-(S'U41'
-p1851
+tp1760
+bS's\x00\x00\x00h\x00\x00\x00r\x00\x00\x00u\x00\x00\x00t\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1761
+tp1762
+Rp1763
+g28
+sg18
+(g19
+(S'U7'
+p1764
 I0
 I1
-tp1852
-Rp1853
+tp1765
+Rp1766
 (I3
 S'<'
-p1854
-NNNI164
+p1767
+NNNI28
 I4
 I0
-tp1855
-bS'j\x00\x00\x00o\x00\x00\x00h\x00\x00\x00n\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00u\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00(\x00\x00\x00e\x00\x00\x00a\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00m\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00f\x00\x00\x00i\x00\x00\x00c\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
-p1856
-tp1857
-Rp1858
-g55
-sVbharatham
-p1859
-g38
-sg1
-(g2
-(S'U14'
+tp1768
+bS't\x00\x00\x00i\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
+p1769
+tp1770
+Rp1771
+g69
+sVpaul poovathingal
+p1772
+g4
+sVkalki krishnamurthy
+p1773
+g2
+sg18
+(g19
+(S'U11'
+p1774
+I0
+I1
+tp1775
+Rp1776
+(I3
+S'<'
+p1777
+NNNI44
+I4
+I0
+tp1778
+bS'v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00n\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+p1779
+tp1780
+Rp1781
+g69
+sVsikkil gurucharan
+p1782
+g4
+sVu. r. jeevarathinam
+p1783
+g2
+sVpragathi guruprasad
+p1784
+g2
+sg18
+(g19
+(S'U25'
+p1785
+I0
+I1
+tp1786
+Rp1787
+(I3
+S'<'
+p1788
+NNNI100
+I4
+I0
+tp1789
+bS'v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00u\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00b\x00\x00\x00h\x00\x00\x00a\x00\x00\x00t\x00\x00\x00k\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00e\x00\x00\x00'
+p1790
+tp1791
+Rp1792
+g710
+sVviruthan shanku
+p1793
+g2
+sVchingleput ranganathan
+p1794
+g4
+sg18
+(g19
+(S'U26'
+p1795
+I0
+I1
+tp1796
+Rp1797
+(I3
+S'<'
+p1798
+NNNI104
+I4
+I0
+tp1799
+bS'k\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00t\x00\x00\x00i\x00\x00\x00s\x00\x00\x00'
+p1800
+tp1801
+Rp1802
+g69
+sg18
+(g19
+(S'U16'
+p1803
+I0
+I1
+tp1804
+Rp1805
+(I3
+S'<'
+p1806
+NNNI64
+I4
+I0
+tp1807
+bS'u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00l\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00'
+p1808
+tp1809
+Rp1810
+g69
+sVpatrick ngcobo
+p1811
+g4
+sVdevasuram
+p1812
+g2
+sg18
+(g19
+(S'U23'
+p1813
+I0
+I1
+tp1814
+Rp1815
+(I3
+S'<'
+p1816
+NNNI92
+I4
+I0
+tp1817
+bS'r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00i\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00g\x00\x00\x00o\x00\x00\x00p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+p1818
+tp1819
+Rp1820
+g69
+sVaniruddha knight
+p1821
+g31
+sVachu rajamani
+p1822
+g31
+sg18
+(g19
+(S'U13'
+p1823
+I0
+I1
+tp1824
+Rp1825
+(I3
+S'<'
+p1826
+NNNI52
+I4
+I0
+tp1827
+bS't\x00\x00\x00.\x00\x00\x00 \x00\x00\x00m\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
+p1828
+tp1829
+Rp1830
+g69
+sVsahiti g
+p1831
+g2
+sVsangeet natak akademi fellowship
+p1832
+g4
+sVkanakangi
+p1833
+g4
+sVmachas with attitude
+p1834
+g228
+sValathur brothers
+p1835
+g4
+sVtoby wren
+p1836
+g31
+sVtourism in tamil nadu
+p1837
+g2
+sVtripunithura krishnadas
+p1838
+g2
+sVdamodar hota
+p1839
+g2
+sVd. k. pattammal
+p1840
+g4
+sVraja annamalai chettiar hall
+p1841
+g4
+sg18
+(g19
+(S'U13'
+p1842
+I0
+I1
+tp1843
+Rp1844
+(I3
+S'<'
+p1845
+NNNI52
+I4
+I0
+tp1846
+bS'i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00p\x00\x00\x00e\x00\x00\x00o\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
+p1847
+tp1848
+Rp1849
+g28
+sVbhupalam
+p1850
+g4
+sVpappu venugopala rao
+p1851
+g4
+sg18
+(g19
+(S'U32'
+p1852
+I0
+I1
+tp1853
+Rp1854
+(I3
+S'<'
+p1855
+NNNI128
+I4
+I0
+tp1856
+bS's\x00\x00\x00o\x00\x00\x00c\x00\x00\x00i\x00\x00\x00e\x00\x00\x00t\x00\x00\x00y\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00 \x00\x00\x00k\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00d\x00\x00\x00o\x00\x00\x00m\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00m\x00\x00\x00y\x00\x00\x00s\x00\x00\x00o\x00\x00\x00r\x00\x00\x00e\x00\x00\x00'
+p1857
+tp1858
+Rp1859
+g28
+sg18
+(g19
+(S'U17'
 p1860
 I0
 I1
@@ -5025,2727 +4959,1049 @@ Rp1862
 (I3
 S'<'
 p1863
-NNNI56
+NNNI68
 I4
 I0
 tp1864
-bS'm\x00\x00\x00e\x00\x00\x00g\x00\x00\x00h\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
+bS'b\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00g\x00\x00\x00u\x00\x00\x00r\x00\x00\x00u\x00\x00\x00'
 p1865
 tp1866
 Rp1867
-g55
-sVelectric guitar
+g710
+sVharini ravi
 p1868
-g38
-sg1
-(g2
-(S'U20'
+g2
+sVtamil trinity
 p1869
-I0
-I1
-tp1870
-Rp1871
-(I3
-S'<'
+g4
+sVmysore srikanth
+p1870
+g4
+sVsoolamangalam sisters
+p1871
+g4
+sVchalanata
 p1872
-NNNI80
-I4
-I0
-tp1873
-bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00a\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00 \x00\x00\x00i\x00\x00\x00y\x00\x00\x00e\x00\x00\x00r\x00\x00\x00'
+g4
+sVparupalli ramakrishnayya pantulu
+p1873
+g4
+sVkanjira
 p1874
-tp1875
-Rp1876
-g55
-sVlalitha sivakumar
-p1877
-g15
-sVsalt march
-p1878
-g38
-sVnawab of the carnatic
-p1879
-g38
-sVmarimutthu pillai
-p1880
-g15
-sVr. n. jayagopal
-p1881
-g38
-sVbattle of madras
-p1882
-g38
-sg1
-(g2
-(S'U21'
-p1883
+g4
+sg18
+(g19
+(S'U18'
+p1875
 I0
 I1
-tp1884
-Rp1885
+tp1876
+Rp1877
 (I3
 S'<'
-p1886
-NNNI84
+p1878
+NNNI72
 I4
 I0
-tp1887
-bS't\x00\x00\x00r\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00o\x00\x00\x00l\x00\x00\x00y\x00\x00\x00 \x00\x00\x00d\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00r\x00\x00\x00i\x00\x00\x00c\x00\x00\x00t\x00\x00\x00'
+tp1879
+bS'r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00r\x00\x00\x00i\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00k\x00\x00\x00u\x00\x00\x00m\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
+p1880
+tp1881
+Rp1882
+g69
+sVmorsing
+p1883
+g4
+sVkirwani
+p1884
+g13
+sVindian classical music
+p1885
+g4
+sVsuryakantam
+p1886
+g4
+sVthiagarajan ramani
+p1887
+g4
+sg18
+(g19
+(S'U9'
 p1888
+I0
+I1
 tp1889
 Rp1890
-g55
-sVpudukkottai state
+(I3
+S'<'
 p1891
-g38
-sVchepauk palace
-p1892
-g38
-sVgambhiranata
+NNNI36
+I4
+I0
+tp1892
+bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00o\x00\x00\x00w\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
 p1893
-g15
-sVpantula rama
-p1894
-g15
-sVk. v. narayanaswamy
-p1895
-g15
-sg1
-(g2
-(S'U27'
+tp1894
+Rp1895
+g69
+sVkancherla gopanna
 p1896
-I0
-I1
-tp1897
-Rp1898
-(I3
-S'<'
+g4
+sVjon b. higgins
+p1897
+g4
+sVperumbavoor g. raveendranath
+p1898
+g4
+sVkoteeswara iyer
 p1899
-NNNI108
+g4
+sg18
+(g19
+(S'U15'
+p1900
+I0
+I1
+tp1901
+Rp1902
+(I3
+S'<'
+p1903
+NNNI60
 I4
 I0
-tp1900
-bS'c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00t\x00\x00\x00o\x00\x00\x00o\x00\x00\x00r\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00b\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
-p1901
-tp1902
-Rp1903
-g11
-sVviswanathan\u2013ramamoorthy
-p1904
-g38
-sVpunjab regiment (pakistan)
+tp1904
+bS'p\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
 p1905
-g13
-sVsaketharaman
-p1906
-g15
-sg1
-(g2
-(S'U10'
-p1907
-I0
-I1
-tp1908
-Rp1909
-(I3
-S'<'
+tp1906
+Rp1907
+g69
+sVt s radhakrishnan
+p1908
+g2
+sVpalani subramaniam pillai
+p1909
+g4
+sVavaneeswaram s r vinu
 p1910
-NNNI40
-I4
-I0
-tp1911
-bS'j\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+g4
+sVtamil folk culture
+p1911
+g2
+sVtiruvidaimarudur
 p1912
-tp1913
-Rp1914
-g11
-sVmickey j meyer
+g2
+sVhinduism in tamil nadu
+p1913
+g2
+sVmahathi
+p1914
+g4
+sVmanickam yogeswaran
 p1915
-g38
-sVveene sheshanna
+g4
+sVdurga jasraj
 p1916
-g15
-sVahmad shah bahadur
+g2
+sVramachandra tondaiman
 p1917
-g38
-sVtanpura (instrument)
+g31
+sVmuthuswami dikshitar
 p1918
-g15
-sVraghuvamsa sudha
+g4
+sVm. chandrasekaran
 p1919
-g15
-sVb. arundhathi
+g4
+sVs. a. k. durga
 p1920
-g38
-sVkathakali
+g4
+sVjohnson (composer)
 p1921
-g13
-sVpriya sisters
+g2
+sVbombay jayashri
 p1922
-g15
-sVrahul nambiar
+g4
+sVprem nazir
 p1923
-g38
-sVdouble harmonic scale
+g2
+sVtiruchirappalli
 p1924
-g62
-sVbattle of negapatam (1758)
+g2
+sVs. hanumantha rao
 p1925
-g13
-sVdevi sri prasad
+g2
+sVtanarupi
 p1926
-g13
-sVt. n. sivagnanam pillai
+g4
+sVkaraikudi mani
 p1927
-g38
-sVvenkatamakhin
+g4
+sVandhra pradesh
 p1928
-g15
-sVrobert clive
+g2
+sVsujatha rangarajan
 p1929
-g38
-sVjyotsna radhakrishnan
+g2
+sVs. srikanta sastri
 p1930
-g38
-sVvellore
+g6
+sVkannada poetry
 p1931
-g38
-sVsteampunk
+g2
+sVk. v. krishna prasad
 p1932
-g38
-sVkeeravani
+g4
+sVbangalore nagarathnamma
 p1933
-g15
-sVkriti
+g4
+sV2010 commonwealth games opening ceremony
 p1934
-g15
-sVbangalore gayana samaja
+g2
+sVv. raghavan
 p1935
-g62
-sVsankaran embranthiri
+g13
+sVoottukkadu venkata kavi
 p1936
-g38
-sVannupamaa
+g4
+sVkallidaikurichi
 p1937
-g38
-sVnatabhairavi
+g6
+sVveturi sundararama murthy
 p1938
-g15
-sg1
-(g2
-(S'U14'
+g6
+sVn. s. ramachandran
 p1939
-I0
-I1
-tp1940
-Rp1941
-(I3
-S'<'
+g4
+sVendaro mahanubhavulu
+p1940
+g4
+sVquintuple meter
+p1941
+g4
+sVk. thavamani devi
 p1942
-NNNI56
-I4
-I0
-tp1943
-bS'h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00 \x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00'
+g6
+sVn. c. vasanthakokilam
+p1943
+g4
+sVdandapani desikar
 p1944
-tp1945
-Rp1946
-g55
-sVdharma raja
+g4
+sVworks of jayadeva
+p1945
+g4
+sVelu suttina kote
+p1946
+g6
+sVthyagaraja temple, tiruvarur
 p1947
-g38
-sVpatnam subramania iyer
+g6
+sVjaysri-jeyaraaj
 p1948
-g15
-sVdavid dean shulman
+g4
+sVbhimsen joshi
 p1949
-g38
-sg1
-(g2
-(S'U10'
+g13
+sVneyyattinkara vasudevan
 p1950
-I0
-I1
-tp1951
-Rp1952
-(I3
-S'<'
+g4
+sVmadurai maqbara
+p1951
+g6
+sVlinguistic history of the indian subcontinent
+p1952
+g6
+sVintroducing a. r. rahman
 p1953
-NNNI40
-I4
-I0
-tp1954
-bS's\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00i\x00\x00\x00'
+g31
+sValan hovhaness
+p1954
+g2
+sVpandit motiram pandit maniram sangeet samaroh
 p1955
-tp1956
-Rp1957
-g11
-sVrajee narayan
+g31
+sVkonerirajapuram vaidyanatha ayyar
+p1956
+g4
+sVavarohana
+p1957
+g4
+sVmadurai
 p1958
-g38
-sVmagnasound
+g31
+sVsouth indian education society high school
 p1959
-g38
-sVsriram parthasarathy
+g31
+sViruvar
 p1960
-g15
-sg1
-(g2
-(S'U10'
+g6
+sVshashank subramanyam
 p1961
-I0
-I1
-tp1962
-Rp1963
-(I3
-S'<'
+g442
+sVchandralekha (1948 film)
+p1962
+g31
+sVchitrambari
+p1963
+g4
+sVs. ramanathan
 p1964
-NNNI40
-I4
-I0
-tp1965
-bS'k\x00\x00\x00s\x00\x00\x00h\x00\x00\x00e\x00\x00\x00t\x00\x00\x00r\x00\x00\x00a\x00\x00\x00y\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
+g4
+sVsenavati
+p1965
+g4
+sVajjada adibhatla narayana dasu
 p1966
-tp1967
-Rp1968
-g11
-sg1
-(g2
-(S'U11'
+g13
+sVnattakurinji
+p1967
+g4
+sVshankar mahadevan
+p1968
+g6
+sVmusic of tamil nadu
 p1969
-I0
-I1
-tp1970
-Rp1971
-(I3
-S'<'
+g6
+sVgiriraja kavi
+p1970
+g4
+sVkamavardani
+p1971
+g4
+sVanitha shaiq
 p1972
-NNNI44
-I4
-I0
-tp1973
-bS'v\x00\x00\x00i\x00\x00\x00d\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
+g6
+sVviruttam
+p1973
+g4
+sVtheatre of india
 p1974
-tp1975
-Rp1976
-g55
-sVdevelopment of carnatic music
+g6
+sVsheik chinna moulana
+p1975
+g4
+sVsaroja vaidyanathan
+p1976
+g6
+sVpravin godkhindi
 p1977
-g15
-sVm. narmadha
+g13
+sVdharmavati
 p1978
-g15
-sVairtel super singer junior
+g4
+sg18
+(g19
+(S'U8'
 p1979
-g38
-sVraja of panagal
-p1980
-g38
-sVk. omanakutty
-p1981
-g15
-sg1
-(g2
-(S'U12'
-p1982
 I0
 I1
-tp1983
-Rp1984
+tp1980
+Rp1981
 (I3
 S'<'
-p1985
-NNNI48
+p1982
+NNNI32
 I4
 I0
-tp1986
-bS'h\x00\x00\x00e\x00\x00\x00n\x00\x00\x00r\x00\x00\x00y\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00w\x00\x00\x00e\x00\x00\x00l\x00\x00\x00l\x00\x00\x00'
+tp1983
+bS'n\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00j\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
+p1984
+tp1985
+Rp1986
+g69
+sVsundaram balachander
 p1987
-tp1988
-Rp1989
-g55
-sVanayampatti s. ganesan
+g4
+sVs. p. balasubrahmanyam
+p1988
+g2
+sVbhupal todi
+p1989
+g13
+sVrupavati
 p1990
-g15
-sVumayalpuram k. narayanaswamy
+g4
+sVkudamaloor janardanan
 p1991
-g15
-sVm. s. gopalakrishnan
+g4
+sVrama ravi
 p1992
-g15
-sVdhanyasi
+g4
+sVrudra (band)
 p1993
-g15
-sVmalayali
+g31
+sVraveendran
 p1994
-g38
-sVmalabar rites
+g31
+sVlakshmi shankar
 p1995
 g13
-sVmalahari
-p1996
-g15
-sVthetakudi harihara subash chandran
-p1997
-g15
-sV80th carnatic infantry
-p1998
-g38
-sVjal tarang
-p1999
-g38
-sVreena esmail
-p2000
-g13
-sVhindustani classical music
-p2001
-g62
-sVmiguel frasconi
-p2002
-g38
-sg1
-(g2
-(S'U12'
-p2003
-I0
-I1
-tp2004
-Rp2005
-(I3
-S'<'
-p2006
-NNNI48
-I4
-I0
-tp2007
-bS'c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00h\x00\x00\x00i\x00\x00\x00b\x00\x00\x00'
-p2008
-tp2009
-Rp2010
-g55
-sVc. r. subburaman
-p2011
-g38
-sVraghunath manet
-p2012
-g62
-sVthrippunithura
-p2013
-g38
-sVjohn kruth
-p2014
-g38
-sVchristian friedrich schwarz
-p2015
-g38
-sVmusiri subramania iyer
-p2016
-g15
-sVeconomy of chennai
-p2017
-g38
-sVsri ranganathaswamy temple, srirangam
-p2018
-g38
-sVakshipthika
-p2019
-g15
-sVsmitha rajan
-p2020
-g38
-sVhatakambari
-p2021
-g15
-sVsudha ragunathan
-p2022
-g15
-sVarun luthra
-p2023
-g38
-sVsripada pinakapani
-p2024
-g15
-sVmuthiah bhagavatar
-p2025
-g15
-sVsarangapani
-p2026
-g15
-sVmiss malini
-p2027
-g38
-sVnarayan iyengar
-p2028
-g15
-sVbharata natyam
-p2029
-g38
-sVkalaimamani
-p2030
-g38
-sVramapriya
-p2031
-g15
-sVenthiran (soundtrack)
-p2032
-g13
-sVkambhoji
-p2033
-g15
-sVhis highness abdullah
-p2034
-g38
-sVmuhammad shah
-p2035
-g38
-sV67th punjabis
-p2036
-g38
-sVhyderabad state
-p2037
-g13
-sVk. bhaskaran
-p2038
-g15
-sVfrancis day (madras)
-p2039
-g38
-sVyadukulakamboji
-p2040
-g15
-sg1
-(g2
-(S'U17'
-p2041
-I0
-I1
-tp2042
-Rp2043
-(I3
-S'<'
-p2044
-NNNI68
-I4
-I0
-tp2045
-bS'k\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00p\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00d\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00y\x00\x00\x00s\x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00'
-p2046
-tp2047
-Rp2048
-g11
-sg1
-(g2
-(S'U17'
-p2049
-I0
-I1
-tp2050
-Rp2051
-(I3
-S'<'
-p2052
-NNNI68
-I4
-I0
-tp2053
-bS'e\x00\x00\x00r\x00\x00\x00a\x00\x00\x00v\x00\x00\x00i\x00\x00\x00p\x00\x00\x00u\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00n\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
-p2054
-tp2055
-Rp2056
-g55
-sVthiruthani murugan temple
-p2057
-g38
-sVmudra (music)
-p2058
-g15
-sVculture of andhra pradesh
-p2059
-g38
-sVchinmayi
-p2060
-g38
-sVp. s. narayanaswamy
-p2061
-g15
-sVmurki
-p2062
-g62
-sVpanchalankurichi
-p2063
-g13
-sVsankarabharanam
-p2064
-g38
-sVindian independence movement in tamil nadu
-p2065
-g38
-sVmelakarta
-p2066
-g15
-sVlalgudi jayaraman
-p2067
-g15
-sVannamacharya
-p2068
-g15
-sVsukumar prasad
-p2069
-g15
-sg1
-(g2
-(S'U20'
-p2070
-I0
-I1
-tp2071
-Rp2072
-(I3
-S'<'
-p2073
-NNNI80
-I4
-I0
-tp2074
-bS'p\x00\x00\x00a\x00\x00\x00l\x00\x00\x00l\x00\x00\x00a\x00\x00\x00d\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00j\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00o\x00\x00\x00'
-p2075
-tp2076
-Rp2077
-g11
-sg1
-(g2
-(S'U17'
-p2078
-I0
-I1
-tp2079
-Rp2080
-(I3
-S'<'
-p2081
-NNNI68
-I4
-I0
-tp2082
-bS'm\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p2083
-tp2084
-Rp2085
-g55
-sVdivyamani
-p2086
-g15
-sVmadurai mani iyer
-p2087
-g15
-sVbefore the rains
-p2088
-g38
-sVkuthira malika
-p2089
-g38
-sVedmund burke
-p2090
-g38
-sVedward monckton
-p2091
-g13
-sVmadurai t. srinivasan
-p2092
-g15
-sVb. sasikumar
-p2093
-g15
-sVirayimman thampi
-p2094
-g15
-sVurmila varma
-p2095
-g38
-sVpalghat anantharama bhagavatar
-p2096
-g15
-sVrugmini gopalakrishnan
-p2097
-g15
-sVhyderabad brothers
-p2098
-g15
-sg1
-(g2
-(S'U13'
-p2099
-I0
-I1
-tp2100
-Rp2101
-(I3
-S'<'
-p2102
-NNNI52
-I4
-I0
-tp2103
-bS's\x00\x00\x00a\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00e\x00\x00\x00t\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00'
-p2104
-tp2105
-Rp2106
-g55
-sVradha jayalakshmi
-p2107
-g15
-sVk. p. kittappa pillai
-p2108
-g38
-sVm. r. rajakrishnan
-p2109
-g13
-sVbattle of wandiwash
-p2110
-g38
-sVdivisions of madras presidency
-p2111
-g38
-sVhistory of the united kingdom
-p2112
-g38
-sVmadurai nayak dynasty
-p2113
-g38
-sVjhalavarali
-p2114
-g15
-sVottagathai kattiko
-p2115
-g38
-sVniroshta
-p2116
-g15
-sVnatya shastra
-p2117
-g15
-sg1
-(g2
-(S'U11'
-p2118
-I0
-I1
-tp2119
-Rp2120
-(I3
-S'<'
-p2121
-NNNI44
-I4
-I0
-tp2122
-bS'g\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00e\x00\x00\x00 \x00\x00\x00f\x00\x00\x00o\x00\x00\x00r\x00\x00\x00t\x00\x00\x00'
-p2123
-tp2124
-Rp2125
-g55
-sVnirmala rajasekar
-p2126
-g15
-sg1
-(g2
-(S'U14'
-p2127
-I0
-I1
-tp2128
-Rp2129
-(I3
-S'<'
-p2130
-NNNI56
-I4
-I0
-tp2131
-bS'k\x00\x00\x00i\x00\x00\x00z\x00\x00\x00h\x00\x00\x00a\x00\x00\x00k\x00\x00\x00k\x00\x00\x00u\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
-p2132
-tp2133
-Rp2134
-g55
-sVkalyanavasantam
-p2135
-g15
-sVtamil literature
-p2136
-g38
-sVthillai nataraja temple, chidambaram
-p2137
-g38
-sVnaattupurapaattu
-p2138
-g38
-sVlist of compositions by tyagaraja
-p2139
-g15
-sVvadodara
-p2140
-g38
-sg1
-(g2
-(S'U10'
-p2141
-I0
-I1
-tp2142
-Rp2143
-(I3
-S'<'
-p2144
-NNNI40
-I4
-I0
-tp2145
-bS's\x00\x00\x00e\x00\x00\x00e\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p2146
-tp2147
-Rp2148
-g55
-sVmuthu thandavar
-p2149
-g15
-sg1
-(g2
-(S'U10'
-p2150
-I0
-I1
-tp2151
-Rp2152
-(I3
-S'<'
-p2153
-NNNI40
-I4
-I0
-tp2154
-bS't\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00o\x00\x00\x00u\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00e\x00\x00\x00'
-p2155
-tp2156
-Rp2157
-g55
-sg1
-(g2
-(S'U11'
-p2158
-I0
-I1
-tp2159
-Rp2160
-(I3
-S'<'
-p2161
-NNNI44
-I4
-I0
-tp2162
-bS'g\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p2163
-tp2164
-Rp2165
-g11
-sVgreat britain in the seven years' war
-p2166
-g38
-sVm. l. vasanthakumari
-p2167
-g15
-sg1
-(g2
-(S'U22'
-p2168
-I0
-I1
-tp2169
-Rp2170
-(I3
-S'<'
-p2171
-NNNI88
-I4
-I0
-tp2172
-bS'h\x00\x00\x00.\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00c\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00s\x00\x00\x00t\x00\x00\x00r\x00\x00\x00y\x00\x00\x00'
-p2173
-tp2174
-Rp2175
-g11
-sVbank of madras
-p2176
-g38
-sVsiege of trichinopoly (1741)
-p2177
-g38
-sVneelakanta sivan
-p2178
-g15
-sg1
-(g2
-(S'U11'
-p2179
-I0
-I1
-tp2180
-Rp2181
-(I3
-S'<'
-p2182
-NNNI44
-I4
-I0
-tp2183
-bS'e\x00\x00\x00t\x00\x00\x00t\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00p\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p2184
-tp2185
-Rp2186
-g55
-sVs. rajeswara rao
-p2187
-g13
-sVtiruvannamalai
-p2188
-g38
-sVarabhi
-p2189
-g15
-sVthavil
-p2190
-g15
-sVkalyani (raga)
-p2191
-g15
-sVe. krishna iyer
-p2192
-g38
-sVavaneeswaram s r vinu
-p2193
-g15
-sVarunachala kavi
-p2194
-g15
-sVwestern chalukya literature in kannada
-p2195
-g38
-sVss carnatic
-p2196
-g38
-sVshweta subram
-p2197
-g17
-sVs. somasundaram
-p2198
-g15
-sg1
-(g2
-(S'U16'
-p2199
-I0
-I1
-tp2200
-Rp2201
-(I3
-S'<'
-p2202
-NNNI64
-I4
-I0
-tp2203
-bS'j\x00\x00\x00y\x00\x00\x00o\x00\x00\x00t\x00\x00\x00s\x00\x00\x00n\x00\x00\x00a\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00k\x00\x00\x00a\x00\x00\x00n\x00\x00\x00t\x00\x00\x00h\x00\x00\x00'
-p2204
-tp2205
-Rp2206
-g11
-sVindo-caribbean american
-p2207
-g38
-sVsmitha madhav
-p2208
-g15
-sVvittal ramamurthy
-p2209
-g15
-sVfatah muhammad
-p2210
-g38
-sVkurai onrum illai
-p2211
-g15
-sVdevagandhari
-p2212
-g15
-sVvishaka hari
-p2213
-g15
-sVramnad krishnan
-p2214
-g15
-sVghantasala (singer)
-p2215
-g38
-sVsuprabhatam
-p2216
-g15
-sVnagai sriram
-p2217
-g15
-sVbhadrachalam
-p2218
-g38
-sVm. d. ramanathan
-p2219
-g15
-sVshubhapantuvarali
-p2220
-g15
-sVthanjavur
-p2221
-g17
-sVchild's war
-p2222
-g13
-sVhosahalli
-p2223
-g38
-sVthiruvilwamala
-p2224
-g38
-sVvarnam
-p2225
-g15
-sVramanathapuram c s murugabhoopathy
-p2226
-g15
-sVdhor
-p2227
-g13
-sVmalgudi days (tv series)
-p2228
-g38
-sVhistory of music
-p2229
-g38
-sg1
-(g2
-(S'U12'
-p2230
-I0
-I1
-tp2231
-Rp2232
-(I3
-S'<'
-p2233
-NNNI48
-I4
-I0
-tp2234
-bS't\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00u\x00\x00\x00v\x00\x00\x00a\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00'
-p2235
-tp2236
-Rp2237
-g11
-sVparupalli ramakrishnayya pantulu
-p2238
-g15
-sVrecaka
-p2239
-g17
-sVragavardhini
-p2240
-g15
-sVfort st. george, india
-p2241
-g13
-sVl. vaidyanathan
-p2242
-g15
-sg1
-(g2
-(S'U17'
-p2243
-I0
-I1
-tp2244
-Rp2245
-(I3
-S'<'
-p2246
-NNNI68
-I4
-I0
-tp2247
-bS'a\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00p\x00\x00\x00p\x00\x00\x00a\x00\x00\x00r\x00\x00\x00 \x00\x00\x00t\x00\x00\x00e\x00\x00\x00m\x00\x00\x00p\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
-p2248
-tp2249
-Rp2250
-g55
-sVeast india
-p2251
-g38
-sVt. v. ramprasadh
-p2252
-g15
-sVswarabhishekam
-p2253
-g38
-sVhanumatodi
-p2254
-g15
-sVarcot ramasamy mudaliar
-p2255
-g38
-sVmuhyi ad-din muzaffar jang hidayat
-p2256
-g13
-sVarohana
-p2257
-g15
-sVnottuswara
-p2258
-g15
-sVsouth indian cultural association, hyderabad
-p2259
-g15
-sVvinjamuri anasuya devi
-p2260
-g38
-sVphilip v. francis
-p2261
-g38
-sVlist of carnatic singers
-p2262
-g15
-sVguruvayur
-p2263
-g13
-sVtimeless (jim ankan deka album)
-p2264
-g13
-sVarcot, vellore
-p2265
-g38
-sVsantha p. nair
-p2266
-g13
-sVsarangadeva
-p2267
-g15
-sVmughal empire
-p2268
-g38
-sVfrench in syracuse, new york
-p2269
-g38
-sVnarada
-p2270
-g38
-sVdhananjayans
-p2271
-g38
-sVmohanam
-p2272
-g15
-sVmanda sudharani
-p2273
-g15
-sVlife of pi (film)
-p2274
-g38
-sVblowing from a gun
-p2275
-g38
-sVamritavarshini
-p2276
-g15
-sVm. k. thyagaraja bhagavathar
-p2277
-g38
-sVmaha vaidyanatha iyer
-p2278
-g15
-sVsreevalsan j menon
-p2279
-g15
-sg1
-(g2
-(S'U8'
-p2280
-I0
-I1
-tp2281
-Rp2282
-(I3
-S'<'
-p2283
-NNNI32
-I4
-I0
-tp2284
-bS'm\x00\x00\x00o\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00l\x00\x00\x00a\x00\x00\x00l\x00\x00\x00'
-p2285
-tp2286
-Rp2287
-g55
-sVpallavi seshayyar
-p2288
-g15
-sg1
-(g2
-(S'U28'
-p2289
-I0
-I1
-tp2290
-Rp2291
-(I3
-S'<'
-p2292
-NNNI112
-I4
-I0
-tp2293
-bS'j\x00\x00\x00o\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00o\x00\x00\x00t\x00\x00\x00t\x00\x00\x00 \x00\x00\x00(\x00\x00\x00o\x00\x00\x00r\x00\x00\x00i\x00\x00\x00e\x00\x00\x00n\x00\x00\x00t\x00\x00\x00a\x00\x00\x00l\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00)\x00\x00\x00'
-p2294
-tp2295
-Rp2296
-g55
-sVsri rajarajeswari peetam
-p2297
-g38
-sVst.joseph's school, trichy
-p2298
-g38
-sVde ghuma ke
-p2299
-g13
-sg1
-(g2
-(S'U14'
-p2300
-I0
-I1
-tp2301
-Rp2302
-(I3
-S'<'
-p2303
-NNNI56
-I4
-I0
-tp2304
-bS'm\x00\x00\x00a\x00\x00\x00y\x00\x00\x00i\x00\x00\x00l\x00\x00\x00a\x00\x00\x00d\x00\x00\x00u\x00\x00\x00t\x00\x00\x00h\x00\x00\x00u\x00\x00\x00r\x00\x00\x00a\x00\x00\x00i\x00\x00\x00'
-p2305
-tp2306
-Rp2307
-g55
-sVmelharmony
-p2308
-g15
-sVpann
-p2309
-g62
-sVennappadam venkatarama bhagavatar
-p2310
-g15
-sVmylapore
-p2311
-g38
-sVmanoj k. jayan
-p2312
-g13
-sVneetimati
-p2313
-g15
-sVmohanakalyani
-p2314
-g15
-sg1
-(g2
-(S'U12'
-p2315
-I0
-I1
-tp2316
-Rp2317
-(I3
-S'<'
-p2318
-NNNI48
-I4
-I0
-tp2319
-bS'g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00d\x00\x00\x00a\x00\x00\x00d\x00\x00\x00h\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00'
-p2320
-tp2321
-Rp2322
-g11
-sVganamurti
-p2323
-g15
-sVradha viswanathan
-p2324
-g15
-sVperiyasaamy thooran
-p2325
-g38
-sV61st pioneers
-p2326
-g38
-sVazhagianambi pillai
-p2327
-g15
-sVfirst carnatic war
-p2328
-g38
-sVkrishna raja wadiyar iv
-p2329
-g38
-sVkavi kunjara bharati
-p2330
-g15
-sg1
-(g2
-(S'U16'
-p2331
-I0
-I1
-tp2332
-Rp2333
-(I3
-S'<'
-p2334
-NNNI64
-I4
-I0
-tp2335
-bS'p\x00\x00\x00.\x00\x00\x00 \x00\x00\x00u\x00\x00\x00n\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00k\x00\x00\x00r\x00\x00\x00i\x00\x00\x00s\x00\x00\x00h\x00\x00\x00n\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p2336
-tp2337
-Rp2338
-g11
-sVkeli (film)
-p2339
-g38
-sg1
-(g2
-(S'U16'
-p2340
-I0
-I1
-tp2341
-Rp2342
-(I3
-S'<'
-p2343
-NNNI64
-I4
-I0
-tp2344
-bS'r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00i\x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00a\x00\x00\x00 \x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00i\x00\x00\x00'
-p2345
-tp2346
-Rp2347
-g55
-sV16th light cavalry
-p2348
-g38
-sVgaula (raga)
-p2349
-g15
-sg1
-(g2
-(S'U8'
-p2350
-I0
-I1
-tp2351
-Rp2352
-(I3
-S'<'
-p2353
-NNNI32
-I4
-I0
-tp2354
-bS'c\x00\x00\x00h\x00\x00\x00o\x00\x00\x00w\x00\x00\x00d\x00\x00\x00i\x00\x00\x00a\x00\x00\x00h\x00\x00\x00'
-p2355
-tp2356
-Rp2357
-g11
-sVvagadheeswari
-p2358
-g15
-sVmurari rao
-p2359
-g38
-sVneyveli santhanagopalan
-p2360
-g15
-sVkalasadan
-p2361
-g15
-sVtiruchy l. saravanan
-p2362
-g15
-sVthe prince (1996 film)
-p2363
-g13
-sVvenu
-p2364
-g15
-sVv. dakshinamoorthy
-p2365
-g15
-sVjanya
-p2366
-g15
-sVanandathandavapuram
-p2367
-g38
-sVmynampati sreerama chandra
-p2368
-g38
-sVdwaram lakshmi
-p2369
-g15
-sVsiege of trichinopoly (1751\u201352)
-p2370
-g13
-sVsrirangam kannan
-p2371
-g15
-sVmadurai pushpavanam
-p2372
-g15
-sVmadavoor vasudevan nair
-p2373
-g38
-sVtamil nadu
-p2374
-g13
-sVrevathy krishna
-p2375
-g15
-sVsalabat jung
-p2376
-g13
-sVkatha (storytelling format)
-p2377
-g13
-sVthanjavur quartet
-p2378
-g15
-sVhistory of tiruchirappalli
-p2379
-g13
-sVhamsanandi
-p2380
-g15
-sVbansuri
-p2381
-g62
-sVabheri
-p2382
-g15
-sg1
-(g2
-(S'U20'
-p2383
-I0
-I1
-tp2384
-Rp2385
-(I3
-S'<'
-p2386
-NNNI80
-I4
-I0
-tp2387
-bS'k\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00d\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
-p2388
-tp2389
-Rp2390
-g55
-sVsha`b abu nuhas
-p2391
-g13
-sVnamagiripettai krishnan
-p2392
-g15
-sVb. shankar rao
-p2393
-g15
-sVjugalbandi
-p2394
-g15
-sVnull device
-p2395
-g13
-sVnathaniel elwick
-p2396
-g38
-sVshulini
-p2397
-g15
-sVsarabha sastri
-p2398
-g15
-sVthiruvananthapuram
-p2399
-g13
-sVsindhu bhairavi
-p2400
-g15
-sVsrirangam gopalaratnam
-p2401
-g62
-sVe. m. subramaniam (ghatamist)
-p2402
-g15
-sVparampara series \u2013 andhri
-p2403
-g15
-sg1
-(g2
-(S'U12'
-p2404
-I0
-I1
-tp2405
-Rp2406
-(I3
-S'<'
-p2407
-NNNI48
-I4
-I0
-tp2408
-bS'c\x00\x00\x00a\x00\x00\x00n\x00\x00\x00t\x00\x00\x00\xe9\x00\x00\x00y\x00\x00\x00o\x00\x00\x00d\x00\x00\x00j\x00\x00\x00a\x00\x00\x00y\x00\x00\x00\xe2\x00\x00\x00'
-p2409
-tp2410
-Rp2411
-g55
-sVg. harishankar
-p2412
-g15
-sVr. suryaprakash
-p2413
-g15
-sVmalladi brothers
-p2414
-g15
-sVen swasa kaatre
-p2415
-g13
-sVthanjavur subha rao
-p2416
-g62
-sVdeepti omchery bhalla
-p2417
-g15
-sVsankardev
-p2418
-g13
-sVmankatha (soundtrack)
-p2419
-g13
-sVwilliam fullarton
-p2420
-g13
-sVg. n. balasubramaniam
-p2421
-g15
-sVsunadavinodini
-p2422
-g15
-sVmedieval kannada literature
-p2423
-g17
-sVswathi thirunal college of music
-p2424
-g15
-sVjew's harp
-p2425
-g38
-sVthamil isai kalaamanram
-p2426
-g15
-sVasaveri
-p2427
-g15
-sVornament (music)
-p2428
-g15
-sVmano (singer)
-p2429
-g38
-sVazim-ud-daula
-p2430
-g13
-sV79th regiment of foot (1757)
-p2431
-g13
-sVpunya srinivas
-p2432
-g15
-sVnarayana teertha
-p2433
-g15
-sVsir thomas rumbold, 1st baronet
-p2434
-g13
-sVkarnataka shuddha saveri
-p2435
-g15
-sVv.r. raghava krishna
-p2436
-g15
-sVsrikanta wadiyar
-p2437
-g38
-sVkarnataka college of percussion
-p2438
-g15
-sVshamalangi
-p2439
-g15
-sVannamalaiyar temple
-p2440
-g13
-sg1
-(g2
-(S'U13'
-p2441
-I0
-I1
-tp2442
-Rp2443
-(I3
-S'<'
-p2444
-NNNI52
-I4
-I0
-tp2445
-bS'j\x00\x00\x00a\x00\x00\x00g\x00\x00\x00g\x00\x00\x00i\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00'
-p2446
-tp2447
-Rp2448
-g55
-sg1
-(g2
-(S'U11'
-p2449
-I0
-I1
-tp2450
-Rp2451
-(I3
-S'<'
-p2452
-NNNI44
-I4
-I0
-tp2453
-bS'd\x00\x00\x00r\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00 \x00\x00\x00m\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00c\x00\x00\x00'
-p2454
-tp2455
-Rp2456
-g11
-sVtodi (raga)
-p2457
-g15
-sVaditya kalyanpur
-p2458
-g62
-sVtarana
-p2459
-g62
-sVnisha rajagopal
-p2460
-g15
-sVvakulabharanam
-p2461
-g15
-sVusha uthup
-p2462
-g38
-sVindian institute of management lucknow
-p2463
-g13
-sVa. r. rahman
-p2464
-g13
-sVasampurna melakarta
-p2465
-g15
-sVkunnakudi vaidyanathan
-p2466
-g15
-sVl. athira krishna
-p2467
-g15
-sVarignar anna zoological park
-p2468
-g13
-sVanjana sowmya
-p2469
-g13
-sVvanaspati (raga)
-p2470
-g15
-sg1
-(g2
-(S'U12'
-p2471
-I0
-I1
-tp2472
-Rp2473
-(I3
-S'<'
-p2474
-NNNI48
-I4
-I0
-tp2475
-bS'v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00t\x00\x00\x00e\x00\x00\x00e\x00\x00\x00s\x00\x00\x00h\x00\x00\x00'
-p2476
-tp2477
-Rp2478
-g11
-sVamutham music
-p2479
-g15
-sVlondon bridge (film)
-p2480
-g38
-sVlatangi
-p2481
-g15
-sVvijay madhavan
-p2482
-g13
-sVjohn amherst
-p2483
-g38
-sVpatrick russell (herpetologist)
-p2484
-g38
-sVprovince of sira
-p2485
-g13
-sVtrichy sankaran
-p2486
-g15
-sg1
-(g2
-(S'U10'
-p2487
-I0
-I1
-tp2488
-Rp2489
-(I3
-S'<'
-p2490
-NNNI40
-I4
-I0
-tp2491
-bS'l\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p2492
-tp2493
-Rp2494
-g11
-sVp.s. vanajam
-p2495
-g15
-sVotteri nullah
-p2496
-g13
-sVadyar k. lakshman
-p2497
-g13
-sg1
-(g2
-(S'U12'
-p2498
-I0
-I1
-tp2499
-Rp2500
-(I3
-S'<'
-p2501
-NNNI48
-I4
-I0
-tp2502
-bS'd\x00\x00\x00h\x00\x00\x00a\x00\x00\x00v\x00\x00\x00a\x00\x00\x00l\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
-p2503
-tp2504
-Rp2505
-g11
-sVkokilapriya
-p2506
-g15
-sV75th carnatic infantry
-p2507
-g13
-sVahir bhairav
-p2508
-g62
-sVpalghat r. raghu
-p2509
-g15
-sVseetha doraiswamy
-p2510
-g15
-sVr. prasanna
-p2511
-g15
-sVneelakantan nambisan
-p2512
-g13
-sVmandolin
-p2513
-g15
-sVtanjore district (madras presidency)
-p2514
-g13
-sVswarnakamalam
-p2515
-g13
-sVg. s. rajan
-p2516
-g15
-sVkerala
-p2517
-g13
-sVt. nagar
-p2518
-g13
-sg1
-(g2
-(S'U16'
-p2519
-I0
-I1
-tp2520
-Rp2521
-(I3
-S'<'
-p2522
-NNNI64
-I4
-I0
-tp2523
-bS'c\x00\x00\x00o\x00\x00\x00l\x00\x00\x00o\x00\x00\x00n\x00\x00\x00i\x00\x00\x00a\x00\x00\x00l\x00\x00\x00 \x00\x00\x00c\x00\x00\x00o\x00\x00\x00u\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00s\x00\x00\x00'
-p2524
-tp2525
-Rp2526
-g55
-sVm. a. sreenivasan
-p2527
-g13
-sVkafi (raga)
-p2528
-g62
-sVaishwarya vidhya raghunath
-p2529
-g15
-sVranjit barot
-p2530
-g13
-sVcharulatha mani
-p2531
-g15
-sVkaithapram damodaran namboothiri
-p2532
-g62
-sVvasundhara devi
-p2533
-g13
-sVmaharajapuram viswanatha iyer
-p2534
-g15
-sVbhopali
-p2535
-g62
-sVmalayapuram singaravelu chettiar
-p2536
-g13
-sg1
-(g2
-(S'U11'
-p2537
-I0
-I1
-tp2538
-Rp2539
-(I3
-S'<'
-p2540
-NNNI44
-I4
-I0
-tp2541
-bS'n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00p\x00\x00\x00r\x00\x00\x00i\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p2542
-tp2543
-Rp2544
-g11
-sg1
-(g2
-(S'U20'
-p2545
-I0
-I1
-tp2546
-Rp2547
-(I3
-S'<'
-p2548
-NNNI80
-I4
-I0
-tp2549
-bS'k\x00\x00\x00a\x00\x00\x00l\x00\x00\x00p\x00\x00\x00a\x00\x00\x00k\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00s\x00\x00\x00w\x00\x00\x00a\x00\x00\x00m\x00\x00\x00i\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p2550
-tp2551
-Rp2552
-g11
-sVpavani (raga)
-p2553
-g15
-sVbellary m raghavendra
-p2554
-g15
-sg1
-(g2
-(S'U13'
-p2555
-I0
-I1
-tp2556
-Rp2557
-(I3
-S'<'
-p2558
-NNNI52
-I4
-I0
-tp2559
-bS'k\x00\x00\x00e\x00\x00\x00n\x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00h\x00\x00\x00o\x00\x00\x00o\x00\x00\x00l\x00\x00\x00'
-p2560
-tp2561
-Rp2562
-g55
-sVanand (2004 film)
-p2563
-g38
-sVthat (music)
-p2564
-g62
-sVt. n. seshagopalan
-p2565
-g15
-sVs. kalyanaraman
-p2566
-g15
-sg1
-(g2
-(S'U11'
-p2567
-I0
-I1
-tp2568
-Rp2569
-(I3
-S'<'
-p2570
-NNNI44
-I4
-I0
-tp2571
-bS'p\x00\x00\x00u\x00\x00\x00l\x00\x00\x00i\x00\x00\x00 \x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00'
-p2572
-tp2573
-Rp2574
-g55
-sVd. srinivas (instrumentalist)
-p2575
-g15
-sVsangeetha kalasarathy
-p2576
-g15
-sg1
-(g2
-(S'U16'
-p2577
-I0
-I1
-tp2578
-Rp2579
-(I3
-S'<'
-p2580
-NNNI64
-I4
-I0
-tp2581
-bS'h\x00\x00\x00e\x00\x00\x00p\x00\x00\x00t\x00\x00\x00a\x00\x00\x00t\x00\x00\x00o\x00\x00\x00n\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00s\x00\x00\x00c\x00\x00\x00a\x00\x00\x00l\x00\x00\x00e\x00\x00\x00'
-p2582
-tp2583
-Rp2584
-g55
-sVbhairav (raga)
-p2585
-g62
-sVlist of carnatic composers
-p2586
-g15
-sg1
-(g2
-(S'U47'
-p2587
-I0
-I1
-tp2588
-Rp2589
-(I3
-S'<'
-p2590
-NNNI188
-I4
-I0
-tp2591
-bS"7\x00\x00\x002\x00\x00\x00n\x00\x00\x00d\x00\x00\x00 \x00\x00\x00r\x00\x00\x00e\x00\x00\x00g\x00\x00\x00i\x00\x00\x00m\x00\x00\x00e\x00\x00\x00n\x00\x00\x00t\x00\x00\x00,\x00\x00\x00 \x00\x00\x00d\x00\x00\x00u\x00\x00\x00k\x00\x00\x00e\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00a\x00\x00\x00l\x00\x00\x00b\x00\x00\x00a\x00\x00\x00n\x00\x00\x00y\x00\x00\x00'\x00\x00\x00s\x00\x00\x00 \x00\x00\x00o\x00\x00\x00w\x00\x00\x00n\x00\x00\x00 \x00\x00\x00h\x00\x00\x00i\x00\x00\x00g\x00\x00\x00h\x00\x00\x00l\x00\x00\x00a\x00\x00\x00n\x00\x00\x00d\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00"
-p2592
-tp2593
-Rp2594
-g55
-sVgemini ganesan
-p2595
-g13
-sVazim jah
-p2596
-g13
-sVlan tung
-p2597
-g13
-sVnilgiri mountains
-p2598
-g13
-sVvarali
-p2599
-g15
-sVmahalakshmi iyer
-p2600
-g38
-sg1
-(g2
-(S'U9'
-p2601
-I0
-I1
-tp2602
-Rp2603
-(I3
-S'<'
-p2604
-NNNI36
-I4
-I0
-tp2605
-bS's\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00o\x00\x00\x00w\x00\x00\x00m\x00\x00\x00y\x00\x00\x00a\x00\x00\x00'
-p2606
-tp2607
-Rp2608
-g11
-sVrose muralikrishnan
-p2609
-g15
-sVnallan chakravartula krishnamacharyulu
-p2610
-g15
 sVvedala hemachandra
-p2611
-g38
-sVroman catholic diocese of vellore
-p2612
+p1996
+g31
+sVkanaka dasa
+p1997
+g4
+sVmanambuchavadi
+p1998
+g31
+sVchowdiah memorial hall
+p1999
+g442
+sVkandukondain kandukondain
+p2000
+g31
+sVguruvayur
+p2001
+g2
+sVaruna sairam
+p2002
+g4
+sVpaidala gurumurti sastri
+p2003
+g4
+sVkiratha arjuna
+p2004
+g31
+sVivan megharoopan
+p2005
+g31
+sVaranmula ponnamma
+p2006
+g31
+sVsemmangudi srinivasa iyer
+p2007
+g4
+sVmallur, karnataka
+p2008
+g31
+sVmukul shivputra
+p2009
 g13
-sVeast india company
-p2613
+sVkanda naal mudhal
+p2010
+g31
+sVenthiran (soundtrack)
+p2011
+g2
+sValla rakha
+p2012
 g13
-sVodisha
-p2614
-g17
-sVrajkumar (actor)
-p2615
-g38
-sViyer
-p2616
+sVs. r. ramaswamy
+p2013
+g31
+sVtanmoy bose
+p2014
 g13
-sVkalasagaram annual cultural festival of music, dance and drama
-p2617
-g15
-sVkunnakudi subbalakshmi
-p2618
-g15
-sVdhatuvardani
-p2619
-g15
-sVk. c. kesava pillai
-p2620
-g15
-sVsingapore indian fine arts society
-p2621
-g15
-sVsanthome
-p2622
+sVworks of c. rajagopalachari
+p2015
+g31
+sVmalkaush
+p2016
 g13
-sVkingdom of mysore
-p2623
+sVelectric guitar
+p2017
+g31
+sVmarimutthu pillai
+p2018
+g4
+sVgambhiranata
+p2019
+g4
+sVpantula rama
+p2020
+g4
+sVviswanathan\u2013ramamoorthy
+p2021
+g31
+sVkodambakkam, chennai
+p2022
+g31
+sVkundgol
+p2023
+g2
+sVmickey j meyer
+p2024
+g31
+sVm. k. thyagaraja bhagavathar
+p2025
+g31
+sVdevi sri prasad
+p2026
+g2
+sVamutham music
+p2027
+g4
+sVkeeravani
+p2028
+g4
+sVkriti
+p2029
+g4
+sVsankaran embranthiri
+p2030
+g31
+sVannupamaa
+p2031
+g31
+sVnatabhairavi
+p2032
+g4
+sVpatnam subramania iyer
+p2033
+g4
+sVrajee narayan
+p2034
+g31
+sVsriram parthasarathy
+p2035
+g4
+sVanayampatti s. ganesan
+p2036
+g4
+sVumayalpuram k. narayanaswamy
+p2037
+g4
+sVdhanyasi
+p2038
+g4
+sVmalayali
+p2039
+g31
+sVrishabhapriya
+p2040
+g4
+sVthetakudi harihara subash chandran
+p2041
+g4
+sVjal tarang
+p2042
+g31
+sVc. r. subburaman
+p2043
+g31
+sVjohn kruth
+p2044
+g31
+sVeconomy of chennai
+p2045
+g31
+sVakshipthika
+p2046
+g4
+sVhatakambari
+p2047
+g4
+sVsudha ragunathan
+p2048
+g4
+sVsripada pinakapani
+p2049
+g4
+sVmiss malini
+p2050
+g31
+sVkambhoji
+p2051
+g4
+sVhis highness abdullah
+p2052
+g31
+sVk. bhaskaran
+p2053
+g4
+sVsreeram ramachandran
+p2054
+g2
+sVyadukulakamboji
+p2055
+g4
+sVculture of andhra pradesh
+p2056
+g31
+sVp. s. narayanaswamy
+p2057
+g4
+sVsusarla dakshinamurthi
+p2058
+g228
+sVmelakarta
+p2059
+g4
+sVlalgudi jayaraman
+p2060
+g4
+sVdivyamani
+p2061
+g4
+sVpanchari melam
+p2062
+g31
+sVbefore the rains
+p2063
+g31
+sVkuthira malika
+p2064
+g31
+sVmadurai t. srinivasan
+p2065
+g4
+sVirayimman thampi
+p2066
+g4
+sVradha jayalakshmi
+p2067
+g4
+sVk. p. kittappa pillai
+p2068
+g31
+sVm. r. rajakrishnan
+p2069
+g2
+sVlist of indian composers
+p2070
+g4
+sVnirmala rajasekar
+p2071
+g4
+sVtamil literature
+p2072
+g31
+sVneelakanta sivan
+p2073
+g4
+sVarabhi
+p2074
+g4
+sVkalyani (raga)
+p2075
+g4
+sVpavithram
+p2076
+g2
+sVarunachala kavi
+p2077
+g4
+sVdarbar festival
+p2078
+g4
+sVmaharajapuram santhanam
+p2079
+g4
+sVindo-caribbean american
+p2080
+g31
+sVsmitha madhav
+p2081
+g4
+sVsugama sangeetha
+p2082
+g31
+sVnagai sriram
+p2083
+g4
+sVshubhapantuvarali
+p2084
+g4
+sVvarnam
+p2085
+g4
+sVmalgudi days (tv series)
+p2086
+g31
+sVrallapalli ananta krishna sharma
+p2087
+g4
+sVragavardhini
+p2088
+g4
+sVhanumatodi
+p2089
+g4
+sVarcot ramasamy mudaliar
+p2090
+g31
+sVarohana
+p2091
+g4
+sVnottuswara
+p2092
+g4
+sVsouth indian cultural association, hyderabad
+p2093
+g4
+sVphilip v. francis
+p2094
+g31
+sVbombay sisters
+p2095
+g4
+sVsantha p. nair
+p2096
+g2
+sVm. s. gopalakrishnan
+p2097
+g4
+sVramapriya
+p2098
+g4
+sVdhananjayans
+p2099
+g31
+sVmohanam
+p2100
+g4
+sVmaha vaidyanatha iyer
+p2101
+g4
+sVsreevalsan j menon
+p2102
+g4
+sVst.joseph's school, trichy
+p2103
+g31
+sVmanoj k. jayan
+p2104
+g2
+sVneetimati
+p2105
+g4
+sVperiyasaamy thooran
+p2106
+g31
+sVgaula (raga)
+p2107
+g4
+sVparampara series \u2013 andhri
+p2108
+g4
+sVthe prince (1996 film)
+p2109
+g2
+sVvenu
+p2110
+g4
+sVv. dakshinamoorthy
+p2111
+g4
+sVjanya
+p2112
+g4
+sVanandathandavapuram
+p2113
+g31
+sVdwaram lakshmi
+p2114
+g4
+sVsrirangam kannan
+p2115
+g4
+sVmadavoor vasudevan nair
+p2116
+g31
+sVsanjeev chimmalgi
+p2117
 g13
-sVpuducode krishnamurthy
-p2624
-g15
-sVvidya subramanian
-p2625
-g15
-sVbattle of kowloon
-p2626
-g13
-sVk. m. radha krishnan
-p2627
-g13
-sVtiger varadachariar
-p2628
-g15
-sVrobert orme
-p2629
-g17
-sVsangita ratnakara
-p2630
-g15
-sVintroducing a. r. rahman
-p2631
-g38
-sVgamaka (music)
-p2632
-g15
-sVprasanna venkatesa perumal temple, thanjavur
-p2633
-g13
-sVpatrayani seetharama sastry
-p2634
-g15
-sVtipu sultan
-p2635
-g13
-sVn. murali
-p2636
-g38
-sVetymology of karnataka
-p2637
-g13
-sg1
-(g2
-(S'U15'
-p2638
-I0
-I1
-tp2639
-Rp2640
-(I3
-S'<'
-p2641
-NNNI60
-I4
-I0
-tp2642
-bS'h\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00u\x00\x00\x00d\x00\x00\x00h\x00\x00\x00i\x00\x00\x00n\x00\x00\x00d\x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p2643
-tp2644
-Rp2645
-g11
-sVvijayanagara literature
-p2646
-g13
-sVlist of compositions by muthuswami dikshitar
-p2647
-g15
-sVhamsadhvani
-p2648
-g15
-sVtanam
-p2649
-g15
-sVpravachan
-p2650
-g13
-sVearly modern britain
-p2651
-g17
-sVsouth arcot district (madras presidency)
-p2652
-g17
-sVshankar\u2013ehsaan\u2013loy
-p2653
-g17
-sg1
-(g2
-(S'U32'
-p2654
-I0
-I1
-tp2655
-Rp2656
-(I3
-S'<'
-p2657
-NNNI128
-I4
-I0
-tp2658
-bS's\x00\x00\x00i\x00\x00\x00r\x00\x00\x00 \x00\x00\x00j\x00\x00\x00o\x00\x00\x00h\x00\x00\x00n\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00c\x00\x00\x00p\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00s\x00\x00\x00o\x00\x00\x00n\x00\x00\x00,\x00\x00\x00 \x00\x00\x001\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00o\x00\x00\x00n\x00\x00\x00e\x00\x00\x00t\x00\x00\x00'
-p2659
-tp2660
-Rp2661
-g55
-sg1
-(g2
+sVnedunuri krishnamurthy
+p2118
+g4
+sVabheri
+p2119
+g4
+sVb. shankar rao
+p2120
+g4
+sVnull device
+p2121
+g2
+sVshulini
+p2122
+g4
+sVsindhu bhairavi
+p2123
+g4
+sVe. m. subramaniam (ghatamist)
+p2124
+g4
+sVg. harishankar
+p2125
+g4
+sVmalladi brothers
+p2126
+g4
+sVen swasa kaatre
+p2127
+g2
+sVdeepti omchery bhalla
+p2128
+g4
+sVsankardev
+p2129
+g2
+sVg. n. balasubramaniam
+p2130
+g4
+sVsunadavinodini
+p2131
+g4
+sVbalabhaskar
+p2132
+g6
+sVjew's harp
+p2133
+g31
+sVthamil isai kalaamanram
+p2134
+g4
+sVasaveri
+p2135
+g4
+sVornament (music)
+p2136
+g4
+sVrasika
+p2137
+g4
+sVnarayana teertha
+p2138
+g4
+sVchamarajendra wadiyar x
+p2139
+g31
+sVsrikanta wadiyar
+p2140
+g31
+sVshamalangi
+p2141
+g4
+sVannamalaiyar temple
+p2142
+g2
+sVtodi (raga)
+p2143
+g4
+sVr. suryaprakash
+p2144
+g4
+sVa. r. rahman
+p2145
+g2
+sVl. athira krishna
+p2146
+g4
+sVanjana sowmya
+p2147
+g2
+sVthayambaka
+p2148
+g2
+sg18
+(g19
 (S'U11'
-p2662
+p2149
 I0
 I1
-tp2663
-Rp2664
+tp2150
+Rp2151
 (I3
 S'<'
-p2665
+p2152
 NNNI44
 I4
 I0
-tp2666
+tp2153
 bS'u\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00i\x00\x00\x00v\x00\x00\x00a\x00\x00\x00s\x00\x00\x00'
-p2667
-tp2668
-Rp2669
-g11
-sg1
-(g2
-(S'U18'
-p2670
-I0
-I1
-tp2671
-Rp2672
-(I3
-S'<'
-p2673
-NNNI72
-I4
-I0
-tp2674
-bS'b\x00\x00\x00r\x00\x00\x00o\x00\x00\x00c\x00\x00\x00h\x00\x00\x00e\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00u\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00'
-p2675
-tp2676
-Rp2677
-g11
-sV77th moplah rifles
-p2678
+p2154
+tp2155
+Rp2156
+g69
+sVtrichy sankaran
+p2157
+g4
+sVpapanasa mudaliar
+p2158
+g4
+sVahir bhairav
+p2159
 g13
-sVrevati (raga)
-p2679
-g15
-sVt. m. soundararajan
-p2680
-g13
-sVmarquis de bussy-castelnau
-p2681
-g13
-sVaranmula ponnamma
-p2682
-g38
-sVtiruchirapalli rock fort
-p2683
-g13
-sVchoreography (vanessa-mae album)
-p2684
-g13
-sVmysore (disambiguation)
-p2685
-g62
-sVrudrapatnam brothers
-p2686
-g15
-sVsanjeev chimmalgi
-p2687
-g62
-sVkodambakkam, chennai
-p2688
-g38
-sVmadurai sundar
-p2689
-g15
-sVmalaikkottai govindaswamy pillai
-p2690
-g15
-sVdeepak dev
-p2691
-g13
-sVrajiv menon
-p2692
-g38
-sVnedunuri krishnamurthy
-p2693
-g15
-sVrishabhapriya
-p2694
-g15
-sVkirana gharana
-p2695
-g13
-sVthalassery
-p2696
-g13
-sVa. m. rajah
-p2697
-g38
-sVsindhu bhairavi (film)
-p2698
-g13
-sVv. selvaganesh
-p2699
-g15
-sVscott tinkler
-p2700
-g13
-sVgrace note
-p2701
-g62
-sVkadayam
-p2702
-g38
-sVsanjay subrahmanyan
-p2703
-g15
-sg1
-(g2
-(S'U13'
-p2704
-I0
-I1
-tp2705
-Rp2706
-(I3
-S'<'
-p2707
-NNNI52
-I4
-I0
-tp2708
-bS'c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00r\x00\x00\x00\x01\x01\x00\x00g\x00\x00\x00a\x00\x00\x00'
-p2709
-tp2710
-Rp2711
-g11
-sVvadi (music)
-p2712
-g15
-sg1
-(g2
-(S'U24'
-p2713
-I0
-I1
-tp2714
-Rp2715
-(I3
-S'<'
-p2716
-NNNI96
-I4
-I0
-tp2717
-bS'l\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00o\x00\x00\x00f\x00\x00\x00 \x00\x00\x00c\x00\x00\x00a\x00\x00\x00r\x00\x00\x00n\x00\x00\x00a\x00\x00\x00t\x00\x00\x00i\x00\x00\x00c\x00\x00\x00 \x00\x00\x00a\x00\x00\x00r\x00\x00\x00t\x00\x00\x00i\x00\x00\x00s\x00\x00\x00t\x00\x00\x00s\x00\x00\x00'
-p2718
-tp2719
-Rp2720
-g11
-sg1
-(g2
-(S'U14'
-p2721
-I0
-I1
-tp2722
-Rp2723
-(I3
-S'<'
-p2724
-NNNI56
-I4
-I0
-tp2725
-bS'v\x00\x00\x00i\x00\x00\x00c\x00\x00\x00h\x00\x00\x00i\x00\x00\x00t\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00v\x00\x00\x00e\x00\x00\x00e\x00\x00\x00n\x00\x00\x00a\x00\x00\x00'
-p2726
-tp2727
-Rp2728
-g11
-sVp. susheela
-p2729
-g13
-sVsooraj santhosh
-p2730
-g13
-sVmusical composition
-p2731
-g13
-sVmadhu balakrishnan
-p2732
-g13
-sVnational public school, chennai
-p2733
-g13
-sVsugama sangeetha
-p2734
-g38
-sVharini
-p2735
-g13
-sg1
-(g2
-(S'U16'
-p2736
-I0
-I1
-tp2737
-Rp2738
-(I3
-S'<'
-p2739
-NNNI64
-I4
-I0
-tp2740
-bS's\x00\x00\x00i\x00\x00\x00t\x00\x00\x00h\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00 \x00\x00\x00(\x00\x00\x00s\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00e\x00\x00\x00r\x00\x00\x00)\x00\x00\x00'
-p2741
-tp2742
-Rp2743
-g55
-sVcharles cornwallis, 1st marquess cornwallis
-p2744
-g13
-sVnasir jung
-p2745
-g13
-sg1
-(g2
-(S'U4'
-p2746
-I0
-I1
-tp2747
-Rp2748
-(I3
-S'<'
-p2749
-NNNI16
-I4
-I0
-tp2750
-bS'r\x00\x00\x00a\x00\x00\x00g\x00\x00\x00a\x00\x00\x00'
-p2751
-tp2752
-Rp2753
-g11
-sg1
-(g2
-(S'U12'
-p2754
-I0
-I1
-tp2755
-Rp2756
-(I3
-S'<'
-p2757
-NNNI48
-I4
-I0
-tp2758
-bS'l\x00\x00\x00.\x00\x00\x00p\x00\x00\x00.\x00\x00\x00r\x00\x00\x00.\x00\x00\x00 \x00\x00\x00v\x00\x00\x00a\x00\x00\x00r\x00\x00\x00m\x00\x00\x00a\x00\x00\x00'
-p2759
-tp2760
-Rp2761
-g11
-sVbombay sisters
-p2762
-g15
-sVsalagam
-p2763
-g15
-sVsuchith suresan
-p2764
-g13
-sVchingleput district (madras presidency)
-p2765
-g38
-sg1
-(g2
-(S'U14'
-p2766
-I0
-I1
-tp2767
-Rp2768
-(I3
-S'<'
-p2769
-NNNI56
-I4
-I0
-tp2770
-bS's\x00\x00\x00u\x00\x00\x00s\x00\x00\x00h\x00\x00\x00e\x00\x00\x00e\x00\x00\x00l\x00\x00\x00a\x00\x00\x00 \x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p2771
-tp2772
-Rp2773
-g55
-sVt. r. mahalingam (flautist)
-p2774
-g15
-sVrasikapriya
-p2775
-g15
-sVpunjab gharana
-p2776
-g62
-sg1
-(g2
-(S'U10'
-p2777
-I0
-I1
-tp2778
-Rp2779
-(I3
-S'<'
-p2780
-NNNI40
-I4
-I0
-tp2781
-bS'm\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00e\x00\x00\x00r\x00\x00\x00j\x00\x00\x00a\x00\x00\x00n\x00\x00\x00e\x00\x00\x00'
-p2782
-tp2783
-Rp2784
-g55
-sVmaharajapuram santhanam
-p2785
-g15
-sVbattle of sholinghur
-p2786
-g38
-sVcanadian music genres
-p2787
-g13
-sVaction of 6 july 1746
-p2788
-g13
-sVdakshinamurthy pillai
-p2789
-g15
-sVtelugu literature
-p2790
-g13
-sVdharmapuri subbarayar
-p2791
-g15
-sVchamarajendra wadiyar x
-p2792
-g38
-sg1
-(g2
-(S'U9'
-p2793
-I0
-I1
-tp2794
-Rp2795
-(I3
-S'<'
-p2796
-NNNI36
-I4
-I0
-tp2797
-bS's\x00\x00\x00r\x00\x00\x00i\x00\x00\x00n\x00\x00\x00g\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00'
-p2798
-tp2799
-Rp2800
-g55
-sVchamparan
-p2801
-g13
-sVveena venkatagiriyappa
-p2802
-g15
-sV63rd palamcottah light infantry
-p2803
-g13
-sVsouth indian culture
-p2804
-g13
-sVlist of fm radio stations in bangalore
-p2805
-g13
-sVhemavati (raga)
-p2806
-g15
-sVpallavi
-p2807
-g15
+sVseetha doraiswamy
+p2160
+g4
+sVswarnakamalam
+p2161
+g2
+sVcharulatha mani
+p2162
+g4
+sVpavani (raga)
+p2163
+g4
+sVt. n. seshagopalan
+p2164
+g4
 sVnata (raga)
-p2808
-g15
-sVtreaty of mangalore
-p2809
+p2165
+g4
+sVbhairav (raga)
+p2166
 g13
+sVlist of carnatic composers
+p2167
+g4
+sVsolfège
+p2168
+g13
+sVmahalakshmi iyer
+p2169
+g31
+sVrose muralikrishnan
+p2170
+g4
+sVodisha
+p2171
+g6
+sVrajkumar (actor)
+p2172
+g31
+sViyer
+p2173
+g2
+sVk. c. kesava pillai
+p2174
+g4
+sVsingapore indian fine arts society
+p2175
+g4
+sVkingdom of mysore
+p2176
+g2
+sVsangita ratnakara
+p2177
+g4
+sVshivaranjani
+p2178
+g4
+sVpatrayani seetharama sastry
+p2179
+g4
+sVn. murali
+p2180
+g31
+sVlist of compositions by muthuswami dikshitar
+p2181
+g4
+sVhamsadhvani
+p2182
+g4
+sVtanam
+p2183
+g4
+sVpravachan
+p2184
+g2
+sVshankar\u2013ehsaan\u2013loy
+p2185
+g6
+sVrevati (raga)
+p2186
+g4
+sVnational public school, chennai
+p2187
+g2
+sVsaraswati veena
+p2188
+g4
+sVmysore (disambiguation)
+p2189
+g13
+sVrudrapatnam brothers
+p2190
+g4
+sVmalaikkottai govindaswamy pillai
+p2191
+g4
+sVkirana gharana
+p2192
+g710
+sVa. m. rajah
+p2193
+g31
+sVgrace note
+p2194
+g13
+sVsanjay subrahmanyan
+p2195
+g4
+sVbidaram krishnappa
+p2196
+g4
+sVvaikom vijayalakshmi
+p2197
+g2
+sVdevagandhari
+p2198
+g4
+sVharini
+p2199
+g2
+sVsalagam
+p2200
+g4
+sVpunjab gharana
+p2201
+g13
+sVdavid dean shulman
+p2202
+g31
+sVdakshinamurthy pillai
+p2203
+g4
+sVtelugu literature
+p2204
+g2
+sVdharmapuri subbarayar
+p2205
+g4
+sVkarnataka shuddha saveri
+p2206
+g4
+sVsouth indian culture
+p2207
+g2
+sVlist of fm radio stations in bangalore
+p2208
+g2
+sVhemavati (raga)
+p2209
+g4
+sVpallavi
+p2210
+g4
 sVpuzhavathu
-p2810
-g38
-sVaigburth
-p2811
-g13
-sg1
-(g2
-(S'U29'
-p2812
-I0
-I1
-tp2813
-Rp2814
-(I3
-S'<'
-p2815
-NNNI116
-I4
-I0
-tp2816
-bS'g\x00\x00\x00e\x00\x00\x00o\x00\x00\x00r\x00\x00\x00g\x00\x00\x00e\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00g\x00\x00\x00o\x00\x00\x00t\x00\x00\x00,\x00\x00\x00 \x00\x00\x001\x00\x00\x00s\x00\x00\x00t\x00\x00\x00 \x00\x00\x00b\x00\x00\x00a\x00\x00\x00r\x00\x00\x00o\x00\x00\x00n\x00\x00\x00 \x00\x00\x00p\x00\x00\x00i\x00\x00\x00g\x00\x00\x00o\x00\x00\x00t\x00\x00\x00'
-p2817
-tp2818
-Rp2819
-g55
-sVyaksha (festival)
-p2820
-g13
-sg1
-(g2
-(S'U18'
-p2821
-I0
-I1
-tp2822
-Rp2823
-(I3
-S'<'
-p2824
-NNNI72
-I4
-I0
-tp2825
-bS'b\x00\x00\x00a\x00\x00\x00h\x00\x00\x00r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00 \x00\x00\x00j\x00\x00\x00u\x00\x00\x00n\x00\x00\x00g\x00\x00\x00 \x00\x00\x00m\x00\x00\x00o\x00\x00\x00s\x00\x00\x00q\x00\x00\x00u\x00\x00\x00e\x00\x00\x00'
-p2826
-tp2827
-Rp2828
-g55
+p2211
+g31
 sVveena kuppayyar
-p2829
-g15
+p2212
+g4
 sVbhairavi (hindustani)
-p2830
-g62
-sVkundgol
-p2831
+p2213
 g13
 sVv. ramarathnam
-p2832
-g15
-sVthulluvadho ilamai
-p2833
-g13
+p2214
+g4
 sVl. subramaniam
-p2834
-g15
+p2215
+g4
 sVkannada literature
-p2835
-g13
-sVmysore sadasiva rao
-p2836
-g15
-sVcoja petrus uscan
-p2837
-g38
-sVvaikom vijayalakshmi
-p2838
-g13
-sg1
-(g2
-(S'U25'
-p2839
-I0
-I1
-tp2840
-Rp2841
-(I3
-S'<'
-p2842
-NNNI100
-I4
-I0
-tp2843
-bS'm\x00\x00\x00.\x00\x00\x00k\x00\x00\x00.\x00\x00\x00 \x00\x00\x00s\x00\x00\x00a\x00\x00\x00n\x00\x00\x00k\x00\x00\x00a\x00\x00\x00r\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00n\x00\x00\x00a\x00\x00\x00m\x00\x00\x00b\x00\x00\x00o\x00\x00\x00o\x00\x00\x00t\x00\x00\x00h\x00\x00\x00i\x00\x00\x00r\x00\x00\x00i\x00\x00\x00'
-p2844
-tp2845
-Rp2846
-g11
+p2216
+g2
+sVhamsanandi
+p2217
+g4
 sVnorth karnataka
-p2847
-g13
-sg1
-(g2
-(S'U15'
-p2848
-I0
-I1
-tp2849
-Rp2850
-(I3
-S'<'
-p2851
-NNNI60
-I4
-I0
-tp2852
-bS'r\x00\x00\x00a\x00\x00\x00m\x00\x00\x00a\x00\x00\x00n\x00\x00\x00 \x00\x00\x00m\x00\x00\x00a\x00\x00\x00h\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00v\x00\x00\x00a\x00\x00\x00n\x00\x00\x00'
-p2853
-tp2854
-Rp2855
-g55
-sVbattle of chingleput
-p2856
-g13
+p2218
+g2
 sVjust sangeetha
-p2857
-g13
+p2219
+g2
 s.

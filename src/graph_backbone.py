@@ -20,30 +20,30 @@ def filter_graph_edges(G, DISPARITY_FILTER_SIGNIF_LEVEL, verbose=True, print_pre
         print '%sFiltering with ' % print_prefix + str(100*(1-DISPARITY_FILTER_SIGNIF_LEVEL))+'% confidence ...',
 
     # FOR DIRECTED
-    #indegree = G.in_degree(weight=None)
-    #outdegree = G.out_degree(weight=None)
-    #instrength = G.in_degree(weight='weight')
-    #outstrength = G.out_degree(weight='weight')
+    indegree = G.in_degree(weight=None)
+    outdegree = G.out_degree(weight=None)
+    instrength = G.in_degree(weight=None)
+    outstrength = G.out_degree(weight=None)
 
     # FOR UNDIRECTED
-    degree = G.degree(weight=None)
-    strength = G.degree(weight='weight')
+    # degree = G.degree(weight=None)
+    # strength = G.degree(weight='weight')
 
     edges = G.edges()
     for i, j in edges:
             # FOR DIRECTED
-            #pij = float(G[i][j]['weight'])/float(outstrength[i])
-            #pji = float(G[i][j]['weight'])/float(instrength[j])
-            #aij = (1-pij)**(outdegree[i]-1)
-            #aji = (1-pji)**(indegree[j]-1)
-            #if aij < DISPARITY_FILTER_SIGNIF_LEVEL or aji < DISPARITY_FILTER_SIGNIF_LEVEL:
-            #    continue
+            pij = float(1)/float(outstrength[i])
+            pji = float(1)/float(instrength[j])
+            aij = (1-pij)**(outdegree[i]-1)
+            aji = (1-pji)**(indegree[j]-1)
+            if aij < DISPARITY_FILTER_SIGNIF_LEVEL or aji < DISPARITY_FILTER_SIGNIF_LEVEL:
+                continue
 
             # FOR UNDIRECTED
-            pij = float(G[i][j]['weight'])/float(strength[i])
-            aij = (1-pij)**(degree[i]-1)
-            if aij < DISPARITY_FILTER_SIGNIF_LEVEL:
-                continue
+            # pij = float(G[i][j]['weight'])/float(strength[i])
+            # aij = (1-pij)**(degree[i]-1)
+            # if aij < DISPARITY_FILTER_SIGNIF_LEVEL:
+            #     continue
 
             G.remove_edge(i, j)
     nodes = G.nodes()

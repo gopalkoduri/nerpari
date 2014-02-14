@@ -5,6 +5,7 @@ from __future__ import division
 data_dir = "/homedtic/gkoduri/data/wiki/extracted"
 code_dir = "/homedtic/gkoduri/workspace/relation-extraction"
 
+from gensim import models, similarities
 from math import sqrt, floor
 import networkx as nx
 import sys
@@ -92,6 +93,28 @@ def graph_bibcoupling(hyperlinks_g):
                 bibcoupling_g.add_edge(nodes[i], nodes[j], {"weight": weight})
     return bibcoupling_g
 
+
+def graph_lsa(page_titles, dictionary, corpus, num_topics=100, num_neighbors=10, sim_thresh=0.4):
+    """
+    make sure the ordering of pages in page_titles corresponds to their content vectors
+    in corpus.
+    """
+    tfidf = models.TfidfModel(corpus)
+    corpus_tfidf = tfidf[corpus]
+    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=num_topics)
+    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])
+
+    lsa_g = nx.DiGraph()
+
+    for i in xrange(len(corpus)):
+        sims = index[lsi[corpus[i]]]
+        sims[i] = -1
+        sim_index = list(enumerate(sims))
+        sim_index = sorted(sim_index, key=lambda x: x[1], reverse=True)
+        for j, sim_value in sim_index[:num_neighbors]:
+            if sim_value >= sim_thresh:
+                lsa_g.add_edge(page_titles[i], page_titles[j], {"weight": float(sim_value)})
+    return lsa_g
 
 if __name__ == "__main__":
     pass
