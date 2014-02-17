@@ -24,7 +24,7 @@ import wiki_indexer as wi
 reload(wi)
 
 
-class WikiData():
+class WikiTokenizer():
     def __init__(self, pages, wiki_index):
         self.pages = pages
         self.wiki_index = wiki_index
@@ -34,14 +34,16 @@ class WikiData():
         self.alphabetic_tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
         self.stemmer = nltk.stem.snowball.SnowballStemmer("english")
 
+        self.current_page = ""
         self.content = ""
         self.tokens = []
 
     def __iter__(self):
         for page in self.pages:
+            self.current_page = page
             self.content = wi.get_page_content(page, self.wiki_index)
             self.tokenize()
-            yield self.tokens
+            yield self.current_page, self.tokens
 
     def tokenize(self):
         #Tokenize the text to words
@@ -61,24 +63,57 @@ class WikiData():
         self.tokens = tokenized_text
 
 
+class WikiTokens():
+    def __init__(self, tokens):
+        self.tokens = tokens
+
+    def load_tokens(self, tokens_file):
+        self.tokens = pickle.load(file(tokens_file))
+
+    def get_tokens(self, page):
+        return self.tokens[page]
+
+    def __iter__(self):
+        for page, tokens in self.tokens.items():
+            return page, tokens
+
+
+#DISCONTINUED CLASS
 class WikiCorpus():
     def __init__(self, data, dictionary):
         self.dictionary = dictionary
         self.data = data
+
     def __iter__(self):
         for tokens in self.data:
             yield self.dictionary.doc2bow(tokens)
 
 
-def build_lsa_index(page_titles, wiki_index, folder_arg):
-    data = WikiData(page_titles, wiki_index)
-    dictionary = corpora.Dictionary(tokens for tokens in data)
+def build_token_index(page_titles, wiki_index):
+    token_index = {}
+    data = WikiTokenizer(page_titles, wiki_index)
+    count = 0
+    mul_factor = 100.0/len(page_titles)
+    for page, tokens in data:
+        count += 1
+        token_index[page] = tokens
+        sys.stdout.write("Progress: {0}%\r".format(count*mul_factor))
+        sys.stdout.flush()
 
-    corpus_gen = WikiCorpus(data, dictionary)
-    corpus = [i for i in corpus_gen]
+    return token_index
 
-    dictionary.save('/homedtic/gkoduri/workspace/relation-extraction/data/content-analysis/'+folder_arg+'.dict')
-    corpora.MmCorpus.serialize('/homedtic/gkoduri/workspace/relation-extraction/data/content-analysis/'+folder_arg+'.mm', corpus)
+
+def build_lsa_index(token_index, folder_arg=None):
+    dictionary = corpora.Dictionary(tokens for page, tokens in token_index.items())
+    corpus = [dictionary.doc2bow(tokens) for page, tokens in token_index.items()]
+
+    if folder_arg is None:
+        return dictionary, corpus
+    else:
+        dictionary.save('/homedtic/gkoduri/workspace/relation-extraction/data/content-analysis/'
+                        +folder_arg+'/'+folder_arg+'.dict')
+        corpora.MmCorpus.serialize('/homedtic/gkoduri/workspace/relation-extraction/data/content-analysis/'
+                                   +folder_arg+'/'+folder_arg+'.mm', corpus)
 
 
 def build_page_index(wiki_folder_arg):
@@ -352,13 +387,13 @@ if __name__ == "__main__":
     # run(all_args, build_page_index, (), process_limit=8)
 
     # Build Link Indexes
-    run(all_args, build_link_index, (["hindustani", "music"], ), process_limit=8)
+    # run(all_args, build_link_index, (["hindustani", "music"], ), process_limit=8)
 
     # Merge Indexes
-    # folder = sys.argv[1].strip("/")
-    # files = glob(code_dir + "/data/" + folder + "/*.pickle")
-    # whole_index = merge_indexes(files)
-    # pickle.dump(whole_index, file(code_dir + "/data/" + folder + ".pickle", "w"))
+    folder = sys.argv[1].strip("/")
+    files = glob(code_dir + "/data/" + folder + "/*.pickle")
+    whole_index = merge_indexes(files)
+    pickle.dump(whole_index, file(code_dir + "/data/" + folder + ".pickle", "w"))
 
     # Build Content Indexes
     # run(all_args, build_content_index, (["jazz", "music"], 30, "bigrams", True), process_limit=8)

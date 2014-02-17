@@ -36,7 +36,7 @@ def sample_graph(g, num_nodes=100):
     return sub_graph
 
 
-def filter_edgeweight(g, thresh, weight_type="distance"):
+def filter_edgeweight(g, thresh, weight_type="similarity"):
     filt_g = g.copy()
     for u, v, d in filt_g.edges(data=True):
         if weight_type == "distance":
