@@ -1,0 +1,7 @@
+india+AND+(politics+OR+politician+OR+political)
+spain+AND+(politics+OR+politician+OR+political)
+carnatic+AND+music
+hindustani+AND+music
+jazz+AND+music
+india+AND+(cinema+OR+film+OR+movie)
+("united+states"+OR+"u.+s.+a")+AND+(cinema+OR+film+OR+movie)
