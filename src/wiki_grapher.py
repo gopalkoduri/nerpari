@@ -10,6 +10,11 @@ from math import sqrt, floor
 import networkx as nx
 import sys
 
+from os import chdir
+chdir('/homedtic/gkoduri/workspace/relation-extraction/src')
+import wiki_indexer as wi
+reload(wi)
+
 
 def ochiai_coefficient(x, y):
     x = set(x)
@@ -94,11 +99,10 @@ def graph_bibcoupling(hyperlinks_g):
     return bibcoupling_g
 
 
-def graph_lsa(page_titles, dictionary, corpus, num_topics=100, num_neighbors=10, sim_thresh=0.4):
-    """
-    make sure the ordering of pages in page_titles corresponds to their content vectors
-    in corpus.
-    """
+def graph_lsa(token_index, num_topics=200, num_neighbors=50, sim_thresh=0.25):
+    page_titles = token_index.keys()
+    dictionary, corpus = wi.build_lsa_index(token_index)
+
     tfidf = models.TfidfModel(corpus)
     corpus_tfidf = tfidf[corpus]
     lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=num_topics)

@@ -3,6 +3,7 @@
 from __future__ import division
 from copy import deepcopy
 from math import ceil
+from scipy import sparse
 import networkx as nx
 import community as c
 import numpy as np
@@ -19,7 +20,7 @@ class WikiGraph():
         self.clean_g = nx_graph
         self.graph = self.clean_g.copy()
         self.annotations = annotations
-        self.doubtful = "non-carnatic"
+        self.doubtful = "bad"
 
         #trust propagation data
         self.seedset = {"good": [], "bad": [], "orphans": []}
@@ -27,6 +28,7 @@ class WikiGraph():
         self.seedset_method = "community-pagerank"
         self.seedset_size = 50
         self.seedset_type = "both"
+        self.scores = {}  # holds pagerank/comm-pagerank/other values computed for use again
         self.prop_method = "dampening"
         self.prop_depth = 3
         self.damp_factor = 0.85
@@ -52,7 +54,10 @@ class WikiGraph():
         self.tn_nodes = []
         self.fn_nodes = []
 
-    def reset_data(self):
+    def reset_data(self, scores=True):
+        if scores:
+            self.scores = {}
+
         self.graph = self.clean_g.copy()
 
         #trust propagation data
@@ -86,87 +91,97 @@ class WikiGraph():
         """
         selected_nodes = []
         if self.seedset_method == "pagerank":
-            if type(self.graph) == nx.classes.digraph.DiGraph:
-                rev_g = self.graph.reverse(copy=True)
-            else:
-                rev_g = self.graph
-            inv_pageranks = nx.pagerank(rev_g).items()
-            inv_pageranks = sorted(inv_pageranks, key=lambda x: x[1], reverse=True)
+            if self.scores == {}:
+                if type(self.graph) == nx.classes.digraph.DiGraph:
+                    rev_g = self.graph.reverse(copy=True)
+                else:
+                    rev_g = self.graph
+                scores = nx.pagerank(rev_g).items()
+                scores = sorted(scores, key=lambda x: x[1], reverse=True)
+                self.scores = scores
+
             selected_nodes = []
             if self.seedset_type == "both":
-                for i in inv_pageranks:
+                for i in self.scores:
                     if i[0] in self.annotations.keys():
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             elif self.seedset_type == "pos":
-                for i in inv_pageranks:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             else:
-                for i in inv_pageranks:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
 
         elif self.seedset_method == "eig":
-            centralities = nx.eigenvector_centrality(self.graph).items()
-            centralities = sorted(centralities, key=lambda x: x[1], reverse=True)
+            if self.scores == {}:
+                scores = nx.eigenvector_centrality(self.graph).items()
+                scores = sorted(scores, key=lambda x: x[1], reverse=True)
+                self.scores = scores
             selected_nodes = []
             if self.seedset_type == "both":
-                for i in centralities:
+                for i in self.scores:
                     if i[0] in self.annotations.keys():
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             elif self.seedset_type == "pos":
-                for i in centralities:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             else:
-                for i in centralities:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
 
         elif self.seedset_method == "outdegree":
-            if type(self.graph) == nx.classes.digraph.DiGraph:
-                outdegree_centralities = nx.out_degree_centrality(self.graph).items()
-            else:
-                outdegree_centralities = nx.degree_centrality(self.graph).items()
-            outdegree_centralities = sorted(outdegree_centralities, key=lambda x: x[1], reverse=True)
+            if self.scores == {}:
+                if type(self.graph) == nx.classes.digraph.DiGraph:
+                    scores = nx.out_degree_centrality(self.graph).items()
+                else:
+                    scores = nx.degree_centrality(self.graph).items()
+                scores = sorted(scores, key=lambda x: x[1], reverse=True)
+                self.scores = scores
             selected_nodes = []
             if self.seedset_type == "both":
-                for i in outdegree_centralities:
+                for i in self.scores:
                     if i[0] in self.annotations.keys():
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             elif self.seedset_type == "pos":
-                for i in outdegree_centralities:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] == "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
             else:
-                for i in outdegree_centralities:
-                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "carnatic":
+                for i in self.scores:
+                    if i[0] in self.annotations.keys() and self.annotations[i[0]] != "good":
                         selected_nodes.append(i[0])
                     if len(selected_nodes) >= self.seedset_size:
                         break
 
         elif self.seedset_method == "community-pagerank" or self.seedset_method == "community-hubs":
-            if self.seedset_method == "community-pagerank":
-                rev_g = self.graph.reverse(copy=True)
-                scores = nx.pagerank(rev_g)
-            else:
-                scores, authority_scores = nx.hits(self.graph)
+            if self.scores == {}:
+                if self.seedset_method == "community-pagerank":
+                    rev_g = self.graph.reverse(copy=True)
+                    scores = nx.pagerank(rev_g)
+                    self.scores = scores
+                else:
+                    scores, authority_scores = nx.hits(self.graph)
+                    self.scores = scores
 
             ug = self.graph.to_undirected()  # This returns a deep copy
             dgram = c.generate_dendogram(ug)
@@ -175,11 +190,10 @@ class WikiGraph():
             categories = {}
             num_com_nodes = 0
             for com in set(partition.values()):
-                list_nodes = [nodes for nodes in partition.keys()
-                              if partition[nodes] == com]
-                if len(list_nodes) > self.min_comsize:
-                    categories[com] = list_nodes
-                    num_com_nodes += len(list_nodes)
+                com_nodes = [nodes for nodes in partition.keys() if partition[nodes] == com]
+                if len(com_nodes) > self.min_comsize:
+                    categories[com] = com_nodes
+                    num_com_nodes += len(com_nodes)
 
             selected_nodes = {}
             for com, nbunch in categories.items():
@@ -189,14 +203,16 @@ class WikiGraph():
                 temp = {}
                 for node in nbunch:
                     if self.seedset_type == "both":
-                        if node in self.annotations.keys():
-                            temp[node] = scores[node]
+                        #if node in self.annotations.keys():
+                        temp[node] = self.scores[node]
                     elif self.seedset_type == "pos":
-                        if node in self.annotations.keys() and self.annotations[node] == "carnatic":
-                            temp[node] = scores[node]
+                        #if node in self.annotations.keys() and self.annotations[node] == "good":
+                        if self.annotations[node] == "good":
+                            temp[node] = self.scores[node]
                     elif self.seedset_type == "neg":
-                        if node in self.annotations.keys() and self.annotations[node] != "carnatic":
-                            temp[node] = scores[node]
+                        #if node in self.annotations.keys() and self.annotations[node] != "good":
+                        if self.annotations[node] != "good":
+                            temp[node] = self.scores[node]
 
                 temp = temp.items()
                 temp = sorted(temp, key=lambda x: x[1], reverse=True)
@@ -209,14 +225,14 @@ class WikiGraph():
         # return selected_nodes
         self.seedset = {"good": [], "bad": [], "orphans": []}
         for node in selected_nodes:
-            if self.annotations[node] == "carnatic":
+            if self.annotations[node] == "good":
                 self.seedset["good"].append(node)
-            elif self.annotations[node] == "non-carnatic":
+            elif self.annotations[node] == "bad":
                 self.seedset["bad"].append(node)
             elif self.annotations[node] == "doubtful":
-                if self.doubtful == "carnatic":
+                if self.doubtful == "good":
                     self.seedset["good"].append(node)
-                elif self.doubtful == "non-carnatic":
+                elif self.doubtful == "bad":
                     self.seedset["bad"].append(node)
                 else:
                     self.seedset["orphans"].append(node)
@@ -380,37 +396,81 @@ class WikiGraph():
         self.tn_nodes = []
         self.fn_nodes = []
 
+        node_labels = {}  # these represent the status of a node as per expanded seedset
+        for n in self.expanded_seedset['good']:
+            node_labels[n] = 'good'
+        for n in self.expanded_seedset['bad']:
+            node_labels[n] = 'bad'
+        for n in self.expanded_seedset['orphans']:
+            node_labels[n] = 'orphans'
+
+        remaining_nodes = set(self.annotations.keys())-set(node_labels.keys())
+        for n in remaining_nodes:
+            node_labels[n] = 'orphans'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
         for n in self.annotations.keys():
-            if self.doubtful == "non-carnatic":
-                if n in self.expanded_seedset["good"]:
-                    if self.annotations[n] == "carnatic":
+            if self.doubtful == "bad":
+                if node_labels[n] == "good":
+                    if self.annotations[n] == "good":
                         tp += 1
                         self.tp_nodes.append(n)
                     else:
                         fp += 1
                         self.fp_nodes.append(n)
                 else:
-                    if self.annotations[n] != "carnatic":
+                    if self.annotations[n] != "good":
                         tn += 1
                         self.tn_nodes.append(n)
                     else:
                         fn += 1
                         self.fn_nodes.append(n)
             else:
-                if n in self.expanded_seedset["good"]:
-                    if self.annotations[n] != "non-carnatic":
+                if node_labels[n] == "good":
+                    if self.annotations[n] != "bad":
                         tp += 1
                         self.tp_nodes.append(n)
                     else:
                         fp += 1
                         self.fp_nodes.append(n)
                 else:
-                    if self.annotations[n] == "non-carnatic":
+                    if self.annotations[n] == "bad":
                         tn += 1
                         self.tn_nodes.append(n)
                     else:
                         fn += 1
                         self.fn_nodes.append(n)
+
+        #for n in self.annotations.keys():
+        #    if self.doubtful == "bad":
+        #        if n in self.expanded_seedset["good"]:
+        #            if self.annotations[n] == "good":
+        #                tp += 1
+        #                self.tp_nodes.append(n)
+        #            else:
+        #                fp += 1
+        #                self.fp_nodes.append(n)
+        #        else:
+        #            if self.annotations[n] != "good":
+        #                tn += 1
+        #                self.tn_nodes.append(n)
+        #            else:
+        #                fn += 1
+        #                self.fn_nodes.append(n)
+        #    else:
+        #        if n in self.expanded_seedset["good"]:
+        #            if self.annotations[n] != "bad":
+        #                tp += 1
+        #                self.tp_nodes.append(n)
+        #            else:
+        #                fp += 1
+        #                self.fp_nodes.append(n)
+        #        else:
+        #            if self.annotations[n] == "bad":
+        #                tn += 1
+        #                self.tn_nodes.append(n)
+        #            else:
+        #                fn += 1
+        #                self.fn_nodes.append(n)
 
         print tp, fp, tn, fn
         precision = tp / (tp + fp)
@@ -643,28 +703,23 @@ class WikiGraph():
                 #Irrespective of the method we use for deciding if a node is good/bad,
                 #we set it's trust to the average of the positiv/negative neighbors as appropriate.
                 if "trust" in working_g[node].keys():
-                    score = self.vote_contribution*np.average(n_pos + n_neg) + (1-self.vote_contribution)*working_g[node]["trust"]
+                    score = self.vote_contribution*np.average(n_pos + n_neg) + \
+                            (1-self.vote_contribution)*working_g[node]["trust"]
                     if score > 0:
-                        # if self.vote_method == "count":
-                        #     working_g[node]["trust"] = 1
-                        # else:
-                        working_g[node]["trust"] = self.vote_contribution*np.average(n_pos) + (1-self.vote_contribution)*working_g[node]["trust"]
+                        working_g[node]["trust"] = self.vote_contribution*np.average(n_pos) + \
+                                                   (1-self.vote_contribution)*working_g[node]["trust"]
                     else:
-                        # if self.vote_method == "count":
-                        #     working_g[node]["trust"] = -1
-                        # else:
-                        working_g[node]["trust"] = self.vote_contribution*np.average(n_neg) + (1-self.vote_contribution)*working_g[node]["trust"]
+                        working_g[node]["trust"] = self.vote_contribution*np.average(n_neg) + \
+                                                   (1-self.vote_contribution)*working_g[node]["trust"]
                 else:
-                    score = np.average(n_pos + n_neg)
+                    try:
+                        score = np.average(n_pos + n_neg)
+                    except:
+                        print node, n_pos, n_neg
                     if score > 0:
-                        # if self.vote_method == "count":
-                        #     working_g[node]["trust"] = 1
-                        # else:
+                        # TODO: hardcoded, change the damp parameter to a variable.
                         working_g[node]["trust"] = 0.85*np.average(n_pos)
                     else:
-                        # if self.vote_method == "count":
-                        #     working_g[node]["trust"] = -1
-                        # else:
                         working_g[node]["trust"] = 0.85*np.average(n_neg)
 
             self.graph = working_g.copy()
@@ -686,43 +741,62 @@ class WikiGraph():
                 self.expanded_seedset["bad"].append(node)
         # return score_index
 
-    def trustrank(self, alpha=0.85, iterations=10, trust_thresh=0):
+    def trustrank(self, alpha=0.85, iterations=10, trust_thresh=0, initialize=True):
         node_index = dict(enumerate(self.clean_g.nodes()))
+        node_index_reverse = {}
+        for k, v in node_index.items():
+            node_index_reverse[v] = k
         node_list = [node_index[i] for i in xrange(len(node_index))]
 
-        trust_scores = []
+        if initialize:
+            trust_scores = []
+            for i in xrange(len(node_index)):
+                if node_index[i] in self.seedset["good"]:
+                    trust_scores.append(1)
+                # FOR DISTRUST
+                elif node_index[i] in self.seedset["bad"]:
+                    trust_scores.append(-1)
+                else:
+                    trust_scores.append(0)
+            trust_scores = np.array(trust_scores, dtype=float)
 
-        for i in xrange(len(node_index)):
-            if node_index[i] in self.seedset["good"]:
-                trust_scores.append(1)
+            if sum(trust_scores == 1) != 0:
+                trust_scores[trust_scores == 1] = 1.0/sum(trust_scores == 1)
             # FOR DISTRUST
-            elif node_index[i] in self.seedset["bad"]:
-                trust_scores.append(-1)
-            else:
-                trust_scores.append(0)
-        trust_scores = np.array(trust_scores, dtype=float)
-        if sum(trust_scores == 1) != 0:
-            trust_scores[trust_scores == 1] = 1.0/sum(trust_scores == 1)
-        # FOR DISTRUST
-        if sum(trust_scores == -1) != 0:
-            trust_scores[trust_scores == -1] = -1.0/sum(trust_scores == -1)
+            if sum(trust_scores == -1) != 0:
+                trust_scores[trust_scores == -1] = -1.0/sum(trust_scores == -1)
+        else:
+            trust_scores = []
+            for n in node_list:
+                if "trust" in self.graph[n].keys():
+                    trust_scores.append(self.graph[n]["trust"])
+                else:
+                    trust_scores.append(0)
 
-        transition_matrix = np.matrix([[0]*len(node_index)]*len(node_index), dtype=float)
-        print type(transition_matrix), transition_matrix.shape
+        rows = []
+        cols = []
+        data = []
 
         for src in node_list:
             out_neighbors = [i[1] for i in self.clean_g.out_edges(src)]
             for dest in out_neighbors:
-                dest_ind = node_list.index(dest)
-                src_ind = node_list.index(src)
-                transition_matrix[dest_ind, src_ind] += 1.0/len(out_neighbors)
-                #print dest_ind, src_ind, transition_matrix[dest_ind, src_ind]
+                dest_ind = node_index_reverse[dest]
+                src_ind = node_index_reverse[src]
+                rows.append(dest_ind)
+                cols.append(src_ind)
+                data.append(1.0/len(out_neighbors))
+
+        transition_matrix = sparse.coo_matrix((data, (rows, cols)), shape=(len(node_index), len(node_index)))
 
         trust_scores = np.array(trust_scores).reshape(len(trust_scores), 1)
+        trust_scores = sparse.csr_matrix(trust_scores, shape=trust_scores.shape, dtype=float)
         initial_scores = deepcopy(trust_scores)
         for i in xrange(iterations):
             trust_scores = alpha*transition_matrix*trust_scores + (1-alpha)*initial_scores
+            trust_scores = trust_scores.todense()
             trust_scores = np.nan_to_num(trust_scores)
+            trust_scores = sparse.csr_matrix(trust_scores, shape=trust_scores.shape, dtype=float)
+        trust_scores = trust_scores.todense()
 
         #return trust_scores
         good_nodes = []
