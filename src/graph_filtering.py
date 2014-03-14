@@ -41,7 +41,7 @@ class WikiGraph():
 
         #voting
         self.vote_method = "count"
-        self.vote_contributors = "in" # can be out, or both as well
+        self.vote_contributors = "in"  # can be out, or both as well
         self.vote_iterations = 1
         self.vote_contribution = 0.5
 
