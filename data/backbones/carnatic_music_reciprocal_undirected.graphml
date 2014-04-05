@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="oottukkadu venkata kavi" />
+    <node id="tyagaraja" />
+    <node id="veenai dhanammal" />
+    <node id="swathi thirunal rama varma" />
+    <node id="nithyasree mahadevan" />
+    <node id="kadri gopalnath" />
+    <node id="subbarama dikshitar" />
+    <node id="kanjira" />
+    <node id="avarohana" />
+    <node id="graha bhedam" />
+    <node id="shashank subramanyam" />
+    <node id="chitrambari" />
+    <node id="s. ramanathan" />
+    <node id="shadvidamargini" />
+    <node id="senavati" />
+    <node id="thetakudi harihara subash chandran" />
+    <node id="madhuvanti" />
+    <node id="chakra tanam" />
+    <node id="k. j. yesudas" />
+    <node id="madhyamavati" />
+    <node id="alapana" />
+    <node id="g. n. balasubramaniam" />
+    <node id="guruvayur dorai" />
+    <node id="giriraja kavi" />
+    <node id="kamavardani" />
+    <node id="alathur venkatesa iyer" />
+    <node id="chembai" />
+    <node id="charanam" />
+    <node id="palghat mani iyer" />
+    <node id="sivamani" />
+    <node id="vishwambari" />
+    <node id="dharmavati" />
+    <node id="subbaraya sastri" />
+    <node id="sundaram balachander" />
+    <node id="m. balamuralikrishna" />
+    <node id="mannargudi easwaran" />
+    <node id="ragavardhini" />
+    <node id="swarajati" />
+    <node id="gopalakrishna bharathi" />
+    <node id="harikambhoji" />
+    <node id="sirkazhi g. sivachidambaram" />
+    <node id="kanaka dasa" />
+    <node id="hindolam" />
+    <node id="n. ravikiran" />
+    <node id="mararanjani" />
+    <node id="dakshinamurthy pillai" />
+    <node id="chande" />
+    <node id="chitta swara" />
+    <node id="aruna sairam" />
+    <node id="kalpanaswaram" />
+    <node id="syama sastri" />
+    <node id="venkatamakhin" />
+    <node id="ragam thanam pallavi" />
+    <node id="sangeetha kalanidhi" />
+    <node id="semmangudi srinivasa iyer" />
+    <node id="t. v. gopalakrishnan" />
+    <node id="manavati" />
+    <node id="niraval" />
+    <node id="margazhi raagam" />
+    <node id="simhendramadhyamam" />
+    <node id="charukesi" />
+    <node id="niroshta" />
+    <node id="sanjukta panigrahi" />
+    <node id="t. n. krishnan" />
+    <node id="gavambhodi" />
+    <node id="marimutthu pillai" />
+    <node id="pancharatna kriti" />
+    <node id="carnatic music" />
+    <node id="gambhiranata" />
+    <node id="madras music season" />
+    <node id="trichur v. ramachandran" />
+    <node id="poochi srinivasa iyengar" />
+    <node id="konnakol" />
+    <node id="veene sheshanna" />
+    <node id="raghuvamsa sudha" />
+    <node id="nagasvaravali" />
+    <node id="priya sisters" />
+    <node id="m. s. subbulakshmi" />
+    <node id="neralattu rama poduval" />
+    <node id="ratnangi" />
+    <node id="shamalangi" />
+    <node id="kriti" />
+    <node id="gamanashrama" />
+    <node id="natabhairavi" />
+    <node id="sopana sangeetham" />
+    <node id="dharma raja" />
+    <node id="patnam subramania iyer" />
+    <node id="kancherla gopanna" />
+    <node id="kshetrayya" />
+    <node id="kedaragaula" />
+    <node id="dhanyasi" />
+    <node id="ghatam" />
+    <node id="t. viswanathan" />
+    <node id="malahari" />
+    <node id="tirukkodikaval krishna iyer" />
+    <node id="d. k. jayaraman" />
+    <node id="sikkil sisters – kunjumani &amp; neela" />
+    <node id="musiri subramania iyer" />
+    <node id="navaneetam" />
+    <node id="hatakambari" />
+    <node id="sudha ragunathan" />
+    <node id="gottuvadhyam" />
+    <node id="muthiah bhagavatar" />
+    <node id="sadasiva brahmendra" />
+    <node id="aswathi thirunal rama varma" />
+    <node id="sarasangi" />
+    <node id="naganandini" />
+    <node id="mudra (music)" />
+    <node id="dasa sahitya" />
+    <node id="melakarta" />
+    <node id="lalgudi jayaraman" />
+    <node id="charumathi ramachandran" />
+    <node id="madurai mani iyer" />
+    <node id="kuthira malika" />
+    <node id="irayimman thampi" />
+    <node id="rugmini gopalakrishnan" />
+    <node id="ariyakudi ramanuja iyengar" />
+    <node id="radha jayalakshmi" />
+    <node id="karaikudi sambasiva iyer" />
+    <node id="kosalam" />
+    <node id="t. muktha" />
+    <node id="muthu thandavar" />
+    <node id="gayakapriya" />
+    <node id="m. l. vasanthakumari" />
+    <node id="thavil" />
+    <node id="anupallavi" />
+    <node id="arunachala kavi" />
+    <node id="m. d. ramanathan" />
+    <node id="shubhapantuvarali" />
+    <node id="n. ramani" />
+    <node id="varnam" />
+    <node id="sakharam rao" />
+    <node id="l. vaidyanathan" />
+    <node id="manambuchavadi venkatasubbayyar" />
+    <node id="hanumatodi" />
+    <node id="a. kanyakumari" />
+    <node id="swathi sangeethotsavam" />
+    <node id="jalarnavam" />
+    <node id="gangeyabhushani" />
+    <node id="kokilapriya" />
+    <node id="anandabhairavi" />
+    <node id="shanmukhapriya" />
+    <node id="mohanam" />
+    <node id="amritavarshini" />
+    <node id="maha vaidyanatha iyer" />
+    <node id="anai ayya brothers" />
+    <node id="thetakudi harihara vinayakram" />
+    <node id="neetimati" />
+    <node id="radha viswanathan" />
+    <node id="udayaravichandrika" />
+    <node id="muthuswami dikshitar" />
+    <node id="mridangam" />
+    <node id="vagadheeswari" />
+    <node id="leela samson" />
+    <node id="valaji" />
+    <node id="purandara dasa" />
+    <node id="vanaspati (raga)" />
+    <node id="t. brinda" />
+    <node id="venu" />
+    <node id="ghanam krishna iyer" />
+    <node id="joyce paul poursabahian" />
+    <node id="thanjavur quartet" />
+    <node id="nedunuri krishnamurthy" />
+    <node id="abheri" />
+    <node id="c. rajagopalachari" />
+    <node id="b. shankar rao" />
+    <node id="g. harishankar" />
+    <node id="malladi brothers" />
+    <node id="abhogi" />
+    <node id="sunadavinodini" />
+    <node id="vyasatirtha" />
+    <node id="bilahari" />
+    <node id="tillana" />
+    <node id="varunapriya" />
+    <node id="narayana teertha" />
+    <node id="jyoti swarupini" />
+    <node id="gopala dasa" />
+    <node id="kamalamba navavarna kritis" />
+    <node id="lalgudi vijayalakshmi" />
+    <node id="pacchimiriam adiyappa" />
+    <node id="ramnad raghavan" />
+    <node id="dheerasankarabharanam" />
+    <node id="vakulabharanam" />
+    <node id="ranganayaki rajagopalan" />
+    <node id="haridasa" />
+    <node id="t. m. krishna" />
+    <node id="jamey haddad" />
+    <node id="latangi" />
+    <node id="kanakangi" />
+    <node id="u. srinivas" />
+    <node id="kharaharapriya" />
+    <node id="trichy sankaran" />
+    <node id="l. shankar" />
+    <node id="adyar k. lakshman" />
+    <node id="bhavapriya" />
+    <node id="janya" />
+    <node id="seetha doraiswamy" />
+    <node id="alathur brothers" />
+    <node id="kantamani" />
+    <node id="kalakshetra" />
+    <node id="sikkil mala chandrasekar" />
+    <node id="vasundhara devi" />
+    <node id="d. k. pattammal" />
+    <node id="natakapriya" />
+    <node id="sirkazhi govindarajan" />
+    <node id="bhupalam" />
+    <node id="t. n. seshagopalan" />
+    <node id="t. ranganathan" />
+    <node id="gingger shankar" />
+    <node id="kurai onrum illai" />
+    <node id="nadaswaram" />
+    <node id="s. sowmya" />
+    <node id="tamil trinity" />
+    <node id="soolamangalam sisters" />
+    <node id="mysore vasudevachar" />
+    <node id="chalanata" />
+    <node id="shuddha saveri" />
+    <node id="tiger varadachariar" />
+    <node id="sangita ratnakara" />
+    <node id="shivaranjani" />
+    <node id="jagannatha dasa" />
+    <node id="neelakanta sivan" />
+    <node id="chenda" />
+    <node id="morsing" />
+    <node id="hamsadhvani" />
+    <node id="tanam" />
+    <node id="chakravakam (raga)" />
+    <node id="gourimanohari" />
+    <node id="suryakantam" />
+    <node id="vijaya dasa" />
+    <node id="arabhi" />
+    <node id="keeravani" />
+    <node id="k. v. narayanaswamy" />
+    <node id="v. dakshinamoorthy" />
+    <node id="annamacharya" />
+    <node id="jon b. higgins" />
+    <node id="rishabhapriya" />
+    <node id="v. selvaganesh" />
+    <node id="koteeswara iyer" />
+    <node id="sri krishna leela tarangini" />
+    <node id="papanasam sivan" />
+    <node id="m. k. thyagaraja bhagavathar" />
+    <node id="palani subramaniam pillai" />
+    <node id="madras music academy" />
+    <node id="devagandhari" />
+    <node id="bombay sisters" />
+    <node id="salagam" />
+    <node id="t. r. mahalingam (flautist)" />
+    <node id="rasikapriya" />
+    <node id="andolika" />
+    <node id="maharajapuram santhanam" />
+    <node id="bombay jayashri" />
+    <node id="ugabhoga" />
+    <node id="narayana ninna namada" />
+    <node id="karnataka shuddha saveri" />
+    <node id="pallavi" />
+    <node id="maharajapuram viswanatha iyer" />
+    <node id="vivadi" />
+    <node id="karaikudi mani" />
+    <node id="l. subramaniam" />
+    <node id="shobha raju" />
+    <node id="samavadi" />
+    <node id="vyjayanthimala" />
+    <edge source="oottukkadu venkata kavi" target="carnatic music">
+      <data key="d0">0.00348432055749</data>
+    </edge>
+    <edge source="oottukkadu venkata kavi" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="tyagaraja" target="carnatic music">
+      <data key="d0">0.0209059233449</data>
+    </edge>
+    <edge source="tyagaraja" target="giriraja kavi">
+      <data key="d0">0.190476190476</data>
+    </edge>
+    <edge source="tyagaraja" target="pancharatna kriti">
+      <data key="d0">0.170731707317</data>
+    </edge>
+    <edge source="tyagaraja" target="musiri subramania iyer">
+      <data key="d0">0.0235294117647</data>
+    </edge>
+    <edge source="veenai dhanammal" target="kshetrayya">
+      <data key="d0">0.0263157894737</data>
+    </edge>
+    <edge source="veenai dhanammal" target="t. muktha">
+      <data key="d0">0.285714285714</data>
+    </edge>
+    <edge source="veenai dhanammal" target="t. brinda">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="carnatic music">
+      <data key="d0">0.00696864111498</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="thanjavur quartet">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="aswathi thirunal rama varma">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="irayimman thampi">
+      <data key="d0">0.193548387097</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="swathi sangeethotsavam">
+      <data key="d0">0.25</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="muthuswami dikshitar">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="swathi thirunal rama varma" target="kuthira malika">
+      <data key="d0">0.0975609756098</data>
+    </edge>
+    <edge source="nithyasree mahadevan" target="palghat mani iyer">
+      <data key="d0">0.025641025641</data>
+    </edge>
+    <edge source="nithyasree mahadevan" target="d. k. pattammal">
+      <data key="d0">0.021978021978</data>
+    </edge>
+    <edge source="kadri gopalnath" target="t. v. gopalakrishnan">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="subbarama dikshitar" target="muthuswami dikshitar">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="kanjira" target="mridangam">
+      <data key="d0">0.0689655172414</data>
+    </edge>
+    <edge source="kanjira" target="v. dakshinamoorthy">
+      <data key="d0">0.0208333333333</data>
+    </edge>
+    <edge source="kanjira" target="dakshinamurthy pillai">
+      <data key="d0">0.0344827586207</data>
+    </edge>
+    <edge source="kanjira" target="g. harishankar">
+      <data key="d0">0.0344827586207</data>
+    </edge>
+    <edge source="avarohana" target="samavadi">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="avarohana" target="malahari">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="graha bhedam" target="hindolam">
+      <data key="d0">0.09375</data>
+    </edge>
+    <edge source="graha bhedam" target="gamanashrama">
+      <data key="d0">0.230769230769</data>
+    </edge>
+    <edge source="graha bhedam" target="shanmukhapriya">
+      <data key="d0">0.15</data>
+    </edge>
+    <edge source="graha bhedam" target="mohanam">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="mararanjani">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="graha bhedam" target="amritavarshini">
+      <data key="d0">0.142857142857</data>
+    </edge>
+    <edge source="graha bhedam" target="kosalam">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="graha bhedam" target="vishwambari">
+      <data key="d0">0.230769230769</data>
+    </edge>
+    <edge source="graha bhedam" target="chakravakam (raga)">
+      <data key="d0">0.12</data>
+    </edge>
+    <edge source="graha bhedam" target="gavambhodi">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="shubhapantuvarali">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="dharmavati">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="graha bhedam" target="kamavardani">
+      <data key="d0">0.136363636364</data>
+    </edge>
+    <edge source="graha bhedam" target="chalanata">
+      <data key="d0">0.230769230769</data>
+    </edge>
+    <edge source="graha bhedam" target="chitrambari">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="graha bhedam" target="rishabhapriya">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="graha bhedam" target="varunapriya">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="shuddha saveri">
+      <data key="d0">0.136363636364</data>
+    </edge>
+    <edge source="graha bhedam" target="gambhiranata">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="kharaharapriya">
+      <data key="d0">0.093023255814</data>
+    </edge>
+    <edge source="graha bhedam" target="naganandini">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="shadvidamargini">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="graha bhedam" target="senavati">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="sarasangi">
+      <data key="d0">0.230769230769</data>
+    </edge>
+    <edge source="graha bhedam" target="karnataka shuddha saveri">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="kantamani">
+      <data key="d0">0.0120481927711</data>
+    </edge>
+    <edge source="graha bhedam" target="ragavardhini">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="graha bhedam" target="neetimati">
+      <data key="d0">0.25</data>
+    </edge>
+    <edge source="graha bhedam" target="gayakapriya">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="shamalangi">
+      <data key="d0">0.25</data>
+    </edge>
+    <edge source="graha bhedam" target="madhyamavati">
+      <data key="d0">0.130434782609</data>
+    </edge>
+    <edge source="graha bhedam" target="natakapriya">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="graha bhedam" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="graha bhedam" target="udayaravichandrika">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="graha bhedam" target="nagasvaravali">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="dheerasankarabharanam">
+      <data key="d0">0.0491803278689</data>
+    </edge>
+    <edge source="graha bhedam" target="natabhairavi">
+      <data key="d0">0.1</data>
+    </edge>
+    <edge source="graha bhedam" target="vakulabharanam">
+      <data key="d0">0.166666666667</data>
+    </edge>
+    <edge source="graha bhedam" target="manavati">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="kanakangi">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="graha bhedam" target="gourimanohari">
+      <data key="d0">0.157894736842</data>
+    </edge>
+    <edge source="graha bhedam" target="charukesi">
+      <data key="d0">0.0652173913043</data>
+    </edge>
+    <edge source="graha bhedam" target="gangeyabhushani">
+      <data key="d0">0.25</data>
+    </edge>
+    <edge source="graha bhedam" target="abhogi">
+      <data key="d0">0.0909090909091</data>
+    </edge>
+    <edge source="graha bhedam" target="shivaranjani">
+      <data key="d0">0.0681818181818</data>
+    </edge>
+    <edge source="graha bhedam" target="vagadheeswari">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="harikambhoji">
+      <data key="d0">0.0294117647059</data>
+    </edge>
+    <edge source="graha bhedam" target="valaji">
+      <data key="d0">0.157894736842</data>
+    </edge>
+    <edge source="graha bhedam" target="bhavapriya">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="ratnangi">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="kokilapriya">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="sunadavinodini">
+      <data key="d0">0.230769230769</data>
+    </edge>
+    <edge source="graha bhedam" target="hatakambari">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="graha bhedam" target="latangi">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="simhendramadhyamam">
+      <data key="d0">0.157894736842</data>
+    </edge>
+    <edge source="graha bhedam" target="rasikapriya">
+      <data key="d0">0.214285714286</data>
+    </edge>
+    <edge source="graha bhedam" target="suryakantam">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="graha bhedam" target="vanaspati (raga)">
+      <data key="d0">0.1875</data>
+    </edge>
+    <edge source="graha bhedam" target="keeravani">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="shashank subramanyam" target="k. v. narayanaswamy">
+      <data key="d0">0.00917431192661</data>
+    </edge>
+    <edge source="chitrambari" target="naganandini">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="chitrambari" target="amritavarshini">
+      <data key="d0">0.047619047619</data>
+    </edge>
+    <edge source="chitrambari" target="shanmukhapriya">
+      <data key="d0">0.05</data>
+    </edge>
+    <edge source="s. ramanathan" target="s. sowmya">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="shadvidamargini" target="natakapriya">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="senavati" target="latangi">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="senavati" target="gavambhodi">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="senavati" target="suryakantam">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="thetakudi harihara subash chandran" target="konnakol">
+      <data key="d0">0.0344827586207</data>
+    </edge>
+    <edge source="thetakudi harihara subash chandran" target="thetakudi harihara vinayakram">
+      <data key="d0">0.0192307692308</data>
+    </edge>
+    <edge source="madhuvanti" target="dharmavati">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="chakra tanam" target="tanam">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="k. j. yesudas" target="chembai">
+      <data key="d0">0.0294117647059</data>
+    </edge>
+    <edge source="madhyamavati" target="hindolam">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="madhyamavati" target="shuddha saveri">
+      <data key="d0">0.0454545454545</data>
+    </edge>
+    <edge source="madhyamavati" target="mohanam">
+      <data key="d0">0.0238095238095</data>
+    </edge>
+    <edge source="madhyamavati" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="madhyamavati" target="udayaravichandrika">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="alapana" target="carnatic music">
+      <data key="d0">0.0209059233449</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="m. l. vasanthakumari">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="semmangudi srinivasa iyer">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="lalgudi jayaraman">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="trichur v. ramachandran">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="ariyakudi ramanuja iyengar">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="g. n. balasubramaniam" target="radha jayalakshmi">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="guruvayur dorai" target="semmangudi srinivasa iyer">
+      <data key="d0">0.0161290322581</data>
+    </edge>
+    <edge source="alathur venkatesa iyer" target="alathur brothers">
+      <data key="d0">0.05</data>
+    </edge>
+    <edge source="chembai" target="palani subramaniam pillai">
+      <data key="d0">0.0153846153846</data>
+    </edge>
+    <edge source="chembai" target="palghat mani iyer">
+      <data key="d0">0.025641025641</data>
+    </edge>
+    <edge source="chembai" target="lalgudi jayaraman">
+      <data key="d0">0.00952380952381</data>
+    </edge>
+    <edge source="chembai" target="t. v. gopalakrishnan">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="chembai" target="l. subramaniam">
+      <data key="d0">0.00952380952381</data>
+    </edge>
+    <edge source="chembai" target="t. n. krishnan">
+      <data key="d0">0.037037037037</data>
+    </edge>
+    <edge source="charanam" target="carnatic music">
+      <data key="d0">0.00348432055749</data>
+    </edge>
+    <edge source="charanam" target="anupallavi">
+      <data key="d0">0.4</data>
+    </edge>
+    <edge source="palghat mani iyer" target="mridangam">
+      <data key="d0">0.0123456790123</data>
+    </edge>
+    <edge source="palghat mani iyer" target="dakshinamurthy pillai">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="sivamani" target="u. srinivas">
+      <data key="d0">0.0212765957447</data>
+    </edge>
+    <edge source="sivamani" target="t. v. gopalakrishnan">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="vishwambari" target="hatakambari">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="vishwambari" target="shamalangi">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="dharmavati" target="gourimanohari">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="dharmavati" target="chakravakam (raga)">
+      <data key="d0">0.08</data>
+    </edge>
+    <edge source="dharmavati" target="sarasangi">
+      <data key="d0">0.153846153846</data>
+    </edge>
+    <edge source="subbaraya sastri" target="syama sastri">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="sundaram balachander" target="vyjayanthimala">
+      <data key="d0">0.00444444444444</data>
+    </edge>
+    <edge source="m. balamuralikrishna" target="annamacharya">
+      <data key="d0">0.0208333333333</data>
+    </edge>
+    <edge source="mannargudi easwaran" target="m. l. vasanthakumari">
+      <data key="d0">0.00862068965517</data>
+    </edge>
+    <edge source="ragavardhini" target="varunapriya">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="ragavardhini" target="jyoti swarupini">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="swarajati" target="carnatic music">
+      <data key="d0">0.0677966101695</data>
+    </edge>
+    <edge source="gopalakrishna bharathi" target="carnatic music">
+      <data key="d0">0.00696864111498</data>
+    </edge>
+    <edge source="harikambhoji" target="melakarta">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="harikambhoji" target="mohanam">
+      <data key="d0">0.0238095238095</data>
+    </edge>
+    <edge source="harikambhoji" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="harikambhoji" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="harikambhoji" target="kedaragaula">
+      <data key="d0">0.25</data>
+    </edge>
+    <edge source="harikambhoji" target="natabhairavi">
+      <data key="d0">0.0333333333333</data>
+    </edge>
+    <edge source="harikambhoji" target="dheerasankarabharanam">
+      <data key="d0">0.0327868852459</data>
+    </edge>
+    <edge source="harikambhoji" target="andolika">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="sirkazhi g. sivachidambaram" target="sirkazhi govindarajan">
+      <data key="d0">0.0333333333333</data>
+    </edge>
+    <edge source="kanaka dasa" target="vyasatirtha">
+      <data key="d0">0.00980392156863</data>
+    </edge>
+    <edge source="kanaka dasa" target="haridasa">
+      <data key="d0">0.0275862068966</data>
+    </edge>
+    <edge source="kanaka dasa" target="ugabhoga">
+      <data key="d0">0.037037037037</data>
+    </edge>
+    <edge source="kanaka dasa" target="purandara dasa">
+      <data key="d0">0.00724637681159</data>
+    </edge>
+    <edge source="hindolam" target="shuddha saveri">
+      <data key="d0">0.0454545454545</data>
+    </edge>
+    <edge source="hindolam" target="mohanam">
+      <data key="d0">0.0238095238095</data>
+    </edge>
+    <edge source="hindolam" target="melakarta">
+      <data key="d0">0.0116279069767</data>
+    </edge>
+    <edge source="hindolam" target="natabhairavi">
+      <data key="d0">0.0333333333333</data>
+    </edge>
+    <edge source="hindolam" target="udayaravichandrika">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="hindolam" target="mysore vasudevachar">
+      <data key="d0">0.0169491525424</data>
+    </edge>
+    <edge source="n. ravikiran" target="gottuvadhyam">
+      <data key="d0">0.037037037037</data>
+    </edge>
+    <edge source="mararanjani" target="kantamani">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="mararanjani" target="vanaspati (raga)">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="dakshinamurthy pillai" target="palani subramaniam pillai">
+      <data key="d0">0.0153846153846</data>
+    </edge>
+    <edge source="chande" target="chenda">
+      <data key="d0">0.0217391304348</data>
+    </edge>
+    <edge source="chitta swara" target="carnatic music">
+      <data key="d0">0.5</data>
+    </edge>
+    <edge source="aruna sairam" target="t. brinda">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="kalpanaswaram" target="carnatic music">
+      <data key="d0">0.0209059233449</data>
+    </edge>
+    <edge source="syama sastri" target="carnatic music">
+      <data key="d0">0.01393728223</data>
+    </edge>
+    <edge source="syama sastri" target="muthuswami dikshitar">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="venkatamakhin" target="carnatic music">
+      <data key="d0">0.0769230769231</data>
+    </edge>
+    <edge source="ragam thanam pallavi" target="carnatic music">
+      <data key="d0">0.00348432055749</data>
+    </edge>
+    <edge source="ragam thanam pallavi" target="tanam">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="ragam thanam pallavi" target="pallavi">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="sangeetha kalanidhi" target="m. l. vasanthakumari">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="trichy sankaran">
+      <data key="d0">0.00900900900901</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="t. m. krishna">
+      <data key="d0">0.0196078431373</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="radha viswanathan">
+      <data key="d0">0.018691588785</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="tirukkodikaval krishna iyer">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="lalgudi jayaraman">
+      <data key="d0">0.00952380952381</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="t. n. krishnan">
+      <data key="d0">0.0740740740741</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="maharajapuram viswanatha iyer">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="semmangudi srinivasa iyer" target="m. s. subbulakshmi">
+      <data key="d0">0.0108695652174</data>
+    </edge>
+    <edge source="manavati" target="kantamani">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="niraval" target="kriti">
+      <data key="d0">0.1</data>
+    </edge>
+    <edge source="niraval" target="carnatic music">
+      <data key="d0">0.0174216027875</data>
+    </edge>
+    <edge source="margazhi raagam" target="t. m. krishna">
+      <data key="d0">0.0196078431373</data>
+    </edge>
+    <edge source="simhendramadhyamam" target="rasikapriya">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="simhendramadhyamam" target="keeravani">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="charukesi" target="gourimanohari">
+      <data key="d0">0.0217391304348</data>
+    </edge>
+    <edge source="charukesi" target="natakapriya">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="charukesi" target="rishabhapriya">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="niroshta" target="muthiah bhagavatar">
+      <data key="d0">0.0147058823529</data>
+    </edge>
+    <edge source="niroshta" target="dheerasankarabharanam">
+      <data key="d0">0.016393442623</data>
+    </edge>
+    <edge source="sanjukta panigrahi" target="kalakshetra">
+      <data key="d0">0.0285714285714</data>
+    </edge>
+    <edge source="t. n. krishnan" target="alathur brothers">
+      <data key="d0">0.025</data>
+    </edge>
+    <edge source="gavambhodi" target="hatakambari">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="marimutthu pillai" target="muthu thandavar">
+      <data key="d0">0.0285714285714</data>
+    </edge>
+    <edge source="marimutthu pillai" target="arunachala kavi">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="marimutthu pillai" target="tamil trinity">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="pancharatna kriti" target="arabhi">
+      <data key="d0">0.0416666666667</data>
+    </edge>
+    <edge source="carnatic music" target="kriti">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="carnatic music" target="venu">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="carnatic music" target="muthiah bhagavatar">
+      <data key="d0">0.0441176470588</data>
+    </edge>
+    <edge source="carnatic music" target="sadasiva brahmendra">
+      <data key="d0">0.0655737704918</data>
+    </edge>
+    <edge source="carnatic music" target="ghatam">
+      <data key="d0">0.0512820512821</data>
+    </edge>
+    <edge source="carnatic music" target="pallavi">
+      <data key="d0">0.4</data>
+    </edge>
+    <edge source="carnatic music" target="ugabhoga">
+      <data key="d0">0.222222222222</data>
+    </edge>
+    <edge source="carnatic music" target="madras music season">
+      <data key="d0">0.294117647059</data>
+    </edge>
+    <edge source="carnatic music" target="kancherla gopanna">
+      <data key="d0">0.046875</data>
+    </edge>
+    <edge source="carnatic music" target="mysore vasudevachar">
+      <data key="d0">0.0508474576271</data>
+    </edge>
+    <edge source="carnatic music" target="tillana">
+      <data key="d0">0.00348432055749</data>
+    </edge>
+    <edge source="carnatic music" target="varnam">
+      <data key="d0">0.21875</data>
+    </edge>
+    <edge source="carnatic music" target="haridasa">
+      <data key="d0">0.0689655172414</data>
+    </edge>
+    <edge source="carnatic music" target="muthuswami dikshitar">
+      <data key="d0">0.0551181102362</data>
+    </edge>
+    <edge source="carnatic music" target="narayana teertha">
+      <data key="d0">0.0392156862745</data>
+    </edge>
+    <edge source="carnatic music" target="mudra (music)">
+      <data key="d0">0.5</data>
+    </edge>
+    <edge source="carnatic music" target="koteeswara iyer">
+      <data key="d0">0.166666666667</data>
+    </edge>
+    <edge source="carnatic music" target="papanasam sivan">
+      <data key="d0">0.228571428571</data>
+    </edge>
+    <edge source="carnatic music" target="sangita ratnakara">
+      <data key="d0">0.0289855072464</data>
+    </edge>
+    <edge source="carnatic music" target="veene sheshanna">
+      <data key="d0">0.0882352941176</data>
+    </edge>
+    <edge source="carnatic music" target="annamacharya">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="carnatic music" target="neelakanta sivan">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="carnatic music" target="morsing">
+      <data key="d0">0.0689655172414</data>
+    </edge>
+    <edge source="carnatic music" target="madras music academy">
+      <data key="d0">0.176470588235</data>
+    </edge>
+    <edge source="carnatic music" target="tanam">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="carnatic music" target="arunachala kavi">
+      <data key="d0">0.105263157895</data>
+    </edge>
+    <edge source="carnatic music" target="vijaya dasa">
+      <data key="d0">0.0512820512821</data>
+    </edge>
+    <edge source="carnatic music" target="purandara dasa">
+      <data key="d0">0.0652173913043</data>
+    </edge>
+    <edge source="carnatic music" target="patnam subramania iyer">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="carnatic music" target="anupallavi">
+      <data key="d0">0.2</data>
+    </edge>
+    <edge source="carnatic music" target="gottuvadhyam">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="gambhiranata" target="bhupalam">
+      <data key="d0">0.1</data>
+    </edge>
+    <edge source="madras music season" target="madras music academy">
+      <data key="d0">0.0294117647059</data>
+    </edge>
+    <edge source="trichur v. ramachandran" target="m. l. vasanthakumari">
+      <data key="d0">0.00862068965517</data>
+    </edge>
+    <edge source="poochi srinivasa iyengar" target="ariyakudi ramanuja iyengar">
+      <data key="d0">0.04</data>
+    </edge>
+    <edge source="poochi srinivasa iyengar" target="patnam subramania iyer">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="raghuvamsa sudha" target="patnam subramania iyer">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="priya sisters" target="soolamangalam sisters">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="priya sisters" target="radha jayalakshmi">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="neralattu rama poduval" target="sopana sangeetham">
+      <data key="d0">0.0208333333333</data>
+    </edge>
+    <edge source="ratnangi" target="gamanashrama">
+      <data key="d0">0.153846153846</data>
+    </edge>
+    <edge source="ratnangi" target="jalarnavam">
+      <data key="d0">0.0769230769231</data>
+    </edge>
+    <edge source="natabhairavi" target="melakarta">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="natabhairavi" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="natabhairavi" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="natabhairavi" target="dheerasankarabharanam">
+      <data key="d0">0.0327868852459</data>
+    </edge>
+    <edge source="natabhairavi" target="shanmukhapriya">
+      <data key="d0">0.05</data>
+    </edge>
+    <edge source="natabhairavi" target="anandabhairavi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="dharma raja" target="irayimman thampi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="patnam subramania iyer" target="manambuchavadi venkatasubbayyar">
+      <data key="d0">0.0909090909091</data>
+    </edge>
+    <edge source="patnam subramania iyer" target="mysore vasudevachar">
+      <data key="d0">0.0508474576271</data>
+    </edge>
+    <edge source="kshetrayya" target="t. brinda">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="dhanyasi" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="t. viswanathan" target="jon b. higgins">
+      <data key="d0">0.0208333333333</data>
+    </edge>
+    <edge source="t. viswanathan" target="t. ranganathan">
+      <data key="d0">0.0416666666667</data>
+    </edge>
+    <edge source="d. k. jayaraman" target="d. k. pattammal">
+      <data key="d0">0.021978021978</data>
+    </edge>
+    <edge source="sikkil sisters – kunjumani &amp; neela" target="sikkil mala chandrasekar">
+      <data key="d0">0.0175438596491</data>
+    </edge>
+    <edge source="musiri subramania iyer" target="bombay sisters">
+      <data key="d0">0.0357142857143</data>
+    </edge>
+    <edge source="navaneetam" target="vanaspati (raga)">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="sudha ragunathan" target="m. l. vasanthakumari">
+      <data key="d0">0.0344827586207</data>
+    </edge>
+    <edge source="gottuvadhyam" target="sakharam rao">
+      <data key="d0">0.037037037037</data>
+    </edge>
+    <edge source="gottuvadhyam" target="seetha doraiswamy">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="muthiah bhagavatar" target="madurai mani iyer">
+      <data key="d0">0.05</data>
+    </edge>
+    <edge source="muthiah bhagavatar" target="t. n. seshagopalan">
+      <data key="d0">0.0357142857143</data>
+    </edge>
+    <edge source="muthiah bhagavatar" target="rugmini gopalakrishnan">
+      <data key="d0">0.0243902439024</data>
+    </edge>
+    <edge source="aswathi thirunal rama varma" target="swathi sangeethotsavam">
+      <data key="d0">0.0238095238095</data>
+    </edge>
+    <edge source="sarasangi" target="chakravakam (raga)">
+      <data key="d0">0.04</data>
+    </edge>
+    <edge source="sarasangi" target="latangi">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="naganandini" target="vagadheeswari">
+      <data key="d0">0.142857142857</data>
+    </edge>
+    <edge source="naganandini" target="bhavapriya">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="dasa sahitya" target="haridasa">
+      <data key="d0">0.0137931034483</data>
+    </edge>
+    <edge source="melakarta" target="janya">
+      <data key="d0">0.0238095238095</data>
+    </edge>
+    <edge source="melakarta" target="vivadi">
+      <data key="d0">0.142857142857</data>
+    </edge>
+    <edge source="melakarta" target="muthuswami dikshitar">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="lalgudi jayaraman" target="lalgudi vijayalakshmi">
+      <data key="d0">0.0909090909091</data>
+    </edge>
+    <edge source="lalgudi jayaraman" target="bombay jayashri">
+      <data key="d0">0.0104712041885</data>
+    </edge>
+    <edge source="charumathi ramachandran" target="m. l. vasanthakumari">
+      <data key="d0">0.0172413793103</data>
+    </edge>
+    <edge source="kuthira malika" target="swathi sangeethotsavam">
+      <data key="d0">0.0243902439024</data>
+    </edge>
+    <edge source="ariyakudi ramanuja iyengar" target="k. v. narayanaswamy">
+      <data key="d0">0.04</data>
+    </edge>
+    <edge source="radha jayalakshmi" target="soolamangalam sisters">
+      <data key="d0">0.0384615384615</data>
+    </edge>
+    <edge source="radha jayalakshmi" target="bombay sisters">
+      <data key="d0">0.0357142857143</data>
+    </edge>
+    <edge source="karaikudi sambasiva iyer" target="ranganayaki rajagopalan">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="kosalam" target="vakulabharanam">
+      <data key="d0">0.0555555555556</data>
+    </edge>
+    <edge source="kosalam" target="keeravani">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="t. muktha" target="t. brinda">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="muthu thandavar" target="arunachala kavi">
+      <data key="d0">0.0526315789474</data>
+    </edge>
+    <edge source="muthu thandavar" target="tamil trinity">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="m. l. vasanthakumari" target="d. k. pattammal">
+      <data key="d0">0.010989010989</data>
+    </edge>
+    <edge source="m. l. vasanthakumari" target="a. kanyakumari">
+      <data key="d0">0.08</data>
+    </edge>
+    <edge source="thavil" target="nadaswaram">
+      <data key="d0">0.0277777777778</data>
+    </edge>
+    <edge source="arunachala kavi" target="tamil trinity">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="m. d. ramanathan" target="tiger varadachariar">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="shubhapantuvarali" target="hanumatodi">
+      <data key="d0">0.0322580645161</data>
+    </edge>
+    <edge source="shubhapantuvarali" target="chalanata">
+      <data key="d0">0.0769230769231</data>
+    </edge>
+    <edge source="n. ramani" target="t. r. mahalingam (flautist)">
+      <data key="d0">0.0111111111111</data>
+    </edge>
+    <edge source="l. vaidyanathan" target="l. subramaniam">
+      <data key="d0">0.00952380952381</data>
+    </edge>
+    <edge source="l. vaidyanathan" target="l. shankar">
+      <data key="d0">0.0119047619048</data>
+    </edge>
+    <edge source="manambuchavadi venkatasubbayyar" target="maha vaidyanatha iyer">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="hanumatodi" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="hanumatodi" target="bhavapriya">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="hanumatodi" target="bhupalam">
+      <data key="d0">0.05</data>
+    </edge>
+    <edge source="hanumatodi" target="dheerasankarabharanam">
+      <data key="d0">0.0327868852459</data>
+    </edge>
+    <edge source="gangeyabhushani" target="neetimati">
+      <data key="d0">0.166666666667</data>
+    </edge>
+    <edge source="kokilapriya" target="rishabhapriya">
+      <data key="d0">0.235294117647</data>
+    </edge>
+    <edge source="mohanam" target="shuddha saveri">
+      <data key="d0">0.0909090909091</data>
+    </edge>
+    <edge source="mohanam" target="udayaravichandrika">
+      <data key="d0">0.117647058824</data>
+    </edge>
+    <edge source="amritavarshini" target="karnataka shuddha saveri">
+      <data key="d0">0.142857142857</data>
+    </edge>
+    <edge source="maha vaidyanatha iyer" target="anai ayya brothers">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="thetakudi harihara vinayakram" target="v. selvaganesh">
+      <data key="d0">0.0816326530612</data>
+    </edge>
+    <edge source="neetimati" target="varunapriya">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="radha viswanathan" target="sikkil mala chandrasekar">
+      <data key="d0">0.0175438596491</data>
+    </edge>
+    <edge source="udayaravichandrika" target="shuddha saveri">
+      <data key="d0">0.0454545454545</data>
+    </edge>
+    <edge source="udayaravichandrika" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="muthuswami dikshitar" target="thanjavur quartet">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="muthuswami dikshitar" target="kamalamba navavarna kritis">
+      <data key="d0">0.00787401574803</data>
+    </edge>
+    <edge source="mridangam" target="palani subramaniam pillai">
+      <data key="d0">0.0615384615385</data>
+    </edge>
+    <edge source="mridangam" target="trichy sankaran">
+      <data key="d0">0.036036036036</data>
+    </edge>
+    <edge source="mridangam" target="morsing">
+      <data key="d0">0.206896551724</data>
+    </edge>
+    <edge source="vagadheeswari" target="bhavapriya">
+      <data key="d0">0.0714285714286</data>
+    </edge>
+    <edge source="leela samson" target="kalakshetra">
+      <data key="d0">0.0285714285714</data>
+    </edge>
+    <edge source="leela samson" target="joyce paul poursabahian">
+      <data key="d0">0.115384615385</data>
+    </edge>
+    <edge source="valaji" target="abhogi">
+      <data key="d0">0.030303030303</data>
+    </edge>
+    <edge source="valaji" target="chakravakam (raga)">
+      <data key="d0">0.04</data>
+    </edge>
+    <edge source="purandara dasa" target="vyasatirtha">
+      <data key="d0">0.00980392156863</data>
+    </edge>
+    <edge source="ghanam krishna iyer" target="pacchimiriam adiyappa">
+      <data key="d0">0.111111111111</data>
+    </edge>
+    <edge source="nedunuri krishnamurthy" target="malladi brothers">
+      <data key="d0">0.125</data>
+    </edge>
+    <edge source="abheri" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="abheri" target="mysore vasudevachar">
+      <data key="d0">0.0169491525424</data>
+    </edge>
+    <edge source="c. rajagopalachari" target="kurai onrum illai">
+      <data key="d0">0.16</data>
+    </edge>
+    <edge source="b. shankar rao" target="t. r. mahalingam (flautist)">
+      <data key="d0">0.0111111111111</data>
+    </edge>
+    <edge source="g. harishankar" target="karaikudi mani">
+      <data key="d0">0.0166666666667</data>
+    </edge>
+    <edge source="abhogi" target="kharaharapriya">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="sunadavinodini" target="shivaranjani">
+      <data key="d0">0.0227272727273</data>
+    </edge>
+    <edge source="vyasatirtha" target="haridasa">
+      <data key="d0">0.0137931034483</data>
+    </edge>
+    <edge source="bilahari" target="dheerasankarabharanam">
+      <data key="d0">0.016393442623</data>
+    </edge>
+    <edge source="narayana teertha" target="sri krishna leela tarangini">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="gopala dasa" target="haridasa">
+      <data key="d0">0.00689655172414</data>
+    </edge>
+    <edge source="gopala dasa" target="vijaya dasa">
+      <data key="d0">0.025641025641</data>
+    </edge>
+    <edge source="ramnad raghavan" target="jamey haddad">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="dheerasankarabharanam" target="shuddha saveri">
+      <data key="d0">0.0454545454545</data>
+    </edge>
+    <edge source="dheerasankarabharanam" target="kharaharapriya">
+      <data key="d0">0.046511627907</data>
+    </edge>
+    <edge source="dheerasankarabharanam" target="hamsadhvani">
+      <data key="d0">0.0333333333333</data>
+    </edge>
+    <edge source="dheerasankarabharanam" target="arabhi">
+      <data key="d0">0.0416666666667</data>
+    </edge>
+    <edge source="dheerasankarabharanam" target="devagandhari">
+      <data key="d0">0.03125</data>
+    </edge>
+    <edge source="vakulabharanam" target="keeravani">
+      <data key="d0">0.0588235294118</data>
+    </edge>
+    <edge source="haridasa" target="vijaya dasa">
+      <data key="d0">0.0512820512821</data>
+    </edge>
+    <edge source="haridasa" target="jagannatha dasa">
+      <data key="d0">0.00689655172414</data>
+    </edge>
+    <edge source="t. m. krishna" target="bombay jayashri">
+      <data key="d0">0.020942408377</data>
+    </edge>
+    <edge source="latangi" target="suryakantam">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="kanakangi" target="salagam">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="kharaharapriya" target="shivaranjani">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="kharaharapriya" target="andolika">
+      <data key="d0">0.0232558139535</data>
+    </edge>
+    <edge source="l. shankar" target="l. subramaniam">
+      <data key="d0">0.00952380952381</data>
+    </edge>
+    <edge source="l. shankar" target="gingger shankar">
+      <data key="d0">0.047619047619</data>
+    </edge>
+    <edge source="adyar k. lakshman" target="kalakshetra">
+      <data key="d0">0.0285714285714</data>
+    </edge>
+    <edge source="vasundhara devi" target="vyjayanthimala">
+      <data key="d0">0.00444444444444</data>
+    </edge>
+    <edge source="natakapriya" target="gourimanohari">
+      <data key="d0">0.0666666666667</data>
+    </edge>
+    <edge source="t. ranganathan" target="jon b. higgins">
+      <data key="d0">0.0208333333333</data>
+    </edge>
+    <edge source="soolamangalam sisters" target="bombay sisters">
+      <data key="d0">0.0357142857143</data>
+    </edge>
+    <edge source="chalanata" target="rasikapriya">
+      <data key="d0">0.0769230769231</data>
+    </edge>
+    <edge source="shuddha saveri" target="karnataka shuddha saveri">
+      <data key="d0">0.0454545454545</data>
+    </edge>
+    <edge source="jagannatha dasa" target="vijaya dasa">
+      <data key="d0">0.025641025641</data>
+    </edge>
+    <edge source="arabhi" target="devagandhari">
+      <data key="d0">0.0625</data>
+    </edge>
+    <edge source="k. v. narayanaswamy" target="palani subramaniam pillai">
+      <data key="d0">0.0153846153846</data>
+    </edge>
+    <edge source="annamacharya" target="shobha raju">
+      <data key="d0">0.229508196721</data>
+    </edge>
+    <edge source="papanasam sivan" target="m. k. thyagaraja bhagavathar">
+      <data key="d0">0.0111111111111</data>
+    </edge>
+    <edge source="maharajapuram santhanam" target="narayana ninna namada">
+      <data key="d0">0.0833333333333</data>
+    </edge>
+    <edge source="maharajapuram santhanam" target="maharajapuram viswanatha iyer">
+      <data key="d0">0.0625</data>
+    </edge>
+  </graph>
+</graphml>
