@@ -72,5 +72,42 @@ def get_openie_relations(input_file):
     return relations_parsed
 
 
-def get_reverb_relations():
-    pass
+def get_reverb_relations(input_file):
+    """
+    The values in each line are tab separated, with the following information:
+    0: file name from which the sentence is read
+    1: sent_number
+    2: arg1
+    3: rel
+    4: arg2
+    5: arg1 start index
+    6: arg1 end index
+    7: rel start index
+    8: rel end index
+    9: arg2 start index
+    10: arg2 end index
+    11: confidence
+    12: the actual sentence
+    13: POS tags
+    14: Shallow parse output
+    15: arg1_normalized
+    16: rel_normalized
+    17: arg2_normalized
+    """
+    relations = codecs.open(input_file, encoding='utf-8').readlines()
+    relations_parsed = []
+    for rel_data in relations:
+        rel_data = rel_data.split('\t')
+        relation = {}
+        relation['arg1'] = rel_data[2]
+        relation['rel'] = rel_data[3]
+        relation['arg2'] = rel_data[4]
+        
+        relation['arg1_norm'] = rel_data[15]
+        relation['rel_norm'] = rel_data[16]
+        relation['arg2_norm'] = rel_data[17]
+        
+        relation['confidence'] = rel_data[11]
+        relations_parsed.append(relation)
+        
+    return relations_parsed
