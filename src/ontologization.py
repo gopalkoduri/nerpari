@@ -58,9 +58,11 @@ def object_relations(relations, min_num_relations=1):
 
 
 def bootstrap(relations, seedset, num_best_relations=5):
+    #get alll relations and subjects,objects
     arg_subject_relations = subject_relations(relations)
     arg_object_relations = object_relations(relations)
-
+    
+    #get the relations having seed set involved
     seed_subject_relations = concatenate([v for k, v in arg_subject_relations.items() if k in seedset])
     seed_object_relations = concatenate([v for k, v in arg_object_relations.items() if k in seedset])
 
