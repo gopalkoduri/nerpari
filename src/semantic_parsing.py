@@ -42,7 +42,8 @@ def graph_relations(parsed, special):
     for i in parsed:
         if i['X'][-1] == 'e':
             if len(i['HCn']) == 1:
-                print 'Unhandled:', i
+                pass
+                #print 'Unhandled:', i
 
             elif len(i['HCn']) == 2:
                 #same as when len(i['HCn']) == 3 and i['HCn'][0] == i['HCn'][1]
@@ -118,7 +119,8 @@ def graph_relations(parsed, special):
 
             elif len(i['HCn']) == 3:
                 if i['HCn'][0] == i['HCn'][1]:
-                    print 'Unhandled', i
+                    pass
+                    #print 'Unhandled', i
                 else:
                     if x_ind == y_ind:
                         weight = 0.25
@@ -204,9 +206,13 @@ def get_relations(rg):
                         relation = [node, edge[2]['label'], edge[1]]
                         relations.append(relation)
         else:
-            print 'Unhandled: ', node
+            pass
+            #print 'Unhandled: ', node
     return relations
 
+
+#The following functions are to expand the relations from graph by cleaning the arguments,
+# filling in the suffixes and prefixes, removing indices etc.
 
 def get_nodetype(node):
     if ':' in node:
@@ -227,11 +233,14 @@ def resolve_unnamed(g, node):
     """
     out_edges = g.out_edges(node, data=True)
     is_a_relations = [(edge[1], edge[2]['weight']) for edge in out_edges if edge[2]['label'] == 'is a']
-    is_a_relations = sorted(is_a_relations, key=lambda x: x[1], reverse=True)
-    if get_nodetype(is_a_relations[0][0]) == 'indexed_leaf':
-        return strip_index(is_a_relations[0][0])
+    if is_a_relations:
+        is_a_relations = sorted(is_a_relations, key=lambda x: x[1], reverse=True)
+        if get_nodetype(is_a_relations[0][0]) == 'indexed_leaf':
+            return strip_index(is_a_relations[0][0])
+        else:
+            return is_a_relations[0][0]
     else:
-        return is_a_relations[0][0]
+        return '#Unknown'
 
 
 def strip_index(indexed_node):
