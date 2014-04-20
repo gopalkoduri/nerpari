@@ -27,40 +27,64 @@ def overlap(y, x):
         return 0
 
 
-def subject_relations(relations, min_num_relations=1):
-    arg_subject = [normalize(i['arg1_norm']) for i in relations]
-    as_c = Counter(arg_subject)
-    arg_subject = [k for k, v in as_c.items() if v > min_num_relations]
-    arg_subject_relations = {k: [] for k in arg_subject}
+def get_predicates(relations, min_num_relations=1, normalization=False):
+    """
+    This function returns a dictionary of subjects and their predicates in
+    the form of {subject: predicates} given a set of relations.
 
+    relations is a list of tuples, each tuple a triple (s, p, o).
+    min_num_relations is the min num of relations a subject should be seen in
+    to be included in results.
+    normalization, is set to True, removes stop words and lemmatizes the predicates.
+    """
+    subjects = [i[0] for i in relations]
+    subjects_counter = Counter(subjects)
+    subjects = [k for k, v in subjects_counter.items() if v > min_num_relations]
+
+    predicates = {k: [] for k in subjects}
     for i in relations:
         try:
-            arg_subject_relations[normalize(i['arg1_norm'])].append(normalize(i['rel_norm']))
+            if normalization:
+                predicates[i[0]].append(normalize(i[1]))
+            else:
+                predicates[i[0]].append(i[1])
         except KeyError:
             #these are arguments which have just one relation in the entire corpus, let them go
             continue
-    return arg_subject_relations
+    return predicates
 
 
-def object_relations(relations, min_num_relations=1):
-    arg_object = [normalize(i['arg2_norm']) for i in relations]
-    ao_c = Counter(arg_object)
-    arg_object = [k for k, v in ao_c.items() if v > min_num_relations]
-    arg_object_relations = {k: [] for k in arg_object}
+def get_objects(relations, min_num_relations=1, normalization=False):
+    """
+    This function returns a dictionary of subjects and their predicates in
+    the form of {subject: objects} given a set of relations.
 
+    relations is a list of tuples, each tuple a triple (s, p, o).
+    min_num_relations is the min num of relations a object should be seen in
+    to be included in results.
+    normalization, is set to True, removes stop words and lemmatizes the objects.
+    """
+    subjects = [i[0] for i in relations]
+    subjects_counter = Counter(subjects)
+    subjects = [k for k, v in subjects_counter.items() if v > min_num_relations]
+
+    objects = {k: [] for k in subjects}
     for i in relations:
         try:
-            arg_object_relations[normalize(i['arg2_norm'])].append(normalize(i['rel_norm']))
+            if normalization:
+                objects[i[0]].append(normalize(i[2]))
+            else:
+                objects[i[0]].append(i[2])
         except KeyError:
             #these are arguments which have just one relation in the entire corpus, let them go
             continue
-    return arg_object_relations
+    return objects
 
 
 def bootstrap(relations, seedset, num_best_relations=5):
     #get alll relations and subjects,objects
-    arg_subject_relations = subject_relations(relations)
-    arg_object_relations = object_relations(relations)
+    arg_subject_relations = get_predicates(relations)
+    arg_object_relations = get_objects(relations)
     
     #get the relations having seed set involved
     seed_subject_relations = concatenate([v for k, v in arg_subject_relations.items() if k in seedset])
