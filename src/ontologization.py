@@ -4,6 +4,7 @@ from collections import Counter
 from numpy import concatenate, array, unique, sqrt
 from gensim import corpora, models, similarities
 import codecs
+import json
 
 from nltk.corpus import stopwords
 swords = stopwords.words('english')
@@ -201,6 +202,15 @@ def bootstrap(seedset, entities, objects, predicates, expansion=1, iterations=10
     for i in xrange(iterations):
         seedset = iterate(seedset, entities, objects, predicates, expansion)
     return seedset
+
+
+def get_groundtruth(music, category):
+    groundtruth_file = home + '/workspace/nerpari/data/wiki_pages/' + music + '_' + category + '.json'
+    data = json.load(file(groundtruth_file))
+    data = [i['s']['value'] for i in data['results']['bindings']]
+    data = [i.split('/')[-1].replace('_', ' ').lower() for i in data]
+    return set(data)
+
 
 if __name__ == "__main__":
     artist_seedset = ['Gayathri Venkataraghavan', 'Sanjay Subrahmanyan', 'Abhishek Raghuram']
