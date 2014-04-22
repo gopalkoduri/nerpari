@@ -1,13 +1,20 @@
 from __future__ import division
+import numpy as np
 from collections import Counter
 from numpy import concatenate, array, unique, sqrt
 from gensim import corpora, models, similarities
+import codecs
 
 from nltk.corpus import stopwords
 swords = stopwords.words('english')
 
 from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
+
+import semantic_parsing as sp
+
+from os.path import expanduser
+home = expanduser("~")
 
 
 def ochiai_coefficient(x, y):
@@ -194,3 +201,36 @@ def bootstrap(seedset, entities, objects, predicates, expansion=1, iterations=10
     for i in xrange(iterations):
         seedset = iterate(seedset, entities, objects, predicates, expansion)
     return seedset
+
+if __name__ == "__main__":
+    artist_seedset = ['Gayathri Venkataraghavan', 'Sanjay Subrahmanyan', 'Abhishek Raghuram']
+    composer_seedset = ['Syama Sastri', 'Muthuswami Dikshitar', 'Tyagaraja']
+    raaga_seedset = ['Charukesi', 'Shuddha Saveri', 'Abhogi']
+    instrument_seedset = ['Mridangam', 'Venu']
+    form_seedset = ['Viruttam', 'Varnam', 'Niraval']
+
+    data = codecs.open(home+'/workspace/nerpari/data/ambati/data/carnatic_music/resolved-sentences-unidecoded-sem.txt', encoding='utf-8').readlines()
+
+    relations = []
+    #progress = progressbar.ProgressBar(len(data))
+
+    for ind in np.arange(0, len(data), 20):
+        rg = sp.get_graph(data, ind, draw=False)
+        res = sp.get_relations(rg)
+        res = sp.expand_relations(rg, res)
+        for rel in res['valid']:
+            relations.append(rel)
+        #progress.animate(ind)
+
+    wiki_entities = codecs.open(home + '/workspace/nerpari/data/wiki_pages/carnatic_music_pages.txt', encoding='utf-8').readlines()
+    wiki_entities = [i.strip() for i in wiki_entities]
+
+    filtered_relations = []
+    for rel in relations:
+        if rel[0] in wiki_entities:# or rel[2] in wiki_entities:
+            filtered_relations.append(rel)
+
+    predicates = get_predicates(filtered_relations, normalization=False)
+    objects = get_objects(filtered_relations, split=True, normalization=True)
+
+    res = bootstrap_lsa(artist_seedset, objects, predicates, expansion=1, iterations=10)
