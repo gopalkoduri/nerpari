@@ -1,0 +1,22 @@
+
+{ "head": { "link": [], "vars": ["s"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Gottuvadhyam" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Mridangam" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Drone_(music)" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Violin" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chenda" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Thavil" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Kanjira" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ghatam" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Electronic_tanpura" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Morsing" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Nadaswaram" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chande" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Maddale" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Saraswati_veena" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Shruti_box" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Venu" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Yakshagana_bells" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Tanpura_(instrument)" }},
+    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ottu_(instrument)" }} ] } }

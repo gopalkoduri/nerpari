@@ -153,12 +153,15 @@ def iterate_lsa(seedset, objects, predicates, object_entities, object_dictionary
 
 
 def bootstrap_lsa(seedset, objects, predicates, expansion=1, iterations=100):
-    object_entities, object_dictionary, object_tfidf, object_lsi, object_sim_index = get_transformation(objects)
-    predicate_entities, predicate_dictionary, predicate_tfidf, predicate_lsi, predicate_sim_index = get_transformation(predicates)
+    object_entities, object_dictionary, object_tfidf, \
+    object_lsi, object_sim_index = get_transformation(objects)
+    predicate_entities, predicate_dictionary, predicate_tfidf, \
+    predicate_lsi, predicate_sim_index = get_transformation(predicates)
+
     for i in xrange(iterations):
-        seedset = iterate_lsa(seedset, objects, predicates, object_entities, object_dictionary, object_tfidf, object_lsi,
-                              object_sim_index, predicate_dictionary, predicate_tfidf,
-                              predicate_lsi, predicate_sim_index, expansion)
+        seedset = iterate_lsa(seedset, objects, predicates, object_entities, object_dictionary,
+                              object_tfidf, object_lsi, object_sim_index, predicate_dictionary,
+                              predicate_tfidf, predicate_lsi, predicate_sim_index, expansion)
     return seedset
 
 
@@ -205,7 +208,7 @@ def bootstrap(seedset, entities, objects, predicates, expansion=1, iterations=10
 
 
 def get_groundtruth(music, category):
-    groundtruth_file = home + '/workspace/nerpari/data/wiki_pages/' + music + '_' + category + '.json'
+    groundtruth_file = home + '/workspace/nerpari/data/ground-truth/' + music + '_' + category + '.json'
     data = json.load(file(groundtruth_file))
     data = [i['s']['value'] for i in data['results']['bindings']]
     data = [i.split('/')[-1].replace('_', ' ').lower() for i in data]
