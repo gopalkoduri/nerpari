@@ -1,5 +1,6 @@
 from __future__ import division
 import networkx as nx
+import json
 
 
 def get_parsed(sem_out):
@@ -8,11 +9,9 @@ def get_parsed(sem_out):
 
     parsed = []
     special = {}
-    data = sem_out.strip('[]\n')+', '
-    data = data.split("), ")[:-1]
-    for part in data:
+    for part in sem_out:
         #part = 'raga.in.2(7:e , 10:x'
-        temp = part.strip("'").split('(')
+        temp = part.strip(")").split('(')
 
         HCn = temp[0].split('.')
         #HCn = 'raga.in.2'
@@ -135,9 +134,9 @@ def graph_relations(parsed, special):
     return rg
 
 
-def get_graph(data, n, draw=False):
+def get_graph(semout, draw=False):
     #print data[n]
-    parsed, special = get_parsed(data[n+1])
+    parsed, special = get_parsed(semout)
     #print parsed, special
 
     rg = graph_relations(parsed, special)
@@ -150,7 +149,7 @@ def get_graph(data, n, draw=False):
     return rg
 
 
-def get_relations(rg):
+def get_triples_from_graph(rg):
     relations = []
     for node in rg.nodes():
         out_edges = rg.out_edges(node, data=True)
@@ -298,3 +297,27 @@ def expand_relations(graph, relations):
         else:
             expanded_relations['unhandled'].append(relation)
     return expanded_relations
+
+
+def filter_relations(relations, wiki_entities):
+    filtered_relations = []
+    for rel in relations:
+        if rel[0] in wiki_entities:# or rel[2] in wiki_entities:
+            filtered_relations.append(rel)
+    return filtered_relations
+
+
+def get_relations(data):
+    relations = []
+    #progress = progressbar.ProgressBar(len(data))
+    for ind in xrange(len(data)):
+        temp = json.loads(data[ind])
+        if 'relations' not in temp.keys():
+            continue
+        rg = get_graph(temp['relations'][0], draw=False)
+        res = get_triples_from_graph(rg)
+        res = expand_relations(rg, res)
+        for rel in res['valid']:
+            relations.append([i.lower() for i in rel])
+        #progress.animate(ind)
+    return relations
