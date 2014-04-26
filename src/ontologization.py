@@ -69,7 +69,7 @@ def get_predicates(relations, min_num_relations=1, normalization=False):
     return predicates
 
 
-def get_objects(relations, min_num_relations=1, split=True, normalization=False):
+def get_objects(relations, min_num_relations=1, split=True, normalization=False, subsumption=False):
     """
     This function returns a dictionary of subjects and their predicates in
     the form of {subject: objects} given a set of relations.
@@ -77,14 +77,22 @@ def get_objects(relations, min_num_relations=1, split=True, normalization=False)
     relations is a list of tuples, each tuple a triple (s, p, o).
     min_num_relations is the min num of relations a object should be seen in
     to be included in results.
-    normalization, is set to True, removes stop words and lemmatizes the objects.
+    
+    normalization, if set to True, removes stop words and lemmatizes the objects.
+
+    subsumption, if set to True, returns objects corresponding only to 'is a' relations.
     """
     subjects = [i[0] for i in relations]
     subjects_counter = Counter(subjects)
     subjects = [k for k, v in subjects_counter.items() if v > min_num_relations]
 
+    subsumption_relations = ['is a', 'is', 'was', 'be']
+
     objects = {k: [] for k in subjects}
     for i in relations:
+        if subsumption:
+            if i[1].lower() not in subsumption_relations:
+                continue
         i[2] = i[2].lower()
         if split:
             if normalization:
