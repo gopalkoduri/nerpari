@@ -318,6 +318,8 @@ def get_relations(data):
         res = get_triples_from_graph(rg)
         res = expand_relations(rg, res)
         for rel in res['valid']:
-            relations.append([i.lower() for i in rel])
+            relations.append({'arg1': rel[0].lower(), 'rel': rel[1].lower(),\
+                              'arg2': rel[2].lower(), 'full_sentence':\
+                              temp['sentence']})
         #progress.animate(ind)
     return relations

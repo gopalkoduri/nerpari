@@ -108,6 +108,7 @@ def get_reverb_relations(input_file):
         relation['arg2_norm'] = rel_data[17]
         
         relation['confidence'] = rel_data[11]
+        relation['full_sentence'] = rel_data[12]
         relations_parsed.append(relation)
         
     return relations_parsed
