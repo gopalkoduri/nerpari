@@ -11,7 +11,7 @@ extracted_wiki_data = home+"/data/wiki/extracted"
 from wiki_tools import wiki_indexer as wi
 reload(wi)
 
-from . import text_processor as tp
+import text_processor as tp
 reload(tp)
 
 

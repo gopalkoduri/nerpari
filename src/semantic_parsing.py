@@ -302,7 +302,7 @@ def expand_relations(graph, relations):
 def filter_relations(relations, wiki_entities):
     filtered_relations = []
     for rel in relations:
-        if rel[0] in wiki_entities:# or rel[2] in wiki_entities:
+        if rel['arg1'] in wiki_entities:# or rel[2] in wiki_entities:
             filtered_relations.append(rel)
     return filtered_relations
 

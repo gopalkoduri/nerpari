@@ -65,8 +65,9 @@ def get_openie_relations(input_file):
 
         # ... so, we split each argument in a relation
         for arg in arg2:
-            rel_dict = {'arg1': arg1, 'rel': rel_string, 'arg2': arg,
-                        'confidence': confidence, 'full_sentence': rel_parts[-1].strip()}
+            rel_dict = {'arg1': arg1.lower(), 'rel': rel_string.lower(), 'arg2':
+                        arg.lower(), 'confidence': confidence, 
+                        'full_sentence': rel_parts[-1].strip()}
             relations_parsed.append(rel_dict)
 
     return relations_parsed
@@ -97,7 +98,7 @@ def get_reverb_relations(input_file):
     relations = codecs.open(input_file, encoding='utf-8').readlines()
     relations_parsed = []
     for rel_data in relations:
-        rel_data = rel_data.split('\t')
+        rel_data = rel_data.lower().split('\t')
         relation = {}
         relation['arg1'] = rel_data[2]
         relation['rel'] = rel_data[3]

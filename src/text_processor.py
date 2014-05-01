@@ -6,7 +6,7 @@ import re
 import collections
 from unidecode import unidecode
 
-from . import nerpari
+import nerpari
 from mycelery import app
 
 #Data
