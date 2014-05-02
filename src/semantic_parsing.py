@@ -130,7 +130,7 @@ def graph_relations(parsed, special):
                     else:
                         rg.add_edge(i['Y'], i['HCn'][1]+' '+i['HCn'][0], {'label': 'is a', 'weight': weight})
 
-                    rg.add_edge(i['HCn'][1], i['HCn'][0], {'label': 'a type of', 'weight': weight})
+                    #rg.add_edge(i['HCn'][1], i['HCn'][0], {'label': 'a type of', 'weight': weight})
     return rg
 
 
