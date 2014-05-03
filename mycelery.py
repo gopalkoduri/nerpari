@@ -1,13 +1,14 @@
+from __future__ import absolute_import
+
 from celery import Celery
 
-app = Celery('text',
+app = Celery('nerpari',
              broker='amqp://guest:guest@devaraya.s.upf.edu',
-             #backend='amqp://',
-             include=['tasks'])
+             include=['nerpari.src.text_processor'])
 
 # Optional configuration, see the application user guide.
 app.conf.update(
-    CELERYD_CONCURRENCY=2,
+    CELERYD_CONCURRENCY=4,
     CELERYD_POOL_RESTARTS=True,
 )
 

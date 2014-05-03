@@ -1,21 +1,20 @@
 # -*- coding: utf-8 -*-
 
-from os.path import expanduser
 import pickle
 import codecs
+from os.path import expanduser
 
 home = expanduser("~")
 extracted_wiki_data = home+"/data/wiki/extracted"
 
-#TODO: Python imports
+import sys
+sys.path.append(home + '/workspace/')
+
 from wiki_tools import wiki_indexer as wi
 reload(wi)
 
-import text_processor as tp
-reload(tp)
 
-
-class Page(tp.Processor):
+class Page():
     """
     A page object has all the information about a given page.
 
@@ -30,7 +29,6 @@ class Page(tp.Processor):
     """
 
     def __init__(self, title, index=None, keyword='carnatic_music'):
-        tp.Processor.__init__(self)
         self.title = title
         self.keyword = keyword
 
@@ -51,8 +49,7 @@ class Page(tp.Processor):
         Call this function if it fails to locate the file with text content.
         """
         self.content = wi.get_page_content(self.title, wiki_index)
-        p = tp.Processor()
-        self.content = p.clean_content(self.content)
+        #self.content = p.clean_content(self.content)
 
     def serialize(self, path):
         pickle.dump(self, file(path, 'w'))

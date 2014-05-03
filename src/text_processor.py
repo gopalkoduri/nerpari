@@ -1,54 +1,22 @@
+import re
 import pickle
 import codecs
 import requests
-from os.path import exists, basename
-import re
 import collections
 from unidecode import unidecode
+from os.path import exists, basename, expanduser
+
+from celery import Celery
+app = Celery('text_processor', broker='amqp://guest:guest@devaraya.s.upf.edu')
 
 import nerpari
-from mycelery import app
-
-#Data
-#wiki_index = pickle.load(file(expanduser('~')+'/workspace/relation-extraction/data/wiki_index.pickle'))
-wiki_index = {}
-
-
-@app.task
-def plain_text(page, f_path):
-    """
-    Gets the plain text, cleans them
-    """
-    if exists(f_path):
-        print False
-    p = nerpari.Page(page)
-    p.set_content(wiki_index)
-    try:
-        p.clean_content(p.content)
-    except:
-        print False
-    try:
-        p.serialize_content(f_path)
-    except:
-        print False
-    print True
-
-
-@app.task
-def entity_link(input_file, out_dir, spotlight_server):
-    text = codecs.open(input_file).read()
-    res = requests.post('http://'+spotlight_server+'.s.upf.edu:2222/rest/annotate',
-                        data={'text': text, 'confidence': '0.2', 'support': '5'},
-                        headers={"Accept": "application/json"})
-    output_file = out_dir+basename(input_file)[:-4]+'.pickle'
-    pickle.dump(res.json(), file(output_file, 'w'))
 
 
 class Processor():
     def __init__(self):
-        self.max_chars_reference = 40
-        self.min_chars_clean_line = 40
-        self.min_words_clean_line = 2
+        self.max_chars_reference = 30
+        self.min_chars_clean_line = 10
+        self.min_words_clean_line = 3
 
     def clean_content(self, content):
         if content == "":
@@ -66,7 +34,7 @@ class Processor():
         clean_lines = []
         for line in lines:
             line = line.strip()
-            if len(line) > self.min_chars_clean_line and len(line.split(' ')) > self.min_words_clean_line:
+            if len(line) >= self.min_chars_clean_line and len(line.split()) >= self.min_words_clean_line:
                 clean_lines.append(line.strip('.'))
 
         content = unidecode('. '.join(clean_lines))
@@ -146,4 +114,41 @@ class Processor():
         for sent_index, sent_replacements in replacements.items():
             all_sentences[sent_index] = self.stitch_sentence(sent_index, sent_replacements, parsed_content)
         return all_sentences
+
+
+wiki_index = pickle.load(file(expanduser('~')+'/data/text-analysis/wiki_index.pickle'))
+#wiki_index = {}
+tp = Processor()
+
+
+@app.task
+def plain_text(page, f_path):
+    """
+    Gets the plain text, cleans them
+    """
+    if exists(f_path):
+        print False
+    p = nerpari.Page(page)
+    p.set_content(wiki_index)
+    try:
+        p.content = tp.clean_content(p.content)
+    except:
+        print False
+    try:
+        p.serialize_content(f_path)
+    except:
+        print False
+    print True
+
+
+@app.task
+def entity_link(input_file, out_dir, spotlight_server):
+    text = codecs.open(input_file).read()
+    res = requests.post('http://'+spotlight_server+'.s.upf.edu:2222/rest/annotate',
+                        data={'text': text, 'confidence': '0.2', 'support': '5'},
+                        headers={"Accept": "application/json"})
+    output_file = out_dir+basename(input_file)[:-4]+'.pickle'
+    pickle.dump(res.json(), file(output_file, 'w'))
+
+
 
