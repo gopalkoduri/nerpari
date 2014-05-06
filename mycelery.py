@@ -4,7 +4,7 @@ from celery import Celery
 
 app = Celery('nerpari',
              broker='amqp://guest:guest@devaraya.s.upf.edu',
-             include=['nerpari.src.text_processor'])
+             include=['nerpari.nerpari.text_processor'])
 
 # Optional configuration, see the application user guide.
 app.conf.update(

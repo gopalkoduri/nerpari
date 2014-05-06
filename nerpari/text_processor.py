@@ -1,15 +1,64 @@
 import re
 import pickle
 import codecs
-import requests
 import collections
-from unidecode import unidecode
 from os.path import exists, basename, expanduser
 
-from celery import Celery
-app = Celery('text_processor', broker='amqp://guest:guest@devaraya.s.upf.edu')
+import requests
+from unidecode import unidecode
 
-import nerpari
+home = expanduser("~")
+extracted_wiki_data = home+"/data/wiki/extracted"
+
+import sys
+sys.path.append(home + '/workspace/')
+
+from wiki_tools import wiki_indexer as wi
+reload(wi)
+
+
+class Page():
+    """
+    A page object has all the information about a given page.
+
+    -> Clean content (cleaned by removeing braces and quotes,
+    and filtering out sentences that are too short to be sentences)
+
+    -> Parsed content from Stanford NLP tools
+
+    -> Entity linked content from DBpedia spotlight
+
+    -> Also contains functions to handle some I/O
+    """
+
+    def __init__(self, title, index=None, keyword='carnatic_music'):
+        self.title = title
+        self.keyword = keyword
+
+        if index:
+            path = home + '/data/text-analysis/plain_text/' + keyword + '/' + unicode(index) + '.pickle'
+            try:
+                self.content = pickle.load(file(path))
+            except IOError:
+                print "Unable to locate the file with text content, tried to look here: ", path
+            path = home + '/data/text-analysis/parsed_text/' + keyword + '/' + unicode(index) + '.pickle'
+            try:
+                self.parsed_content = pickle.load(file(path))
+            except IOError:
+                print "Unable to locate the file with text content, tried to look here: ", path
+
+    def set_content(self, wiki_index):
+        """
+        Call this function if it fails to locate the file with text content.
+        """
+        self.content = wi.get_page_content(self.title, wiki_index)
+        #self.content = p.clean_content(self.content)
+
+    def serialize(self, path):
+        pickle.dump(self, file(path, 'w'))
+
+    def serialize_content(self, path):
+        codecs.open(path, "w", "utf-8").write(self.content)
 
 
 class Processor():
@@ -116,9 +165,12 @@ class Processor():
         return all_sentences
 
 
-wiki_index = pickle.load(file(expanduser('~')+'/data/text-analysis/wiki_index.pickle'))
-#wiki_index = {}
+#wiki_index = pickle.load(file(expanduser('~')+'/data/text-analysis/wiki_index.pickle'))
+wiki_index = {}
 tp = Processor()
+
+from celery import Celery
+app = Celery('text_processor', broker='amqp://guest:guest@devaraya.s.upf.edu')
 
 
 @app.task
@@ -128,7 +180,7 @@ def plain_text(page, f_path):
     """
     if exists(f_path):
         print False
-    p = nerpari.Page(page)
+    p = Page(page)
     p.set_content(wiki_index)
     try:
         p.content = tp.clean_content(p.content)
@@ -149,6 +201,3 @@ def entity_link(input_file, out_dir, spotlight_server):
                         headers={"Accept": "application/json"})
     output_file = out_dir+basename(input_file)[:-4]+'.pickle'
     pickle.dump(res.json(), file(output_file, 'w'))
-
-
-
