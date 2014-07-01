@@ -1,0 +1,32 @@
+Thanks for the feedback. We believe most issues pointed out can be resolved adding slightly more details in the paper.
+
+Common issues:
+
+Corpus and groundtruth: The ontologies (groundtruth for concepts and relation-types) were built with the help of a renowned musicologist (Dr. N Ramanathan) and musicians (T. M. Krishna and his student Vignesh Ishwar). The concepts and relation-types used for evaluation belong to the top most level in the ontologies and are agreed upon by all. The groundtruth for entities for each concept correspond to pagetitles in the respective category from Wikipedia (eg: Carnatic_musicians).
+
+Choice of evaluation measures: We preferred overlap and residual measures over precision and recall as there are legitimate entities recognized in the assertions that are not part of the groundtruth. For technical correctness, we chose to call it an overlap instead of precision. So is the case with residual.
+
+
+Reviewer#1:
+
+We partially use non-taxonomical relations for identifying entities and concepts in the bootstrapping approach. For ReVerb and OpenIE4.0, the multiword named entities are handled in their implementations. In the semantic parsing based system, we identify consequetive NNPs and merge them into one in a pre-processing step.
+
+A frequency filter of 5 was arrived at by trial and error. The candidates which do not satisfy this criteria are observed to be noise with a high probability. LSA transformation with a tf-idf weighting of term vectors was used as it compares the term vectors beyond the simple term frequencies and co-occurrences.
+
+Figures will be updated with the suggestions given, and some of them will be presented as tables. The software and the data in the github repository are being updated currently.
+
+
+Reviewer#2:
+
+issue 1 -> We agree that the Open IE systems have different methodologies and goals to that of Boxer. For an evaluation using our framework, the only requirement for the system is that its extractions should be in the form of triples. The Boxer's output is transformed appropriately. The triples (input) were then used to build and populate an ontology (output), measuring the success of the each system.
+
+issues 2&3 -> addressed above.
+
+issue 4 -> Please note that the systems are compared only for the task of ontologization, and not information extraction in general. The number of relation-types, concepts and entities are representative of the size of the ontology learned and the volume by which it is populated (and the frequency filter is explained above). Note that differences between relative performances in quantitative and qualitative analysis expose systems which overgenerate wrong relation-types.
+
+
+Reviewer#3:
+
+The groundtruth for relations is not constructed from the extractions (explained in common-issues above). Using a frequency filter, we choose relations from the extractions, manually map them to the relations in ontologies to evaluate them qualitatively.
+
+Using this framework on other domains is definitely a direction we want to pursue in the near future. The license was a generic choice of the university. It can surely be changed to a more open one.
