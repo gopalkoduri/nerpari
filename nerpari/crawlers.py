@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from BeautifulSoup import BeautifulSoup, Tag
 import cPickle
 import logging
@@ -5,9 +6,10 @@ import requests
 import re
 import time
 import uuid
+import sys
 
 class Crawler():
-    def __init__(self, storage_dir, console_log_level=logging.INFO):
+    def __init__(self, storage_dir, log_level=logging.DEBUG):
         self.storage_dir = storage_dir
 
         self.crawl_state = {"visited_urls": set()}
@@ -19,26 +21,28 @@ class Crawler():
 
         #logging
         self.logger = logging.getLogger('crawler')
+        self.logger.setLevel(logging.DEBUG)
 
         #handler that writes everything to file
         h1 = logging.FileHandler(self.storage_dir + '/crawler.log')
-        h1.setLevel(logging.INFO)
+        h1.setLevel(log_level)
         self.logger.addHandler(h1)
 
         #handler that writes to console at a level as specified
         h2 = logging.StreamHandler()
-        h2.setLevel(console_log_level)
+        h2.setLevel(log_level)
         self.logger.addHandler(h2)
 
-
     def store_state(self):
+        self.logger.info('Storing crawl state. #Visted URLs: %d', len(self.crawl_state['visited_urls']))
         cPickle.dump(self.crawl_state, file(self.storage_dir+'/crawl_state.pickle', 'w'))
 
     def load_state(self):
         try:
             self.crawl_state = cPickle.load(file(self.storage_dir+'/crawl_state.pickle'))
         except IOError:
-            self.logger.exception("Can't read the crawl_state file!")
+            self.logger.error("Can't read the crawl_state file!")
+            sys.exit()
 
     def read(self, url):
         #compare the read count with persistence interval
@@ -53,7 +57,7 @@ class Crawler():
         self.prev_crawl_timestamp = cur_timestamp
 
         #get the data and send!
-        self.logger.debug('Getting data from: {0}'.format(url))
+        self.logger.info('Getting data from: %s', url)
         data = requests.get(url)
         self.read_count += 1
 
@@ -61,8 +65,8 @@ class Crawler():
 
 
 class TheHindu(Crawler):
-    def __init__(self, storage_dir, console_log_level=logging.INFO):
-        Crawler.__init__(self, storage_dir, console_log_level)
+    def __init__(self, storage_dir, log_level=logging.INFO):
+        Crawler.__init__(self, storage_dir, log_level)
         self.home = 'http://hindu.com/thehindu/fr/arcfr.htm'
         self.current_data = {'headline': '',
                              'news': '',
@@ -106,7 +110,10 @@ class TheHindu(Crawler):
 
         for city_edn_url in temp:
             url_data = dict(city_edn_url.attrs)
-            city_edn_url = url_data['href']
+            try:
+                city_edn_url = url_data['href']
+            except KeyError:
+                continue
             self.logger.debug('Checking '+city_edn_url)
             res = re.search(self.date_pattern, city_edn_url)
             if res:
@@ -130,6 +137,7 @@ class TheHindu(Crawler):
                 music_tag = t
 
         if not music_tag:
+            self.crawl_state['visited_urls'].add(city_edn_url)
             return
 
         next_tag = music_tag.findNext('font', attrs={'class': 'sectionhead'})
@@ -195,9 +203,16 @@ class TheHindu(Crawler):
                     continue
                 if child.name == 'center':
                     media = True
-                    img_data = dict(child.img.attrs)
-                    self.current_data['photo']['url'] = 'http://www.hindu.com/' + date_pattern + '/' + img_data['src'][3:]
-                    self.current_data['photo']['caption'] = child.b.text
+                    try:
+                        img_data = dict(child.img.attrs)
+                    except AttributeError:
+                        self.logger.warning('%s is not an expected center tag.', child)
+                        continue
+                    try:
+                        self.current_data['photo']['url'] = 'http://www.hindu.com/' + date_pattern + '/' + img_data['src'][3:]
+                        self.current_data['photo']['caption'] = child.b.text
+                    except:
+                        self.logger.warning('Media in %s does not seem to have all the information', url)
                     break
             if media:
                 continue
@@ -220,21 +235,28 @@ class TheHindu(Crawler):
             self.crawl_state['visited_urls'] = set()
 
         #Get top level URLs
+        self.logger.info('Getting the top level URLs ...')
         self.get_toplevel_urls()
 
         #Get city edition URLs
+        self.logger.info('Getting the city edition URLs ...')
         for url in self.crawl_state['top_level_urls']:
             if url not in self.crawl_state['visited_urls']:
                 self.get_city_edn_urls(url)
+        self.store_state()
 
         #Get music article URLs
+        self.logger.info('Getting the music article URLs ...')
         for url in self.crawl_state['city_edn_urls']:
             if url not in self.crawl_state['visited_urls']:
                 self.get_music_article_urls(url)
+        self.store_state()
 
         #Get contents!
+        self.logger.info('Getting the contents ...')
         for url in self.crawl_state['article_urls']:
             if url not in self.crawl_state['visited_urls']:
                 self.get_contents(url)
-                f_name = uuid.uuid5(uuid.NAMESPACE_URL, url)
+                f_name = uuid.uuid5(uuid.NAMESPACE_URL, url.encode('utf-8')).hex
                 cPickle.dump(self.current_data, file(self.storage_dir + '/' + f_name, 'w'))
+        self.store_state()

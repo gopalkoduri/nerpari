@@ -4,11 +4,11 @@ class MyLogger():
     def __init__(self, console_log_level=logging.DEBUG):
         #logging
         self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(logging.INFO)
+        self.logger.setLevel(logging.DEBUG)
 
         #handler that writes everything to file
         h1 = logging.FileHandler('crawler.log')
-        h1.setLevel(logging.INFO)
+        h1.setLevel(logging.WARN)
         self.logger.addHandler(h1)
 
         #handler that writes to console at a level as specified
@@ -16,11 +16,9 @@ class MyLogger():
         h2.setLevel(console_log_level)
         self.logger.addHandler(h2)
 
-    def cause_exception(self):
-        self.logger.exception('This is an exception!')
-
-    def print_info(self):
-        self.logger.info('This is information.')
-
-    def print_debug(self):
+    def log(self):
         self.logger.debug('This is debug information.')
+        self.logger.info('This is just plain information.')
+        self.logger.warning('This is a warning.')
+        self.logger.error('This is an error!')
+        self.logger.critical('Things got critical!')
