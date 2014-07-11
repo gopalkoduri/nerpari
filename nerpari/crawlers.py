@@ -7,16 +7,19 @@ import re
 import time
 import uuid
 import sys
+import codecs
+import json
+
 
 class Crawler():
     def __init__(self, storage_dir, log_level=logging.DEBUG):
         self.storage_dir = storage_dir
 
-        self.crawl_state = {"visited_urls": set()}
+        self.crawl_state = {}
         self.persistence_interval = 20
         self.read_count = 0
 
-        self.crawl_interval = 0.25 #in seconds
+        self.crawl_interval = 0.25  # in seconds
         self.prev_crawl_timestamp = time.time()
 
         #logging
@@ -34,7 +37,13 @@ class Crawler():
         self.logger.addHandler(h2)
 
     def store_state(self):
-        self.logger.info('Storing crawl state. #Visted URLs: %d', len(self.crawl_state['visited_urls']))
+        if 'visited_urls' in self.crawl_state.keys():
+            self.logger.info("Storing crawl state. #Visted URLs: %d", len(self.crawl_state['visited_urls']))
+        elif 'num_posts' in self.crawl_state.keys():
+            self.logger.info("Storing crawl state. #Posts: %d", len(self.crawl_state['num_posts']))
+        else:
+            self.logger.info("Storing crawl state ...")
+
         cPickle.dump(self.crawl_state, file(self.storage_dir+'/crawl_state.pickle', 'w'))
 
     def load_state(self):
@@ -57,7 +66,7 @@ class Crawler():
         self.prev_crawl_timestamp = cur_timestamp
 
         #get the data and send!
-        self.logger.info('Getting data from: %s', url)
+        self.logger.info("Getting data from: %s", url)
         data = requests.get(url)
         self.read_count += 1
 
@@ -67,14 +76,15 @@ class Crawler():
 class TheHindu(Crawler):
     def __init__(self, storage_dir, log_level=logging.INFO):
         Crawler.__init__(self, storage_dir, log_level)
-        self.home = 'http://hindu.com/thehindu/fr/arcfr.htm'
+        self.home = "http://hindu.com/thehindu/fr/arcfr.htm"
         self.current_data = {'headline': '',
                              'news': '',
                              'date': '',
-                             'photo': {'caption':'', 'url':''},
+                             'photo': {'caption': '', 'url': ''},
                              'url': ''}
 
         self.date_pattern = '(fr/\d\d\d\d/\d\d/\d\d)'
+        self.crawl_state['visited_urls'] = set()
         self.crawl_state['top_level_urls'] = set()
         self.crawl_state['city_edn_urls'] = set()
         self.crawl_state['article_urls'] = set()
@@ -94,7 +104,7 @@ class TheHindu(Crawler):
             self.logger.debug('Checking '+url)
             res = re.search(self.date_pattern, url)
             if res:
-                self.crawl_state['top_level_urls'].add('http://www.hindu.com'+url)
+                self.crawl_state['top_level_urls'].add("http://www.hindu.com" + url)
 
         self.crawl_state['visited_urls'].add(self.home)
 
@@ -117,7 +127,7 @@ class TheHindu(Crawler):
             self.logger.debug('Checking '+city_edn_url)
             res = re.search(self.date_pattern, city_edn_url)
             if res:
-                self.crawl_state['city_edn_urls'].add('http://www.hindu.com'+city_edn_url)
+                self.crawl_state['city_edn_urls'].add("http://www.hindu.com" + city_edn_url)
 
         self.crawl_state['visited_urls'].add(top_level_url)
 
@@ -151,7 +161,7 @@ class TheHindu(Crawler):
 
         for article_url in set(s1).intersection(s2):
             url_data = dict(article_url.attrs)
-            self.crawl_state['article_urls'].add('http://www.hindu.com/thehindu/'+date_pattern+'/'+url_data['href'])
+            self.crawl_state['article_urls'].add("http://www.hindu.com/thehindu/" + date_pattern + '/' + url_data['href'])
 
         self.crawl_state['visited_urls'].add(city_edn_url)
 
@@ -166,7 +176,8 @@ class TheHindu(Crawler):
         #Date can be taken from URL
         #Headline: ('font', attrs={'class': 'storyhead'})
         #Media is all in the center tag after the headline starts
-        #News is whatever text can be found in p tag after headline and before ('font', attrs={'class': 'leftnavi', 'face': 'verdana'})
+        #News is whatever text can be found in p tag after headline
+        # and before ('font', attrs={'class': 'leftnavi', 'face': 'verdana'})
 
         #just to make sure this is clean!
         self.current_data = {'headline': '',
@@ -206,13 +217,13 @@ class TheHindu(Crawler):
                     try:
                         img_data = dict(child.img.attrs)
                     except AttributeError:
-                        self.logger.warning('%s is not an expected center tag.', child)
+                        self.logger.warning("%s is not an expected center tag.", child)
                         continue
                     try:
-                        self.current_data['photo']['url'] = 'http://www.hindu.com/' + date_pattern + '/' + img_data['src'][3:]
+                        self.current_data['photo']['url'] = "http://www.hindu.com/" + date_pattern + '/' + img_data['src'][3:]
                         self.current_data['photo']['caption'] = child.b.text
                     except:
-                        self.logger.warning('Media in %s does not seem to have all the information', url)
+                        self.logger.warning("Media in %s does not seem to have all the information", url)
                     break
             if media:
                 continue
@@ -235,11 +246,11 @@ class TheHindu(Crawler):
             self.crawl_state['visited_urls'] = set()
 
         #Get top level URLs
-        self.logger.info('Getting the top level URLs ...')
+        self.logger.info("Getting the top level URLs ...")
         self.get_toplevel_urls()
 
         #Get city edition URLs
-        self.logger.info('Getting the city edition URLs ...')
+        self.logger.info("Getting the city edition URLs ...")
         for url in self.crawl_state['top_level_urls']:
             if url not in self.crawl_state['visited_urls']:
                 self.get_city_edn_urls(url)
@@ -253,10 +264,66 @@ class TheHindu(Crawler):
         self.store_state()
 
         #Get contents!
-        self.logger.info('Getting the contents ...')
+        self.logger.info("Getting the contents ...")
         for url in self.crawl_state['article_urls']:
             if url not in self.crawl_state['visited_urls']:
                 self.get_contents(url)
                 f_name = uuid.uuid5(uuid.NAMESPACE_URL, url.encode('utf-8')).hex
                 cPickle.dump(self.current_data, file(self.storage_dir + '/' + f_name, 'w'))
         self.store_state()
+
+
+class Blogger(Crawler):
+    def __init__(self, storage_dir, home):
+        Crawler.__init__(self, storage_dir)
+
+        self.home = home
+        self.api_key = codecs.open("../data/blogger_apikey.txt", 'r', encoding='utf-8').read()
+
+        self.crawl_interval = 1.0
+        self.crawl_state['last_pagetoken'] = ''
+        self.crawl_state['num_posts'] = 0
+
+        self.blog_info = {}
+        self.set_info()
+
+    def set_info(self):
+        url = "https://www.googleapis.com/blogger/v3/blogs/byurl?url={0}&key={1}".format(self.home, self.api_key)
+        self.blog_info = json.loads(self.read(url))
+
+    def get_posts(self):
+        if self.crawl_state['last_pagetoken']:
+            url = "https://www.googleapis.com/blogger/v3/blogs/{0}/posts?maxResults=20&key={1}&pageToken={2}".format(self.blog_info['id'], self.api_key, self.crawl_state['last_pagetoken'])
+        else:
+            url = "https://www.googleapis.com/blogger/v3/blogs/{0}/posts?maxResults=20&key={1}".format(self.blog_info['id'], self.api_key)
+        data = json.loads(self.read(url))
+
+        while True:
+            for post in data['items']:
+                f_name = uuid.uuid5(uuid.NAMESPACE_URL, post['url'].encode('utf-8')).hex
+                cPickle.dump(post, file(self.storage_dir + '/' + f_name, 'w'))
+            self.crawl_state['num_posts'] += 20
+
+            try:
+                self.crawl_state['last_pagetoken'] = data['nextPageToken']
+                self.store_state()
+            except KeyError:
+                self.logger.info("There are no more posts in this blog.")
+                break
+
+            url = "https://www.googleapis.com/blogger/v3/blogs/{0}/posts?maxResults=20&key={1}&pageToken={2}".format(self.blog_info['id'], self.api_key, data['nextPageToken'])
+            data = json.loads(self.read(url))
+
+    def boot(self, resume=True):
+        """
+        Starts afresh the crawl, unless asked to resume.
+        :param resume: If True, tries to read the crawl state and resumes. Otherwise, starts afresh.
+        :return: None, periodically writes crawl_state to the disk, and dumps new articles crawled to storage_dir.
+        """
+        if resume:
+            self.load_state()
+        else:
+            self.crawl_state['last_pagetoken'] = ''
+            self.crawl_state['num_posts'] = 0
+
+        self.get_posts()
