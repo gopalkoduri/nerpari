@@ -40,7 +40,7 @@ class Crawler():
         if 'visited_urls' in self.crawl_state.keys():
             self.logger.info("Storing crawl state. #Visted URLs: %d", len(self.crawl_state['visited_urls']))
         elif 'num_posts' in self.crawl_state.keys():
-            self.logger.info("Storing crawl state. #Posts: %d", len(self.crawl_state['num_posts']))
+            self.logger.info("Storing crawl state. #Posts: %d", self.crawl_state['num_posts'])
         else:
             self.logger.info("Storing crawl state ...")
 
@@ -49,6 +49,7 @@ class Crawler():
     def load_state(self):
         try:
             self.crawl_state = cPickle.load(file(self.storage_dir+'/crawl_state.pickle'))
+            self.logger.info('Loaded the crawl state successfully ...')
         except IOError:
             self.logger.error("Can't read the crawl_state file!")
             sys.exit()
@@ -274,10 +275,10 @@ class TheHindu(Crawler):
 
 
 class Blogger(Crawler):
-    def __init__(self, storage_dir, home):
+    def __init__(self, home_url, storage_dir):
         Crawler.__init__(self, storage_dir)
 
-        self.home = home
+        self.home = home_url
         self.api_key = codecs.open("../data/blogger_apikey.txt", 'r', encoding='utf-8').read()
 
         self.crawl_interval = 1.0
@@ -302,6 +303,7 @@ class Blogger(Crawler):
             for post in data['items']:
                 f_name = uuid.uuid5(uuid.NAMESPACE_URL, post['url'].encode('utf-8')).hex
                 cPickle.dump(post, file(self.storage_dir + '/' + f_name, 'w'))
+                self.logger.info('Storing the post: %s', post['title'])
             self.crawl_state['num_posts'] += 20
 
             try:
@@ -323,7 +325,9 @@ class Blogger(Crawler):
         if resume:
             self.load_state()
         else:
+            self.logger.info('Starting the crawl afresh!')
             self.crawl_state['last_pagetoken'] = ''
             self.crawl_state['num_posts'] = 0
 
+        self.logger.info('All set to get the posts ...')
         self.get_posts()
