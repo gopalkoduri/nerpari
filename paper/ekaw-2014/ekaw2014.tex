@@ -78,12 +78,12 @@ We use Combinatory Categorial Grammar (CCG)~\cite{Steedman:2000:SP:332037} as ou
 \label{sec:data}
 A major challenge in developing technologies for the exploration and the navigation of music repertoires from around the world lies in obtaining and using their cultural context. The vocabulary used for describing and relating the entities (musical concepts, roles of people involved etc) differs to a great extent from music to music. Most commercial platforms have a limited view of such context, resulting in poor navigation and exploration systems that fail to address the cultural diversity of the world.  Within the music information research community, there is a growing interest for developing culture-aware approaches to address this problem~\cite{Serra2011}. Such approaches are diverse in terms of the data they work with (audio, metadata and contextual-data) and methodologies they employ~\cite{Serra2013a}. 
 
-However, to our knowledge, there are no major attempts that use web text, arguably the largest openly available data source. As a first step in this direction, we choose to demonstrate our framework in the music domain. Indian art music traditions: Carnatic and Hindustani, have a very distinct character, especially when compared to the popular music styles that drive the music market worldwide. The terminology and the structuring of the knowledge in these music traditions differs substantially from what people are accustomed to, on most commercial platforms~\cite{Krishna2012}. Therefore, they make a suitable yet challenging thematic domain to analyze the quality of the assertions for ontologization. 
+However, to our knowledge, there are no major attempts that use web text, arguably the largest openly available data source. As a first step in this direction, we choose to demonstrate our framework in the music domain. Indian art music traditions: Carnatic and Hindustani, have a very distinct character, especially when compared to the popular music styles that drive the music market worldwide. The terminology and the structuring of the knowledge in these music traditions differs substantially from what people are accustomed to, on most commercial platforms~\cite{Krishna2012}. Therefore, they make a suitable yet challenging thematic domain to analyze the quality of the assertions for ontologization.
 
-Our data consists of the plain text obtained from the Wikipedia pages corresponding to the Carnatic and Hindustani music traditions, after removing the tables, listings, figures, infoboxes and other structured content. Text from each page is tokenized to sentences, which are further filtered using the following constraints: a minimum number of 3 words and a maximum of 21 words per sentence, with each word not exceeding 30 characters in length. These constraints are empirically found to greatly reduce the number of malformed and highly complex sentences.
+\subsection{Text corpus}
+Our data consists of the plain text obtained from the Wikipedia pages corresponding to the Carnatic and Hindustani music traditions, after removing the tables, listings, figures, infoboxes and other structured content. Pages from the parent categories corresponding to both music traditions are obtained recursively. Text from each page is tokenized to sentences, which are further filtered using the following constraints: a minimum number of 3 words and a maximum of 21 words per sentence, with each word not exceeding 30 characters in length. These constraints are empirically found to reduce the number of malformed and highly complex sentences.
 
-
-We observed that a majority of the sentences featured pronouns. The resulting assertions only partially contribute to ontologization. For instance, consider the sentence `She is a composer'. The resulting assertion would be (She, is a, composer). With a few more of such sentences, it is possible to learn that there exists a concept called \textit{composer}. However, such assertions are helpless in identifying entities of the corresponding concept. Therefore, the pronouns in the text from each page are resolved using the deterministic coreference resolution described in~\cite{Lee2013b}\footnote{Available online at http://nlp.stanford.edu/software/dcoref.shtml}. There were a few false assertions as a result. However, there is a substantial rise in the recall of the entities in the domain. Table.~\ref{tab:data} lists the total number of sentences, and the number of assertions extracted using the OIE systems. ReVerb and Open IE 4.0 associate a confidence score with the extracted assertions. We did not however choose to filter them based on this score, as \cite{Soderland2010} advocates that a system with a better recall at the cost of lower precision is actually preferred for knowledge-base population using open information extraction. All the assertions are converted to the triple form.
+We observed that a majority of the sentences featured pronouns. The resulting assertions only partially contribute to ontologization. For instance, consider the sentence `She is a composer'. The resulting assertion would be (She, is a, composer). A few such sentences might help us learn that there exists a concept called \textit{composer}. However, such assertions are helpless in identifying entities of the corresponding concept. Therefore, the pronouns in the text from each page are resolved using the deterministic coreference resolution described in~\cite{Lee2013b}\footnote{Available online at http://nlp.stanford.edu/software/dcoref.shtml}. There were a few false assertions as a result. However, there is a substantial rise in the recall of the entities in the domain. Table.~\ref{tab:data} lists the total number of sentences, and the number of assertions extracted using the OIE systems. ReVerb and Open IE 4.0 associate a confidence score with the extracted assertions. We did not however choose to filter them based on this score, as \cite{Soderland2010} advocates that a system with a better recall at the cost of lower precision is actually preferred for knowledge-base population using open information extraction. All the assertions are converted to the triple form.
 \begin{table}
  \begin{center}
  \begin{tabularx}{0.9\textwidth}{X X X X X}
@@ -99,9 +99,14 @@ We observed that a majority of the sentences featured pronouns. The resulting as
 \label{tab:data}
 \end{table}
 
+\subsection{Gold standard}
+We use the ontologies manually engineered with the help of domain experts (one musicologist and three musicians) as groundtruth for the evaluation in the tasks of concept identification and semantic relation extraction\footnote{Available at https://github.com/gopalkoduri/ontologies}. The concepts and relation-types used in our evaluation framework belong to the top most level in the ontologies and are agreed upon by all the experts. The groundtruth for entities for each concept correspond to the page-titles in the respective subcategory in the Wikipedia (eg: Carnatic\_musicians).
+
 \section{Evaluation framework}
 \label{sec:framework}
-In the information extraction literature, different approaches are evaluated by measuring their performances on a set of labelled sentences or by employing human judges~\cite{Fader2011a,Mausam2012a}. Our goal, however, is to evaluate them by the usefulness of the assertions extracted. We quantify this using a series of tasks that help in understanding the coverage of the entities and the relation types of a given domain in the extracted assertions, quantitatively and qualitatively.  The tasks discussed in the first part of the evaluation compare the volume of the assertions. While in the second part, we validate to what extent the assertions yield to be structured. We then juxtapose and compare the results from both parts of the evaluation.
+%TODO clear specification of what requirement a system should fullfill to allow for meaningful comparison within the proposed framework.
+
+In the information extraction literature, different approaches are evaluated by measuring their performances on a set of labeled sentences or by employing human judges~\cite{Fader2011a,Mausam2012a}. Our goal, however, is to evaluate them by the usefulness of the assertions extracted. We quantify this using a series of tasks that help in understanding the coverage of the entities and the relation types of a given domain in the extracted assertions, quantitatively and qualitatively. The tasks discussed in the first part of the evaluation compare the volume of the assertions. While in the second part, we validate to what extent the assertions yield to be structured. We then juxtapose and compare the results from both parts of the evaluation.
 
 \subsection{Quantitative assessment}
 We study the distribution of the extracted assertions along four different aspects to gain an insight into their coverage of the domain with respect to each of them: \textbf{sentences}, \textbf{entities}, \textbf{relation types} and \textbf{concepts}. For the purpose of analyses discussed in this section, the subject of a triple is taken for an entity, and the object of a triple featuring a subsumption relation phrase\footnote{A subsumption relation phrase is that which indicate a hierarchy in the taxonomy of the domain.} (e.g: is a, be etc..) is taken for a concept. For instance, in the triplet (\textit{Tyagaraja}, \textit{is a}, \textit{composer}), \textit{Tyagaraja} is taken for an entity, and as the triple has a subsumption relation type \textit{is a}, \textit{composer} is taken for a concept.
@@ -111,9 +116,17 @@ Observations from the distribution of the number of extractions for sentences gi
 As we will see, a large majority of the assertions from all the OIE systems correspond to the subsumption relation type, often outnumbering the other relation types by orders of magnitude. Therefore, it is important to further analyze this relation type. These relations mainly inform us about the concept membership of the entities. Hence, they assume importance for ontologization as they are resourceful in defining the taxonomy of the given domain. The distribution of extractions for concepts would reveal to what extent the assertions actually carry the required information.
 
 \subsection{Qualitative assessment}
-The tasks discussed in this section are complementary to those presented in the former, validating whether the quantitative observations correlate with the performances of OIE systems on various tasks in ontologization. For this, we consider the three fundamental tasks of ontologization: entity identification, concept identification and semantic relation extraction~\cite{Petasis2011}. 
+Though the number of relation-types, concepts and entities are representative of the size of the ontology learned and the volume by which it is populated, the numbers alone might be misleading as not all the extractions from a given system are unique and meaningful. The differences between relative performances in quantitative and qualitative analysis expose those systems which overgenerate wrong/redundant relation-types.
 
-\subsubsection{Concept identification.} It is the task of identifying the concepts in the domain. Objects from all the triples featuring a subsumption relation phrase are collected. They are disambiguated based on their spellings, mostly automatically using string matching and edit distance measures\footnote{Available at https://github.com/gopalkoduri/string-matching} with minimal manual intervention where necessary. The resulting objects are taken to be the candidate concepts of the given domain. We compare the coverage of these against the concepts\footnote{The term concept is used analogous to the term class in ontologies.} in the ontologies\footnote{Available at https://github.com/gopalkoduri/ontologies} manually engineered with the help of music experts, for each of the Carnatic and Hindustani music.
+Consequently, the tasks discussed in this section are complementary to those presented in the former, validating whether the quantitative observations correlate with the performances of OIE systems on various tasks in ontologization. For this, we consider the three fundamental tasks of ontologization: entity identification, concept identification and semantic relation extraction~\cite{Petasis2011}. 
+
+%TODO how did you deal with multi-word expressions like names? Did your parser provide you with multiword named entities?
+
+%filtering everything below a frequency of 5, or using LSA vectors, are less clear. 
+
+%Tables instead of figures where relevant
+
+\subsubsection{Concept identification.} It is the task of identifying the concepts in the domain. Objects from all the triples featuring a subsumption relation phrase are collected. They are disambiguated based on their spellings, mostly automatically using string matching and edit distance measures\footnote{Available at https://github.com/gopalkoduri/string-matching} with minimal manual intervention where necessary. The resulting objects are taken to be the candidate concepts of the given domain. We compare the coverage of these against the concepts\footnote{The term concept is used analogous to the term class in ontologies.} in the manually built ontologies.
 
 \subsubsection{Entity identification.} It concerns with finding the entities of a given domain and assigning a concept to them. The set of subjects from all the triples are considered as candidates entities in the domain. A list of titles of the Wikpedia pages in the domain along with the categories each page belong to, is acquired. The page titles correspond to entities, and the categories are manually mapped to concepts in our ontology. This constitutes the reference with which we compare the results from the two subtasks of entity identification.
 
@@ -123,6 +136,7 @@ For evaluating the first subtask of entity identification, i.e., finding the ent
 O(X, Y) = \frac{\left|X \cap Y \right|}{\left|Y\right|} \\\nonumber
 R(X, Y) = \frac{\left|X - Y \right|}{\left|X\right|}
 \end{eqnarray}
+The overlap and residual measures are preferred to other standard measures such as precision and recall as there are legitimate entities recognized in the assertions that are not part of the groundtruth. For technical correctness, we chose to evaluate using custom measures that convey the same information.
 
 The second subtask, concept assignment, is evaluated using two methods. In the first method, we manually build a set of rules over subsumption relation type for each concept. For instance, for an entity to belong to the concept \textit{singers}, it must have either of the words \textit{vocalist} or \textit{singer} in the object of the corresponding triples with subsumption relation type. All the entities satisfying the rules for a given concept are assigned to it.
 
@@ -133,22 +147,22 @@ In the second method, a given entity is reduced to be represented by a term vect
 \begin{figure}[t]
 \begin{center}
         \subfigure[][Sentences]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/carnatic_music/extrations-per-sentence.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/carnatic_music/extrations-per-sentence.pdf}
 		 \label{fig:quant-carnatic-sentences}
         }% 
         \qquad
         \subfigure[][Objects]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/carnatic_music/extrations-per-argument.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/carnatic_music/extrations-per-argument.pdf}
 		 \label{fig:quant-carnatic-object}
         }%
         \\
         \subfigure[][Relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/carnatic_music/extrations-per-reltype.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/carnatic_music/extrations-per-reltype.pdf}
 		 \label{fig:quant-carnatic-reltype}
         }% 
         \qquad
         \subfigure[][Concepts]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/carnatic_music/extrations-per-class.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/carnatic_music/extrations-per-class.pdf}
 		 \label{fig:quant-carnatic-concept}
         }% 
 \end{center}
@@ -161,22 +175,22 @@ In the second method, a given entity is reduced to be represented by a term vect
 \begin{figure}[t]
 \begin{center} 
         \subfigure[][Sentences]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/hindustani_music/extrations-per-sentence.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-sentence.pdf}
 		 \label{fig:quant-hindustani-sentences}
         }%
         \qquad
         \subfigure[][Objects]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/hindustani_music/extrations-per-argument.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-argument.pdf}
 		 \label{fig:quant-hindustani-object}
         }%
         \\
         \subfigure[][Relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/hindustani_music/extrations-per-reltype.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-reltype.pdf}
 		 \label{fig:quant-hindustani-reltype}
 		}%
         \qquad
         \subfigure[][Concepts]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/quantitative/hindustani_music/extrations-per-class.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-class.pdf}
 		 \label{fig:quant-hindustani-concept}
         }%
 \end{center}
@@ -224,22 +238,22 @@ Recall that we define candidate concepts to be the collection of objects from th
 \begin{figure}[t!]
 \begin{center}
         \subfigure[][Overlap with reference data.]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/rule-based/carnatic_music/class-agreement-with-wikipedia.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/rule-based/carnatic_music/class-agreement-with-wikipedia.pdf}
 		 \label{fig:qual-object-rulebased-carnatic-wikipedia}
         }% 
         \qquad
         \subfigure[][Inter-system agreement for residual entity cadidates.]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/rule-based/carnatic_music/class-agreement-inter-method.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/rule-based/carnatic_music/class-agreement-inter-method.pdf}
 		 \label{fig:qual-object-rulebased-carnatic-inter}
 		}%
 		\\
         \subfigure[][Overlap with reference data.]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/rule-based/hindustani_music/class-agreement-with-wikipedia.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/rule-based/hindustani_music/class-agreement-with-wikipedia.pdf}
 		 \label{fig:qual-object-rulebased-hindustani-wikipedia}
         }%
         \qquad
         \subfigure[][Inter-system agreement for residual entity cadidates.]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/rule-based/hindustani_music/class-agreement-inter-method.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/rule-based/hindustani_music/class-agreement-inter-method.pdf}
 		 \label{fig:qual-object-rulebased-hindustani-inter}
         }%
 \end{center}
@@ -273,32 +287,32 @@ Figs.~\ref{fig:qual-object-rulebased-carnatic-wikipedia} and \ref{fig:qual-objec
 \begin{figure}[p]
 \begin{center}
         \subfigure[][Musicians]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_musicians.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_musicians.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-musicians}
         }% 
         \qquad
         \subfigure[][Composers]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_composers.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_composers.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-composers}
         }%
         \\
         \subfigure[][Instrumentalists]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_instrumentalists.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_instrumentalists.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-instrumentalists}
         }% 
         \qquad
         \subfigure[][Singers]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_singers.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_singers.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-singers}
         }%
         \\
         \subfigure[][Ragas]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_ragas.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_ragas.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-ragas}
         }% 
         \qquad
         \subfigure[][Compositions]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_compositions.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/carnatic_music/carnatic_compositions.pdf}
 		 \label{fig:qual-object-bootstrapping-carnatic-compositions}
         }%
 \end{center}
@@ -311,26 +325,26 @@ Figs.~\ref{fig:qual-object-rulebased-carnatic-wikipedia} and \ref{fig:qual-objec
 \begin{figure}[t]
 \begin{center}
         \subfigure[][Musicians]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_musicians.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_musicians.pdf}
 		 \label{fig:qual-object-bootstrapping-hindustani-musicians}
         }% 
         \qquad
         \subfigure[][Ragas]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_ragas.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_ragas.pdf}
 		 \label{fig:qual-object-bootstrapping-hindustani-ragas}
         }% 
 %        \subfigure[][Composers]{%
-%		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_composers.pdf}
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_composers.pdf}
 %		 \label{fig:qual-object-bootstrapping-hindustani-composers}
 %        }%
         \\
         \subfigure[][Instrumentalists]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_instrumentalists.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_instrumentalists.pdf}
 		 \label{fig:qual-object-bootstrapping-hindustani-instrumentalists}
         }% 
         \qquad
         \subfigure[][Singers]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_singers.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/entity-identification/bootstrapping/hindustani_music/hindustani_singers.pdf}
 		 \label{fig:qual-object-bootstrapping-hindustani-singers}
         }%
 %        \\
@@ -348,22 +362,22 @@ The second method for the evaluation of concept assignment employs bootstrapping
 \begin{figure}[!t]
 \begin{center}
         \subfigure[][Carnatic music: No. of valid relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/semantic-relation-extraction/carnatic_music.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music.pdf}
 		 \label{fig:qual-semantic-relex-carnatic}
         }% 
         \qquad
         \subfigure[][Carnatic music: No. of corresponding assertions]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/semantic-relation-extraction/carnatic_music-relcount.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music-relcount.pdf}
 		 \label{fig:qual-semantic-relex-carnatic-relcount}
         }%
         \\
         \subfigure[][Hindustani music: No. of valid relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/semantic-relation-extraction/hindustani_music.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music.pdf}
 		 \label{fig:qual-semantic-relex-hindustani}
         }%
         \qquad
         \subfigure[][Hindustani music: No. of corresponding assertions]{%
-		 \includegraphics[width=0.45\linewidth]{../data/results/qualitative/semantic-relation-extraction/hindustani_music-relcount.pdf}
+		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music-relcount.pdf}
 		 \label{fig:qual-semantic-relex-hindustani-relcount}
         }%
 \end{center}
