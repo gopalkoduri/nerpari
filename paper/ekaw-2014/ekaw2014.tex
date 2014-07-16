@@ -5,8 +5,8 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{graphicx}
 \usepackage[numbers, sectionbib]{natbib}
-\usepackage{tabularx}
-%\usepackage{float}
+\usepackage{tabularx, environ}
+\usepackage{multirow}
 \usepackage{afterpage}
 
 \usepackage{anyfontsize}
@@ -119,8 +119,6 @@ As we will see, a large majority of the assertions from all the OIE systems corr
 Though the number of relation-types, concepts and entities are representative of the size of the ontology learned and the volume by which it is populated, the numbers alone might be misleading as not all the extractions from a given system are unique and meaningful. The differences between relative performances in quantitative and qualitative analysis expose those systems which overgenerate wrong/redundant relation-types.
 
 Consequently, the tasks discussed in this section are complementary to those presented in the former, validating whether the quantitative observations correlate with the performances of OIE systems on various tasks in ontologization. For this, we consider the three fundamental tasks of ontologization: entity identification, concept identification and semantic relation extraction~\cite{Petasis2011}.
-
-%TODO Tables instead of figures where relevant
 
 \subsubsection{Concept identification.} It is the task of identifying the concepts in the domain. Objects from all the triples featuring a subsumption relation phrase are collected. They are disambiguated based on their spellings, mostly automatically using string matching and edit distance measures\footnote{Available at https://github.com/gopalkoduri/string-matching} with minimal manual intervention where necessary. The resulting objects are taken to be the candidate concepts of the given domain. We compare the coverage of these against the concepts\footnote{The term concept is used analogous to the term class in ontologies.} in the manually built ontologies.
 
@@ -354,39 +352,76 @@ Figs.~\ref{fig:qual-object-rulebased-carnatic-wikipedia} and \ref{fig:qual-objec
 It is noteworthy to observe that residual entity candidates are consistently less in number for the semantic parsing based system. There are two possibilities with them: they can be either false positives, or true positives which are not found in the reference data. In most cases, they are observed to be false positives. However, there are also a few of the latter. In order to understand them further, we have plotted the inter-system agreement in figs.~\ref{fig:qual-object-rulebased-carnatic-inter} and \ref{fig:qual-object-rulebased-hindustani-inter}, which is given by the cosine similarity between $R$ of different systems. ReVerb and OpenIE 4.0 agree with each other consistently higher over many of the concepts. We have observed that the cases where two or more systems agree on the candidature of a given entity, it is highly probable that the entity actually belongs to the concept. All the figures also show absolute numbers to put into perspective the proportion of residual entities where the systems agree with each other.
 
 The second method for the evaluation of concept assignment employs bootstrapping as discussed in sec.~\ref{sec:framework}. This process involves selection of a seedset and determining the number of bootstrapping iterations. For the sake of brevity, we have set the size of seedset to be the same for all the concepts, which is 3. The entities in the seedset are randomly chosen from the ones among the reference data taken from Wikipedia. However, as the bootstrapping process itself can be sensitive to the initial selection of the entities in the seedset, the whole process is repeated 5 times with randomly chosen seedsets. The bootstrapping method is terminated once the size of seedset reaches that of the corresponding concept in the reference data. After every 5 instances added during the process, we measure the overlap ($O$) and residual ($R$) portions of the seedset with respect to the reference data.  Figs.~\ref{fig:qual-object-bootstrapping-carnatic} and \ref{fig:qual-object-bootstrapping-hindustani} show their mean over 5 runs. 
+
 \afterpage{
-\begin{figure}[!t]
+\begin{table}[t]
 \begin{center}
-        \subfigure[][Carnatic music: No. of valid relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music.pdf}
-		 \label{fig:qual-semantic-relex-carnatic}
-        }% 
-        \qquad
-        \subfigure[][Carnatic music: No. of corresponding assertions]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music-relcount.pdf}
-		 \label{fig:qual-semantic-relex-carnatic-relcount}
-        }%
-        \\
-        \subfigure[][Hindustani music: No. of valid relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music.pdf}
-		 \label{fig:qual-semantic-relex-hindustani}
-        }%
-        \qquad
-        \subfigure[][Hindustani music: No. of corresponding assertions]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music-relcount.pdf}
-		 \label{fig:qual-semantic-relex-hindustani-relcount}
-        }%
+\begin{tabularx}{1\textwidth}{lllc|c|c|c|c|c|c}
+\noalign{\hrule height 1.1pt}
+            &  &  & \textbf{Mus.} & \textbf{Ragas} & \textbf{Sing.} & \textbf{Compositions} & \textbf{Instru.} & \textbf{Composers} & \textbf{Overall} \\
+\hline
+ 
+\multirow{6}{*}{\textbf{Carnatic}} & \multirow{3}{*}{\textbf{\#Rel.types}} 
+									  & R & 10 & 5 & 3 & 0 & 5 & 3 & 17 \\
+                  &                   & O & 10 & 6 & 5 & 0 & 10 & 6 & 19 \\
+                  &                   & S & 12 & 7 & 10 & 0 & 9 & 7 & 27 \\
+                  \cline{2-10}
+                  & \multirow{3}{*}{\textbf{\#Assertions}} 
+					 				  & R & 100 & 30 & 60 & 0 & 70 & 50 & 310 \\
+                  &                   & O & 240 & 120 & 160 & 0 & 230 & 160 & 910 \\
+                  &                   & S & 220 & 190 & 180 & 0 & 170 & 180 & 940 \\
+                  \cline{1-10}
+\multirow{6}{*}{\textbf{Hindustani}} & \multirow{3}{*}{\textbf{\#Rel.types}} 
+                  					  & R & 8 & 0 & 7 & n/a & 12 & 1 & 18 \\
+                  &                   & O & 8 & 0 & 9 & n/a & 9 & 2 & 12 \\
+                  &                   & S & 12 & 0 & 12 & n/a & 12 & 2 & 22 \\
+                  \cline{2-10}
+                  & \multirow{3}{*}{\textbf{\#Assertions}} 
+                  					  & R & 140 & 0 & 130 & n/a & 150 & 10 & 430 \\
+                  &                   & O & 310 & 0 & 310 & n/a & 320 & 150 & 1090 \\
+                  &                   & S & 290 & 0 & 260 & n/a & 280 & 150 & 880 \\
+\noalign{\hrule height 1.1pt}
+\end{tabularx}
 \end{center}
-\caption{Semantic relation extraction task: The number of valid relation types marked for each concept, and the number of corresponding assertions that include the entities in the domain.}
-\label{fig:qual-semantic-relex}
-\end{figure}
+\caption{Semantic relation extraction task: The number of valid relation types marked for each
+concept, and the number of corresponding assertions that include the entities in the domain. R, O and S stand for ReVerb, OpenIE4.0 and Sem. Parsing systems respectively.}
+\label{tab:qual-semantic-relex}
+\end{table}
 }
+
+%\afterpage{
+%\begin{figure}[!t]
+%\begin{center}
+%        \subfigure[][Carnatic music: No. of valid relation types]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music.pdf}
+%		 \label{fig:qual-semantic-relex-carnatic}
+%        }% 
+%        \qquad
+%        \subfigure[][Carnatic music: No. of corresponding assertions]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/carnatic_music-relcount.pdf}
+%		 \label{fig:qual-semantic-relex-carnatic-relcount}
+%        }%
+%        \\
+%        \subfigure[][Hindustani music: No. of valid relation types]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music.pdf}
+%		 \label{fig:qual-semantic-relex-hindustani}
+%        }%
+%        \qquad
+%        \subfigure[][Hindustani music: No. of corresponding assertions]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/qualitative/semantic-relation-extraction/hindustani_music-relcount.pdf}
+%		 \label{fig:qual-semantic-relex-hindustani-relcount}
+%        }%
+%\end{center}
+%\caption{Semantic relation extraction task: The number of valid relation types marked for each concept, and the number of corresponding assertions that include the entities in the domain.}
+%\label{fig:qual-semantic-relex}
+%\end{figure}
+%}
 
 In most categories and for all the three systems, it can be seen that $R$ grows quickly over iterations, making the residual portion the majority among the candidate entities, which brings the precision down. The semantic parsing based system consistently outperforms the other two methods, both in terms of having higher $O$, and lower $R$. Between ReVerb and OpenIE 4.0, there is no substantial difference in terms of $O$. For Carnatic singer and instrumentalist categories, however, the latter results in a lower $R$, and a slightly higher $O$ compared to the former. These results partly contrast with those obtained for the rule-based concept assignment (fig.~\ref{fig:qual-object-rulebased}). However, remember that the coverage of concepts in the domain is observed to be remarkably better in the case of the semantic parsing based system 
 (figs.~\ref{fig:quant-carnatic-concept} and~\ref{fig:quant-hindustani-concept}). As the bootstrapping method uses the objects from the triples (which are the candidate concepts), it seems logical that the semantic parsing based system has performed substantially better than the other two.
 
 \paragraph{Semantic relation extraction.}
-For the purpose of this task, the subsumption relation types and also those relation phrases which do not have a consistent meaning across the assertions were discarded. Then, following the procedure discussed in sec.\ref{sec:framework}, we have marked the valid relation types for each concept, and obtained the corresponding assertions featuring the entities in the domain. Fig.~\ref{fig:qual-semantic-relex} shows the results, for both Carnatic and Hindustani music. 
+For the purpose of this task, the subsumption relation types and also those relation phrases which do not have a consistent meaning across the assertions were discarded. Then, following the procedure discussed in sec.\ref{sec:framework}, we have marked the valid relation types for each concept, and obtained the corresponding assertions featuring the entities in the domain. Table.~\ref{tab:qual-semantic-relex} shows the results, for both Carnatic and Hindustani music. 
 
 In terms of the breadth of the valid relation types (see sec.~\ref{sec:framework}), the semantic parsing based system performs better than OpenIE 4.0, which in most cases fares better than ReVerb. However, in terms of the depth of relation types, both the semantic parsing based system and OpenIE 4.0 perform competitively, with the former scoring high in a few categories while the latter in few others. Compared to these two, ReVerb scores substantially less in this task. This can be attributed to two reasons: the former two handle noun-mediated relations, whereas ReVerb does not, the average number of assertions for a noun-mediated relation type is observed to be usually higher than the verb-mediated relations. The second reason can be specific to the domain, where the relations with musical concepts are mostly noun-mediated (e.g: Abhogi, is a raga in, Carnatic music). Notice that there is a strong concurrence between these results and those shown in figs.~\ref{fig:quant-carnatic-reltype} and \ref{fig:quant-hindustani-reltype}, with a noticeable correlation in the differences between the performance of the OIE systems.
 
@@ -394,7 +429,7 @@ In terms of the breadth of the valid relation types (see sec.~\ref{sec:framework
 \label{sec:conclusions}
 In this paper, we have presented a framework for comparative evaluation of open information extraction systems for ontologization of thematic domains. We have demonstrated it using three OIE systems in ontologizing the Indian art music domain. The results lead us to better understand the behavior of the systems from different perspectives, which can be used to guide the future research in adapting OIE to thematic domains. The source code for the framework, links to various software components used in the demonstration, the ontologies and the data are made available online\footnote{https://github.com/gopalkoduri/openie\_eval\\Documentation and code streamlining are underway.}. 
 
-A particular limitation of the framework that is of concern is the availability of groudtruth for qualitative evaluation. The current framework hinges on to the structured content in Wikipedia/DBpedia to this extent. However, as our case study with Indian art music shows, they lack finer segregation of concepts (refer to the ontologies linked with this paper). As we have seen, the results from the quantitative and the qualitative evaluation have a strong agreement with each other. We would like to further explore this correlation using other domains, in order to better understand it and adapt the framework to meet this challenge.
+A particular limitation of the framework that is of concern is the availability of groudtruth for qualitative evaluation. The current framework hinges on to the structured content in Wikipedia/DBpedia to this extent. However, as our case study with Indian art music shows, they lack finer segregation of concepts (refer to the ontologies linked to in this paper). As we have seen, the results from the quantitative and the qualitative evaluation have a strong agreement with each other. We would like to further explore this correlation using other domains, in order to better understand it and adapt the framework to meet this challenge.
 
 \paragraph{\textbf{Acknowledgments.}} This research was partly funded by the European Research Council under the European Union's Seventh Framework Program, as part of the CompMusic project (ERC grant agreement 267583).
 
