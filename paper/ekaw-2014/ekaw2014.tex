@@ -60,10 +60,14 @@ The remainder of the paper is organized as follows. In sec.~\ref{sec:oie}, the O
 \label{sec:oie}
 Information extraction is the task of obtaining a set of assertions from the natural language text, featuring the entities and the relations of the corresponding domain. The approaches are diverse ranging from those which learn from the labeled training samples for the desired set of target relations, to those which operate in an unsupervised manner. An easy access to large volume of unstructured text on the web has necessitated approaches that scale appropriately to take advantage of this data. Open information extraction aims to extract the assertions from voluminous data without requiring a pre-specified vocabulary or labeled data for relations~\cite{Etzioni2008a}.
 
-\subsection{ReVerb \& OpenIE 4.0}
+\medskip
+\noindent
+\textbf{ReVerb \& OpenIE 4.0:}
 For demonstrating our evaluation framework, we choose two state-of-the-art OIE systems: ReVerb~\cite{Fader2011a} and OpenIE 4.0~\cite{Mausam2012a}, which are shown to have outperformed the earlier systems such as TextRunner~\cite{Etzioni2008a}, $woe^{pos}$ and $woe^{parse}$~\cite{Wu2010a}. ReVerb addresses the issue of incoherent and uninformative extractions\footnote{We have used the terms \textit{assertions} and \textit{extractions} analogously.} found with the former systems, by using few syntactic and lexical constraints. OLLIE~\cite{Mausam2012a} is a successor of ReVerb, and includes the noun-mediated relations which are not handled by the latter. It also incorporates the context of the assertions in the form n-ary relations. OpenIE 4.0 employs a similar methodology to that of OLLIE, to retrieve assertions using semantic role labeling, also known as shallow semantic parsing. The implementations for both ReVerb and OpenIE 4.0 are available online\footnote{Available at https://github.com/knowitall/}.
 
-\subsection{Semantic parsing}
+\medskip
+\noindent
+\textbf{Semantic parsing:}
 On the other hand, deep semantic parsing is an active research topic in the natural language processing (NLP) community, which aims to obtain a complete logical form of a given sentence. It is used in applications such as question-answering systems, robotic navigation and further has several direct implications for OIE as it is domain-independent and is shown to be web-scalable~\cite{Harrington2007}. To our knowledge, there is no existing literature that compares semantic parsing with the likes of ReVerb and OpenIE 4.0. We therefore built an information extraction wrapper around a state-of-the-art semantic parser and compare with the selected OIE systems. What follows is a brief description of this system.
 
 We use Combinatory Categorial Grammar (CCG)~\cite{Steedman:2000:SP:332037} as our grammatical framework to parse natural language sentences to logical representation. CCG is known for its transparency between syntax and semantics, i.e. given the syntactic structure (CCG derivation) of a sentence, a semantic representation can be built deterministically from its derivation. Each word in a sentence is first assigned a CCG category based on its context. Each category represents the syntactic constraints that the word has to satisfy. For example, in Fig.~\ref{fig:ccg_sample}, the word \textit{plays} is assigned a syntactic category $(S\backslash NP)/NP$ implying that \textit{plays} take a noun ($NP$) argument on its right, and a noun argument ($NP$) on its left to form a sentence ($S$). An equivalent semantic category in terms of a lambda function is constructed from the syntactic category, here $\lambda x. \lambda y. \mathrm{plays}(subj,~y) \wedge \mathrm{plays}(obj,~x)$ with \textit{plays} representing the predicate, $x$ and $y$ representing the object (guitar) and subject (John) arguments. CCG defines a set of combinators using which the adjacent categories combine to form syntactic categories of larger text units like phrases (\textit{e.g:} plays guitar), from there on leading to parsing a whole sentence. Correspondingly, the lambda functions of the categories compose, eventually leading to the semantic representation of the sentence. The advantage with CCG is that the complexity of obtaining a logical representation of a sentence is simplified into the task of assigning categories to words. We use a modified version of Boxer~\cite{Bos2004} to further convert our sentences of interest to the triple form (subject, relation phrase, object).
@@ -80,8 +84,9 @@ A major challenge in developing technologies for the exploration and the navigat
 
 However, to our knowledge, there are no major attempts that use web text, arguably the largest openly available data source. As a first step in this direction, we choose to demonstrate our framework in the music domain. Indian art music traditions: Carnatic and Hindustani, have a very distinct character, especially when compared to the popular music styles that drive the music market worldwide. The terminology and the structuring of the knowledge in these music traditions differs substantially from what people are accustomed to, on most commercial platforms~\cite{Krishna2012}. Therefore, they make a suitable yet challenging thematic domain to analyze the quality of the assertions for ontologization.
 
-\subsection{Text corpus}
-Our data consists of the plain text obtained from the Wikipedia pages corresponding to the Carnatic and Hindustani music traditions, after removing the tables, listings, figures, infoboxes and other structured content. Pages from the parent categories corresponding to both music traditions are obtained recursively. Text from each page is tokenized to sentences, which are further filtered using the following constraints: a minimum number of 3 words and a maximum of 21 words per sentence, with each word not exceeding 30 characters in length. These constraints are empirically found to reduce the number of malformed and highly complex sentences. In the semantic parsing based system, to address the multiword named entities, we identify consecutive NNPs and merge them into one in a pre-processing step. In ReVerb and OpenIE4.0, they are handled in their respective implementations.
+\medskip
+\noindent
+\textbf{Text corpus:} Our data consists of the plain text obtained from the Wikipedia pages corresponding to the Carnatic and Hindustani music traditions, after removing the tables, listings, figures, infoboxes and other structured content. Pages from the parent categories corresponding to both music traditions are obtained recursively. Text from each page is tokenized to sentences, which are further filtered using the following constraints: a minimum number of 3 words and a maximum of 21 words per sentence, with each word not exceeding 30 characters in length. These constraints are empirically found to reduce the number of malformed and highly complex sentences. In the semantic parsing based system, to address the multiword named entities, we identify consecutive NNPs and merge them into one in a pre-processing step. In ReVerb and OpenIE4.0, they are handled in their respective implementations.
 
 We observed that a majority of the sentences featured pronouns. The resulting assertions only partially contribute to ontologization. For instance, consider the sentence `She is a composer'. The resulting assertion would be (She, is a, composer). A few such sentences might help us learn that there exists a concept called \textit{composer}. However, such assertions are helpless in identifying entities of the corresponding concept. Therefore, the pronouns in the text from each page are resolved using the deterministic coreference resolution described in~\cite{Lee2013b}\footnote{Available online at http://nlp.stanford.edu/software/dcoref.shtml}. There were a few false assertions as a result. However, there is a substantial rise in the recall of the entities in the domain. Table.~\ref{tab:data} lists the total number of sentences, and the number of assertions extracted using the OIE systems. ReVerb and Open IE 4.0 associate a confidence score with the extracted assertions. We did not however choose to filter them based on this score, as \cite{Soderland2010} advocates that a system with a better recall at the cost of lower precision is actually preferred for knowledge-base population using open information extraction. All the assertions are converted to the triple form.
 \begin{table}
@@ -99,8 +104,9 @@ We observed that a majority of the sentences featured pronouns. The resulting as
 \label{tab:data}
 \end{table}
 
-\subsection{Gold standard}
-We use the ontologies manually engineered with the help of domain experts (one musicologist and three musicians) as groundtruth for the evaluation in the tasks of concept identification and semantic relation extraction\footnote{Available at https://github.com/gopalkoduri/ontologies}. The concepts and relation-types used in our evaluation framework belong to the top most level in the ontologies and are agreed upon by all the experts. The groundtruth for entities for each concept correspond to the page-titles in the respective subcategory in the Wikipedia (eg: Carnatic\_musicians).
+\medskip
+\noindent
+\textbf{Gold standard:} We use the ontologies manually engineered with the help of domain experts (one musicologist and three musicians) as groundtruth for the evaluation in the tasks of concept identification and semantic relation extraction\footnote{Available at https://github.com/gopalkoduri/ontologies}. The concepts and relation-types used in our evaluation framework belong to the top most level in the ontologies and are agreed upon by all the experts. The groundtruth for entities for each concept correspond to the page-titles in the respective subcategory in the Wikipedia (eg: Carnatic\_musicians).
 
 \section{Evaluation framework}
 \label{sec:framework}
@@ -120,9 +126,13 @@ Though the number of relation-types, concepts and entities are representative of
 
 Consequently, the tasks discussed in this section are complementary to those presented in the former, validating whether the quantitative observations correlate with the performances of OIE systems on various tasks in ontologization. For this, we consider the three fundamental tasks of ontologization: entity identification, concept identification and semantic relation extraction~\cite{Petasis2011}.
 
-\subsubsection{Concept identification.} It is the task of identifying the concepts in the domain. Objects from all the triples featuring a subsumption relation phrase are collected. They are disambiguated based on their spellings, mostly automatically using string matching and edit distance measures\footnote{Available at https://github.com/gopalkoduri/string-matching} with minimal manual intervention where necessary. The resulting objects are taken to be the candidate concepts of the given domain. We compare the coverage of these against the concepts\footnote{The term concept is used analogous to the term class in ontologies.} in the manually built ontologies.
+\medskip
+\noindent
+\textbf{Concept identification.} It is the task of identifying the concepts in the domain. Objects from all the triples featuring a subsumption relation phrase are collected. They are disambiguated based on their spellings, mostly automatically using string matching and edit distance measures\footnote{Available at https://github.com/gopalkoduri/string-matching} with minimal manual intervention where necessary. The resulting objects are taken to be the candidate concepts of the given domain. We compare the coverage of these against the concepts\footnote{The term concept is used analogous to the term class in ontologies.} in the manually built ontologies.
 
-\subsubsection{Entity identification.} It concerns with finding the entities of a given domain and assigning a concept to them. The set of subjects from all the triples are considered as candidates entities in the domain. A list of titles of the Wikpedia pages in the domain along with the categories each page belong to, is acquired. The page titles correspond to entities, and the categories are manually mapped to concepts in our ontology. This constitutes the reference with which we compare the results from the two subtasks of entity identification.
+\medskip
+\noindent
+\textbf{Entity identification.} It concerns with finding the entities of a given domain and assigning a concept to them. The set of subjects from all the triples are considered as candidates entities in the domain. A list of titles of the Wikpedia pages in the domain along with the categories each page belong to, is acquired. The page titles correspond to entities, and the categories are manually mapped to concepts in our ontology. This constitutes the reference with which we compare the results from the two subtasks of entity identification.
 
 For evaluating the first subtask of entity identification, i.e., finding the entities of the given domain, we measure the overlapping ($O$) and the residual ($R$) portions of the candidate entities from each system with respect to the reference set. If $X$ is the set of candidate entities and $Y$ is the reference set, $O$ and $R$ are defined as:
 \begin{eqnarray}
@@ -136,7 +146,9 @@ The second subtask, concept assignment, is evaluated using two methods. In the f
 
 In the second method, a given entity is reduced to be represented by a term vector corresponding to the words from objects of the assertions it is part of. Following this, each concept is initiated with a seedset of entities belonging to it. A given concept is taken to be an abstract super entity, represented by the union of the term vectors of the constituting entities. A bootstrapping mechanism is started, which in a given iteration, finds the closest entity to the given concept and adds it to the seedset, and recomputes its representation. The distance between given two entities corresponds to the cosine similarity between the term vectors transformed using TF-IDF, followed by Latent Semantic Indexing~\cite{rehurek_lrec}. Unlike the first method, which is constrained to assertions with subsumption relation type, this method takes advantage of the full spectrum of relation types. Results from the both methods are evaluated using $O$ and $R$ measures from eq.~\ref{eq:overlap}, where $X$ and $Y$ correspond to the candidate set of entities obtained using one of the methods for a given concept, and the reference set of entities respectively.
 
-\subsubsection{Semantic relation extraction.} It refers to the relation types other than those which convey concept hierarchies. The assertion shown in Fig.~\ref{fig:ccg_sample} is one such example, where \textit{plays} is a relation that connects \textit{person} and \textit{musical instrument} concepts. We compare the OIE systems in this task by two measures: breadth and depth of the identified relation types. Breadth corresponds to the absolute number of valid relation types identified for each concept, and the depth corresponds to the number of assertions for a given relation type that consist of the identified entities. The valid relation types are manually marked from among the relation phrases in the assertions.
+\medskip
+\noindent
+\textbf{Semantic relation extraction.} It refers to the relation types other than those which convey concept hierarchies. The assertion shown in Fig.~\ref{fig:ccg_sample} is one such example, where \textit{plays} is a relation that connects \textit{person} and \textit{musical instrument} concepts. We compare the OIE systems in this task by two measures: breadth and depth of the identified relation types. Breadth corresponds to the absolute number of valid relation types identified for each concept, and the depth corresponds to the number of assertions for a given relation type that consist of the identified entities. The valid relation types are manually marked from among the relation phrases in the assertions.
 \afterpage{
 \begin{figure}[t]
 \begin{center}
@@ -165,33 +177,33 @@ In the second method, a given entity is reduced to be represented by a term vect
 \end{figure}
 }
 
-\afterpage{
-\begin{figure}[t]
-\begin{center} 
-        \subfigure[][Sentences]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-sentence.pdf}
-		 \label{fig:quant-hindustani-sentences}
-        }%
-        \qquad
-        \subfigure[][Objects]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-argument.pdf}
-		 \label{fig:quant-hindustani-object}
-        }%
-        \\
-        \subfigure[][Relation types]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-reltype.pdf}
-		 \label{fig:quant-hindustani-reltype}
-		}%
-        \qquad
-        \subfigure[][Concepts]{%
-		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-class.pdf}
-		 \label{fig:quant-hindustani-concept}
-        }%
-\end{center}
-\caption{Distribution of no. of extractions from OIE systems for Hindustani music shown along different \textit{aspects}. For a given number of extractions on x-axis, the y-axis shows the logarithmic count of the instances in the \textit{aspect}, which have at least those many extractions.}
-\label{fig:quant-hindustani}
-\end{figure}
-}
+%\afterpage{
+%\begin{figure}[t]
+%\begin{center} 
+%        \subfigure[][Sentences]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-sentence.pdf}
+%		 \label{fig:quant-hindustani-sentences}
+%        }%
+%        \qquad
+%        \subfigure[][Objects]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-argument.pdf}
+%		 \label{fig:quant-hindustani-object}
+%        }%
+%        \\
+%        \subfigure[][Relation types]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-reltype.pdf}
+%		 \label{fig:quant-hindustani-reltype}
+%		}%
+%        \qquad
+%        \subfigure[][Concepts]{%
+%		 \includegraphics[width=0.45\linewidth]{../../data/results/quantitative/hindustani_music/extrations-per-class.pdf}
+%		 \label{fig:quant-hindustani-concept}
+%        }%
+%\end{center}
+%\caption{Distribution of no. of extractions from OIE systems for Hindustani music shown along different \textit{aspects}. For a given number of extractions on x-axis, the y-axis shows the logarithmic count of the instances in the \textit{aspect}, which have at least those many extractions.}
+%\label{fig:quant-hindustani}
+%\end{figure}
+%}
 
 \section{Results and discussion}
 \label{sec:results}
@@ -211,7 +223,9 @@ To summarize, the results indicate that the semantic parsing based system has a 
 \subsection{Qualitative assessment}
 In this section, we present the results for various tasks in the ontologization of Indian art music domain: concept identification, entity identification and semantic relation extraction.
 
-\paragraph{Concept identification.}
+\medskip
+\noindent
+\textbf{Concept identification.}
 Recall that we define candidate concepts to be the collection of objects from the triples with subsumption relation type. We map these to the concepts in the ontologies as described in sec.~\ref{sec:framework}. Table.~\ref{tab:concept_identification} shows the number of concepts in the ontolgies for each music, and the number of concepts mapped from the assertions of the OIE systems. These results are consistent with our earlier observations of the results shown in figs.~\ref{fig:quant-carnatic-concept} and~\ref{fig:quant-hindustani-concept}.
 \begin{table}
  \begin{center}
@@ -256,7 +270,9 @@ Recall that we define candidate concepts to be the collection of objects from th
 \end{figure}
 %}
 
-\paragraph{Entity identification.}
+\medskip
+\noindent
+\textbf{Entity identification.}
 The first subtask in this part is to find the entities in the domain. The candidate entities from each OIE system are defined to be the collection of subjects from all its triples. Table.~\ref{tab:object_identification} shows the total number of entities in the reference data taken from Wikipedia for each music, and the number of entities in the intersection of these with the candidate entities of each OIE system. There is no marked difference between the results, with nearly all the systems having about 60\% of the entities from reference data in their assertions. However, it is observed that these correspond to only about 7\% of all the possible candidate entities.
 \begin{table}
  \begin{center}
@@ -420,7 +436,9 @@ concept, and the number of corresponding assertions that include the entities in
 In most categories and for all the three systems, it can be seen that $R$ grows quickly over iterations, making the residual portion the majority among the candidate entities, which brings the precision down. The semantic parsing based system consistently outperforms the other two methods, both in terms of having higher $O$, and lower $R$. Between ReVerb and OpenIE 4.0, there is no substantial difference in terms of $O$. For Carnatic singer and instrumentalist categories, however, the latter results in a lower $R$, and a slightly higher $O$ compared to the former. These results partly contrast with those obtained for the rule-based concept assignment (fig.~\ref{fig:qual-object-rulebased}). However, remember that the coverage of concepts in the domain is observed to be remarkably better in the case of the semantic parsing based system 
 (figs.~\ref{fig:quant-carnatic-concept} and~\ref{fig:quant-hindustani-concept}). As the bootstrapping method uses the objects from the triples (which are the candidate concepts), it seems logical that the semantic parsing based system has performed substantially better than the other two.
 
-\paragraph{Semantic relation extraction.}
+\medskip
+\noindent
+\textbf{Semantic relation extraction.}
 For the purpose of this task, the subsumption relation types and also those relation phrases which do not have a consistent meaning across the assertions were discarded. Then, following the procedure discussed in sec.\ref{sec:framework}, we have marked the valid relation types for each concept, and obtained the corresponding assertions featuring the entities in the domain. Table.~\ref{tab:qual-semantic-relex} shows the results, for both Carnatic and Hindustani music. 
 
 In terms of the breadth of the valid relation types (see sec.~\ref{sec:framework}), the semantic parsing based system performs better than OpenIE 4.0, which in most cases fares better than ReVerb. However, in terms of the depth of relation types, both the semantic parsing based system and OpenIE 4.0 perform competitively, with the former scoring high in a few categories while the latter in few others. Compared to these two, ReVerb scores substantially less in this task. This can be attributed to two reasons: the former two handle noun-mediated relations, whereas ReVerb does not, the average number of assertions for a noun-mediated relation type is observed to be usually higher than the verb-mediated relations. The second reason can be specific to the domain, where the relations with musical concepts are mostly noun-mediated (e.g: Abhogi, is a raga in, Carnatic music). Notice that there is a strong concurrence between these results and those shown in figs.~\ref{fig:quant-carnatic-reltype} and \ref{fig:quant-hindustani-reltype}, with a noticeable correlation in the differences between the performance of the OIE systems.
@@ -431,7 +449,9 @@ In this paper, we have presented a framework for comparative evaluation of open 
 
 A particular limitation of the framework that is of concern is the availability of groudtruth for qualitative evaluation. The current framework hinges on to the structured content in Wikipedia/DBpedia to this extent. However, as our case study with Indian art music shows, they lack finer segregation of concepts (refer to the ontologies linked to in this paper). As we have seen, the results from the quantitative and the qualitative evaluation have a strong agreement with each other. We would like to further explore this correlation using other domains, in order to better understand it and adapt the framework to meet this challenge.
 
-\paragraph{\textbf{Acknowledgments.}} This research was partly funded by the European Research Council under the European Union's Seventh Framework Program, as part of the CompMusic project (ERC grant agreement 267583).
+\medskip
+\noindent
+\textbf{Acknowledgments.} This research was partly funded by the European Research Council under the European Union's Seventh Framework Program, as part of the CompMusic project (ERC grant agreement 267583).
 
 \renewcommand\bibname{References}
 {\fontsize{9}{10}\selectfont
